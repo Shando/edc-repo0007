@@ -1,0 +1,125 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2008-12-29 12:41:56 ....A       209672      3071311  tapes\appletest.wav
+2009-08-19 22:20:34 ....A        76785               help\english.chm
+2009-08-19 22:20:26 ....A       908882               help\russian.chm
+2008-12-25 14:18:14 ....A       639638               logo.bmp
+2007-12-02 21:55:14 ....A         4096               roms\aii_memory_expansion\AII Memory Expansion.bin
+2009-09-06 17:13:56 ....A         1024               keyb\DEFAULT.BIN
+2007-12-02 21:56:16 ....A         8192               roms\ramfactor\RAMFactor v1.0.bin
+2007-12-02 21:56:16 ....A         8192               roms\ramfactor\RAMFactor v1.1.bin
+2007-12-02 21:56:18 ....A         8192               roms\ramfactor\RAMFactor v1.3.bin
+2007-12-02 21:56:18 ....A         8192               roms\ramfactor\RAMFactor v1.4.bin
+2009-09-06 17:13:58 ....A         1024               keyb\RAPIRA.BIN
+2009-04-09 23:49:38 ....A       860160               disks\9\clock03.dsk
+2009-04-12 00:17:44 ....A       143360               disks\apple\cpm\CPM60K.DSK
+1999-01-28 20:57:32 ....A       143360               disks\apple\DISK6A.DSK
+2008-12-30 23:36:36 ....A       143360               disks\apple\dos33_with_adt.dsk
+2009-02-06 23:11:52 ....A       860160               disks\7\games7.dsk
+2007-09-29 17:26:28 ....A       860288               disks\9\GAV_GAV.DSK
+1995-07-11 22:17:40 ....A       143360               disks\apple\Ghostbusters (1984)(Activision).dsk
+1999-07-25 09:59:48 ....A       860416               disks\7\ikp7.DSK
+2007-09-29 17:53:42 ....A       860164               disks\9\IKP_9.DSK
+2002-08-29 22:08:50 ....A       860288               disks\9\KPON_1.DSK
+2008-12-30 23:55:58 ....A       143360               disks\apple\prodos_basic.dsk
+2008-02-24 10:04:36 ....A       143360               disks\apple\ramfactor\RAMFACTO.DSK
+2004-02-16 00:00:00 ....A       143360               disks\apple\saturn\SATURN_Basic-PSEUDO.dsk
+2009-07-06 20:40:30 ....A       143360               disks\apple\saturn\SATURN_CPM-PSEUDO.dsk
+2002-08-29 17:19:46 ....A       860288               disks\9\SUBGRAPH.DSK
+1999-07-25 18:20:08 ....A       860416               disks\9\testozu.DSK
+2009-04-12 00:21:26 ....A       143360               disks\apple\thunder1.dsk
+2009-04-05 14:29:18 ....A       147456               disks\apple\ultima_iv\ulti4bo.dsk
+2009-04-10 12:05:26 ....A       147456               disks\apple\ultima_iv\ulti4br.dsk
+2007-06-14 11:25:26 ....A       143360               disks\apple\ZZZ-UNK-Diagnostics_ii+ (19xx)(-)[nb].dsk
+2009-04-11 21:16:20 ....A       175827               docs\nippel_clock.pdf
+2009-09-05 17:58:58 ....A      2068480               disks\9\ONIX1_20.AIM
+2009-04-05 14:19:06 ....A        36216               systems\(1) IKP-7.cfg
+2009-04-12 21:43:18 ....A        36216               systems\(1a) A7 - Games.cfg
+2009-07-02 16:51:46 ....A        36216               systems\(1b) WordMaster.cfg
+2009-04-11 19:57:24 ....A        36216               systems\(2) IKP-9.cfg
+2009-04-11 19:57:40 ....A        36216               systems\(2a) KPON-1.cfg
+2009-04-12 15:54:16 ....A        36216               systems\(2b) Nippel Clock.cfg
+2009-09-06 17:52:56 ....A        38872               systems\(2c) TOR 5.0.cfg
+2009-04-12 21:43:32 ....A        36216               systems\(3) Apple ][ Plus.cfg
+2009-04-12 00:17:42 ....A        36216               systems\(3a) Apple ][ Orig 16K.cfg
+2009-04-12 00:19:28 ....A        36216               systems\(3b) SoftCard + CPM + 80COL.cfg
+2009-04-12 21:43:42 ....A        36216               systems\(3c) DOS 3.3 + Integer.cfg
+2009-04-12 21:43:52 ....A        36216               systems\(3d) ProDos.cfg
+2009-04-12 21:43:56 ....A        36216               systems\(3e) Apple ][ J-Plus.cfg
+2009-04-12 00:20:12 ....A        36216               systems\(3f) Thunderclock.cfg
+2009-07-05 22:23:46 ....A        36216               systems\(3g) RamFactor.cfg
+2009-07-06 20:39:04 ....A        36216               systems\(3h) Saturn CPM.cfg
+2009-07-06 19:08:12 ....A        36216               systems\(3h) Saturn Ramdisk.cfg
+2009-04-12 11:29:18 ....A        36216               systems\(4) Ghostbusters.cfg
+2009-09-06 17:59:06 ....A        38872               systems\(4a) Ultima-IV.cfg
+2009-04-12 21:44:06 ....A        36216               systems\(5) Gav-Gav.cfg
+2009-08-21 15:34:26 ....A        38872               systems\(6) Sprite OS.cfg
+2009-04-12 21:44:46 ....A        36216               systems\(7) Subgraph.cfg
+2009-04-12 21:44:18 ....A        36216               systems\(8) Test OZU.cfg
+2009-04-12 23:49:26 ....A        36216               systems\(8a) Apple Test.cfg
+2009-09-06 17:48:36 ....A        38872               systems\(9) Onix 1.2.cfg
+2009-07-02 12:34:36 ....A         2048               fnts\agathe7-svt.fnt
+2007-09-11 10:02:16 ....A         2048               fnts\AGATHE7.FNT
+2001-03-24 18:55:00 ....A         2048               fnts\AGATHE9.FNT
+1999-09-13 18:24:20 ....A         2048               fnts\apple.fnt
+2009-03-14 19:23:04 ....A         2048               fnts\applej.fnt
+1999-09-13 18:24:20 ....A         2048               fnts\applesm.fnt
+2009-03-18 22:00:18 ....A         2048               fnts\videoterm_ger.fnt
+2009-03-14 19:23:52 ....A         2048               fnts\videoterm_gr.fnt
+2009-03-18 22:00:38 ....A         2048               fnts\videoterm_inv.fnt
+2009-03-18 22:00:50 ....A         2048               fnts\videoterm_norm.fnt
+2009-08-21 15:34:02 ....A       947520               disks\9\SPRITE9.NIB
+2009-09-06 00:25:18 ....A       947520               disks\9\TOR_50[a9].nib
+2009-07-02 12:34:36 ....A       232960               disks\7\WORDMAST1_0[a7].nib
+2009-08-19 21:56:24 ....A          166               palette\16colorshigh.pal
+2009-08-19 21:56:00 ....A          160               palette\16colorslow.pal
+2009-08-19 21:35:28 ....A          160               palette\default.pal
+2009-08-19 21:55:20 ....A          187               palette\grayscale16.pal
+2009-08-19 21:53:42 ....A          184               palette\grayscale8.pal
+1996-07-04 19:40:08 ....A        12288               roms\APPLE2.ROM
+2009-03-14 19:22:48 ....A        12288               roms\apple2j.rom
+2000-02-15 22:37:36 ....A        12288               roms\APPLE2O.ROM
+2008-02-24 01:42:04 ....A          256               roms\CENTRONI.ROM
+2009-03-29 21:03:08 ....A          256               roms\CM6337.ROM
+2009-03-29 21:03:08 ....A         2048               roms\CM6337P.ROM
+1999-03-06 18:06:56 ....A         2048               roms\MONITOR7.ROM
+2004-10-30 21:38:28 ....A         2048               roms\monitor9.rom
+1999-07-31 08:04:44 ....A         2048               roms\monitor91.rom
+2001-08-18 00:31:22 ....A          256               roms\shugart7.rom
+2004-10-30 18:38:28 ....A          256               roms\shugart9.rom
+2007-09-17 13:06:00 ....A          256               roms\SHUGARTA.ROM
+1999-08-09 12:50:34 ....A          256               roms\TEAC.ROM
+2009-03-14 19:20:28 ....A         2048               roms\thunderclock.rom
+2009-03-14 19:19:38 ....A         1024               roms\videoterm.rom
+2009-08-19 22:34:50 ....A        83936               saves\(4) Ghostbusters.sav
+2009-09-06 17:49:10 ....A        84010               saves\(4a) Ultima-IV.sav
+2010-02-19 11:09:32 ....A        77824       397658  cfgedit.exe
+2010-02-19 11:10:26 ....A       325632               emulator.exe
+2010-02-19 11:09:32 ....A        57344               drivers\installio.exe
+2010-02-19 11:09:32 ....A       159744               langsel.exe
+2010-02-19 11:09:32 ....A       176128               lang\english.dll
+2010-02-19 11:09:32 ....A       180224               lang\russian.dll
+1996-04-03 20:33:26 ....A         5248               drivers\GIVEIO.SYS
+2016-11-16 12:23:12 D....            0            0  tapes
+2016-11-16 12:23:12 D....            0            0  systems
+2016-11-16 12:23:12 D....            0            0  saves
+2016-11-16 12:23:12 D....            0            0  roms\ramfactor
+2016-11-16 12:23:12 D....            0            0  roms\aii_memory_expansion
+2016-11-16 12:23:12 D....            0            0  roms
+2016-11-16 12:23:11 D....            0            0  palette
+2016-11-16 12:23:11 D....            0            0  lang
+2016-11-16 12:23:11 D....            0            0  keyb
+2016-11-16 12:23:11 D....            0            0  help
+2016-11-16 12:23:11 D....            0            0  fnts
+2016-11-16 12:23:11 D....            0            0  drivers
+2016-11-16 12:23:11 D....            0            0  docs
+2016-11-16 12:23:11 D....            0            0  disks\apple\ultima_iv
+2016-11-16 12:23:11 D....            0            0  disks\apple\saturn
+2016-11-16 12:23:11 D....            0            0  disks\apple\ramfactor
+2016-11-16 12:23:11 D....            0            0  disks\apple\cpm
+2016-11-16 12:23:11 D....            0            0  disks\apple
+2016-11-16 12:23:11 D....            0            0  disks\9
+2016-11-16 12:23:11 D....            0            0  disks\7
+2016-11-16 12:23:11 D....            0            0  disks
+------------------- ----- ------------ ------------  ------------------------
+2016-11-16 12:23:12           16994003      3468969  100 files, 21 folders

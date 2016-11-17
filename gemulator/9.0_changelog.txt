@@ -1,0 +1,8 @@
+Changes - 1st December 2008
+---------------------------
+
+Selectable 68000, 68010, 68020, 68030, and 68040 emulation
+68881/68882 floating point co-processor emulation
+Apple Macintosh II, Macintosh IIci, and Macintosh Quadra emulation
+Built-in 68000 debugger and third party debugger support
+Support for the open source Atari TOS ROM clone known as "EmuTOS"

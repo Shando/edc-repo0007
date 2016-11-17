@@ -1,0 +1,11 @@
+Changes - 12th April 2006
+-------------------------
+
+VERSION 0.74
+------------
+Windows specific:
+  New Sound menu that includes the ability to "record" sound to an AY file in text format.
+    I'm separately providing AY tools: AYPlay and AYCompress to work with these files.
+    AYPlay allows to replay an AY file or to create a wav file from it.
+    AYCompress generates a compressed binary AY file that AYPlay is also able to play.
+    See http://copacabana.emuunlim.com.

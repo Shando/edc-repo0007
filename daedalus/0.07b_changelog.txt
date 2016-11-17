@@ -1,0 +1,20 @@
+Changes - 4th June 2001
+-----------------------
+
+v0.06b -> v0.07b
+****************
+
+Added support for Zilmar's graphics plugin spec.
+Fixed OS-HLE bugs that stopped several roms working in v0.06b.
+Texture perspective correction is now always enabled (Morloc)
+Added internal screenshot capability (press F12 to get a png of the current frame in
+   the dumps directory) (doesn't work with graphics plugins).
+Added 1024 x 768 display resolution.
+Added status bar (for checking FPS/VIs without debug console). Only works with
+   graphics plugins (as internal graphics code covers status bar).
+Optimised RDRAM read/writes.
+Optimised dynarec reads.
+Added multiple directory support: Daedalus will recurse through the specified directory
+   structure looking for roms.
+Added save game folder selection.
+Added support for .jap, .pal and .usa extensions on roms.

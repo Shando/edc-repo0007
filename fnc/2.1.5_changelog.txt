@@ -1,0 +1,4 @@
+Changes - 5th September 2008
+----------------------------
+
+- fixed possible crash on Windows Vista.

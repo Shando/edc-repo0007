@@ -1,0 +1,265 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+1998-03-30 08:41:34 ....A       131072      3831990  roms\master\mos3.20
+1998-03-30 09:08:36 ....A       131072               roms\master\mos3.50
+2005-12-17 14:30:22 ....A       655360               discs\ARMEvaluationSystem-Disc1.adl
+2005-12-17 16:43:18 ....A       655360               discs\ARMEvaluationSystem-Disc2.adl
+2009-04-23 05:06:52 ....A       655360               discs\ARMEvaluationSystem-Disc3.adl
+2005-12-22 14:57:32 ....A       655360               discs\ARMEvaluationSystem-Disc4.adl
+2005-12-22 15:12:40 ....A       655360               discs\ARMEvaluationSystem-Disc5.adl
+2009-08-17 15:09:20 ....A       655360               discs\MasterWelcome.adl
+2008-12-01 10:38:52 ....A          888               src\resid-fp\Makefile.am
+2012-05-24 02:51:00 ....A           64               cmos.bin
+2012-05-22 05:43:54 ....A           64               cmos350.bin
+2012-05-22 05:46:12 ....A           64               cmosa.bin
+2012-05-22 05:45:36 ....A          128               cmosc.bin
+2012-04-16 09:38:34 ....A        62918               src\32016.c
+2012-04-15 10:49:10 ....A       226141               src\6502.c
+2012-04-14 10:52:50 ....A        75264               src\6502tube.c
+2012-04-16 10:14:48 ....A       129119               src\65816.c
+2012-04-04 12:44:46 ....A         2667               src\acia.c
+2012-04-26 09:35:16 ....A         2375               src\adc.c
+2012-04-12 10:28:20 ....A        11208               src\adf.c
+2012-04-14 10:14:38 ....A       107897               src\arm.c
+2012-04-14 12:50:14 ....A         2677               src\cmos.c
+2012-03-02 14:09:02 ....A          591               src\compact_joystick.c
+2012-04-13 11:37:08 ....A         7334               src\compactcmos.c
+2012-05-22 05:41:10 ....A         4946               src\config.c
+2012-04-14 10:04:06 ....A         9415               src\csw.c
+2012-04-14 15:38:22 ....A         5808               src\ddnoise.c
+2012-04-15 09:06:22 ....A        43310               src\debugger.c
+2012-04-14 10:04:26 ....A         7543               src\disc.c
+2012-04-14 10:20:06 ....A        15431               src\fdi.c
+2012-04-16 09:37:14 ....A        57955               src\fdi2raw.c
+2012-04-14 10:04:12 ....A        19049               src\i8271.c
+2012-04-12 15:17:18 ....A        11644               src\ide.c
+2012-04-15 10:46:52 ....A         4064               src\keyboard.c
+2012-05-22 05:39:14 ....A        21699               src\linux-gui.c
+2012-04-16 09:09:14 ....A        19899               src\linux-keydefine.c
+2012-04-16 09:37:00 ....A         1990               src\linux.c
+2012-04-16 10:19:48 ....A        10604               src\main.c
+2012-04-15 11:16:58 ....A         7437               src\mem.c
+2012-04-15 11:16:48 ....A         4726               src\model.c
+2012-05-24 02:43:04 ....A         3623               src\mouse.c
+2012-04-15 15:02:40 ....A        10019               src\pal.c
+2012-04-16 09:09:22 ....A         2249               src\savestate.c
+2012-04-14 09:19:46 ....A         1286               src\serial.c
+2012-05-17 05:48:00 ....A         8740               src\sn76489.c
+2012-05-17 05:46:38 ....A         2734               src\sound.c
+2012-04-14 15:38:04 ....A         5082               src\soundopenal.c
+2012-04-12 10:54:38 ....A         8531               src\ssd.c
+2012-04-15 15:21:08 ....A         5018               src\sysvia.c
+2012-04-14 10:38:28 ....A         1072               src\tape.c
+2012-04-14 15:38:40 ....A         4014               src\tapenoise.c
+2012-04-14 10:10:54 ....A        10464               src\tube.c
+2012-05-20 10:56:42 ....A        13380               src\uef.c
+2012-04-14 12:45:16 ....A         2056               src\uservia.c
+2012-04-14 14:43:14 ....A        13036               src\via.c
+2012-04-18 06:47:26 ....A        10716               src\vidalleg.c
+2012-04-16 08:57:58 ....A        35492               src\video.c
+2012-04-15 09:08:58 ....A        10996               src\wd1770.c
+2012-04-14 10:31:52 ....A         1929               src\win-catalogue.c
+2012-04-14 10:31:10 ....A        10443               src\win-keydefine.c
+2012-05-22 05:39:06 ....A        40752               src\win.c
+2012-04-16 09:37:22 ....A       159236               src\x86.c
+2012-04-15 09:08:56 ....A       165650               src\Z80.c
+2008-10-10 14:08:26 ....A         2751               src\resid-fp\convolve-sse.cc
+2008-08-31 09:06:14 ....A         1179               src\resid-fp\convolve.cc
+2008-08-31 12:37:10 ....A         9665               src\resid-fp\envelope.cc
+2008-08-31 12:05:44 ....A         3314               src\resid-fp\extfilt.cc
+2008-12-07 12:09:16 ....A         5604               src\resid-fp\filter.cc
+2008-08-31 09:06:46 ....A         1118               src\resid-fp\pot.cc
+2012-04-14 10:24:36 ....A         5209               src\resid.cc
+2009-12-10 09:50:08 ....A        29108               src\resid-fp\sid.cc
+2008-09-26 13:00:22 ....A         1069               src\resid-fp\version.cc
+2008-08-31 09:06:48 ....A         3793               src\resid-fp\voice.cc
+2008-09-02 11:51:24 ....A         4848               src\resid-fp\wave.cc
+2008-08-31 09:06:42 ....A        33348               src\resid-fp\wave6581__ST.cc
+2008-08-31 09:07:00 ....A        33348               src\resid-fp\wave6581_P_T.cc
+2008-08-31 09:06:38 ....A        33348               src\resid-fp\wave6581_PS_.cc
+2008-08-31 09:06:52 ....A        33348               src\resid-fp\wave6581_PST.cc
+2008-08-31 09:54:34 ....A        33348               src\resid-fp\wave8580__ST.cc
+2008-08-31 09:06:42 ....A        33348               src\resid-fp\wave8580_P_T.cc
+2008-08-31 09:07:02 ....A        33348               src\resid-fp\wave8580_PS_.cc
+2008-08-31 09:06:28 ....A        33348               src\resid-fp\wave8580_PST.cc
+2008-08-31 09:06:30 ....A         4096               src\resid-fp\wave6581__ST.dat
+2008-08-31 09:06:24 ....A         4096               src\resid-fp\wave6581_P_T.dat
+2008-08-31 09:06:22 ....A         4096               src\resid-fp\wave6581_PS_.dat
+2008-08-31 09:06:16 ....A         4096               src\resid-fp\wave6581_PST.dat
+2008-08-31 09:06:30 ....A         4096               src\resid-fp\wave8580__ST.dat
+2008-08-31 09:06:26 ....A         4096               src\resid-fp\wave8580_P_T.dat
+2008-08-31 09:06:24 ....A         4096               src\resid-fp\wave8580_PS_.dat
+2008-08-31 09:06:18 ....A         4096               src\resid-fp\wave8580_PST.dat
+2010-02-13 04:36:44 ....A      1032845               ALLEG42.DLL
+2011-01-07 14:35:14 ....A       107520               libgcc_s_dw2-1.dll
+2011-01-07 14:35:16 ....A       879630               libstdc++-6.dll
+2009-08-12 07:19:08 ....A       126995               OpenAL32.dll
+2006-04-01 09:21:22 ....A       409600               discs\cpm1.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm2.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm3.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm4.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm5.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm6.dsd
+1984-03-30 20:18:00 ....A       409600               discs\cpm7.dsd
+2012-06-03 09:20:44 ....A      1293774               B-em.exe
+2012-05-22 05:48:54 ....A        13155               src\b-em.vcxproj.filters
+2012-04-04 09:44:48 ....A           86               src\32016.h
+2012-04-14 09:35:06 ....A          503               src\6502.h
+2012-04-04 10:06:18 ....A          131               src\6502tube.h
+2012-04-04 09:44:52 ....A           86               src\65816.h
+2012-04-14 10:34:38 ....A          303               src\acia.h
+2012-04-14 10:34:44 ....A          201               src\adc.h
+2012-04-14 10:04:46 ....A          543               src\adf.h
+2012-04-04 10:58:50 ....A          291               src\arm.h
+2012-04-15 09:24:52 ....A          751               src\b-em.h
+2012-04-14 09:41:32 ....A        51496               src\bbctext.h
+2012-04-13 11:24:22 ....A          158               src\cmos.h
+2012-03-01 11:46:14 ....A           41               src\compact_joystick.h
+2012-04-13 11:36:16 ....A          155               src\compactcmos.h
+2012-04-13 13:37:28 ....A           90               src\config.h
+2012-04-14 10:31:24 ....A          137               src\csw.h
+2009-12-16 11:57:02 ....A        16483               src\daa.h
+2012-04-04 12:45:12 ....A          146               src\ddnoise.h
+2012-04-14 10:27:44 ....A          250               src\debugger.h
+2012-04-13 11:39:06 ....A         1461               src\disc.h
+2008-09-26 13:00:22 ....A         5437               src\resid-fp\envelope.h
+2008-09-26 13:00:22 ....A         3799               src\resid-fp\extfilt.h
+2012-04-05 14:43:02 ....A          431               src\fdi.h
+2010-01-10 06:08:38 ....A          928               src\fdi2raw.h
+2008-12-07 12:09:16 ....A        13982               src\resid-fp\filter.h
+2012-04-02 14:16:10 ....A          106               src\i8271.h
+2012-04-12 15:17:08 ....A          187               src\ide.h
+2012-04-05 15:43:42 ....A          236               src\keyboard.h
+2012-04-16 09:08:08 ....A           19               src\linux-gui.h
+2012-04-14 13:15:40 ....A          174               src\main.h
+2012-04-15 11:16:12 ....A          487               src\mem.h
+2012-04-14 13:03:02 ....A          676               src\model.h
+2012-04-14 12:45:04 ....A           94               src\mouse.h
+2012-04-15 14:43:30 ....A           92               src\pal.h
+2008-09-26 13:00:22 ....A         1155               src\resid-fp\pot.h
+2012-04-15 14:46:50 ....A         3208               src\resources.h
+2012-04-13 12:42:44 ....A          188               src\savestate.h
+2010-02-27 10:01:16 ....A         2218               src\scan2bbc.h
+2012-04-14 10:35:10 ....A          202               src\serial.h
+2008-09-26 13:00:22 ....A         3762               src\resid-fp\sid.h
+2012-04-13 13:00:44 ....A          334               src\sid_b-em.h
+2008-12-07 12:09:18 ....A         2727               src\resid-fp\siddefs-fp.h
+2010-02-08 09:27:52 ....A          504               src\sidtypes.h
+2012-04-14 09:27:14 ....A          300               src\sn76489.h
+2012-04-14 15:31:06 ....A          149               src\sound.h
+2012-04-13 10:39:38 ....A          151               src\soundopenal.h
+2012-04-05 14:43:06 ....A          468               src\ssd.h
+2012-04-14 11:13:50 ....A          444               src\sysvia.h
+2012-04-13 13:01:14 ....A          160               src\tape.h
+2012-04-04 12:44:12 ....A          194               src\tapenoise.h
+2012-04-14 09:33:20 ....A          536               src\tube.h
+2012-04-07 13:54:46 ....A          116               src\uef.h
+2012-04-14 11:14:02 ....A          413               src\uservia.h
+2012-03-01 11:56:38 ....A         1077               src\via.h
+2012-04-16 08:49:38 ....A          756               src\video.h
+2012-04-16 11:03:08 ....A          618               src\video_render.h
+2008-09-26 13:00:22 ....A         2207               src\resid-fp\voice.h
+2008-09-26 13:00:22 ....A        14661               src\resid-fp\wave.h
+2012-04-02 14:00:56 ....A          109               src\wd1770.h
+2012-05-24 02:42:36 ....A           51               src\win.h
+2012-04-14 10:17:40 ....A         2238               src\x86.h
+2012-04-04 09:44:26 ....A           74               src\x86_tube.h
+2012-04-04 09:44:56 ....A           74               src\z80.h
+2012-03-24 02:39:52 ....A            1               hd4.hdf
+2012-03-24 02:39:52 ....A            1               hd5.hdf
+2006-05-01 08:25:04 ....A         3774               src\b-em.ico
+2006-02-05 08:50:20 ....A       655360               discs\Master 512 Disc 1 (DOS Plus Boot).img
+2006-11-30 11:19:10 ....A       819200               discs\Master 512 Disc 2 (GEM).img
+2006-11-17 10:20:14 ....A       819200               discs\Master 512 Disc 3 (GEM data).img
+2006-11-17 10:20:22 ....A       819200               discs\Master 512 Disc 4 (Miscellaneous).img
+2008-12-13 10:27:28 ....A         4418               src\resid-fp\configure.in
+2008-12-15 13:18:34 ....A        19724               src\resid-fp\Makefile.in
+2008-12-07 12:09:16 ....A         2692               src\resid-fp\siddefs-fp.h.in
+2008-12-15 13:18:32 ....A        31970               src\resid-fp\aclocal.m4
+2008-08-31 09:06:34 ....A         2621               src\resid-fp\samp2src.pl
+2012-05-22 05:54:14 ....A        24792               src\b-em.rc
+2004-11-30 13:07:00 ....A         2048               roms\tube\6502Tube.rom
+2010-04-12 15:31:12 ....A        16384               roms\ADFS1-53.rom
+2009-02-01 04:12:46 ....A        16384               roms\tube\ARMeval_100.rom
+1996-12-08 23:23:00 ....A        16384               roms\a\BASIC.ROM
+1996-12-08 23:23:00 ....A        16384               roms\bp\BASIC.ROM
+1996-12-08 23:23:00 ....A        16384               roms\b\BASIC.ROM
+1996-12-08 23:23:00 ....A        16384               roms\b1770\BASIC.ROM
+2009-06-03 13:16:24 ....A        16384               roms\a01\BASIC1.rom
+2009-08-17 15:09:24 ....A        16384               roms\tube\BIOS.ROM
+2004-07-27 04:58:46 ....A         8192               roms\b\DFS-0.9.rom
+2000-02-02 15:42:00 ....A        16384               roms\bp\dfs.rom
+2000-02-02 15:42:00 ....A        16384               roms\b1770\dfs1770.rom
+2012-04-14 14:04:26 ....A        16384               roms\b\MouseSupport-3.31.rom
+2004-05-10 07:53:28 ....A        16384               roms\us\USBASIC.rom
+2007-04-01 08:30:10 ....A        16384               roms\us\USDNFS.rom
+2004-10-16 17:54:02 ....A         4096               roms\tube\Z80_120.rom
+2004-01-28 05:19:26 ....A        16384               roms\bp\zADFS.ROM
+2010-03-14 09:11:08 ....A       112640               discs\B-em Demo Disc.ssd
+2010-04-12 15:47:20 ....A        46592               discs\HDInit.ssd
+2009-08-17 15:09:18 ....A        78336               discs\Welcome.ssd
+2012-06-03 09:22:30 ....A         9127               Changes.txt
+2012-06-03 09:24:58 ....A        14277               Readme.txt
+2002-06-06 11:08:56 ....A        28803               tapes\Welcome-BBCMaster-Side1_BM.uef
+2002-06-06 11:08:56 ....A        38565               tapes\Welcome-BBCMaster-Side2_BM.uef
+2002-06-06 11:10:56 ....A        35876               tapes\Welcome_B.uef
+2012-03-04 16:47:16 ....A          143               src\b-em.vcxproj.user
+2012-05-22 05:40:16 ....A        10001               src\b-em.vcxproj
+2008-08-31 09:06:44 ....A          645               src\resid-fp\README.VICE
+2002-01-13 10:54:52 ....A         9440               ddnoise\525\motor.wav
+2010-01-09 07:52:26 ....A        44906               ddnoise\35\motor.wav
+2010-01-09 07:52:48 ....A        18670               ddnoise\35\motoroff.wav
+2010-03-03 10:21:08 ....A         5154               ddnoise\motoroff.wav
+2009-12-28 09:40:44 ....A        17278               ddnoise\525\motoroff.wav
+2010-03-03 10:21:00 ....A         4480               ddnoise\motoron.wav
+2010-01-09 07:52:54 ....A        14094               ddnoise\35\motoron.wav
+2004-03-16 14:08:52 ....A        16352               ddnoise\525\motoron.wav
+2004-03-16 14:08:20 ....A         6558               ddnoise\525\seek.wav
+2010-01-09 07:53:02 ....A         6636               ddnoise\35\seek1i.wav
+2010-01-09 07:53:08 ....A         4832               ddnoise\35\seek1o.wav
+2009-12-28 10:50:02 ....A        79212               ddnoise\525\seek2.wav
+2010-01-09 07:53:16 ....A        17016               ddnoise\35\seek2i.wav
+2010-01-09 07:53:22 ....A        16382               ddnoise\35\seek2o.wav
+2009-12-28 10:50:08 ....A        47070               ddnoise\525\seek3.wav
+2010-01-09 07:53:28 ....A        42530               ddnoise\35\seek3i.wav
+2010-01-09 07:53:36 ....A        42358               ddnoise\35\seek3o.wav
+2004-03-16 14:05:26 ....A         4296               ddnoise\525\step.wav
+2010-01-09 07:53:42 ....A         4212               ddnoise\35\stepi.wav
+2010-01-09 07:53:48 ....A         2226               ddnoise\35\stepo.wav
+2001-10-01 16:06:14 ....A        18321               COPYING
+2003-07-16 07:20:22 ....A        16384               roms\bpos
+1998-07-14 10:50:46 ....A        16384               roms\compact\adfs210
+1998-07-14 10:50:48 ....A        16384               roms\compact\basic48
+1998-07-14 10:50:50 ....A        16384               roms\compact\os51
+1998-07-14 10:50:52 ....A        16384               roms\compact\utils
+2004-05-10 21:08:58 ....A        16384               roms\deos
+1996-12-08 23:23:00 ....A        16384               roms\Os
+2010-02-18 11:11:34 ....A        16384               roms\os01
+2004-05-10 07:54:02 ....A        16384               roms\USMOS
+2012-05-22 05:38:52 ....A         1097               src\Makefile
+2008-08-31 09:06:18 ....A          195               src\resid-fp\AUTHORS
+2008-12-07 12:09:16 ....A         5969               src\resid-fp\ChangeLog
+2008-12-15 13:18:32 ....A       171325               src\resid-fp\configure
+2008-08-31 09:06:38 ....A        18332               src\resid-fp\COPYING
+2008-08-31 09:06:36 ....A          486               src\resid-fp\INSTALL
+2008-08-31 09:06:40 ....A           51               src\resid-fp\NEWS
+2008-08-31 09:06:50 ....A         3451               src\resid-fp\README
+2008-08-31 09:06:50 D....            0            0  roms
+2008-08-31 09:06:50 D....            0            0  roms\bp
+2008-08-31 09:06:50 D....            0            0  roms\b
+2008-08-31 09:06:50 D....            0            0  src\resid-fp
+2008-08-31 09:06:50 D....            0            0  discs
+2008-08-31 09:06:50 D....            0            0  roms\tube
+2008-08-31 09:06:50 D....            0            0  roms\a01
+2008-08-31 09:06:50 D....            0            0  roms\us
+2008-08-31 09:06:50 D....            0            0  ddnoise
+2008-08-31 09:06:50 D....            0            0  ddnoise\525
+2008-08-31 09:06:50 D....            0            0  ddnoise\35
+2008-08-31 09:06:50 D....            0            0  roms\b1770
+2008-08-31 09:06:50 D....            0            0  roms\master
+2008-08-31 09:06:50 D....            0            0  tapes
+2008-08-31 09:06:50 D....            0            0  src
+2008-08-31 09:06:50 D....            0            0  roms\a
+2008-08-31 09:06:50 D....            0            0  roms\compact
+------------------- ----- ------------ ------------  ------------------------
+2012-06-03 09:24:58           17015179      3831990  244 files, 17 folders

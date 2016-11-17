@@ -1,0 +1,20 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2007-07-08 13:42:48 ....A           37       501806  Plugins\Plugins.cfg
+2002-05-10 08:54:32 ....A         4608               Plugins\BILINEAR.DLL
+2002-05-10 17:36:02 ....A         4608               Plugins\bilinearlight.dll
+2002-05-09 13:30:36 ....A         4608               Plugins\bilinearplus.dll
+2002-04-15 08:37:42 ....A         8704               Plugins\genericscan.dll
+2002-04-15 08:37:42 ....A         4096               Plugins\interlaced.dll
+2003-01-02 12:56:56 ....A         4096               Plugins\scale2x.dll
+2003-01-02 12:57:00 ....A         4096               Plugins\scale2x75.dll
+2002-04-15 08:37:38 ....A         3584               Plugins\scanclear.dll
+2002-04-15 08:37:40 ....A         4096               Plugins\scanclear50.dll
+2007-07-15 14:44:36 ....A       950272               emulator.exe
+2007-06-28 16:30:38 ....A          818               emulator.ini
+2007-07-15 14:47:10 ....A         6187               readme_cps3.txt
+2002-05-01 18:20:56 ....A         7260               Plugins\PLUGSRC.ZIP
+2002-05-07 04:04:50 ....A         3706               Plugins\superscalesrc.zip
+2002-05-07 04:04:50 D....            0            0  Plugins
+------------------- ----- ------------ ------------  ------------------------
+2007-07-15 14:47:10            1010776       501806  15 files, 1 folders

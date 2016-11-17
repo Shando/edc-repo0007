@@ -1,0 +1,11 @@
+Changes - 11th January 2016
+---------------------------
+
+v0.6.3 Jan/11/2016  o Enhanced Z80 emulation, the emulator ran too fast.
+                      (reported by Armando Perez). This solves the pitch
+                      in synthetized voice in Sewer Sam and Squish'Em.
+                    o Keys F4 and F7 are now configurable.
+                    o Expertype and ADAM Bomb 2 now are working.
+                    o Fixed some keys for ADAM in Windows version.
+                    o Added 64K RAM expansion for ADAM.
+                    o Fixed bug in joystick support. (still untested)

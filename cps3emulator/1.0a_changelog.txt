@@ -1,0 +1,16 @@
+Changes - 15th July 2007
+------------------------
+
+v1.0a
+
+Fixed CHD reading for the Alt Versions
+Fixed Jojoalt rom 10 CRC, it was loading the one from the parent jojo set.
+Fixed crashing in sfiii3 when Ken finishes Makoto with neutral throw (kicks). It's
+actually a bug in the game (fixed in sfiii3a). In the real board it would cause an address
+error (misaligned jump) and would reset the machine due to watchdog. In the emu it will just
+freeze the game because there is not watchdog, just hit F3 to restart the game.
+Fixed Jojo games damage level. It was a core bug in the ADDC (add with carry) opcode, so it
+could be causing problems in other games too.
+Added support for joypads with more than 8 buttons.
+Re-enabled the Unload Rom button, I disabled it because it fails more times than works, but
+there is some people that actually used it, so I've enabled it again.

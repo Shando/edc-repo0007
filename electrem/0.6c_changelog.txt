@@ -1,0 +1,17 @@
+Changes - 18th January 2007
+---------------------------
+
+Beta 0.6c
+
+sound: fixed an overflow problem that sometimes meant for quite inaccurate sound, Arcadians being a prime example
+boring interrupt stuff: on a tip from Tom Walker, I effected changes in the generation of interrupts while the counter is in tape output mode. Result? Evening Star and Southern Bell now work -- sound and everything!
+moving towards a ROM paging fix per the observations of John Kortink on the Stairway to Hell forums
+there is now the option of running the emulator with a persistent state (i.e. when you start ElectrEm, it puts itself into the same state it was in when you last closed it), though presently it forgets what media you were using
+added a Tape entry on the menubar, analogous to the existing disc entry
+some fast tape loading fixes -- better than before, still imperfect
+fixed bug where if the emulator encountered an opcode that would halt a real Electron forever or one it doesn't understand (which shouldn't really happen anyway), it displays endless warnings to the user
+fixed bug where screen colours were inverted when copied to the clipboard under Intel Mac OS X
+[Mac OS X] downgraded all code to be compatible with the 10.2.8 SDK, hopefully ElectrEm will now work on OS X v10.2 and v10.3
+[Mac OS X] shortcuts added for things in the Disc pull-down menu
+[Windows] hopefully fixed problem with the menu not accepting the first click in the Disc pull-down menu
+[Windows] the emulator configuration is now stored in your user's application data folder rather than with the executable -- means that the emulator configuration is now per user rather than per machine, and hopefully means ElectrEm will work with Windows Vista

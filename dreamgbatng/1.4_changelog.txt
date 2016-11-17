@@ -1,0 +1,10 @@
+Changes - 29th May 2004
+-----------------------
+
+Version 1.4
+*Better ARM7 pipelining support.FC MINI 2 games now work
+*Fixed a priority mask alignment bug in 256-color text background.Fixed 1082 - Jet Grind Radio(U).gba background graphics
+*Fixed an OBJ window alignment when 256-color normal sprite partially enters left side of screen.Fixed 1082 - Jet Grind Radio(U).gba ingame active NPC graphics
+*Changed VBlank occurance time to the beginning of scanline $a0.Fixed 028 - Iridion 3D.gba title SHINGEN screen
++Added 64Kb EEPROM saver support.Complete 4Kb EEPROM saver support
++Added scan ROM for saver library function

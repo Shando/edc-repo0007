@@ -1,0 +1,6 @@
+Changes - 12th December 2001
+----------------------------
+
+DreamGBA 2.5:
+Fixed some CPU bugs
+Add support for Large EEPROM support (SuperMario Advance 2)

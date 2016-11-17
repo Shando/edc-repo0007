@@ -1,0 +1,8 @@
+Changes - 13th March 2002
+-------------------------
+
+What's New in version 2.1a :
+
+- Fixed SRAM emulation (Inu Yasha)
+- Fixed SRAM erase after reset
+- Better timing in few games

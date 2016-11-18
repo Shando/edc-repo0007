@@ -1,0 +1,71 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2004-03-24 17:19:14 ....A          403      1171028  KNLORE.CFG
+2004-08-08 12:40:54 ....A        26624               LoadFDI.dll
+2004-02-23 16:10:00 ....A        10240               LoadSNA.dll
+2004-08-12 14:29:34 ....A         9216               LoadSP.dll
+2003-05-27 08:09:10 ....A         9728               LoadTAP.dll
+2004-12-27 15:19:30 ....A        17920               LoadTD0.dll
+2003-11-03 13:57:36 ....A        15360               LoadTRDos.dll
+2005-11-10 05:49:26 ....A        19456               LoadTZX.dll
+2004-12-28 12:08:54 ....A        14336               LoadUDI.dll
+2005-08-23 16:45:36 ....A        10240               LoadZ80.dll
+2004-08-12 12:53:04 ....A         9216               LoadZX.dll
+2004-03-13 05:49:20 ....A        17920               PkUnZIP.dll
+2003-05-14 09:10:14 ....A         2048               savebin.dll
+2004-12-20 09:26:54 ....A        10752               SaveBmp.dll
+2005-08-15 13:34:26 ....A        14336               SaveMP3.dll
+2003-11-25 12:50:52 ....A        21504               SavePng.dll
+2004-05-23 08:04:30 ....A        11264               SaveTAP.dll
+2005-08-15 13:35:56 ....A         6144               SaveWave.dll
+2003-11-26 11:03:44 ....A         1536               SCR.DLL
+2004-07-14 06:41:24 ....A        10240               SmoothTiming.dll
+2006-02-15 12:03:44 ....A        44544               ZXAsmPP.dll
+2004-07-02 12:57:50 ....A           32               Green.ecm
+2004-07-02 12:56:18 ....A           32               Grey.ecm
+2005-01-30 06:13:24 ....A           36               Default.ekm
+2005-01-30 06:37:20 ....A           72               LShift_LCtrl_TO_CAPS_SHIFT,RShift_RCtrl_TO_SYM_SHIFT.ekm
+2004-07-03 09:12:26 ....A           90               QAOPspace_2Joystick.ekm
+2006-03-10 04:28:06 ....A       623616               EmuZWin.exe
+2005-01-19 01:34:30 ....A       207379               Roms\Roms.exe
+2003-11-02 18:57:40 ....A         3293               EmuZWin+TR-DOS_Eng.htm
+2003-11-02 11:40:28 ....A         4993               EmuZWin+TR-DOS_Rus.htm
+2006-03-04 16:11:04 ....A        21210               EmuZWin_Eng.htm
+2003-12-08 08:55:16 ....A         8879               EmuZWin_Map_Eng.htm
+2003-12-08 07:40:48 ....A        11760               EmuZWin_Map_Rus.htm
+2006-03-10 04:33:10 ....A        22550               EmuZWin_Rus.htm
+2005-02-11 04:09:02 ....A        66866               EZXFormat_Eng.htm
+2005-02-11 03:56:56 ....A        22975               NetPlay.htm
+2006-02-11 15:01:04 ....A        57957               ZX_Assembler.htm
+2006-02-15 02:30:34 ....A        56365               ZX_Assembler_RU.htm
+2005-08-15 03:30:58 ....A          258               SaveMP3.ini
+2004-07-17 06:32:12 ....A          675               EmuZWin.exe.manifest
+2003-12-08 03:48:56 ....A         1860               MapBuilder_toolbar1.png
+2003-12-08 03:49:34 ....A         1444               MapBuilder_toolbar2.png
+2005-02-09 17:27:34 ....A        26120               Batty.RLZ
+1998-01-27 06:28:46 ....A        32768               Roms\128.ROM
+1992-12-16 04:41:22 ....A        16384               Roms\48.rom
+2002-12-18 15:06:20 ....A        65536               Roms\atm1.rom
+2002-07-13 13:16:46 ....A        65536               Roms\atm2.rom
+2001-01-04 03:07:16 .R..A         3840               Roms\Atmtest3.rom
+2002-01-04 09:21:10 ....A        32768               Roms\gd.rom
+1997-11-05 18:31:36 ....A         8192               Roms\GDOS-PD.ROM
+1997-11-05 18:28:16 ....A         8192               Roms\GDOS.ROM
+2001-01-11 11:22:42 ....A        32768               Roms\GS.ROM
+1998-12-15 19:52:06 ....A         8192               Roms\if1.rom
+1998-09-14 10:28:22 ....A        32768               Roms\PENTAGON.ROM
+1999-12-16 15:07:00 ....A        32768               Roms\PLUS2.ROM
+1998-09-08 11:27:18 ....A        65536               Roms\Plus2a.rom
+1998-09-08 11:27:18 ....A        65536               Roms\plus3.rom
+1999-02-19 14:47:36 ....A        65536               Roms\SCORPION.ROM
+1992-11-17 04:49:32 ....A        16384               Roms\tk90.rom
+1992-11-17 04:49:32 ....A        16384               Roms\tk95.rom
+1995-07-07 20:03:00 ....A        16384               Roms\TRDOS503.ROM
+1995-07-07 18:25:16 ....A        16384               Roms\trdos504T.rom
+1998-02-25 08:51:52 ....A        16384               Roms\ZXI1.ROM
+2005-02-08 12:48:20 ....A           54               1stPlayer=Keyboard 2ndPlayer=Kempston.sep
+2005-02-08 12:48:26 ....A           54               Default.sep
+2006-01-07 13:28:40 ....A          590               writing plugins+other stuff.txt
+2006-01-07 13:28:40 D....            0            0  Roms
+------------------- ----- ------------ ------------  ------------------------
+2006-03-10 04:33:10            2040427      1171028  66 files, 1 folders

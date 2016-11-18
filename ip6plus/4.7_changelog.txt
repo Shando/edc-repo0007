@@ -1,0 +1,45 @@
+Changes - 3rd February 2004
+---------------------------
+
+We fixed the bug of the last survival and improved the function. Thank you for your consideration. (_) 
+
+About the inside of the emulator 
+
+Fixed a memory related bug when booting with a model other than SR 
+2ms Timer Fix interrupt generation condition! 
+Add some weights when floppy drive read / write operation 
+The internal timer of YM 2203 is counted up (incomplete) 
+Fix to be able to read the status of YM 2203 through I / O 
+I tried to pseudo return BUSY / READY from YM 2203. 
+Fixed a bug that sometimes happened when it was reset to a big screen (640 x 400) even though it was a small screen (320 x 200). 
+When SR of graphic VRAM access, if you specify the Y coordinate 204 or more, fix a bug that had been destroying the contents of the RAM in the emulator (Thanks Hashi's!) 
+Fixed that the screen was garbled when MODE 6, SCREEN 2, 2, 1 or SCREEN 3, 2, 1 
+I divided TAPE for LOAD and SAVE. 
+Fixed a bug that extended ROM could not be mapped properly in SR mode 6. (Thanks Chocobon!) 
+Fixed a memory related (CGROM) bug when returning from MODE 5 to MODE 6 
+Fixed a bug that had runaway after resetting with f5 -> f5 at Yukara JJ of 66 SR. 
+Measures to prevent self-rewriting by block transfer instruction (LDIR / LDDR) 
+
+About the parts specific to Windows version 
+
+Full screen mode compatible (Windows version) 
+Enabled to read extended ROM. (Story of Windows version) 
+Changed to restart on your own after changing the setting. (Windows version) 
+Added disk access lamp. (Windows Version) 
+Fixed a bug that was sometimes that can not be reset (Windows version) Thanks Hashi-san! 
+I changed the speed of key repeat to normal when switching to windows other than iP6 Plus (Windows version) 
+Fixed picture left on top of window when reset (Windows version) 
+Organize setting dialog 
+On the setting screen, so that you can select the presence or absence of the scan line. (Windows version) 
+In case SAVE tape does not exist, I asked him whether to make a file or not. (Windows version) 
+Fixed a bug that OPEN of DISK could be selected at the first start. (Windows) Thanks Moriya-san! 
+Fixed a bug that opened value in 2 ms Timer's count-up value and pressed OK, its value returned to its original value (Windows version) 
+Reduced CPU load. (Windows version) 
+
+About Unix version specific parts 
+
+Fixed a bug that caused a Segment Fault when pressing Cancel when entering a file name in the Unix version setting panel 
+
+This time there are many changes as demons · · ·. (Sweat) That and this, thanks to everyone. (^ ^; 
+
+*** Translated from Japanese using Google Translate ***

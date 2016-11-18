@@ -1,0 +1,10 @@
+Changes - 10th April 2004
+-------------------------
+
+
+Added:  vsync option
+
+Fixed:  debug version should work on all PCs
+Fixed:  debug version no longer much slower
+
+BUG:    existing double density bugs still there.

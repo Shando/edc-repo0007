@@ -1,0 +1,45 @@
+Changes - 9th September 2002
+----------------------------
+
+What's New in Klive v1.1 ?
+--------------------------
+
+Basically, I altered/added a few things that have been requested by various people:
+
+* Altered Menus - in the default window size, they did not fit on one line under any OS except XP.
+  Most options now moved into a seperate OPTIONS menu.
+
+* Added (...) to some menu options, as requested.
+
+* New Joystick Configuration Dialog. Now you can select any DirectInput device to be used with
+  either player.
+
+* Added PC Keyboard (Cursor Keys + Left CTRL key) as a Joystick Emulation Option.
+
+* Added the ability to Pause the emulation.
+
+* Added the ability to Mute the Sound emulation.
+
+* Altered/Improved timing, especially on the Spectrum 128 and +2 machines.
+
+* Added File History. The last 8 files loaded are stored here for quick access.
+
+* Added basic Command Line support. You can now launch Klive with:
+  KLIVE filename [-fullscreen]
+  If the -fullscreen option is added, Klive will jump to full screen mode, and the ESC key will
+  exit Klive immediately.
+
+* Added WAV file support. You can now load tapes from WAV files. They can be 8 or 16 bit, but must
+  be MONO.
+
+* Added Real Tape Mode. You can now load games from real Spectrum tapes, through your sound card.
+
+* Added TV Mode. When in FullScreen, Klive can now be set to emulate the display of a real TV.
+
+* Added the ability to force Software Scaling when in Windowed mode. Some people, apparently, do
+  not like the filtering applied by most video cards when using Hardware Scaling. Note: this mode
+  WILL be quite a bit slower than Hardware Scaling.
+
+* Added another size setting to the Window Selection: When Software Scaling is selected, scaling
+  is only done for 1x, 2x, 3x and 4x, because any sub-pixel sizes would have defeated the object
+  of putting this option in... therefore, a suitable size for 3x had to be added.

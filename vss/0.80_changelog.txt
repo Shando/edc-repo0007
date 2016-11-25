@@ -1,0 +1,14 @@
+v0.80  10/09/2001
+    - Support for Bounty Bob Strikes Back not currently functioning.
+	- Replaced CPU core with Neil Bradley's M6502 core
+	- Cleaned up hardware startup and shut down to prevent memory leaks.
+	- Using SEAL audio library instead of Allegro's for better sound
+	  card support
+	- Upgraded to Allegro 3.9.36
+	- Added alternate 16K cart loading mode for Tempest, Super Pac-man, 
+	  Track and Field and Millipede
+	- Added support for 8K carts
+	- Speed limiter now on by default. Use -nolimit to turn it off
+	- Now uses VGA ModeX exclusively. Removed -modex and -top options.
+	- Keys can now be re-configured in config file
+	- Fixed colors in MODE 15. (Miniature Golf, Micro-gammon)

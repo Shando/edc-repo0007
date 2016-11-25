@@ -1,0 +1,25 @@
+V0.82  04/04/2004
+	- Support for Bounty Bob put back in
+	- PRIOR bit 5 implemented. Causes overlapping players to produce a third color
+          in the overlapped area.
+	- Updgraded to Allegro 4.0
+	- Switched back to Allegro Sound library
+	- Bit 0 of PM color registers is now dropped as it should be.
+	- Added full support for 2 controllers 
+	- Re-arranged some of the default keys
+	- Compensated for stolen CPU cycles during DMA. River Raid now works.
+	- Fixed display list handling, Blaster now works
+	- Bounty Bob will now load if you try to load any of the three files that 
+	  make it up. -BB switch not needed but still works.
+	- Support for loading 40K Bounty Bob File
+	- Support for 64K bank switch mode
+	- New command line option -map16k to select 16K single ROM mode
+	
+	
+	New to the debug version:
+		New commands:
+		colorpal - show the full 128 color pallette
+		colorpalgtia - show the full 256 GTIA color pallette
+		display - shows the last display the was rendered
+		dif - Disassemble to a file
+		wa - expanded the watch function break when the value at the watch address changes

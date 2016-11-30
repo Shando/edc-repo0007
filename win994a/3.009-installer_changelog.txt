@@ -1,0 +1,7 @@
+- Absolutely the greatest new feature -- Win994a has undergone a major face lift. In keeping with the times, Win994a now has the "Office Fluent UI" that became so popular with the latest versions of Microsoft Office applications. This should help make Win994a much easier to use by placing more items and functions just a mouse click away. The Simulator uses the same Office Ribbon and tabbed information access, like Word and Excel. Feel free to experiment and investigate. There's new functionality on that ribbon and under those tabs. 
+- The expanding info panel is gone. Feedback from users made it obvious that no one uses that feature. Instead, the program ribbon provides most of the same information in real-time, along with new functionality. 
+- The Win994a applications don't come in two variants anymore. With today's new processors and Windows operating systems, only one executable is necessary for each application. The internal program code can detect the hardware of your PC and adapt itself to run correctly. Unfortunately for some, this also means that only Windows XP (SP2) and above are supported. Sorry Windows 95/98/NT users. Currently, Win994a runs best on Vista (SP2). It will also run well on the future Win 7. 
+- The Disk Manager application has virtually stayed the same. 
+- The assembler application has been revised and updated to correct a problem with the BYTE data statement. 
+- As always, please have lots of fun with Win994a Simulator. 
+ 

@@ -1,0 +1,9 @@
+0.55:
+  * Added: NOP instruction register dumping (homebrew developer support), activate on the console using cpunop on. Setting will persist between invocations 
+  * Added: Button on the Settings Tab that brings up an openfile dialog to load previously saved machine states 
+  * Added: Double-clicking on the game select tab will immediately start the selected ROM 
+  * Updated: Converted ROM database to a .CSV file: Editable via MS Excel or text editor 
+  * Fixed: PAL 7800BIOS startup 
+  * Added: Command-line ROM invocation to support various emulator front-ends 
+  * Reverted: TIASound to v0.41 version: fixes a sound omission bug 
+  * No changes to emulation were made for this release 

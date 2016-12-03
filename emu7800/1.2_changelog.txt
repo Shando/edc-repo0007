@@ -1,0 +1,4 @@
+v1.2
+  * EMU7800 now available on Windows Phone Marketplace! 
+  * Fixed emulation regressions from prior release that were known to impact KLAX, Ace of Aces, Pitfall, and Grandprix 
+  * Restored Keypad controller input for 2600 

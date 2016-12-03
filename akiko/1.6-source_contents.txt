@@ -1,0 +1,443 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-07-28 11:27:00 ....A       134399      1225325  src\ChangeLog
+1997-06-08 15:59:02 ....A         4307               docs\COMPATIBILITY
+1999-09-05 00:46:52 ....A         4611               docs\translated\Compatibility-TR
+2000-02-19 12:22:26 ....A       196446               configure
+1998-03-15 13:02:56 ....A        18347               COPYING
+2001-07-28 11:21:12 ....A         4771               docs\CREDITS
+1999-09-05 00:47:06 ....A         4419               docs\translated\Credits-TR
+1998-03-15 13:03:04 ....A        16144               docs\translated\CZYTAJTO
+1998-06-09 12:51:02 ....A        16203               docs\FAQ
+1999-09-05 00:47:18 ....A        16353               docs\translated\Faq-TR
+1998-06-26 11:23:32 ....A        35364               docs\translated\L-S_MIG
+1998-04-12 07:02:30 ....A        41442               docs\translated\LEGGIMI
+1998-03-15 13:03:04 ....A        15837               docs\translated\LIESMICH
+1998-08-07 02:47:42 ....A          342               Makefile
+2000-01-26 22:50:14 ....A         1480               src\testwaveout\Makefile
+2001-05-13 02:49:56 ....A        12054               src\Makefile
+1997-03-09 15:54:54 ....A         7384               amiga\mousehack
+2001-07-28 11:22:08 ....A         9677               docs\NEWS
+1998-08-07 03:01:06 ....A          782               outfile
+2001-07-28 11:26:24 ....A        41487               docs\README
+2001-07-28 01:41:08 ....A        12804               src\table68k
+1999-04-11 08:24:30 ....A         6956               amiga\timehack
+1997-06-06 00:52:08 ....A        11092               amiga\transdisk
+1996-08-14 02:42:02 ....A         3932               amiga\transrom
+1998-03-15 11:03:00 ....A        11124               amiga\uae-control
+1997-03-03 14:18:44 ....A         9004               amiga\uaectrl
+1997-11-03 12:56:32 ....A         8956               amiga\uae_rcli
+2000-01-26 23:36:34 ....A         4930               src\testwaveout\testsound.zip
+2001-10-31 07:14:06 ....A        86730               src\winuae_msvc\winuaeui.zip
+1996-05-02 14:50:50 ....A         9410               Uae.app\Uae.nib\Amiga.tiff
+1996-05-02 14:50:48 ....A          330               Uae.app\dummy.tiff
+1996-05-02 14:50:50 ....A         4270               Uae.app\Uae.nib\ian.tiff
+1996-05-02 14:50:50 ....A         7514               Uae.app\Uae.nib\loginwindow.tiff
+1996-05-02 14:50:48 ....A         9410               Uae.app\Uae.tiff
+1997-05-08 19:19:20 ....A         1078               src\osdep\35floppy.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\35floppy.ico
+1997-05-08 18:35:02 ....A          766               src\osdep\amigainfo.ico
+2000-03-12 22:05:50 ....A          766               src\winuae_msvc\guidll\amigainfo.ico
+1997-05-08 18:35:02 ....A         1078               src\osdep\Cddrive.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\Cddrive.ico
+1998-12-15 22:38:28 ....A         1078               src\osdep\cpu.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\cpu.ico
+1997-05-08 18:35:02 ....A         1078               src\osdep\Drive.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\Drive.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\floppy.ico
+1997-05-08 18:35:02 ....A          766               src\osdep\icon2.ico
+1997-10-06 19:53:54 ....A         1078               src\osdep\joystick.ico
+2000-03-12 22:05:48 ....A         1078               src\winuae_msvc\guidll\joystick.ico
+1998-12-14 23:41:58 ....A         1078               src\osdep\misc.ico
+2000-03-12 22:05:48 ....A         1078               src\winuae_msvc\guidll\misc.ico
+1997-10-03 05:25:54 ....A         1078               src\osdep\Monitr01.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\Monitr01.ico
+2001-09-07 05:20:42 ....A          318               src\osdep\move_dow.ico
+2001-09-07 05:20:42 ....A          318               src\osdep\move_up.ico
+1998-12-19 21:20:24 ....A         1078               src\osdep\Mycomp.ico
+2000-03-12 22:05:50 ....A         1078               src\winuae_msvc\guidll\Mycomp.ico
+1997-05-08 19:22:06 ....A          766               src\osdep\Volume01.ico
+2000-03-12 22:05:50 ....A          766               src\winuae_msvc\guidll\Volume01.ico
+1997-04-28 16:57:40 ....A          766               src\osdep\win32uae.ico
+1998-11-30 22:37:18 ....A         2998               src\osdep\winuae.ico
+2000-03-12 22:05:48 ....A         2998               src\winuae_msvc\guidll\winuae.ico
+1998-06-01 04:10:00 ....A         3028               acconfig.h
+2001-07-29 00:18:54 ....A         1114               src\include\audio.h
+2001-09-16 00:14:24 ....A         3259               src\include\autoconf.h
+2001-03-19 05:30:24 ....A        12532               src\blit.h
+2001-10-27 16:29:54 ....A        12532               src\genblitter_msvc\blit.h
+2001-03-19 05:31:06 ....A         1690               src\blitfunc.h
+2001-10-27 16:29:54 ....A         1690               src\genblitter_msvc\blitfunc.h
+2000-06-03 12:03:34 ....A         1376               src\include\blitter.h
+2001-05-18 01:03:04 ....A         6531               src\include\bsdsocket.h
+2001-07-06 17:39:58 ....A          574               src\include\cd32.h
+1999-03-07 17:15:36 ....A         2536               src\include\cfgfile.h
+2001-07-20 23:27:44 ....A          660               src\include\cia.h
+2001-10-27 22:19:22 ....A        15297               src\include\compemu.h
+2000-12-03 02:43:56 ....A         2675               src\include\compiler.h
+2001-05-13 02:46:20 ....A       103715               src\comptbl.h
+2001-10-27 22:54:26 ....A       104011               src\gencomp_msvc\comptbl.h
+1998-05-04 17:36:16 ....A         3648               config.h
+2001-03-30 06:35:32 ....A         3226               src\config.h
+1998-08-14 00:00:00 ....A       106786               src\gencpu_msvc\Debug\cputbl.h
+2001-05-13 02:47:40 ....A       237210               src\cputbl.h
+2001-10-27 22:54:24 ....A       237466               src\gencpu_msvc\cputbl.h
+2001-09-21 21:39:40 ....A         4111               src\include\custom.h
+2000-09-10 05:47:06 ....A          209               src\include\cyber64.h
+1997-10-18 08:39:14 ....A          427               src\include\debug.h
+2000-08-19 17:09:54 ....A          780               src\include\disk.h
+2001-07-29 00:36:28 ....A         7906               src\include\drawing.h
+2001-08-25 01:55:16 ....A         3980               src\osdep\dxwrap.h
+1997-10-18 08:39:14 ....A          265               src\include\ersatz.h
+2001-09-27 04:24:16 ....A         5702               src\include\events.h
+1997-08-25 07:47:26 ....A          869               src\include\execlib.h
+2001-05-18 01:41:08 ....A          429               src\osdep\exectasks.h
+2001-10-14 15:17:44 ....A          572               src\include\fdi2raw.h
+2001-09-16 00:14:06 ....A         4134               src\include\filesys.h
+2001-03-20 01:19:56 ....A         3564               src\include\fsdb.h
+1998-06-01 04:10:02 ....A         1459               src\include\fsusage.h
+1997-10-18 08:39:14 ....A          281               src\include\genblitter.h
+2001-09-27 04:26:22 ....A         1398               src\include\gensound.h
+1998-04-25 12:30:38 ....A         4732               src\include\getopt.h
+2000-12-02 22:12:36 ....A          978               src\include\gui.h
+1997-10-18 08:39:16 ....A          295               src\include\joystick.h
+1999-01-01 20:40:20 ....A         2354               src\include\keyboard.h
+1997-10-18 08:39:16 ....A          431               src\include\keybuf.h
+2000-12-03 13:59:06 ....A         6078               src\machdep\m68k.h
+2001-09-16 14:02:08 ....A         5605               src\machdep\maccess.h
+1997-10-18 08:39:16 ....A         3200               src\include\mackbd.h
+1999-10-22 10:27:18 ....A         3301               src\include\md-fpp.h
+1997-03-01 14:14:14 ....A          186               src\osdep\memory.h
+2001-09-15 14:50:40 ....A         7777               src\include\memory.h
+2000-01-20 00:46:16 ....A         1184               src\osdep\midi.h
+2001-03-19 04:14:38 ....A         1100               src\osdep\mman.h
+2000-08-14 23:20:22 ....A         1706               src\include\native2amiga.h
+2001-02-18 04:12:42 ....A         8392               src\include\newcpu.h
+2000-11-02 19:43:16 ....A         4761               src\include\noflags.h
+2001-10-20 03:11:28 ....A         9959               src\include\options.h
+2000-01-09 18:01:14 ....A          343               src\include\osemu.h
+2000-02-02 20:21:00 ....A         3247               src\p2c.h
+2000-02-19 12:26:02 ....A         3247               src\genp2c_msvc\p2c.h
+1999-09-11 13:52:10 ....A          486               src\osdep\parser.h
+2000-10-27 02:07:02 ....A          128               src\include\pciemu.h
+2001-09-16 00:10:50 ....A         5874               src\threaddep\penguin.h
+1999-09-14 19:16:40 ....A        24563               src\p96\picasso96.h
+2001-10-28 01:23:04 ....A        24423               src\include\picasso96.h
+2000-07-03 19:10:16 ....A          232               src\osdep\posixemu.h
+2001-07-28 01:43:24 ....A         2935               src\include\readcpu.h
+2001-10-28 01:15:30 ....A        17806               src\osdep\resource.h
+2001-10-28 01:15:30 ....A        17806               src\winuae_msvc\guidll\resource.h
+2001-03-19 02:29:24 ....A         1345               src\machdep\rpt.h
+2001-08-22 00:12:00 ....A         3015               src\include\savestate.h
+1999-04-23 01:13:50 ....A          283               src\include\scsidev.h
+1997-11-28 06:00:00 ....A          624               src\include\serial.h
+2001-10-20 04:04:04 ....A         1248               src\sounddep\sound.h
+2000-08-27 00:32:10 ....A        11669               src\sysconfig.h
+2001-03-20 01:18:58 ....A        13270               src\include\sysdeps.h
+2001-03-28 01:58:38 ....A          609               src\target.h
+1997-06-03 17:19:24 ....A         1054               src\include\tui.h
+1998-03-15 11:03:00 ....A         1653               amiga\source\uae-control.h
+1999-01-01 20:42:36 ....A         1022               src\include\uae.h
+1997-11-03 14:56:36 ....A          402               src\include\uaeexe.h
+1997-03-03 14:18:46 ....A         1288               amiga\source\uae_pragmas.h
+1999-09-06 00:31:00 ....A        50877               src\osdep\VV.H
+2001-11-03 08:17:46 ....A         2167               src\osdep\win32.h
+2001-02-18 01:54:52 ....A          998               src\osdep\win32gfx.h
+2000-04-17 00:14:18 ....A         1559               src\osdep\win32gui.h
+2001-03-19 04:20:26 ....A       285952               src\include\Winstuff.h
+2000-04-30 20:37:04 ....A         3125               src\include\xwin.h
+1998-07-08 19:55:28 ....A         8089               src\include\zconf.h
+1998-07-01 10:26:24 ....A          265               src\include\zfile.h
+1998-07-09 18:06:56 ....A        41791               src\include\zlib.h
+2001-10-20 04:02:32 ....A        34943               src\audio.c
+2001-10-28 10:57:36 ....A        15171               src\autoconf.c
+2001-03-19 05:31:06 ....A        45601               src\blitfunc.c
+2001-10-27 16:29:54 ....A        45601               src\genblitter_msvc\blitfunc.c
+1998-04-01 14:37:18 ....A        12549               src\blitops.c
+2001-03-19 05:31:08 ....A         2567               src\blittable.c
+2001-10-27 16:29:54 ....A         2567               src\genblitter_msvc\blittable.c
+2001-03-19 01:09:10 ....A        13197               src\blitter.c
+2001-05-22 01:05:48 ....A        46844               src\osdep\bsdsock.c
+2001-05-18 02:23:54 ....A        34749               src\bsdsocket.c
+2001-07-28 01:17:54 ....A         6058               src\build68k.c
+2001-07-07 14:20:12 ....A         4379               src\cd32.c
+2000-08-27 13:04:12 ....A         1752               src\osdep\cestubs.c
+2001-09-16 00:12:56 ....A        39753               src\cfgfile.c
+2001-09-23 01:51:16 ....A        27699               src\cia.c
+2001-05-13 02:46:20 ....A      1737255               src\compemu.c
+2001-10-27 22:54:26 ....A      1748035               src\gencomp_msvc\compemu.c
+2000-08-16 11:05:34 ....A         7926               src\compemu_abandoned.c
+2001-02-18 04:12:46 ....A        37723               src\compemu_fpp.c
+2001-10-27 22:17:00 ....A         3750               src\compemu_optimizer.c
+2000-10-13 16:57:34 ....A        10267               src\compemu_optimizer_x86.c
+2001-06-27 02:35:46 ....A        72437               src\compemu_raw_x86.c
+2001-10-27 22:39:10 ....A       131918               src\compemu_support.c
+2001-06-03 03:54:44 ....A       140294               src\compiler.c
+2001-05-13 02:46:20 ....A       182966               src\compstbl.c
+2001-10-27 22:54:26 ....A       183406               src\gencomp_msvc\compstbl.c
+2000-12-02 23:08:52 ....A         3775               src\comptest.c
+2001-05-13 02:45:24 ....A        26289               src\cpudefs.c
+2001-10-27 16:29:48 ....A        26912               src\build68k_msvc\cpudefs.c
+1998-08-14 00:00:00 ....A      2170505               src\gencpu_msvc\Debug\cpuemu.c
+2001-05-13 02:47:40 ....A      1649726               src\cpuemu.c
+2001-10-27 22:54:24 ....A      1906742               src\gencpu_msvc\cpuemu.c
+2001-10-27 22:54:24 ....A      1906742               src\gencpu_msvc\cpuemu_nf.c
+2000-12-02 21:22:46 ....A         7053               src\cpuopti.c
+1998-08-14 00:00:00 ....A       294781               src\gencpu_msvc\Debug\cpustbl.c
+2001-05-13 02:47:40 ....A       452848               src\cpustbl.c
+2001-10-27 22:54:24 ....A       453036               src\gencpu_msvc\cpustbl.c
+2001-10-27 22:54:24 ....A       453036               src\gencpu_msvc\cpustbl_nf.c
+2001-10-16 01:06:50 ....A       137252               src\custom.c
+2000-10-30 18:52:28 ....A         9214               src\cyber64.c
+2001-03-19 01:41:36 ....A        12708               src\debug.c
+2000-12-02 00:05:42 ....A        62405               src\dga2.c
+2001-11-03 08:16:54 ....A        37036               src\disk.c
+2001-09-23 03:19:56 ....A        55261               src\drawing.c
+2001-03-28 02:14:56 ....A        15216               src\sounddep\dsound.c
+2001-10-17 01:22:40 ....A        58959               src\osdep\dxwrap.c
+2001-07-28 13:17:08 ....A         6208               src\ersatz.c
+2001-10-28 10:54:38 ....A        29949               src\expansion.c
+2001-10-14 15:17:30 ....A        29722               src\fdi2raw.c
+2001-10-29 09:49:40 ....A       118482               src\filesys.c
+2001-05-10 00:54:50 ....A        31464               src\fpp.c
+2001-03-19 02:00:34 ....A         6720               src\fsdb.c
+2001-03-28 03:06:04 ....A         4323               src\osdep\fsdb_win32.c
+2001-09-08 22:04:20 ....A         9201               src\fsusage.c
+2000-06-03 12:28:54 ....A        11552               src\genblitter.c
+2001-07-28 11:14:28 ....A        86046               src\gencomp.c
+2001-10-16 01:08:40 ....A        82637               src\gencpu.c
+2000-01-09 17:41:46 ....A         9596               src\gengenblitter.c
+2000-01-09 20:30:46 ....A        17502               src\genp2c.c
+1998-04-25 12:30:38 ....A        31035               src\getopt.c
+1998-04-25 12:30:38 ....A         4749               src\getopt1.c
+2000-08-26 23:34:14 ....A        49887               src\gfxlib.c
+2001-09-08 22:04:10 ....A        11247               src\gfxutil.c
+1998-06-12 06:52:56 ....A        15878               src\ggi.c
+2000-08-19 17:30:40 ....A        29232               src\gtkui.c
+1999-04-23 01:04:42 ....A         6663               src\hardfile.c
+2001-10-20 13:09:06 ....A         8594               src\osdep\joystick.c
+2001-09-23 01:37:00 ....A        10617               src\osdep\keyboard.c
+2001-03-19 02:02:14 ....A         3953               src\keybuf.c
+2001-03-19 02:02:38 ....A         2406               src\linetoscr.c
+2001-11-19 17:42:00 ....A        17359               src\main.c
+2001-10-28 01:08:24 ....A        29760               src\memory.c
+2001-11-03 08:13:00 ....A        16265               src\osdep\midi.c
+1999-09-06 00:31:00 ....A        20892               src\osdep\MIDIIN.C
+2001-03-19 02:06:12 ....A          834               src\missing.c
+2001-10-20 01:43:34 ....A         5599               src\osdep\mman.c
+1997-03-09 15:54:54 ....A         3326               amiga\source\mousehack.c
+2000-12-02 21:58:20 ....A         2397               src\native2amiga.c
+2000-06-03 12:31:28 ....A        17067               src\ncurses.c
+2001-08-12 13:36:16 ....A        50404               src\newcpu.c
+2000-08-27 12:50:36 ....A          756               src\nogui.c
+2000-02-19 12:26:02 ....A        32113               src\genp2c_msvc\p2c.c
+2001-09-16 03:00:08 ....A        11280               src\osdep\parser.c
+2000-11-22 23:25:16 ....A        19764               src\pcilib.c
+2000-11-15 09:02:02 ....A         6183               src\pcilib_adapter.c
+1999-09-14 19:16:34 ....A       101449               src\p96\picasso96.c
+2001-10-27 23:10:34 ....A       110985               src\picasso96.c
+2001-03-13 00:39:56 ....A        90831               src\picasso96_simple.c
+2001-10-20 01:48:26 ....A        12817               src\osdep\posixemu.c
+2001-07-29 00:18:02 ....A        21787               src\readcpu.c
+2000-12-10 03:54:14 ....A         4927               src\readdisk.c
+2000-12-16 18:26:50 ....A        13453               src\rpc.c
+2001-08-22 00:11:32 ....A        17770               src\savestate.c
+2000-01-09 17:51:12 ....A          483               src\scsi-none.c
+2001-01-13 19:43:30 ....A        24544               src\scsidev.c
+2000-12-29 15:51:52 ....A        11707               src\serial.c
+2001-09-16 11:18:10 ....A         8214               src\osdep\serial.c
+2000-08-22 00:47:06 ....A        12684               src\testwaveout\sound.c
+2001-10-24 07:27:36 ....A        11106               src\sounddep\sound.c
+2000-08-13 01:43:32 ....A         7208               src\sprite.c
+1998-08-20 20:27:28 ....A         6336               src\machdep\support.c
+1999-04-09 02:31:22 ....A        24176               src\svga.c
+1998-05-04 17:36:18 ....A        12305               src\svgancui.c
+1999-04-11 08:24:30 ....A         2151               amiga\source\timehack.c
+1997-06-06 00:52:08 ....A         4339               amiga\source\transdisk.c
+1996-10-31 04:59:10 ....A          673               amiga\source\transrom.c
+1999-10-22 01:57:36 ....A        19298               src\tui.c
+1998-03-15 11:03:00 ....A        15370               amiga\source\uae-control.c
+1997-03-03 14:18:46 ....A         4816               amiga\source\uaectrl.c
+1997-11-28 06:00:00 ....A         2518               src\uaeexe.c
+2001-09-18 22:56:10 ....A        11203               src\uaelib.c
+1997-11-03 12:56:32 ....A         4535               amiga\source\uae_rcli.c
+2000-01-26 23:36:12 ....A          280               src\testwaveout\win32.c
+2001-11-19 17:42:00 ....A        56533               src\osdep\win32.c
+2001-10-20 03:20:18 ....A        42260               src\osdep\win32gfx.c
+2001-10-28 01:16:26 ....A       136235               src\osdep\win32gui.c
+2001-03-19 02:12:00 ....A        54382               src\xwin.c
+2000-10-22 17:57:36 ....A         7603               src\zfile.c
+1999-06-22 12:49:10 ....A         2170               src\customblitter.cpp
+2001-10-28 01:15:30 ....A        39300               src\winuae_msvc\guidll\guidll.rc
+2000-06-11 21:42:30 ....A        41365               src\winuae_msvc\guidll\winuae.rc
+2001-10-28 01:15:30 ....A        39300               src\osdep\winuae.rc
+1999-05-02 20:46:06 ....A           23               src\htmlhelp.def
+2000-01-09 17:41:36 ....A         8354               src\filesys.asm
+1997-03-05 03:53:30 ....A          352               amiga\source\mhint.asm
+2000-03-12 22:19:32 ....A          362               src\winuae_msvc\guidll\guidll.dep
+2000-03-12 22:20:06 ....A         3875               src\winuae_msvc\guidll\guidll.mak
+2001-09-07 03:59:38 ....A         5055               src\build68k_msvc\build68k_msvc.dsp
+2001-07-21 03:46:00 ....A         5324               src\genblitter_msvc\genblitter_msvc.dsp
+2001-07-21 03:46:00 ....A         4973               src\gencomp_msvc\gencomp_msvc.dsp
+2000-12-03 06:10:24 ....A         4156               src\gencpu_msvc\gencpu.dsp
+2000-01-09 21:15:46 ....A         4796               src\genp2c_msvc\genp2c_msvc.dsp
+2000-03-13 22:00:28 ....A         4582               src\winuae_msvc\guidll\guidll.dsp
+2001-09-09 11:12:46 ....A        11453               src\winuae_msvc\winuae.dsp
+1998-08-13 23:54:38 ....A          537               src\gencpu_msvc\gencpu.dsw
+2000-03-12 22:22:14 ....A          535               src\winuae_msvc\guidll\guidll.dsw
+2000-12-02 22:51:54 ....A         2035               src\winuae_msvc\winuae.dsw
+2001-03-25 04:11:34 ....A           62               src\gencpu_msvc\cleanup.bat
+2000-12-03 00:14:08 ....A           54               src\gencpu_msvc\copy.bat
+2000-04-17 11:11:00 ....A           94               src\copyres.bat
+1997-03-01 14:13:36 ....A          375               src\filesys.sh
+1998-07-02 13:56:22 ....A         5770               src\osdep\wcc.sh
+1998-07-01 10:26:26 ....A         1242               src\osdep\wrc.sh
+2001-11-03 08:21:10 ....A        72169               docs\Windows\Readme.txt
+2001-11-19 18:02:12 ....A          757               readme_cd32.txt
+1998-10-05 23:59:50 ....A           85               docs\Windows\Splash.txt
+1998-10-05 22:24:08 ....A         2047               src\winuae_msvc\winuae.rtf
+1998-10-05 22:24:50 ....A         3769               src\winuae_msvc\WINUAE.HLP
+2000-06-03 15:37:22 ....A       299496               src\zlibstat.lib
+1998-08-13 23:56:16 ....A        41984               src\gencpu_msvc\gencpu.ncb
+2000-06-25 18:50:30 ....A        41984               src\winuae_msvc\guidll\guidll.ncb
+1998-09-29 22:05:42 ....A       203560               src\foo.base
+2000-12-02 03:41:28 ....A        11867               src\makefile.bm
+1998-08-07 02:47:36 ....A         5834               config.cache
+1996-05-02 14:50:50 ....A          253               Uae.app\Uae.nib\data.classes
+1998-12-15 18:26:28 ....A          766               src\osdep\H_arrow.cur
+2000-03-12 22:05:48 ....A          766               src\winuae_msvc\guidll\H_arrow.cur
+1997-03-05 05:53:34 ....A         7729               src\Makefile.dos
+1999-05-02 13:55:18 ..H.A         8628               src\winuae_msvc\Winuae.GID
+2000-03-12 22:05:50 ....A         1070               src\winuae_msvc\guidll\resource.hm
+2001-08-12 13:19:32 ....A         1070               src\osdep\resource.hm
+1998-10-05 22:24:46 ....A          131               src\winuae_msvc\winuae.hpj
+1996-05-02 14:50:48 ....A           34               Uae.app\Uae.iconheader
+2000-02-19 12:24:30 ....A        31431               configure.in
+1997-11-28 05:59:56 ....A          284               Makefile.in
+2000-02-19 12:20:08 ....A         7010               src\Makefile.in
+2000-08-19 17:41:56 ....A        10557               src\sysconfig.h.in
+1998-03-15 11:03:00 ....A          927               amiga\uae-control.info
+2001-10-27 22:52:34 ....A         6329               src\winuae.iss
+1998-04-12 07:02:30 ....A        19433               docs\translated\FAQ.ITA
+1998-08-07 02:47:48 ....A         6438               config.log
+1997-10-18 08:39:04 ....A        13874               src\NeXTwin.m
+1998-07-01 10:26:22 ....A        20978               aclocal.m4
+1996-05-02 14:50:50 ....A         3993               Uae.app\Uae.nib\data.nib
+1999-04-03 15:11:32 ....A          186               src\winuae_msvc.nmp
+2000-01-09 20:14:48 ....A        16939               docs\README.PROGRAMMERS
+1998-08-16 03:39:38 ....A          164               src\uae.rc1
+2000-03-15 00:42:52 ....A        32012               src\winuae_msvc\guidll\Debug\guidll.res
+2000-06-25 18:49:32 ....A        38864               src\winuae_msvc\guidll\Release\guidll.res
+2001-10-28 01:15:30 ....A        39332               src\winuae_msvc\Release\winuae.res
+2001-10-28 15:49:44 ....A        39332               src\winuae_msvc\Debug\winuae.res
+1999-09-09 00:38:10 ....A        17882               src\machdep\blah.s
+2000-02-02 20:21:14 ....A        51897               src\p2c_x86.S
+2000-02-19 12:26:02 ....A        51409               src\genp2c_msvc\p2c_x86.s
+2000-08-13 00:34:38 ....A         4649               src\machdep\x86.S
+2000-02-19 13:06:52 ....A         2503               src\x86out.s
+1998-08-07 02:47:40 ....A        14709               config.status
+1999-04-03 15:11:22 ....A           49               src\genblitter_msvc\genblitter_msvc.stt
+1999-04-03 15:11:22 ....A           40               src\gencpu_msvc\gencpu.stt
+1999-04-03 15:11:22 ....A          150               src\winuae_msvc\winuae.stt
+2001-10-28 15:57:38 ....A           76               src\winuae_msvc\Debug\winuae.SUP
+1998-09-26 23:33:12 ....A           98               src\winuae_msvc\Debug\winuae_app.SUP
+1998-06-26 11:23:32 ....A        17813               docs\translated\FAQ.SWE
+1999-04-18 12:00:50 ....A        67072               src\winuae_msvc\~VC32.tmp
+1999-04-03 15:06:32 ....A       112044               src\gencpu_msvc\gencpu.tts
+2000-08-27 18:46:28 ....A          274               src\winuae_pocketpc\winuae_pocketpc.vcl
+2000-08-27 18:46:04 ....A        66048               src\winuae_pocketpc\winuae_pocketpc.vco
+2000-08-27 18:45:36 ....A       154077               src\winuae_pocketpc\winuae_pocketpc.vcp
+2000-08-26 21:05:56 ....A          558               src\winuae_pocketpc\winuae_pocketpc.vcw
+1997-02-25 18:19:46 ....A          964               src\include\sysconfig.h.win32
+1996-05-02 14:50:48 ....A          277               Uae.app\.dir3_0.wmd
+1996-05-02 14:50:48 ....A          308               Uae.app\Uae.nib\.dir3_0.wmd
+1998-05-15 13:04:58 ....A         5648               src\Makefile.xf86os2
+1996-07-23 12:18:48 ....A         4132               src\include\sysconfig.h.xf86os2
+2001-05-28 18:03:18 ....A        49152        38465  src\WinUAE_French.dll
+2001-07-23 01:30:00 ....A        49152               src\WinUAE_German.dll
+2000-09-18 04:16:30 ....A        49152               src\WinUAE_Turkish.dll
+1998-12-04 03:33:36 ....A        69632               src\ZLIB.DLL
+1999-03-23 00:13:36 ....A            0            0  src\blah.c
+1998-08-12 00:40:48 ....A            0            0  src\cannon.at
+2016-12-03 15:29:27 D...A            0            0  Uae.app\Uae.nib
+2016-12-03 15:29:27 D...A            0            0  Uae.app
+2016-12-03 15:29:27 D...A            0            0  src\winuae_pocketpc\X86EMDbg
+2016-12-03 15:29:27 D...A            0            0  src\winuae_pocketpc\MIPSDbg
+2016-12-03 15:29:27 D...A            0            0  src\winuae_pocketpc\ARMRel
+2016-12-03 15:29:27 D...A            0            0  src\winuae_pocketpc\ARMDbg
+2016-12-03 15:29:27 D...A            0            0  src\winuae_pocketpc
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\Release\Configurations
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\Release
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\guidll\Release
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\guidll\Debug
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\guidll
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\Debug\Configurations
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\winuae_msvc
+2016-12-03 15:29:27 D...A            0            0  src\threaddep
+2016-12-03 15:29:27 D...A            0            0  src\testwaveout
+2016-12-03 15:29:27 D...A            0            0  src\sounddep
+2016-12-03 15:29:27 D...A            0            0  src\p96
+2016-12-03 15:29:27 D...A            0            0  src\Output
+2016-12-03 15:29:27 D...A            0            0  src\osdep
+2016-12-03 15:29:27 D...A            0            0  src\machdep\New Folder
+2016-12-03 15:29:27 D...A            0            0  src\machdep
+2016-12-03 15:29:27 D...A            0            0  src\include
+2016-12-03 15:29:27 D...A            0            0  src\genp2c_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\genp2c_msvc
+2016-12-03 15:29:27 D...A            0            0  src\gencpu_msvc\Release
+2016-12-03 15:29:27 D...A            0            0  src\gencpu_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\gencpu_msvc
+2016-12-03 15:29:27 D...A            0            0  src\gencomp_msvc\Release
+2016-12-03 15:29:27 D...A            0            0  src\gencomp_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\gencomp_msvc
+2016-12-03 15:29:27 D...A            0            0  src\genblitter_msvc\Release
+2016-12-03 15:29:27 D...A            0            0  src\genblitter_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\genblitter_msvc
+2016-12-03 15:29:27 D...A            0            0  src\Debug
+2016-12-03 15:29:27 D...A            0            0  src\Configurations\Debug
+2016-12-03 15:29:27 D...A            0            0  src\Configurations
+2016-12-03 15:29:27 D...A            0            0  src\build68k_msvc\Release
+2016-12-03 15:29:27 D...A            0            0  src\build68k_msvc\Debug
+2016-12-03 15:29:27 D...A            0            0  src\build68k_msvc
+2016-12-03 15:29:27 D...A            0            0  src\aga
+2016-12-03 15:29:27 D...A            0            0  src
+2016-12-03 15:29:27 D...A            0            0  old_src\threaddep
+2016-12-03 15:29:27 D...A            0            0  old_src\td-posix
+2016-12-03 15:29:27 D...A            0            0  old_src\td-none
+2016-12-03 15:29:27 D...A            0            0  old_src\targets
+2016-12-03 15:29:27 D...A            0            0  old_src\sounddep
+2016-12-03 15:29:27 D...A            0            0  old_src\sd-uss
+2016-12-03 15:29:27 D...A            0            0  old_src\sd-solaris
+2016-12-03 15:29:27 D...A            0            0  old_src\sd-mme
+2016-12-03 15:29:27 D...A            0            0  old_src\sd-file
+2016-12-03 15:29:27 D...A            0            0  old_src\sd-af
+2016-12-03 15:29:27 D...A            0            0  old_src\osdep
+2016-12-03 15:29:27 D...A            0            0  old_src\od-win32
+2016-12-03 15:29:27 D...A            0            0  old_src\od-pOS
+2016-12-03 15:29:27 D...A            0            0  old_src\od-macos
+2016-12-03 15:29:27 D...A            0            0  old_src\od-linux
+2016-12-03 15:29:27 D...A            0            0  old_src\od-generic
+2016-12-03 15:29:27 D...A            0            0  old_src\od-dos\video
+2016-12-03 15:29:27 D...A            0            0  old_src\od-dos\sound
+2016-12-03 15:29:27 D...A            0            0  old_src\od-dos\misc
+2016-12-03 15:29:27 D...A            0            0  old_src\od-dos
+2016-12-03 15:29:27 D...A            0            0  old_src\od-beos
+2016-12-03 15:29:27 D...A            0            0  old_src\od-amiga
+2016-12-03 15:29:27 D...A            0            0  old_src\od-acorn
+2016-12-03 15:29:27 D...A            0            0  old_src\md-ppc-gcc
+2016-12-03 15:29:27 D...A            0            0  old_src\md-ppc
+2016-12-03 15:29:27 D...A            0            0  old_src\md-i386-watcom
+2016-12-03 15:29:27 D...A            0            0  old_src\md-i386-gcc
+2016-12-03 15:29:27 D...A            0            0  old_src\md-generic
+2016-12-03 15:29:27 D...A            0            0  old_src\md-arm
+2016-12-03 15:29:27 D...A            0            0  old_src\md-68k
+2016-12-03 15:29:27 D...A            0            0  old_src\machdep
+2016-12-03 15:29:27 D...A            0            0  old_src
+2016-12-03 15:29:27 D...A            0            0  docs\Windows
+2016-12-03 15:29:27 D...A            0            0  docs\translated
+2016-12-03 15:29:27 D...A            0            0  docs
+2016-12-03 15:29:27 D...A            0            0  amiga\source
+2016-12-03 15:29:27 D...A            0            0  amiga
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 15:29:27           20294475      1263790  359 files, 80 folders

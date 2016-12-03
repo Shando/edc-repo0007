@@ -1,0 +1,4 @@
+0.88:
+  * Updated: Rewrote 2600 TIA sprite positioning code, resolving some known issues
+  * Updated: Moved to .NET Framework 3.5
+  * Updated: SDL.dll to version 1.2.13

@@ -1,0 +1,71 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2003-09-06 07:25:52 ....A         1078       270521  src\Icon1.ico
+1997-11-03 16:58:32 ....A         4096               roms\OYSTR29.BIN
+2004-01-12 22:58:12 ....A         4219               src\EMU7800Audio\EMU7800Audio.c
+2003-12-28 16:26:26 ....A         2170               src\AddressSpace.cs
+2004-01-13 07:27:56 ....A         1821               src\Audio.cs
+2004-01-13 21:32:22 ....A        23134               src\Carts.cs
+2004-01-13 22:17:38 ....A         1704               src\CommandLine.cs
+2004-01-13 21:59:54 ....A         4696               src\UI\ControlPanelForm.cs
+2004-01-08 13:08:36 ....A         3000               src\FontRenderer.cs
+2004-01-13 17:46:52 ....A        11405               src\UI\GameSelectPage.cs
+2004-01-08 22:31:44 ....A         3570               src\GameSettings.cs
+2004-01-13 07:30:24 ....A         4632               src\Globals.cs
+2004-01-13 22:29:52 ....A         9358               src\UI\GreenScreen.cs
+2004-01-13 07:52:38 ....A        13209               src\HostGDI.cs
+2004-01-12 23:06:30 ....A        36595               src\HostSDL.cs
+2003-10-30 17:54:20 ....A          317               src\IDevice.cs
+2003-12-28 16:12:50 ....A          298               src\IHost.cs
+2004-01-08 22:24:18 ....A        12065               src\InputAdapters.cs
+2003-12-27 09:48:40 ....A          798               src\Log.cs
+2003-12-28 16:25:02 ....A        29270               src\M6502.cs
+2003-12-20 10:43:48 ....A         8372               src\M6502DASM.cs
+2003-12-30 11:42:48 ....A         2360               src\Machine.cs
+2004-01-06 07:25:40 ....A         4043               src\Machine2600.cs
+2003-12-28 16:27:34 ....A          436               src\NullDevice.cs
+2003-12-28 16:26:10 ....A         3189               src\PIA.cs
+2004-01-06 10:22:24 ....A         6437               src\Rectangulator.cs
+2004-01-12 23:06:42 ....A         1816               src\UI\SettingsPage.cs
+2004-01-06 17:06:04 ....A        25663               src\TIA.cs
+2003-11-14 19:12:54 ....A        10801               src\TIASound.cs
+2003-11-14 19:10:54 ....A        22080               src\TIATables.cs
+2004-01-13 07:30:58 ....A         9518               src\EMU7800.csproj
+2004-01-12 22:14:06 ....A         2841               src\EMU7800Audio\EMU7800Audio.vcproj
+2004-01-01 21:49:18 ....A          910               src\EMU7800.sln
+2004-01-12 15:29:22 ....A          924               src\EMU7800Audio\EMU7800Audio.sln
+2003-11-07 05:52:36 ....A         2662               src\Documentation\6502 BCD.txt
+2003-11-06 05:42:32 ....A        49808               src\Documentation\7800 Software Guide.txt
+2003-12-21 07:21:50 ....A          735               src\Documentation\a78headerformat.txt
+2003-10-30 16:02:12 ....A        96641               src\Documentation\CartFormats_KevinHorton.txt
+2003-03-09 23:38:46 ....A        18336               Documentation\LICENSE.TXT
+2004-01-13 17:19:34 ....A           46               outdir\outdir.txt
+2003-10-27 06:14:14 ....A         9706               Documentation\oystron.txt
+2003-12-01 16:46:32 ....A          702               src\Documentation\Re TIA Hardware Notes.txt
+2004-01-01 23:11:56 ....A          434               Documentation\READ-SDL.TXT
+2004-01-13 19:03:52 ....A        11082               Documentation\README.TXT
+2004-01-08 12:57:32 ....A       161230               src\ROMProperties.txt
+2003-10-24 19:33:10 ....A        12968               src\Documentation\TIASound_RonFries.txt
+2003-10-30 16:03:20 ....A        46602               src\Documentation\TIA_HW_Notes_AndrewTowers.txt
+2004-01-08 12:57:36 ....A      2928640               src\ROMProperties\ROMProperties.mdb
+2004-01-03 08:50:58 ....A        37036               src\EMU7800Audio\SDL.lib
+2001-06-03 02:13:34 ....A        46562               src\EMU7800Audio\WinMM.Lib
+2003-09-06 07:17:12 ....A           88               src\Icon1.pal
+2004-01-06 16:46:54 ....A          207               src\BUILD.RSP
+2004-01-13 22:30:08 ..H.A         6656               src\EMU7800.suo
+2004-01-12 22:59:54 ..H.A         7680               src\EMU7800Audio\EMU7800Audio.suo
+2004-01-13 22:30:08 ....A         2478               src\EMU7800.csproj.user
+2004-01-13 22:30:38 ....A       315392       318888  EMU7800.exe
+2004-01-12 22:58:16 ....A         5632               EMU7800Audio.dll
+2002-01-05 03:37:26 ....A       344064               msvcr70.dll
+2004-01-03 08:50:58 ....A       192512               SDL.dll
+2016-12-03 14:18:31 D....            0            0  src\UI
+2016-12-03 14:18:31 D....            0            0  src\ROMProperties
+2016-12-03 14:18:31 D....            0            0  src\EMU7800Audio
+2016-12-03 14:18:31 D....            0            0  src\Documentation
+2016-12-03 14:18:31 D....            0            0  src
+2016-12-03 14:18:31 D....            0            0  roms
+2016-12-03 14:18:31 D....            0            0  outdir
+2016-12-03 14:18:31 D....            0            0  Documentation
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 14:18:31            4564724       589409  59 files, 8 folders

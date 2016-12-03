@@ -1,0 +1,41 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2010-06-27 11:47:50 ....A         4865       458811  README\images\adventure26.JPG
+2010-06-27 11:47:50 ....A         2780               README\images\asteroids26.JPG
+2010-06-27 11:47:50 ....A         5774               README\images\asteroids78.JPG
+2010-06-27 11:47:50 ....A         5663               README\images\breakout26.JPG
+2010-06-27 11:46:14 ....A         4506               README\images\combat26.JPG
+2010-06-27 11:47:50 ....A         6953               README\images\cosmicark26.JPG
+2010-06-27 11:47:50 ....A        19313               README\images\darkchambers78.JPG
+2010-06-27 11:47:50 ....A        16969               README\images\dkongjr78.JPG
+2010-06-27 11:47:50 ....A         8734               README\images\earthdiesscreaming26.JPG
+2010-06-27 11:47:50 ....A        71171               README\images\EMU7800Console.JPG
+2010-06-27 11:47:50 ....A        58581               README\images\EMU7800GameSelect.JPG
+2010-06-27 11:47:50 ....A       130648               README\images\EMU7800Help.JPG
+2010-06-27 11:47:50 ....A        59977               README\images\EMU7800OpenFile.JPG
+2010-06-27 11:47:50 ....A        28047               README\images\EMU7800Settings.JPG
+2010-06-27 11:47:50 ....A        10075               README\images\frogger26.JPG
+2010-06-27 11:47:50 ....A         8753               README\images\gijoe26.JPG
+2010-06-27 11:47:50 ....A        26165               README\images\impossiblemission78.JPG
+2010-06-27 11:47:50 ....A         8192               README\images\joust78.JPG
+2010-06-27 11:47:50 ....A        11826               README\images\mariobros78.JPG
+2010-06-27 11:47:50 ....A        17592               README\images\mspacman78.JPG
+2010-06-27 11:47:50 ....A         4602               README\images\omegarace26.JPG
+2010-06-27 11:47:50 ....A         7560               README\images\oystron26.JPG
+2010-06-27 11:47:50 ....A         5610               README\images\robotron78.JPG
+2010-06-27 11:47:50 ....A        17687               README\images\summergames78.JPG
+2010-06-27 11:47:50 ....A         4096               roms\OYSTR29.BIN
+2010-06-27 11:47:50 ....A        35226               README\README.html
+2010-06-27 11:47:50 ....A        18331               LICENSE.TXT
+2010-06-27 11:47:50 ....A         1070               EMU7800.Win.exe.config
+2010-06-27 11:47:50 ....A       189177               ROMProperties.csv
+2010-06-27 11:47:50 ....A       751379       756097  src\EMU7800-v0.95-src.exe
+2010-06-27 11:47:50 ....A       128512               EMU7800.Win.exe
+2010-06-27 11:47:50 ....A       114688               EMU7800.Core.DLL
+2010-06-27 11:47:50 ....A        23040               EMU7800.DirectX.dll
+2016-12-03 13:21:24 D....            0            0  roms
+2016-12-03 13:21:24 D....            0            0  README\images
+2016-12-03 13:21:24 D....            0            0  README
+2016-12-03 13:21:24 D....            0            0  src
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 13:21:24            1807562      1214908  33 files, 4 folders

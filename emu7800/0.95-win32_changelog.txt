@@ -1,0 +1,4 @@
+v.95
+  * Updated: Internal refactoring to make the emulator core more platform neutral 
+  * Updated: Moved to .NET Framework 4.0 
+  * Updated: DirectX dependencies to SDK June 2010 

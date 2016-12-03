@@ -1,0 +1,203 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 15:22:02 ....A       999424      5574547  WinUAE\Akiko
+2016-12-03 15:22:02 ....A        10480               WinUAE\Docs\Translated\Czytajto
+2016-12-03 15:22:02 ....A        35364               WinUAE\Docs\Translated\L-s_mig
+2016-12-03 15:22:02 ....A        32896               WinUAE\Docs\Translated\Leggimi
+2016-12-03 15:22:02 ....A         8375               WinUAE\Docs\Translated\Liesmich
+2016-12-03 15:22:02 ....A         3583               WinUAE\Docs\Whatsnew-jit
+2016-12-03 15:22:02 ....A       358741               Akiko.chm
+2016-12-03 15:22:02 ....A        23703               Images\Other\CD32 CD Audio Player.jpg
+2016-12-03 15:22:02 ....A        22894               Images\Other\CD32 Main Menu.jpg
+2016-12-03 15:22:02 ....A        25659               Images\Other\CDTV CD Audio Player.jpg
+2016-12-03 15:22:02 ....A        20232               Images\Other\CDTV Main Menu.jpg
+2016-12-03 15:22:02 ....A        15007               Images\CD32\Default.jpg
+2016-12-03 15:22:02 ....A        20676               Images\CDTV\Default.jpg
+2016-12-03 15:22:02 ....A        27504               Images\Other\Video CD.jpg
+2016-12-03 15:22:02 ....A        30001               Akiko.key
+2016-12-03 15:22:02 ....A         1076               WinUAE\Docs\Windows\AmigaProg.txt
+2016-12-03 15:22:02 ....A        42787               WinUAE\Docs\History_old.txt
+2016-12-03 15:22:02 ....A        33185               WinUAE\Docs\Readme.txt
+2016-12-03 15:22:02 ....A         5580               WinUAE\Docs\Windows\UAEHowTo.txt
+2016-12-03 15:22:02 ....A        50414               Images\CD32\Akira.aki
+2016-12-03 15:22:02 ....A        34091               Images\CD32\Alfred Chicken.aki
+2016-12-03 15:22:02 ....A        26338               Images\CD32\Alien Breed 2.aki
+2016-12-03 15:22:02 ....A        63141               Images\CD32\Alien Breed 3D.aki
+2016-12-03 15:22:02 ....A        57426               Images\CD32\Alien Breed Special Edition '92.aki
+2016-12-03 15:22:02 ....A        37107               Images\CD32\All Terrain Racing.aki
+2016-12-03 15:22:02 ....A        22689               Images\CD32\Amiga CD Football.aki
+2016-12-03 15:22:02 ....A        52395               Images\CD32\Arabian Nights.aki
+2016-12-03 15:22:02 ....A        32746               Images\CD32\Arcade Pool.aki
+2016-12-03 15:22:02 ....A        39135               Images\CD32\Assassins.aki
+2016-12-03 15:22:02 ....A        36501               Images\CD32\Banshee.aki
+2016-12-03 15:22:02 ....A        25974               Images\CD32\Base Jumpers.aki
+2016-12-03 15:22:02 ....A        41715               Images\CD32\Battle Chess.aki
+2016-12-03 15:22:02 ....A        37263               Images\CD32\Battletoads.aki
+2016-12-03 15:22:02 ....A        43370               Images\CD32\Beavers.aki
+2016-12-03 15:22:02 ....A        43911               Images\CD32\Beneath a Steel Sky.aki
+2016-12-03 15:22:02 ....A        48093               Images\CD32\Benefactor.aki
+2016-12-03 15:22:02 ....A        27134               Images\CD32\Black Viper.aki
+2016-12-03 15:22:02 ....A        27751               Images\CD32\Brian The Lion.aki
+2016-12-03 15:22:02 ....A        43583               Images\CD32\Brutal Sports Football.aki
+2016-12-03 15:22:02 ....A        29202               Images\CD32\Bubba'n'Stix.aki
+2016-12-03 15:22:02 ....A        21977               Images\CD32\Bubble & Squeak.aki
+2016-12-03 15:22:02 ....A        36422               Images\CD32\Bump'n'Burn.aki
+2016-12-03 15:22:02 ....A        27937               Images\CD32\Cannon Fodder.aki
+2016-12-03 15:22:02 ....A        19078               Images\CD32\Castles 2.aki
+2016-12-03 15:22:02 ....A        23310               Images\CD32\Cedric.aki
+2016-12-03 15:22:02 ....A        28565               Images\CD32\Chambers of Shaolin.aki
+2016-12-03 15:22:02 ....A        46847               Images\CD32\Chuck Rock 2.aki
+2016-12-03 15:22:02 ....A        31470               Images\CD32\Chuck Rock.aki
+2016-12-03 15:22:02 ....A        26022               Images\CDTV\Classic Board Games.aki
+2016-12-03 15:22:02 ....A        29468               Images\CDTV\Cubulus & Magic Serpent.aki
+2016-12-03 15:22:02 ....A        31830               Images\CD32\D-Generation.aki
+2016-12-03 15:22:02 ....A        27482               Images\CD32\Dangerous Streets.aki
+2016-12-03 15:22:02 ....A        21454               Images\CD32\Darkseed.aki
+2016-12-03 15:22:02 ....A        38586               Images\CD32\Death Mask.aki
+2016-12-03 15:22:02 ....A        30506               Images\CD32\Deepcore.aki
+2016-12-03 15:22:02 ....A        27814               Images\CD32\Defender of the Crown 2.aki
+2016-12-03 15:22:02 ....A        34298               Images\CDTV\Defender Of The Crown 2.aki
+2016-12-03 15:22:02 ....A        35613               Images\CD32\Dennis.aki
+2016-12-03 15:22:02 ....A        33913               Images\CD32\Der Clou.aki
+2016-12-03 15:22:02 ....A        47249               Images\CD32\Disposable Hero.aki
+2016-12-03 15:22:02 ....A        31186               Images\CD32\Donk.aki
+2016-12-03 15:22:02 ....A        35927               Images\CD32\Dragonstone.aki
+2016-12-03 15:22:02 ....A        39372               Images\CD32\Emerald Mines.aki
+2016-12-03 15:22:02 ....A        28070               Images\CD32\Erben der Erde.aki
+2016-12-03 15:22:02 ....A        30573               Images\CD32\F17 Challenge (Bundle CD).aki
+2016-12-03 15:22:02 ....A        37209               Images\CD32\Fantastic Voyage.aki
+2016-12-03 15:22:02 ....A        32676               Images\CDTV\Fantastic Voyage.aki
+2016-12-03 15:22:02 ....A        62145               Images\CD32\Fears (UK).aki
+2016-12-03 15:22:02 ....A        32725               Images\CD32\Fields Of Glory.aki
+2016-12-03 15:22:02 ....A        35559               Images\CD32\Fightin Spirit.aki
+2016-12-03 15:22:02 ....A        28206               Images\CD32\Fire & Ice.aki
+2016-12-03 15:22:02 ....A        28280               Images\CD32\Fireforce.aki
+2016-12-03 15:22:02 ....A        40691               Images\CD32\Flink.aki
+2016-12-03 15:22:02 ....A        42971               Images\CD32\Fly Harder.aki
+2016-12-03 15:22:02 ....A        28243               Images\CD32\Frontier.aki
+2016-12-03 15:22:02 ....A        32700               Images\CD32\Fury Of The Furries.aki
+2016-12-03 15:22:02 ....A        35406               Images\CD32\Global Effect.aki
+2016-12-03 15:22:02 ....A        40635               Images\CD32\Gloom.aki
+2016-12-03 15:22:02 ....A        36786               Images\CD32\Grandslam Gamer Gold.aki
+2016-12-03 15:22:02 ....A        33919               Images\CD32\Guardian.aki
+2016-12-03 15:22:02 ....A        19771               Images\CD32\Gulp!.aki
+2016-12-03 15:22:02 ....A        26201               Images\CD32\GunShip 2000.aki
+2016-12-03 15:22:02 ....A        28473               Images\CD32\Heimdall 2.aki
+2016-12-03 15:22:02 ....A        25707               Images\CD32\Impossible Mission 2025.aki
+2016-12-03 15:22:02 ....A        44536               Images\CDTV\Indiana Jones and the Last Crusade.aki
+2016-12-03 15:22:02 ....A        28088               Images\CD32\Insight Technology.aki
+2016-12-03 15:22:02 ....A        30769               Images\CD32\International Karate.aki
+2016-12-03 15:22:02 ....A        24896               Images\CD32\James Pond 2.aki
+2016-12-03 15:22:02 ....A        30451               Images\CD32\James Pond 3.aki
+2016-12-03 15:22:02 ....A        21263               Images\CD32\Jetstrike.aki
+2016-12-03 15:22:02 ....A        33185               Images\CD32\John Barnes European Football.aki
+2016-12-03 15:22:02 ....A        29568               Images\CD32\Jungle Strike.aki
+2016-12-03 15:22:02 ....A        22208               Images\CD32\Kid Chaos.aki
+2016-12-03 15:22:02 ....A        29063               Images\CD32\Kingpin Bowling.aki
+2016-12-03 15:22:02 ....A        30795               Images\CD32\Labyrinth Of Time.aki
+2016-12-03 15:22:02 ....A        27899               Images\CD32\Lamborghini American Challenge.aki
+2016-12-03 15:22:02 ....A        22668               Images\CD32\Last Ninja III.aki
+2016-12-03 15:22:02 ....A        46488               Images\CD32\Legacy of Sorasil.aki
+2016-12-03 15:22:02 ....A        31143               Images\CD32\Legends.aki
+2016-12-03 15:22:02 ....A        46814               Images\CDTV\Lemmings.aki
+2016-12-03 15:22:02 ....A        22813               Images\CD32\Liberation.aki
+2016-12-03 15:22:02 ....A        44598               Images\CD32\Litil Divil.aki
+2016-12-03 15:22:02 ....A        30611               Images\CD32\Lost Vikings.aki
+2016-12-03 15:22:02 ....A        27011               Images\CD32\Lotus Trilogy.aki
+2016-12-03 15:22:02 ....A        24387               Images\CD32\Manchester United P.L.C..aki
+2016-12-03 15:22:02 ....A        39260               Images\CD32\Marvin's Marvellous Adventure.aki
+2016-12-03 15:22:02 ....A        32803               Images\CD32\Mathematik.aki
+2016-12-03 15:22:02 ....A        32249               Images\CD32\Mean Arenas.aki
+2016-12-03 15:22:02 ....A        15640               Images\CD32\Microcosm.aki
+2016-12-03 15:22:02 ....A        35910               Images\CD32\Morph.aki
+2016-12-03 15:22:02 ....A        36165               Images\CD32\Myth.aki
+2016-12-03 15:22:02 ....A        39424               Images\CD32\Naughty Ones.aki
+2016-12-03 15:22:02 ....A        31432               Images\CD32\Nick Faldo Golf.aki
+2016-12-03 15:22:02 ....A        26327               Images\CD32\Nigel Mansell.aki
+2016-12-03 15:22:02 ....A        21561               Images\CD32\Oscar (Bundle CD).aki
+2016-12-03 15:22:02 ....A        35166               Images\CD32\Oscar.aki
+2016-12-03 15:22:02 ....A        53112               Images\CD32\Out to Lunch.aki
+2016-12-03 15:22:02 ....A        37275               Images\CD32\Overkill.aki
+2016-12-03 15:22:02 ....A        16780               Images\CD32\PGA European Tour.aki
+2016-12-03 15:22:02 ....A        28948               Images\CD32\Photo Lite.aki
+2016-12-03 15:22:02 ....A        36097               Images\CD32\Pinball Fantasies.aki
+2016-12-03 15:22:02 ....A        21085               Images\CD32\Pinball Illusions.aki
+2016-12-03 15:22:02 ....A        14265               Images\CD32\Pinball Prelude.aki
+2016-12-03 15:22:02 ....A        40312               Images\CD32\Pirates Gold.aki
+2016-12-03 15:22:02 ....A        37230               Images\CD32\Premiere.aki
+2016-12-03 15:22:02 ....A        23969               Images\CD32\Prey.aki
+2016-12-03 15:22:02 ....A        34839               Images\CD32\Project X (F17 Challenge-Bundle).aki
+2016-12-03 15:22:02 ....A        31124               Images\CD32\Quik.aki
+2016-12-03 15:22:02 ....A        31510               Images\CD32\Qwak.aki
+2016-12-03 15:22:02 ....A        23042               Images\CD32\Rise of the Robots.aki
+2016-12-03 15:22:02 ....A        27208               Images\CD32\Roadkill.aki
+2016-12-03 15:22:02 ....A        23239               Images\CD32\Sabre Team.aki
+2016-12-03 15:22:02 ....A        24313               Images\CD32\Seek & Destroy.aki
+2016-12-03 15:22:02 ....A        32043               Images\CD32\Sensible Soccer.aki
+2016-12-03 15:22:02 ....A        33945               Images\CD32\Shadow Fighter.aki
+2016-12-03 15:22:02 ....A        27770               Images\CD32\Sharks!.aki
+2016-12-03 15:22:02 ....A        35773               Images\CD32\Silly Putty.aki
+2016-12-03 15:22:02 ....A        39728               Images\CD32\Simon the Sorcerer.aki
+2016-12-03 15:22:02 ....A        33861               Images\CD32\Skeleton Krew.aki
+2016-12-03 15:22:02 ....A        22404               Images\CD32\Sleepwalker (Bundle CD).aki
+2016-12-03 15:22:02 ....A        38218               Images\CD32\Sleepwalker.aki
+2016-12-03 15:22:02 ....A        29814               Images\CD32\Soccer Kid.aki
+2016-12-03 15:22:02 ....A        30059               Images\CD32\Speedball 2.aki
+2016-12-03 15:22:02 ....A        25300               Images\CD32\Speris Legacy.aki
+2016-12-03 15:22:02 ....A        27542               Images\CD32\Star Crusader.aki
+2016-12-03 15:22:02 ....A        40496               Images\CD32\Striker.aki
+2016-12-03 15:22:02 ....A        20674               Images\CD32\Subwar 2050.aki
+2016-12-03 15:22:02 ....A        25249               Images\CD32\Summer Olympics.aki
+2016-12-03 15:22:02 ....A        28126               Images\CD32\Super Methane Brothers.aki
+2016-12-03 15:22:02 ....A        32300               Images\CD32\Super Skidmarks.aki
+2016-12-03 15:22:02 ....A        25983               Images\CD32\Super Stardust.aki
+2016-12-03 15:22:02 ....A        40102               Images\CD32\Super Street Fighter II Turbo.aki
+2016-12-03 15:22:02 ....A        23670               Images\CD32\Superfrog.aki
+2016-12-03 15:22:02 ....A        29954               Images\CD32\Syndicate.aki
+2016-12-03 15:22:02 ....A        42113               Images\CD32\The Big 6.aki
+2016-12-03 15:22:02 ....A        23612               Images\CD32\The Chaos Engine.aki
+2016-12-03 15:22:02 ....A        27490               Images\CD32\The Guiness Disc Of Records 2nd Edition.aki
+2016-12-03 15:22:02 ....A        29048               Images\CDTV\The Hound Of The Baskervilles.aki
+2016-12-03 15:22:02 ....A        23610               Images\CD32\The Humans.aki
+2016-12-03 15:22:02 ....A        31244               Images\CDTV\The New Basics Electronic Cookbook.aki
+2016-12-03 15:22:02 ....A        26281               Images\CD32\The Seven Gates Of Jambala.aki
+2016-12-03 15:22:02 ....A        31674               Images\CD32\Theme Park.aki
+2016-12-03 15:22:02 ....A        36959               Images\CD32\Thomas The Tank Engine Pinball.aki
+2016-12-03 15:22:02 ....A        25059               Images\CD32\Top Gear 2.aki
+2016-12-03 15:22:02 ....A        38230               Images\CD32\Total Carnage.aki
+2016-12-03 15:22:02 ....A        25150               Images\CD32\Tower Assault.aki
+2016-12-03 15:22:02 ....A        38594               Images\CD32\Trolls.aki
+2016-12-03 15:22:02 ....A        25647               Images\CD32\Turbo Trax.aki
+2016-12-03 15:22:02 ....A        25298               Images\CD32\UFO - Enemy Unknown.aki
+2016-12-03 15:22:02 ....A        28500               Images\CD32\Ultimate Body Blows (Bundle CD).aki
+2016-12-03 15:22:02 ....A        35365               Images\CD32\Ultimate Body Blows.aki
+2016-12-03 15:22:02 ....A        41056               Images\CD32\Universe.aki
+2016-12-03 15:22:02 ....A        28539               Images\CD32\Video Creator.aki
+2016-12-03 15:22:02 ....A        47653               Images\CD32\Vital Light.aki
+2016-12-03 15:22:02 ....A        25202               Images\CDTV\Welcome Disk.aki
+2016-12-03 15:22:02 ....A        19291               Images\CD32\Wembley International Soccer.aki
+2016-12-03 15:22:02 ....A        28000               Images\CD32\Wendetta.aki
+2016-12-03 15:22:02 ....A        62039               Images\CD32\Whale's Voyage.aki
+2016-12-03 15:22:02 ....A        29625               Images\CD32\Wing Commander (Bundle CD).aki
+2016-12-03 15:22:02 ....A        24501               Images\CD32\Worms.aki
+2016-12-03 15:22:02 ....A        31894               Images\CD32\Zool 2.aki
+2016-12-03 15:22:02 ....A        29646               Images\CD32\Zool.aki
+2016-12-03 15:22:02 ....A        22018               WinUAE\Docs\README.compemu
+2016-12-03 15:22:02 ....A        19759               WinUAE\Docs\Translated\Faq.ita
+2016-12-03 15:22:02 ....A         7631               WinUAE\Docs\README.JIT-tuning
+2016-12-03 15:22:02 ....A        18187               WinUAE\Docs\README.pci
+2016-12-03 15:22:02 ....A        17813               WinUAE\Docs\Translated\Faq.swe
+2016-12-03 15:22:02 ....A        14346               WinUAE\Docs\README.umisef
+2016-12-03 15:22:02 ....A      2035712       454892  WinUAE\WinUAE.exe
+2016-12-03 15:22:02 ....A       225280               WinUAE\SDL.dll
+2016-12-03 15:22:02 ....A        53760               WinUAE\zlib.dll
+2016-12-03 15:22:02 D....            0            0  WinUAE\Docs\Windows
+2016-12-03 15:22:02 D....            0            0  WinUAE\Docs\Translated
+2016-12-03 15:22:02 D....            0            0  WinUAE\Docs
+2016-12-03 15:22:02 D....            0            0  WinUAE
+2016-12-03 15:22:02 D....            0            0  Images\Other
+2016-12-03 15:22:02 D....            0            0  Images\CDTV
+2016-12-03 15:22:02 D....            0            0  Images\CD32
+2016-12-03 15:22:02 D....            0            0  Images
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 15:22:02            9408794      6029439  191 files, 8 folders

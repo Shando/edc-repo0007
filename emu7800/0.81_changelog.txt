@@ -1,0 +1,3 @@
+0.81:
+  * Added: WPF Host (Windows Presentation Foundation) for better compatibility with Windows Vista
+  * Updated: SDL.dll to version 1.2.11

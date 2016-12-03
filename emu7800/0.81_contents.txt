@@ -1,0 +1,102 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-11-01 21:09:26 ....A        65221       595344  src\Documentation.zip
+2006-05-29 15:33:52 ....A         4865               README\adventure26.JPG
+2006-05-29 15:35:30 ....A         2780               README\asteroids26.JPG
+2006-05-29 15:37:40 ....A         5774               README\asteroids78.JPG
+2006-05-29 15:37:56 ....A         5663               README\breakout26.JPG
+2006-05-29 15:38:14 ....A         4506               README\combat26.JPG
+2006-05-29 15:38:50 ....A         6953               README\cosmicark26.JPG
+2006-05-30 20:31:46 ....A        19313               README\darkchambers78.JPG
+2006-05-30 20:31:58 ....A        16969               README\dkongjr78.JPG
+2006-05-29 15:39:12 ....A         8734               README\earthdiesscreaming26.JPG
+2006-05-22 20:21:46 ....A        65966               README\EMU7800Console.JPG
+2006-05-24 20:51:06 ....A        56579               README\EMU7800GameSelect.JPG
+2006-05-28 20:27:12 ....A       130648               README\EMU7800Help.JPG
+2006-05-24 20:49:38 ....A        59977               README\EMU7800OpenFile.JPG
+2006-05-24 20:50:34 ....A        31090               README\EMU7800Settings.JPG
+2006-05-29 15:39:26 ....A        10075               README\frogger26.JPG
+2006-05-29 15:39:44 ....A         8753               README\gijoe26.JPG
+2006-05-29 20:05:10 ....A        26165               README\impossiblemission78.JPG
+2006-05-30 20:32:36 ....A         8192               README\joust78.JPG
+2006-05-30 20:32:12 ....A        11826               README\mariobros78.JPG
+2006-05-29 20:05:22 ....A        17592               README\mspacman78.JPG
+2006-05-29 20:05:36 ....A         4602               README\omegarace26.JPG
+2006-05-30 20:23:20 ....A         7560               README\oystron26.JPG
+2006-05-30 20:32:22 ....A         5610               README\robotron78.JPG
+2006-05-29 20:05:54 ....A        17687               README\summergames78.JPG
+2004-04-25 08:20:00 ....A          246               src\Images\CLSDFOLD.BMP
+2004-04-25 08:20:00 ....A          246               src\Images\OPENFOLD.BMP
+2000-11-20 17:18:48 ....A          246               src\Images\ROM.BMP
+2003-09-06 07:25:52 ....A         1078               src\Icon1.ico
+1997-11-03 16:58:32 ....A         4096               roms\OYSTR29.BIN
+2006-05-17 19:39:14 ....A         2511               src\AddressSpace.cs
+2007-02-18 06:43:08 ....A         2208               src\Bios7800.cs
+2007-02-25 15:48:44 ....A        35747               src\Carts.cs
+2006-12-14 22:40:26 ....A         2332               src\CommandLine.cs
+2007-02-18 06:43:08 ....A        12726               src\UI\ControlPanelForm.Console.cs
+2007-02-18 06:43:08 ....A         4336               src\UI\ControlPanelForm.cs
+2006-12-31 08:30:14 ....A        28655               src\UI\ControlPanelForm.Designer.cs
+2007-02-18 06:43:08 ....A        10239               src\UI\ControlPanelForm.GamePrograms.cs
+2006-12-14 23:14:04 ....A         1210               src\UI\ControlPanelForm.Settings.cs
+2007-02-27 21:11:26 ....A         7612               src\DirectInput.cs
+2007-01-07 16:06:42 ....A         3750               src\EMU7800App.cs
+2006-05-17 22:29:46 ....A          929               src\EMUTraceListener.cs
+2007-01-01 21:11:54 ....A         3148               src\FontRenderer.cs
+2006-12-14 22:38:08 ....A         1528               src\GameSettings.cs
+2006-12-31 08:24:46 ....A         6468               src\GlobalSettings.cs
+2007-01-07 19:53:10 ....A        10701               src\Host.cs
+2007-02-17 12:02:40 ....A        11150               src\HostGDI.cs
+2007-02-17 13:04:38 ....A        12440               src\HostSDL.cs
+2007-02-28 19:54:40 ....A        15148               src\HostWPF.cs
+2007-02-18 06:43:08 ....A         3294               src\HSC7800.cs
+2006-12-14 22:46:42 ....A          310               src\IDevice.cs
+2006-05-30 19:59:10 ....A        14495               src\InputAdapters.cs
+2006-12-14 22:53:18 ....A        26398               src\M6502.cs
+2007-02-18 06:43:08 ....A         9033               src\M6502DASM.cs
+2007-01-15 21:32:32 ....A         7700               src\Machine.cs
+2006-12-14 22:54:12 ....A         2244               src\Machine2600.cs
+2006-05-21 21:20:22 ....A         3631               src\Machine7800.cs
+2006-12-14 22:28:14 ....A        22585               src\Maria.cs
+2006-05-17 21:50:44 ....A         6448               src\MariaTables.cs
+2007-02-18 06:43:08 ....A         1519               src\MD5.cs
+2006-12-14 22:54:50 ....A          534               src\NullDevice.cs
+2006-12-14 22:55:08 ....A         3433               src\PIA.cs
+2006-05-17 21:53:40 ....A          475               src\RAM6116.cs
+2007-01-06 09:26:08 ....A         6678               src\Rectangulator.cs
+2007-01-01 08:39:54 ....A         2840               src\Properties\Resources.Designer.cs
+2007-02-18 06:22:56 ....A         7888               src\ROMProperties.cs
+2007-01-09 21:15:28 ....A        18590               src\SdlNativeMethods.cs
+2006-12-14 23:06:04 ....A        26989               src\TIA.cs
+2007-01-04 21:36:52 ....A        11114               src\TIASound.cs
+2006-12-14 23:06:50 ....A        17340               src\TIATables.cs
+2007-01-06 10:00:30 ....A         5723               src\WinmmNativeMethods.cs
+2007-02-25 20:00:16 ....A        13869               src\EMU7800.csproj
+2007-02-27 20:30:26 ....A          559               src\EMU7800Setup.cmd
+2007-02-17 13:40:26 ....A        31194               README\README.html
+2004-03-28 15:37:28 ....A        18331               LICENSE.TXT
+2004-03-28 15:37:28 ....A        18331               src\LICENSE.TXT
+2007-02-25 19:51:22 ....A           55               outdir\outdir.txt
+2007-02-25 19:51:22 ....A           55               src\outdir.txt
+2006-12-11 21:54:32 ....A          425               README-SDL.TXT
+2006-12-11 21:54:32 ....A          425               src\README-SDL.txt
+2007-02-25 18:07:18 ....A        37021               src\License.rtf
+2007-02-01 22:03:10 ....A          145               src\App.config
+2007-02-01 22:03:10 ....A          145               EMU7800.exe.config
+2006-05-23 20:39:38 ....A       187385               ROMProperties.csv
+2006-05-23 20:39:38 ....A       187385               src\ROMProperties.csv
+2006-12-31 08:29:12 ....A        12076               src\UI\ControlPanelForm.resx
+2007-01-01 08:39:54 ....A         5817               src\Properties\Resources.resx
+2007-02-28 20:11:18 ....A        12184               src\EMU7800Setup.wxs
+2007-02-28 20:22:16 ....A       217088       160686  EMU7800.exe
+2006-06-26 22:47:08 ....A       258048               SDL.dll
+2006-06-26 22:47:08 ....A       258048               src\SDL.dll
+2016-12-03 14:02:57 D....            0            0  src\UI
+2016-12-03 14:02:57 D....            0            0  src\Properties
+2016-12-03 14:02:57 D....            0            0  src\Images
+2016-12-03 14:02:57 D....            0            0  src
+2016-12-03 14:02:57 D....            0            0  roms
+2016-12-03 14:02:57 D....            0            0  README
+2016-12-03 14:02:57 D....            0            0  outdir
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 14:02:57            2239697       756030  91 files, 7 folders

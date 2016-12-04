@@ -1,0 +1,10 @@
+24.35  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Sat  9 Jul 2016.
+    Summary:
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: fixed: binbug had no menu item imagery.
+ si50: added autosense support for Tennis and Game of Memories.
+ memory editor: when viewing mirrored addresses (purple), tooltip now says
+  the resolved address(es).
+ aa: now always produces uppercase hex numbers.
+ aa: now makes use of generic.catalog. 

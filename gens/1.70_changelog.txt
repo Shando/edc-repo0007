@@ -1,0 +1,24 @@
+(01/02/2002) Changes Gens 1.70 <- Gens 1.60b :
+----------------------------------------------
+
+[Sega CD]
+
+* Bug with memory fixed.
+* PCM sound fixed (but still a bit buggy sometimes).
+* SCSI CD/DVD ROM drives are now correctly supported.
+* Memory mode register fixed.
+
+[Genesis]
+
+* Bug in 2 Cells V-Scroll fixed.
+* Bug with dword 68000 predec EA mode fixed.
+* DBtr instruction fixed in Starscream 68000 core.
+* Minor fix in V counter (added in Gens 1.56)
+* Z80 initial state fixed.
+* Hilight / Shadow effect fixed.
+
+[General]
+
+* Gens manual support added :
+  You can now have a context help, you need to download the Gens
+  manual (made by Red5) then configure the path in the Gens options.

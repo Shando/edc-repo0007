@@ -1,0 +1,37 @@
+(20/12/2000) Changes Gens 0.92 <- Gens 0.88 :
+---------------------------------------------
+
+* new rendering mode : 25% scanlines
+* Scanlines, 25% scanlines, 50% scanlines, Interpolated scanlines and fast-blur has been
+  rewritten for MMX CPU.
+  - 25% scanlines and 50% scanlines are availables only for MMX CPU.
+* Z80 timing modified once again... voices are better (same as gens 0.78b) and compatiblity
+  is ok.
+* Game genie improved and .PAT files supported.
+* DMA timing are now emulated.
+* Roms history (9 last roms). 
+* New options for message displaying, FPS and others...
+* Some languages added or fixed in language.dat
+* Minors bugs fixed.
+* Can choose triple buffer separatly of V-Sync (not really usefull).
+* New icon ;)
+* others minors things.
+
+Game Fixed:
+- Dragon Slayer (graphics fixed)
+- Dragon Slayer 2 (graphics fixed)
+- Joe & Mac (sound)
+- Super skidmark (intro fixed)
+- Barkley Shut Up and Jam (graphics fixed)
+- Barkley Shut Up and Jam 2 (graphics fixed)
+- Legend of Galahad (bottom screen fixed)
+- Kawasaki Superbike Challenge (bottom screen fixed)
+- European Club soccer (scrolling fixed)
+- ....
+
+
+Game Broken:
+After some testing, a couple of games was broken accidently:
+- Mortal Kombat
+- Combat Cars
+- ....

@@ -1,0 +1,21 @@
+(09/01/2002) Changes Gens 1.50 <- Gens 1.42b :
+----------------------------------------------
+
+[Sega CD]
+
+* Fixed a bug in CDD (bug was added in Gens 1.40)
+* Hard reset improved.
+* SRAM Cartridge support added.
+* Communication register fixed (thanks Steve Snake).
+* Minor fix in memory management.
+
+[Genesis]
+
+* Minor change in Z80 timing.
+* Fixed the CHK instruction in 68000 Starscream core.
+
+[General]
+
+* Bug with Vsync in Fullscreen with NVidia video card fixed.
+* The refresh rate problem with Win XP and Win 2000 is fixed.
+* Others minors changes.

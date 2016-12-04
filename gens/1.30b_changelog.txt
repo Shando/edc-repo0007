@@ -1,0 +1,6 @@
+(12/11/2001) Changes Gens 1.30b <- Gens 1.30 :
+----------------------------------------------
+
+* Fixed the "Save State as ..." and "Load State..." menu functions.
+  (they were only working with shortcuts).
+* Fixed the bug with "Quick Save" feature.

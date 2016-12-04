@@ -1,0 +1,44 @@
+(10/08/2001) Changes Gens 1.00 <- Gens 0.99a :
+----------------------------------------------
+
+* Stretch option added (not available with all rendering mode).
+* PAT files automatically saved.
+* Kaillera client version updated to 0.84a
+* 16/15 bits mode now auto-detected (no more choice in menu).
+* 25% scanline render has been modified (equal to a 75% scanline in the old way).
+* Sprite masking fixed (thanks Charles Mc Donald).
+* Sprite table update fixed (thanks Charles Mc Donald).
+* Sprite limit fixed.
+* Fixed a bug in the 68000 Starscream core (bit-shift instructions).
+* 68000 interruption processing enterely rewritten.
+* H counter calculation modified.
+* V counter fixed.
+* VDP status flag fixed.
+* Z80 interrupt timing modified (fix some sound problem).
+* Window bug added in Gens 0.99 fixed.
+* Screen shot respect the game resolution (no more unecessary blank line).
+* Triple buffer option in "graphic" menu removed (VSync always uses triple buffering).
+* A minor bug in DAC sound fixed.
+* A minor bug in country detection fixed.
+* Others minors bugs fixed.
+
+Game Fixed:
+- All games accidently broken in Gens v0.99a
+- NCAA College Football
+- XPert
+- Ferrari Grand Prix Challenge
+- Dashin' Desperadoes
+- Columns (score correctly displayed)
+- Street Racer (intro graphics bugs fixed)
+- Castlevania Bloodlines (level 2 reflection and last level)
+- Galaxi Force (level selection screen)
+- Pirate Gold (problem with sprite sometimes)
+- Micro machine 2 (game mode selection screen)
+- Warlock (status top bar displaying)    
+- Another World (intro bug in PAL version)
+- Barkley Shut Up and Jam 2 (graphic bug during game added in gens v0.99)
+- Rings of Power (minor intro bug added in gens v0.99)
+- J League Pro Striker 2 (minor graphic bug during pause).
+- Sonic Spinball (sound during sega logo).
+- Puyo Puyo 2 (music)
+- ...

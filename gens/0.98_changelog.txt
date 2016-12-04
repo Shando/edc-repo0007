@@ -1,0 +1,25 @@
+(11/04/2001) Changes Gens 0.98 <- Gens 0.95a :
+----------------------------------------------
+
+* Netplay support (Kaillera).
+  The games aren't synchronised on DirectSound buffer during Netplay 
+  (du to some low frame rate problems) so the sound have some bad noises :(
+  Note that Netplay is surely a bit buggy, sorry for it...
+* GYM loggin added.
+* VDP debug informations added.
+* VDP RAM write fixed (broken in Gens 0.8).
+* Bug with hilight/shadow effect over sprite fixed (broken in Gens 0.8).
+* Because of some incompatibilities with Visual C++ 5.0 and Kaillera, Gens is now compiled with Visual C++ 6.0
+* Polish, Catalan and Hungarian menu translation added.
+  German, Dutch, Greek and some others updated.
+* Add a FAQ section to the gens.txt file.
+* A special italian version of Gens.txt in this release but not updated for Gens v0.98.
+
+
+Game Fixed:
+- Street Racer (hilight effect during intro, broken in v0.8)
+- Dino dini's soccer (graphics bugs in font fixed)
+- Some games broken in Gens v0.95
+
+Game Broken:
+I don't find anyone...

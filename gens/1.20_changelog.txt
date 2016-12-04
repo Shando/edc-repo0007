@@ -1,0 +1,39 @@
+(19/10/2001) Changes Gens 1.20 <- Gens 1.10 :
+---------------------------------------------
+
+[Sega CD]
+
+* ISO support added.
+  - ISO, BIN, RAW format supported.
+  - MP3 playing supported (decoder is a bit buggy)
+* CD drives detection fixed.
+* 32x32 dots stamp support added in rotation/enlargement engine.
+* Graphics dots conversion added.
+* CDC/CDD emulation improved.
+* Some bugs in PCM sound has been fixed (not yet perfect).
+* CDC -> Prg RAM DMA fixed.
+* CDC -> Word RAM DMA fixed.
+* Word RAM (1 MB) -> VDP DMA fixed.
+* Fixed a bug in the memory control register (emulation still not perfect though).
+* Fixed the BRAM erased bug (occured after a reset of the SUB 68000 CPU).
+* Country autodetection added.
+* Lot of others bugs fixed...
+
+[Genesis]
+
+* SRAM support modified, so roms with bad headers can work correcly.
+* Rom memory access tweaked, little speed improvements.
+
+[General]
+
+* Sound volume increased, now all sound chip uses 32 bits buffer for a better final 16 bits mixing.
+* Shortkeys modified.
+
+
+Game fixed :
+- Some games which had SRAM problems :
+  - Might & Magic 2
+  - Might & Magic 3 (SRAM)
+  - Tonki
+  - NHL 98
+  - ...

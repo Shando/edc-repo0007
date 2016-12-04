@@ -1,0 +1,26 @@
+(23/10/2000) Changes Gens 0.88 <- Gens 0.8 :
+--------------------------------------------
+
+* Country select feature added.
+* Menu language support improved :
+  Menu is dynamically rebuild from language.dat file so it's very easy to add or change
+  a menu language.
+* English, French, Spanish, Portuguese, German and Hebrew menu language are actually supported.
+* Screen-Shot feature added.
+* Direct Draw code modified :
+  - 'Normal' and 'Double' render mode uses hardware blit in Fullscreen.
+  - Screen Size x1, x2 removed in windowed mode because not usefull.
+  - Screen refresh improved when emulation is paused.
+* My 68000 core and MZ80 core are removed because RAZE and custom Starscream are accurate.
+* Debugger rewritten for Starscream.
+* Message drawing code rewritten.
+* GENS becomes cardware.
+* I figured that Gens played Genesis voices (especially in SSFII) better than the
+  real genesis, the bug is now fixed so voices are now more crap with almost game :(
+* others fix or improvements ...
+
+Known game broken :
+Double Dragon 2 (this game is very sensitive to CPU timing :( )
+
+Known game fixed :
+Frogger.

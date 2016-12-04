@@ -1,0 +1,6 @@
+(22/12/2001) Changes Gens 1.40b <- Gens 1.40 :
+----------------------------------------------
+
+* Bug in render mode menu access fixed.
+
+That's all, but have to be fixed.

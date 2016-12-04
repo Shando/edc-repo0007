@@ -1,0 +1,29 @@
+(09/06/2000) Changes Gens 0.7 <- Gens 0.6 :
+-------------------------------------------
+
+Good new features :
+
+* 640x480 Full Screen resolution added.
+* 2xSAI Kreed's engine added (the same as zsnes or snes9x) !
+* Scanline added.
+* AutoFrame-Skip synchronised on DirectSound (when available).
+  Sound is better.
+* Correct screen ratio in windowed mode.
+* Little change in H-Blank flag.
+* Interrupts fixed for both 68k core (Starscream and mine)
+* Correct 'reset' instruction.
+* Z80 BUS request fixed.
+* Vertical-Counter fixed.
+* Shortcuts changed. (see the 'How to play' section)
+* Save and sram files name of zipped roms are now correct.
+* "Free-Rom" mode changed.
+  If you can't see it, you aren't in 15/16 BPP mode (Gens needs 15/16 BPP). 
+* "Top Most" window when exiting the fullscreen mode is fixed.
+* Bad config files in "\windows" directory fixed.
+* Minors tweaks in blits routines.
+* Minors bugs fixed.
+
+
+List of new games that work properly:
+Double Dragon 1, Double Dragon 2, Fatal Rewind, Super OffRoad, Tecmo NBA, Lemmings 2,
+Combat Cars (2 players split is ok), Todd adventures ... and surely others.

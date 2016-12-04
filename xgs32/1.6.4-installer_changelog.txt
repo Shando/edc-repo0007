@@ -1,0 +1,17 @@
+XGS/32 Release Notes 
+------------------------------------
+These are the release notes for XGS/32 v1.6.4 dated 03/31/2000.
+
+(Server build 1.6.48/Client build 1.6.92)
+
+New Features:
+  * JOYSTICK should now be enabled. 
+  * Enabled the "virtual joystick" emulation. 
+  * Debugging modes are now available. See help documentation for more details.
+Known Problems/Bugs:
+  * HELP IS NOT FINISHED. IT IS VERY UGLY. 
+  * Bargain-basement video boards (Jaton and Trident chipsets) are experiencing DirectDraw issues. Since I have only received 2 bug reports out of over 500 survey responses, this is going to be a low priority item. 
+  * Some titles that do funny things with interrupts (Task Force, King Of Chicago) may "lock" the emulator. 
+  * Some Windows 95 machines report problems installing. I recommend running Internet Explorer 4.01 w/Service Pack 2 if at all possible. As a windows 95 user, you may also be required to install "DCOM95.exe" (available from microsoft) 
+  * Sound is still very choppy on certain computers. Until I get the DirectSound/WaveStreaming stuff working properly on ALL platforms, this is what we have to live with. 
+  * Apple II speaker emulation is not enabled. Ensoniq output is a-ok but the II speaker isn't. 

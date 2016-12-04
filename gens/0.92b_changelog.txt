@@ -1,0 +1,13 @@
+(21/12/2000) Changes Gens 0.92 <- Gens 0.92b :
+----------------------------------------------
+
+* I've added a stupid bug in DMA with Gens v0.92, it's now fixed.
+* DMA timing modified a bit...
+* Korean language added in LANGUAGE.DAT
+* That's all ...
+
+Game Fixed:
+Game that was broken in Gens v0.92
+
+Game Broken:
+Nope

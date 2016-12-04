@@ -1,0 +1,28 @@
+(21/12/2001) Changes Gens 1.40 <- Gens 1.30b :
+----------------------------------------------
+
+[Sega CD]
+
+* CDD/CDC emulation improved (thanks Steve Snake for the fast foward/reverse command).
+* Direct CD read for play audio track, for the moment the synchro isn't yet
+  perfect and we can heard noises sometimes.
+* CDC DMA fixed.
+* It's possible now to disable/enable CDDA playback.
+* Minor change in the memory mode register emulation.
+
+[Genesis]
+
+* YM2612 emulation improved :
+  - Enveloppe phase fixed (right after a "key on" occurs).
+  - Timers fixed.
+  - Updated more often (slower but more accurate).
+* Z80 BUS flag fixed.
+* Z80 interrupt timing back to normal.
+
+[General]
+
+* Added the "interpolated" render mode.
+* Some littles optimisations with "not MMX" renders modes.
+* Bugs with relative path fixed.
+* FAQ section updated, don't forget to check it before you send any e-mail !
+* Minors changes...

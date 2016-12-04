@@ -1,0 +1,4 @@
+(20/01/2002) Changes Gens 1.60b <- Gens 1.60 :
+----------------------------------------------
+
+Fast update to fix the CDC DMA to Word RAM (accidently broken in Gens 1.60).

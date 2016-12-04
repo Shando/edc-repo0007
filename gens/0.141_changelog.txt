@@ -1,0 +1,8 @@
+(08/02/2000) Changes Gens 0.141 <- Gens 0.12 Beta :
+----------------------------------------------------------------
+
+- Auto-FrameSkip added !
+- Corrected some bugs on DMA (demo roms like super mario don't crash any more ... )
+- Key settings for Player 1 & Player 2 added !
+- I have changed DirectDraw method to get faster transparencies effects.
+- HalfBlur effect added for smooth graphics !

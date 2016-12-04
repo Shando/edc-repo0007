@@ -1,0 +1,16 @@
+18.43  [OS3.5+][Windows][MorphOS][OS4?  ]: Fri 17 Aug 2012.
+    Summary:
+        * Improved tracing and disassembling.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: improved OCX troubleshooter in user manual.
+ elektor: fixed: pinball had wrong overlay information.
+ now "show palladium keys?" defaults to off.
+ wa: changed some keyboard shortcuts to be more style-compliant.
+ wa: now it mutes the sound while the user browses the menu.
+ interton, elektor: fixed: netplay paddle handling was broken.
+ when tracing/disassembling, it now shows the duration of the instruction.
+ when tracing/disassembling, the cycle counter now takes unconditional
+  indirect accesses into account.
+ opcodes subwindow now shows "*" behind duration for instructions that
+  can do indirect accesses.

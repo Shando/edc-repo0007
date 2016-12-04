@@ -1,0 +1,42 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2014-11-17 07:06:27 ....A        15372       197842  Sounds\amigan.wav
+2014-11-30 06:16:03 ....A         9104               Sounds\bang.wav
+2012-01-18 04:59:10 ....A         8496               Sounds\bell.wav
+2015-08-12 07:10:51 ....A         1978               Sounds\coin.wav
+2013-12-20 15:33:40 ....A        61971               Sounds\explode.wav
+2014-11-30 06:15:15 ....A         9644               Sounds\shoot.wav
+2012-01-27 13:01:04 ....A         1498               Sounds\space.wav
+2012-01-13 09:52:16 ....A         2684               Sounds\teletype.wav
+2015-10-13 16:55:55 ....A       373631               WinArcadia.htm
+2015-10-13 17:03:27 ....A          467               Configs\2Players.cfg
+2015-10-13 17:03:27 ....A          467               Configs\ChangeWordsForHangman.cfg
+2015-10-13 17:03:27 ....A          452               Configs\Dictionary.cfg
+2015-10-13 17:03:27 ....A          467               Configs\Elektor.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Handicap.cfg
+2015-10-13 17:03:27 ....A          467               Configs\Instructor.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Practice.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Rifle1.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Rifle2.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Soccer.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Squash.cfg
+2015-10-13 17:03:27 ....A          476               Configs\Tennis.cfg
+2015-10-13 17:03:27 ....A          467               Configs\X-Arcade.cfg
+2015-10-13 17:00:10 ....A        22644               Catalogs\dutch.iff
+2015-10-13 17:00:10 ....A        24806               Catalogs\french.iff
+2015-10-13 17:00:11 ....A        26412               Catalogs\german.iff
+2015-09-23 20:00:39 ....A        28558               Catalogs\greek.iff
+2015-10-13 17:00:12 ....A        27346               Catalogs\italian.iff
+2015-10-13 17:00:13 ....A        25988               Catalogs\russian.iff
+2015-10-13 17:00:13 ....A        29648               Catalogs\spanish.iff
+2015-10-13 09:26:27 ....A      5341184      2239856  WinArcadia.exe
+2004-08-04 00:56:46 ....A       741376               sapi.dll
+2016-12-04 17:08:43 D....            0            0  Tapes
+2016-12-04 17:08:43 D....            0            0  Sounds
+2016-12-04 17:08:43 D....            0            0  Scrnshot
+2016-12-04 17:08:43 D....            0            0  Projects
+2016-12-04 17:08:43 D....            0            0  Games
+2016-12-04 17:08:42 D....            0            0  Configs
+2016-12-04 17:08:42 D....            0            0  Catalogs
+------------------- ----- ------------ ------------  ------------------------
+2016-12-04 17:08:43            6758459      2437698  31 files, 7 folders

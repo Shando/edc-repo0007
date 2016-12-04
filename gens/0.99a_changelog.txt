@@ -1,0 +1,5 @@
+(13/06/2001) Changes Gens 0.99a <- Gens 0.99 :
+----------------------------------------------
+
+* Fixed a stupid bug (i've desactived some lines of my code for testing... i've forgot to reactive them later)
+  with Netplay, it's ok now.

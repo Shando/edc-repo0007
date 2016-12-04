@@ -1,0 +1,33 @@
+(21/09/2001) Changes Gens 1.10 <- Gens 1.00 :
+---------------------------------------------
+
+* Prelemenary SEGA CD emulation added :
+  - Sub 68000 (100%)
+  - Prg Ram and Word Ram implemented (95%)
+  - PCM chip (100% but stil buggy)
+  - GFX rotation and enlargement (60%)
+  - Font color/data (100%)
+  - CDD (70%)
+  - CDC (60%)
+  - BRAM saves supported.
+  - No graphics conversion, no ISO support, no save state support yet.
+* Added an option to improve the DAC sound (voices) or not.
+  This option can be enabled/disabled only by key-shorcut (see in the shorcuts section)
+  because i don't recommend you to always use it since this can cause sound bugs with some games.
+* Added the possibility to force software blit for Fullscreen "Normal" and "Double" render mode.
+  This option can be enabled/disabled only by key-shorcut (see in the shorcuts section) because almost
+  people don't need to use it, try it only for speed issue.
+* We can now choose the order of country detection.
+* Undocumented scroll mode implemented.
+* Undocumented plan size mode implemented.
+* Rewrite the VDP IO control part, little speed increase.
+* Fixed VDP sprite table register (bug added in Gens 1.00)
+* Fixed a bug in VDP control decoding (Gens v0.8 was right about it).
+* Fast-blur fixed for no MMX processor.
+* A minor bug in DAC recovering sound has been fixed.
+
+
+Game Fixed:
+- All games broken in Gens 1.00 (missing sprites)
+- European Club Soccer (pause screen)
+- Populous / unofficial release (EA logo intro)

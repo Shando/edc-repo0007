@@ -1,0 +1,40 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2009-06-16 02:32:38 ....A        16706       158134  Sounds\amigan.wav
+2012-01-18 03:59:10 ....A         8496               Sounds\bell.wav
+2012-01-27 12:01:04 ....A         1498               Sounds\space.wav
+2012-01-13 08:52:16 ....A         2684               Sounds\teletype.wav
+2012-07-05 15:12:08 ....A         2048               Games\Cowboy.bin
+2004-08-24 21:17:00 ....A         8192               Games\MobileSoldierGundam.bin
+2010-10-31 20:43:44 ....A          256               Games\Piano.bin
+2011-01-02 02:02:30 ....A          114               Games\Reflexes.bin
+2013-04-19 22:25:54 ....A       348210               wa.htm
+2013-04-19 22:25:42 ....A          446               Configs\2Players.cfg
+2013-04-19 22:25:42 ....A          446               Configs\ChangeWordsForHangman.cfg
+2013-04-19 22:25:42 ....A          431               Configs\Dictionary.cfg
+2013-04-19 22:25:42 ....A          446               Configs\Elektor.cfg
+2013-04-19 22:25:42 ....A          446               Configs\Instructor.cfg
+2013-04-19 22:25:42 ....A          446               Configs\X-Arcade.cfg
+2013-04-19 22:28:50 ....A        22320               Catalogs\dutch.iff
+2013-04-19 22:28:50 ....A        25266               Catalogs\french.iff
+2013-04-19 22:28:51 ....A        26408               Catalogs\german.iff
+2013-04-19 22:28:51 ....A        28522               Catalogs\greek.iff
+2013-04-19 22:28:52 ....A        27622               Catalogs\italian.iff
+2013-04-19 22:28:52 ....A        27052               Catalogs\russian.iff
+2013-04-19 22:28:53 ....A        31146               Catalogs\spanish.iff
+2009-06-30 07:21:38 ....A         6113               Games\Hangman.pgm
+2010-11-29 22:07:40 ....A         4375               Games\MoonlandingFor2.pgm
+2009-05-30 15:57:38 ....A          432               Games\Scroller.pgm
+2011-09-26 23:07:34 ....A         3072               Games\Solitaire.pgm
+2013-04-11 22:57:25 ....A         2349               Games\TrafficLights2.pgm
+2013-04-19 22:24:06 ....A      4149248      2072251  wa.exe
+2004-08-03 23:56:46 ....A       741376               sapi.dll
+2016-12-04 17:18:49 D....            0            0  Tapes
+2016-12-04 17:18:48 D....            0            0  Sounds
+2016-12-04 17:18:49 D....            0            0  Scrnshot
+2016-12-04 17:18:49 D....            0            0  Projects
+2016-12-04 17:18:48 D....            0            0  Games
+2016-12-04 17:18:48 D....            0            0  Configs
+2016-12-04 17:18:48 D....            0            0  Catalogs
+------------------- ----- ------------ ------------  ------------------------
+2016-12-04 17:18:49            5486166      2230385  29 files, 7 folders

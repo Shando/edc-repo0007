@@ -1,0 +1,4 @@
+(04/03/2001) Changes Gens 0.95a <- Gens 0.95 :
+----------------------------------------------
+
+* The infamous VDP control decoding bug is really fixed this time, so Fido Dido is ok.

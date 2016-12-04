@@ -1,0 +1,51 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2014-11-17 07:06:27 ....A        15372       206553  Sounds\amigan.wav
+2014-11-30 06:16:03 ....A         9104               Sounds\bang.wav
+2012-01-18 04:59:10 ....A         8496               Sounds\bell.wav
+2013-12-20 15:33:40 ....A        61971               Sounds\explode.wav
+2014-11-30 06:15:15 ....A         9644               Sounds\shoot.wav
+2012-01-27 13:01:04 ....A         1498               Sounds\space.wav
+2012-01-13 09:52:16 ....A         2684               Sounds\teletype.wav
+2014-12-26 19:39:12 ....A         4096               Games\ComeCome!.bin
+2014-06-10 18:56:43 ....A         6080               Games\CrapGame.bin
+2004-08-24 22:17:00 ....A         8192               Games\MobileSoldierGundam.bin
+2010-10-31 21:43:44 ....A          256               Games\Piano.bin
+2011-01-02 03:02:30 ....A          114               Games\Reflexes.bin
+2015-03-20 15:55:50 ....A       367794               WinArcadia.htm
+2015-03-20 16:02:59 ....A          463               Configs\2Players.cfg
+2015-03-20 16:02:59 ....A          463               Configs\ChangeWordsForHangman.cfg
+2015-03-20 16:02:59 ....A          448               Configs\Dictionary.cfg
+2015-03-20 16:02:59 ....A          463               Configs\Elektor.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Handicap.cfg
+2015-03-20 16:02:59 ....A          463               Configs\Instructor.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Practice.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Rifle1.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Rifle2.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Soccer.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Squash.cfg
+2015-03-20 16:02:59 ....A          472               Configs\Tennis.cfg
+2015-03-20 16:02:59 ....A          463               Configs\X-Arcade.cfg
+2015-03-20 16:00:19 ....A        22660               Catalogs\dutch.iff
+2015-03-20 16:00:20 ....A        24770               Catalogs\french.iff
+2015-03-20 16:00:21 ....A        25792               Catalogs\german.iff
+2015-03-20 16:00:22 ....A        28318               Catalogs\greek.iff
+2015-03-20 16:00:22 ....A        27322               Catalogs\italian.iff
+2015-03-20 16:00:23 ....A        25924               Catalogs\russian.iff
+2015-03-20 16:00:24 ....A        29636               Catalogs\spanish.iff
+2009-06-30 08:21:38 ....A         6113               Games\Hangman.pgm
+2010-11-29 23:07:40 ....A         4375               Games\MoonlandingFor2.pgm
+2011-09-27 00:07:34 ....A         3072               Games\Solitaire.pgm
+2013-11-01 14:48:10 ....A         1339               Games\Stopuhr.pgm
+2013-04-11 23:57:26 ....A         2349               Games\TrafficLights2.pgm
+2015-03-20 16:01:58 ....A      4837376      1961865  WinArcadia.exe
+2004-08-04 00:56:46 ....A       741376               sapi.dll
+2016-12-04 17:13:28 D....            0            0  Tapes
+2016-12-04 17:13:27 D....            0            0  Sounds
+2016-12-04 17:13:28 D....            0            0  Scrnshot
+2016-12-04 17:13:28 D....            0            0  Projects
+2016-12-04 17:13:27 D....            0            0  Games
+2016-12-04 17:13:27 D....            0            0  Configs
+2016-12-04 17:13:27 D....            0            0  Catalogs
+------------------- ----- ------------ ------------  ------------------------
+2016-12-04 17:13:28            6281790      2168418  40 files, 7 folders

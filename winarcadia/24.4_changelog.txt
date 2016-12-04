@@ -1,0 +1,22 @@
+24.4   [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Thu  4 Aug 2016.
+    Summary:
+        * Interton/Elektor: preliminary Hobby Module emulation.
+        * Added "Settings|Emulator|Power-on self-test?" option.
+        * AmigaOS 4.1FE: enhanced menus.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Phantom's latest Greek translation.
+ aa: now makes use of tickbox.catalog if it is available.
+ fixed mirroring-related bugs.
+ lazarian: now supports impatient startup.
+ added "settings|emulator|power-on self-test?" option.
+ "log inefficient code?" now detects BSTA,un/BSTR,un followed by RETC,un.
+ wa: fixed: when toggling greyscale on/off, enhanced skies were not being
+  regenerated accordingly.
+ wa: fixed: debugger was getting into an inconsistent state after Alt-
+  Tabbing from another application.
+ aa: os4: now uses BOOPSI menus (with imagery) under OS4.1FE.
+ aa: split menu.c from amiga.c.
+ aa: fixed: instructor: wasn't ghosting "Settings|Sprites" submenu.
+ interton/elektor: added preliminary Hobby Module support.
+ aa: os4: fixed: auditing didn't handle directories correctly.

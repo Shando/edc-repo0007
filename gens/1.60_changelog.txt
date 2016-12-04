@@ -1,0 +1,19 @@
+(19/01/2002) Changes Gens 1.60 <- Gens 1.56 :
+---------------------------------------------
+
+[Sega CD]
+
+* Vector GFX engine fixed.
+* CELL conversion fixed.
+* Minor fix in CDD emulation.
+* BRAM emulation fixed.
+* Some minors fix.
+
+[Genesis]
+
+* Minor fix in Z80 timing.
+
+[General]
+
+* Game genie codes list no more sorted.
+* Added an option to remove SCD LED.

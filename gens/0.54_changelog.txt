@@ -1,0 +1,19 @@
+(18/05/2000) Changes Gens 0.54 <- Gens 0.5 :
+--------------------------------------------
+
+Just a great compatibility increased :
+
+* PAL roms are now works at good speed (50 FPS) !
+  (Tintin, Spirou ... doesn't lock with country message any more)
+* Another bug in Starscream 68000 core fixed:
+  Sonic2, terminator 2 (judment day), lemmings, royal blood ... works perfectly with Starscream.
+* Little bug in collision flag fixed (interaction with ennemies in strider2).
+  (Thanks to Bart Trzynadlowski from Genital)
+* I've fixed some things in vertical and horizontal interrupts & flags, more games works :
+  Super skidmarks, megalomania, gauntlet 4 ...
+* Some bugs fixed in window plan and VDP reg write.
+  Tale spin, rolling thunder 2 (not sure for this rom), Abrams Battle tank, Rings of power ... are ok.
+* Read/Write to CRAM, VSRAM fixed (taiwan tycoon V-Scroll, xennon 2 are ok)
+* Z80 BUS request fixed (double dragon, fatal rewind and super offroad works)
+* little fix in DMA copy (taiga drama taiheiki looks good, european club soccer looks better ...)
+* Very little bug in sram fixed (tonki comes back working)

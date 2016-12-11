@@ -1,0 +1,541 @@
+3.2.0
+
+Beta 20:
+
+- Map ROM feature was not JIT direct compatible (JIT update few betas ago)
+- Do not initialize CD drivers twice. (scsi passthrought, ioctl, image)
+- Fix compatibility with old config files (before 68000/010 32-bit addressing option was added),
+  force 24-bit addressing if config file was saved with 2.8.1 or older.
+- Another old config compatibily update, if 68000/010 with chipset extra set to Generic, use more A500-like
+  mainboard config than bigbox-like.
+- Added Kupke Golem FastSCSI/IDE combo board.
+- FastLane SCSI autoconfig mapping fixed.
+- ROM scanner prefer roms not in archives update (b15) had exactly opposite effect..
+
+Kupke Golem FastSCSI/IDE:
+- SCSI/IDE combo board. Whole board or only IDE can be disabled.
+- Fake DMA (SCSI long word wide, usual word wide PIO IDE)
+- 4.2 ROM added ("fastscsi device (romversion) V4.2 (06-FEB-95)")
+- Boot ROM made in 1995 without custom filesystem support..
+- Does not copy ROM code to RAM, driver code executes directly from ROM.
+
+Beta 19:
+
+- Sprite in far right border feature (b1) didn't work correctly in AGA modes that require hires/shres horizontal
+  sprite resolution support. (Alien Breed 3D garbage sprite in right border)
+- AGA hires/shres horizontal scrolling feature was not fully in sync with sprites (Banshee)
+- In some situations bitplane DMA emulation internal state flag got stuck in active state (Aladdin blank screen).
+
+Beta 18:
+
+- If dragndrop to GUI closed GUI (for example config file with show_gui=no), invalid GUI windows handle was accessed.
+- Don't parse command line again when restarting emulation (for example by loading new config when emulation has
+  already been started). Previously command line overrode new config.
+- "Forget" all remembered scan line states when forcing full refresh, previously some border region scan lines
+  were not refreshed properly when display parameters, for example centering, changed.
+- Fixed named pipe unicode format buffer size calculation bug.
+- If last command line parameter is a path and it looks like config file or state file: load it automatically.
+  Adds support for dragndrop over winuae.exe shortcut with other parameters in shortcut's Target field.
+- Automatically resolve all shortcut (*.lnk) paths in command line.
+- D3D9 non-shader mode forgot scanline texture when switching modes.
+- Fixed off by one bug in input device re-enumeration causing keyboard layout B->A or C->B change.
+
+Beta 17:
+
+- Trace mode in 68000 cycle-exact was 4 cycles too long.
+- 68000 cycle-exact mode STOP needs at least 8 cycles before it can wake up.
+- Memory-only cycle exact crash when entering GUI.
+- Memory-only cycle exact shortcut config entry cycle_exact=memory (Old false and true values have not changed)
+- Only use picassoiv_rom_file config entry if it contains valid path. (Workaround for some config files that
+  contain picassoiv_rom_file=:NOROM for some reason)
+- Z3 Picasso IV was disabled if there was not enough address space even when JIT was disabled (b16).
+- JIT on/off change was not delayed until it was safe to do, like other CPU option changes. uae-configuration
+  (or similar) on the fly config changes were unreliable in this situation.
+- FAT drive mounted as a directory harddrive: file's modification time was not always correct. (2.6.0, wrong
+  date field name)
+- Warp mode fps limit added, config file only: warp_limit=fps
+
+Beta 16:
+
+- Added Mediator 1200SX autoconfig data.
+- Added support for 68020+ CPU floating bus data when clock chip is not connected (Not yet correctly emulated, need
+  accurate CPU cycle sequence and more)
+- SPS plugin was not searched from all supported directories.
+- Don't add fake uae boot rom expansion board if "hide uae expansions" is enabled.
+- FPU FPCR and FPIAR was swapped in disassembler.
+- CIA-B TOD accurate cycle counting code used CIA-A "is tod on?" variable.. (2.7.x or somewhere close)
+- Use official AD1848 crystal value in Toccata emulation (24.576MHz), it seems some Toccata boards have correct
+  crystals and some not exactly correct (For example 24.582MHz). Now 48000Hz output is exactly 48000Hz. (was 48011)
+- 64-bit JIT FPU rounding mode fix and other 64-bit FPU fixes. (Frode)
+- 64-bit QEMU PPC plugin fixed (Frode)
+- Added memory accesses only -cycle-exact mode. In this mode CPU does not internally count cycles, only external
+  memory accesses are counted, including chipset DMA contention. (This was previously only used when 68040/060 and
+  cycle exact was enabled). 68020+ only, at least for now. More compatible (prefetch + caches) also required.
+- GUI disk eject button worked unreliably if disk was inserted and then immediately ejected.
+
+Beta 15:
+
+- KS1.2 boot hack improved, now also works with KS 1.1, KS 1.0 and even with 0.7 beta!
+- Added old style >2M chip RAM support back as a fallback, used when new method can't extend chip ram size.
+- Fixed CAS2 instruction comparison failed case, memory operands should be written to Dc, not Du.
+- Support DSKLEN writes while disk DMA is active, update only remaining DMA length without modifying DMA state (undocumented feature).
+- If ROM scanner finds same ROM image multiple times, select plain file version if possible (not in archive).
+
+Pre-KS 1.2 boot notes:
+- KS 1.1 and older DOS is pure BCPL. Added separate BCPL entry point to directory filesystem
+  handler that makes BCPL DOS happy.
+- Expansion.library does not exist: MakeDosNode and AddDosNode replacements added.
+- Directory filesystem automount/boot fully supported.
+- Hardfiles work more or less same as with KS 1.3.
+- Boot priority sorting is not supported, first drive is always boot drive. (This can change in the future,
+  don't depend on current behavior!)
+- WB 1.3 L:FastFileSystem is supported with 1.2 and older versions. (Automatically puts it inside BCPL wrapper and
+  patches 1.2+ only CopyMem() calls)
+- BCPL stuff from AROS m68k. Most of DOS BCPL was re-implemented and documented by Jason and me in AROS m68k.
+- This completes one of the most pointless features ever. Until next most pointless feature.
+
+Beta 14:
+
+- 64-bit JIT fixes. JIT FPU also fixed. (Frode)
+- RDB parser dumps block contents to the log if parsing fails.
+- SCSI tape request sense tape position bits (end/beginning) was not reported correctly (b7)
+- UAE devices (uaeserial, uaescsi and so on) are now supported under KS 1.2.
+- Directory harddrives and uaehf.device is now KS 1.2 automount/boot capable.
+  KS 1.2 HD boot hack from Multi Evolution driver.
+
+KS 1.2 boot notes:
+- Logic reverse engineered from Multi Evolution SCSI driver.
+- First drive in Harddrives panel is boot drive, even if it has lower boot priority than other drives.
+- If boot priority = -128 (no autoboot): don't enable fake DF0: boot disk hack.
+- Ugly hack. Temporarily patches DoIO() to inject fake df0: boot block and PutMsg() to get control after
+  dos has been initialized.
+
+Beta 13:
+
+- SCSI emulation INQUIRY command didn't clear old data in output buffer (b7)
+- Do not abort uaehf.device RDB parsing if drive init or bad block list is set.
+- A2386SX 16M+ memory size crash fix.
+- Implemented previously empty QEMU byteswap function, fixes 16-bit Cirrus Logic VGA text mode.
+- zlib and libpng (used by screenshot function) updated to latest versions.
+- Added PC 3.5" HD 21 sectors/track format to PC floppy size autodetection list. (DMF format)
+- Renamed GUI Flash RAM file title, it is also used for A2286/A2386SX CMOS RAM.
+- Big Aranym JIT merge. 64-bit version JIT supported. Includes big 32-bit JIT
+  changes. May cause breakage. (Frode) PPC support is not (yet) 64-bit compatible.
+
+64-bit compatible JIT notes:
+
+- 2G of Amiga address space available (vs ~1G to ~1.5G in 32-bit version under 64-bit OS).
+  Because JIT still requires Amiga address space inside first 4G of host process address space and
+  Windows allocates few pages in the middle of first 4G, 2G is the current max. Technically
+  this is not a problem because AmigaOS is not really designed to support RAM at 2G-4G of
+  address space, programs may use signed pointers and some exec functions use address bit 31
+  for error state. (In theory 3G may be possible later if it is really needed)
+- Use "UAE" RAM allocation mode (not "Real") if you want max available Z3 RAM (up to
+  1.5G. Z3 RAM + RTG VRAM + 256M must be less than or equal to 2G. Anything more = crash.
+- 64-bit JIT FPU is not fully functional yet. Do not enable.
+
+Beta 12:
+
+- Boolean config true value converts to 1 and false to zero before doing any calculations.
+  someboolentry=[1-someboolentry] custom event string now works as expected.
+- Bridgeboard in VGA graphics mode only updated part of display (and sometimes nothing was updated).
+- ESP (53C94, FAS216 etc..) SCSI updates to support Multi Evolution (Needs FIFO used count and does odd things)
+- Multi Evolution 500/2000 SCSI controller emulation added.
+- XT bridgeboard timer gate 2 pin was not hooked up in DOSBox CPU mode. ("Timer2 control function failed")
+- Removed RTC status bit hack, PIC_TickIndex() works now. ("The Real Time Clock has not been initialized")
+- Delay bridgeboard emulated MDA/CGA VRAM write interrupts until next vblank to reduce number of
+  interrupts. (Real hardware may or may not do same)
+- Initialize bridgeboard add-on IDE controllers after Z2 boards (was after Z3 which prevents them to
+  initialize if used KS ROM does not support Z3 boards and at least one Z3 board was enabled).
+- Adjusted MDA/CGA emulation mode hsync/vsync reporting, some programs had really slow screen updates.
+
+Multi Evolution 500/2000:
+- Not autoconfig but has boot ROM at $f00000 region. (Autoconfig is only for RAM expansion)
+- Boots also under KS 1.2. (Boot ROM does some ugly system patches)
+- Long word wide fake DMA.
+- Boot image that also shows SCSI detection diagnostics messages.
+- At least v3.0 ROM version driver does odd things, it sends MESSAGE ACCEPTED command first, then
+  it reads the message byte.
+
+Beta 11:
+
+- Fixed A2386SX default video mode configuration, it is software controlled, not jumper like in
+  older models. Fixes unexpected "Invalid configuration information" BIOS messages.
+- Added A2386SX-only hack to enable working 1.4M floppy images, I assume it thinks connected drive is
+  Amiga 1760k drive and it programs FDC to use 720k (1.4M half speed) bit rate.
+- Autodetect *.ima PC disk images inside archives.
+- Increased IDE emulation multiple transfer support from 64 blocks to 128 blocks (Max possible).
+- Universal XTIDE BIOS load address is now user configurable. (Exxxx does not work in AT systems)
+- x86 IDE emulation used wrong byte swapping mode if data port width was 16/32-bit (AT systems)
+- Added support for IDE emulation edge triggered interrupts. ISA bus uses edge triggered interrupts,
+  Fixes A2386SX IDE configuration hang.
+- Only first non-autoconfig "board" was initialized if more than one was configured (for example
+  both x86 AT IDE and XT IDE controller was enabled)
+- Write-protect 0xDC000 region from Amiga-side writes if it is used by XTIDE Universal BIOS. This
+  address conflicts with Amiga-PC shared memory space but fortunately it seems only beginning of this
+  space is actually used for Amiga-PC communication.
+- XTIDE Universal BIOS hardware is now correctly emulated.
+- Per-monitor high DPI update caused repeated GUI re-open in some situations.
+- DOSBox CPU modes now use DOSBox hardware timer emulation, fixes A2386SX floppy access delays.
+- Added all currently available bridgeboard BIOS ROMs to ROM scanner.
+- Cleaned up internal expansion ROM selection code.
+
+NOTE: Nearly all previously created DOS HD images are not supported anymore due to wrong
+byte swapping. They need to be created from scratch.
+
+Beta 10:
+
+- IDE emulation internal operation change. Previously next block was read from hardfile after previous
+  block was transferred. Now all blocks are buffered first before transferring (or if write: all data
+  is received first and then all buffered data is written to HDF). Fixes A2286 BIOS built-in IDE driver
+  which does not wait for interrupt or DRQ status bit between transferred blocks. (Which technically is
+  a bug, driver is depending on some specific HD manufacturer/model internal implementation detail)
+- Amiga to PC bridgeboard interrupt enable/disable state fixed. A2286 Janus hardfile access does not hang
+  anymore.
+- Added x86 CPU speed adjustment (CPU panel, full left = fastest possible mode). Note that some BIOS
+  drivers use CPU delay loops, unexpected things can happen.. Fastest possible enables extra hack
+  ("immediate" floppy to prevent floppy detection fail). Speed adjustment is only enabled after initial
+  BIOS diagnostics checks have been done because some timer tests fail if CPU is too fast..
+- Added right control = right Windows key option. (Keyboards without right Windows key, quicker to use
+  than creating custom mapping, note that it also disables keyboard layout B RCTRL=fire mapping)
+- GUI window is now per-monitor high DPI aware.
+- 3-State Apollo 500/2000 IDE/SCSI combo HD controller fully implemented. ROM added to ROM scanner.
+  3rd party replacement ROM available from Aminet. (http://aminet.net/package/disk/cdrom/AT_ApolloDev)
+- CDFS automount without physical drives mounted 10 empty image drives (b1).
+
+Beta 9:
+
+- x86 floppy controller EOT parameter was read from wrong offset. Note that previously 1.4M floppy in
+  720K drive (configured in 2286+ BIOS) worked, not anymore.
+- Added x86 bridgeboard 1.2M PC floppy image support.
+- Added Advanced chipset option that emulates some 68040/060 board's (for example Blizzard 1240/1260)
+  custom register byte write "bug" where byte write to custom register does not write same value to
+  both upper and lower byte. Previously this was always enabled if CPU type was 68060.
+  (Writing to even address: zero written to odd address, writing to odd address: works "correctly")
+- Fixed emulation boot crash if mouse driver was enabled (b8)
+- x86 IDE config didn't load correctly. (Reset and save needed to fix it). x86 VGA also needs config
+  reset.
+
+Beta 8:
+
+- Many saved accelerator board enabled configurations loaded incorrectly in b7.
+- PicassoIV ROM selection in expansion panel caused crashes. (b6)
+- Added DCTV emulation. Colors are not yet correct.
+  Blurriness is mostly correct, DCTV is composite out only, horizontal resolution is only 320 pixels,
+  color resolution is worse (color bleeding). Some filtering is still needed to simulate real composite
+  signal.
+- Another Cirrus Logic mode change crash fix. (x86 bridgeboard reset when in text mode).
+- x86 bridgeboard 720k/1440k floppy images supported.
+
+Beta 7:
+
+- 68030 prefetch/ce mode now also uses improved prefetch pipeline emulation.
+- b4 prefetch RTS (and others) special case does not exist, my original test must have been broken.
+- GUI won't anymore allow multiple sound or network cards enabled at the same. (It has never been
+  supported configuration)
+- Cirrus Logic out of bounds VRAM access check improved.
+- Picasso IV ROM loader update didn't support all old ROM paths (b6)
+- SCSI Unit Attention (bus reset/media change) status handling should be now exactly as described in
+  SCSI spec. (Roctec Rochard v2 boot ROM*)
+- A1060 Diagnostics and 8087 jumper was inverted.
+- Continuing WD SCSI transfer with another Select and Transfer when previous SaT had already transferred
+  all buffered data: new SaT restarted from beginning. (A590/A2091 omniscsi.device + cdfs)
+- Config file loaded with non-existing *_rom_file_id: rom key file ("rom" with ID=0) was selected.
+- M-Tec E-Matrix 530 accelerator board added (Thanks to Jozsef Vamosi)
+
+Rochard RH800C with v2 boot ROM:
+- Supports both SCSI and IDE. v1 is IDE only.
+- Has crazy "Is drive ready?" polling routine, driver executes 300 (!) TEST UNIT READY commands in
+  CPU loop per LUN (timer.device exists for a reason..), with single SCSI drive, driver executes total
+  6*300=1800 TUR commands during drive detection! (I recommend not to enable scsi logging..)
+- ROM not yet added.
+
+M-Tec E-Matrix 530:
+- ROM image is software dumped (chip is not socketed), ROM layout (single chip contains two logical
+  autoconfig boot ROMs) may not match real ROM dump.
+- 53C94 based SCSI. Fake DMA, 2*long word wide data port. Whole transfer loop runs in level 2
+  interrupt routine..
+- Boot ROM requires KS2.0+ only because it calls CacheControl() without checking ROM version.
+
+Beta 6:
+
+- Bridgeboard floppy drive motor and click sound supported.
+- x86 CPU status string was visible even when bridgeboard was not active.
+- Added software readable A4091 DIP switches and Warp Engine SCSI jumpers to GUI. Note that default
+  jumper state for Warp Engine is "No autoboot", you need to set all 3 jumpers to re-enable previous
+  autoboot configuration.
+- Even more Z2 and Z3 board address validation, do not map the board if OS attempts to map it over any
+  existing mapped space. Some Z2/Z3 boards didn't use validating memory bank map routines.
+- A590 XT drive emulation uses now generic "custom" HD emulation like all recently added MFM/RLL
+  controllers. Automatic geometry fixing removed, it can cause problems.
+- Fixed A590 XT random bug that tried to start DMA transfer middle of command phase in some situations.
+- Remember last open Expansion panel expansion device, saved to config file.
+- A2286 "The Real Time Clock has not been initialized." message is gone.
+- A2386SX CMOS RAM size fixed, but BIOS still complains about invalid configuration and setup screen
+  shows incorrect extended RAM size. (Why? Early boot phase extended RAM size counter is correct.)
+  Floppy drive access also seems to stall for 5s+ regularly and then work normally again.
+- Added x86 bridgeboard AT IDE drive emulation. Selection under IDE controllers. Only A2286 and A2386SX
+  have BIOS support for AT IDE. At least fdisk and formatting confirmed working.
+- Added IDE commands 0x40 and 0x41 (READ VERIFY SECTOR(S)), BIOS code uses it during formatting.
+- Added support for XTIDE Universal BIOS (https://code.google.com/p/xtideuniversalbios/) See notes.
+- Added support for IDE emulation 8-bit data port width. (XT mode XTIDE Universal BIOS)
+- Only show SASI harddrive types if selected controller uses SASI-like commands.
+- Cirrus Logic hardware emulation text modes used graphics mode resolution when selecting host screen
+  size. Larger than 8 pixel font width text mode was too narrow.
+- Added x86 VGA board emulation (uses already existing Cirrus Logic emulation).
+
+x86 bridgeboard VGA notes:
+- Does not autoswitch, use END+F9 to switch between screens.
+- Empty Amiga-side Janus PC window must still be open to enable keyboard input.
+- It is not possible (at least not yet) to have Amiga RTG board enabled at the same time.
+- VGA uses A0000-BFFFF, make sure bridgeboard "Address Sector" does not conflict. (Bad
+  memories are starting to return from PC DOS era...)
+
+RTG ROM configuration notes:
+- Expansion panel has new "RTG board" category that currently lists 2 boards that need rom image,
+  Picasso IV and x86 bridgeboard VGA ISA card.
+- This selection is currently a special case: selected ROM gets automatically removed when RTG board
+  is changed, always use RTG panel first to select the board, then Expansion panel to set the ROM.
+- If Picasso IV ROM is not selected ("ROM disabled"): old rom loading method is used. In other words,
+  you can ignore whole RTG ROM configuration if you are never going to use x86 bridgeboard VGA card.
+- Probably any old ISA Cirrus Logic GD542x VGA ROM can be used, for example
+  http://www.vgamuseum.info/index.php/component/k2/item/131-cirrus-logic-cl-gd5420
+  or http://www.nongnu.org/vgabios/ seems to work.
+
+XTIDE Universal BIOS notes:
+- BIOS is loaded at 0xEC000 to guarantee it becoming last BIOS extension, it is required to make it
+  work properly if there are other extensions (Janus handler/library). Make sure bridgeboard
+  "Address sector" is not conflicting (D0000-DFFFF works fine, for some reason no BIOS checks A0000
+  to AFFFF region but it is documented as existing option in hardware).
+- Uses Universal BIOS defaults (IO address base 0x300, no interrupt).
+- A1060 and A2088 confirmed working.
+
+Beta 5:
+
+- Added OMTI-Adapter HD controller, same as ALF1 but different hardware base address.
+- It was not possible to select HDF PCMCIA SRAM and IDE options.
+- Flash ROM file and RTC battery backed up RAM file dialog didn't allow creation of new files.
+- Made disk image dragndrop floppy drive hit box larger.
+- ROM panel drag drop over ROM paths will work as expected. Previously it was always autodetected
+  and "best" ROM path was selected. Now autodetection will be only used when dropped over empty space.
+- Harddrives panel CD path dragndrop update.
+- ProWizard written module files now include name of inserted disk in DF0: or CD image, like screenshot file names.
+
+x86 bridgeboard updates:
+- A2286 and A2386SX emulation implemented. CPU and FPU core, keyboard, interrupt controller and
+  more from DOSBox. A2386SX BIOS is still misdetecting things.
+- Floppy drive label is changed between DF2:<>A: and DF3:<>B: if configured as PC bridge drive.
+  (Note that if you don't configure any PC drives, you will get really slow BIOS floppy detection)
+- Added 40 track (5.25" 360k) and 80 track (all others) drive selection. This must match inserted image
+  or BIOS drive detection will get confused.
+- Always do full disk image size autodetection when disk is inserted in PC bridge drive. Without
+  it most dos disks was detected as undersized adf images.
+- A2286/A2386 CMOS RAM is stored to disk if ROM panel Flash RAM file path is set.
+- DOSBox CPU core type selectable in bridgeboard config GUI, also 8088-based bridgeboards
+  can be optinally configured to use DOSBox CPU core.
+
+Beta 4:
+
+- RTG<>chipset mode switching didn't check if modes have different filter type (forgot to add
+  when RTG filter support was implemented)
+- 68020/030 prefetch pipeline b3 missing addressing mode implemented. Other adjustments: single
+  word unconditional branch-like instruction (for example RTS) stop prefetches immediately but
+  conditional single opcode always prefetch one extra word before stopping. Bcc.S (when not
+  branching) and DBcc probably aren't exactly right yet.
+- A2090 ST-506 support implemented.
+- Note about existing configurations that use A590 XT support: drive type (SCSI ID/XT) must be reset.
+- GUI default windowed mode window size (when it runs for the first time and size information is not
+  yet stored in registry/ini) is now adjusted for high DPI screen. (Windows 8.1+ only). Previously
+  default size was far too small on high DPI displays.
+- Added "I am Windows 10 compatible" manifest entry, winuaebootlog.txt now shows correct Windows 10
+  version information.
+- Cleaned up pfield_do_linetoscr() mess.
+- Added support for AGA subpixel bitplane delays (lores pixel can horizontally scroll 4 shres or 2
+  hires pixels or hires pixel 2 shres pixels). Limit: only works if both odd and even planes have
+  same subpixel scroll value (which probably is true practically in all situations)
+- b1 sprite right border corner case broke SSCAN2 sprite horizontal duplication.
+- x86 bridgeboard emulation! A1060 Sidecar, A2088 and A2088T currently implemented.
+
+x86 bridgeboard information:
+- Currently uses fake86 CPU core + PC support chip emulation. Selected because it was very easy
+  to integrate. Possible future A2286+ emulation needs different CPU core.
+- All jumpers emulated. (Required redesign of expansion GUI extra config)
+- Amiga floppy drive DF2: and DF3: can be re-configured as bridgeboard PC drives A: and B:.
+- Only 360k and 720k standard dos disk images supported.
+- A2088T 360k/720k compatible drive supported. Floppy switch not implemented.
+- A1060 and A2088 apparently only have 360k drive and BIOS support.
+- BIOS ROM required. Searching for "A2088 BIOS" or similar should work... No BIOS ROMs
+  added to rom scanner.
+- Not much real testing done. Boots from dos boot floppy, drive formatting and reading/writing works.
+- x86 CPU speed is currently very randomly chosen speed.
+
+Beta 3:
+
+- CD and sound card audio are now always resampled with Anti interpolator before it gets mixed
+  with Paula audio stream. Previously it used very crude resampling method.
+- ES1370 (SB128) emulation fixed, DMA length register was not reset when playback was restarted.
+  (I don't understand how it would have ever worked in QEMU without sound glitches)
+- Added "Full PCI DMA" option to PCI bridges that in real world don't have Amiga to/from PCI DMA
+  support (Prometheus and Mediators). Default is off = emulates real hardware limits.
+- Validate PCI DMA addresses, log message and return random data if trying to access unsupported address
+  or if attempting to access Amiga address space and bridge does not have full PCI DMA support.
+  (Probably becomes HALT-something if real hardware simply hangs in this situation)
+- 68040 MMU mode hardware bus error not caused by MMU had incorrectly status register ATC bit set.
+- More reliable A2410 resolution switching.
+- A2410 framebuffer space is also mirrored at the beginning of TMS34010 address space.
+- Implemented A2410 TMS34010 to/from Amiga address space DMA feature. So far no programs found that
+  uses it.
+- Emulate 68020/030 prefetch pipeline more accurately, branch instructions stop prefetching after
+  last opword of branch instruction has been loaded. It reduces unnecessary memory accesses.
+  This probably also makes 68020/030 cycle exact mode even more faster without adjusting
+  other parts of emulation (which needed to be made faster because some other unknown part
+  was too slow, hopefully it was this prefetch feature..)
+  Not fully implemented yet, addressing modes that use brief or full extension words disable
+  this feature until next branch instruction because length of instruction needs to be known in
+  advance and in these addressing modes it can't be calculated statically.
+
+Beta 2:
+
+- Borderblanking works again (b1)
+- RTL8029 received packets got sometimes stuck in receive buffer until next packet was received.
+- Fixed PCI bridge unreliable interrupts in some situations.
+- Added Mainhattan Data Paradox SCSI emulation.
+- Added Spirit Technology HDA-506 HD controller.
+- Added Elaborate Bytes A.L.F. HD controller.
+- Built-in wave recording created huge files, bytes-to-write variable was never reset (3.1).
+- Added Mediator 1200 autoconfig data.
+- Added support for multi-function PCI devices.
+- Added ES1370 from QEMU. (PCI sound card), common ES1370 based card is SB128.
+- Added FM801 emulation. (PCI sound card).
+- Added Vortex System 2000 HD controller.
+- 68020/030 prefetch/cycle-exact: don't prefetch from old PC if instruction is going to branch.
+- Accelerator board memory size reset when viewing RAM GUI panel if accelerator used "Blizzard" RAM type.
+- HD and RTG boards are now named <name> (<manufacturer>).
+- A2410 display card emulation! TMS34010 emulation core from MAME.
+
+A2410 notes:
+- Very strange display board.. Very flexible TMS34010 CPU on board, code uploaded to internal
+  RAM from Amiga-side. Unfortunately board never had good software support.
+- Current WinUAE direct RTG system requires Amiga-side mapped VRAM, but because A2410
+  does not have any linear mapped Amiga-visible VRAM, A2410 internal VRAM is "fake" mapped at 0xa00000
+  (normally unused CIA space). It shouldn't cause any problems.
+- Interlaced modes are not supported (Original code didn't support it all, I added quick hack
+  that doubles height in interlaced modes), either CGX4 driver is wrong or TMS34010 documentation
+  is wrong, documentation says "The size of the DUDATE increment specified for an interlaced display
+  should be twice that required for a noninterlaced display of the same dimensions" but CGX4 driver
+  uses same width value in both interlaced and non-interlaced 1024*768 mode.
+- BT458 RAMDAC Overlay bitplanes fully emulated, including blinking features.
+- CGX4, Amix, NetBSD console and demo programs from DevCD (Milan 1991 DevCon) confirmed working.
+- END+F9 can be used to manually switch between native and A2410 display.
+- CGX4 driver seems to have bug in overlay (mouse pointer) color setup routine.
+- Emulated Amiga randomly hangs when switching CGX display modes. Reason unknown.
+- TMS34010 CPU execution speed is probably totally wrong and very random.
+- Because TMS34010 can update any register or RAM data any time it wants (like copper but more flexible),
+  emulation needs to be at least line-based (not frame like other RTG boards) and because emulation
+  also needs to execute TMS34010 code, A2410 emulation is slower than other RTG boards.
+- A2410 has DMA and hardware byte swap circuitry (can be seen in schematics) but so far I haven't found
+  programs that use it. (A2410 DMA = TMS34010 CPU can directly access Amiga address space).
+- Must use 32-bit host display depth. 16-bit is not supported.
+
+Mainhattan Data Paradox SCSI:
+- Parallel port to SCSI adapter.
+- Non autoboot.
+- Make sure no other parallel port devices are enabled at the same time.
+
+Spirit Technology HDA-506:
+- Supports autoboot but it is not implemented, ROM dump not available.
+- OMTI controller, uses early SCSI-like protocol but addressing uses CHS instead of LBA.
+
+Elaborate Bytes A.L.F.:
+- Non autoboot.
+- MFM/RLL controller.
+- Same protocol as HDA-506 but there can be differences in some commands.
+
+Vortex System 2000:
+- Supports autoboot but ROM image is not available.
+- Non autoconfig, ROM and IO hardwired at 0xf00000.
+- Again same protocol as HDA-506.
+- Fake DMA, 2xword data port size. Some sites incorrectly lists it as a DMA controller.
+
+Beta 1:
+
+- Emulated sprite undocumented special case, sprite start hpos from 2 to 9 will be visible at the
+  very far right overscan border of display.
+- WinPCap network mode didn't detect any devices (broken some time ago)
+- ROM type configuration for expansion sub devices. SupraDrive A2000 DMA does not anymore list
+  incompatible AMABx ROMs. (A2000 DMA model ROM is still MIA)
+- Improved SCSI/IDE controller init log messages.
+- Fastlane and Z3 RAM configured: use Fastlane Z3 RAM autoconfig data.
+- Handle recursive default_xlate() calls, can happen if autoconfig mapping is really bad.
+- Accelerator with GVP Series II SCSI controller + GVP Series II SCSI expansion controller combination
+  didn't work.
+- Accelerators that include autoconfig RAM (Only GVP A530 currently) now include matching RAM autoconfig
+  parameter data.
+- WASAPI audio init may have caused crash if some WASAPI query functions returned error code.
+- Implemented support framework for PCI bridges.
+- dm debugger command shows PCI bridges and PCI boards.
+- Added DKB Wildfire accelerator board.
+- Check and halt if any illegal autoconfig remap is done. (Instead of causing pointless reset loop)
+- Added support for ECS Denise genlock features. (Did any program ever use ECS genlock features?)
+- Expansions boards without ROM now have simple enable/disable checkbox.
+- PCI Realtek 8029 added from QEMU (NE2000 clone), automatically connected to any enabled PCI bridge.
+- Moved accelerator and expansion board GUI items to new Expansions panel. Old Expansion panel
+  is now RTG settings only panel.
+- More 68030 data cache emulation fixes.
+- Added generic SASI (SCSI predecessor) controller emulation and SASI HD GUI selection.
+- Added Tecmar T-Card/T-Disk expansion/SASI HD controller.
+- Added Xebec 9720H HD controller.
+- Audio period modulation with zero period value stopped modulated channel.
+- Blizzard 1230IV default ROM was incorrect.
+- If no physical/virtual CD drives available and image drive was not manually selected:
+  automatically select empty image drive. Previously emulated drive was removed.
+- Blizzard SCSI Kit IV configuration weirdness fixed, old config is not compatible anymore.
+- SSE2 capable CPU is now required.
+- If you use WINE, 1.7.44 or newer required.
+- Files are now 7zip compressed.
+
+New Most Pointless Feature Ever:
+- Genlock emulation can now replace transparent pixels with noise pattern or static image.
+- Implements also ECS new genlock features (I still think there is no software that uses them..)
+- Transparency control.
+
+DKB Wildfire:
+- Interesting design, SCSI and ethernet chips are connected to internal PCI bus that boot ROM
+  initializes. (Reason why PCI bridge emulation had to exist first)
+- SCSI is emulated, uses same QEMU 53c895 emulation as CSPPC.
+- Ethernet is not emulated.
+- Boot ROM is stored in 2*32k parallel EEPROM chips. Wildfire flash update program supported but
+  but modified data is not saved back to rom image file.
+- ROM image is from install disk.
+- Boot menu (keep right mouse button pressed while booting) options are not yet saved to file,
+  it looks like it is saved to 3rd(!) Flash/EEPROM chip via 53C815 built-in ROM support circuitry.
+  High resolution image of the board is needed.
+- Board config space ($ffff0000) bits are not emulated, except 68000 mode which only halts the
+  emulation.
+
+PCI bridges:
+- Wildfire with 53C815 chip connected to first internal PCI slot.
+- Prometheus.
+- G-REX. NOTE: only supported by latest 44.71 CSPPC/BPPC boot ROM.
+- Mediator 1200TX and 4000MK2. (If you have other model, please contact me)
+- Only 53C815 (Wildfire only) and Realtek 8029 PCI devices implemented so far.
+
+Try not to ask non-emulation related PCI bridge questions (like which driver to use, where to find
+them, how to install them, how to configure 8029 driver and so on..), thanks.
+
+Tecmar T-Card/T-Disk:
+- The very first Amiga harddrive controller.
+- No autoboot, no automount, no RDB.
+- KS 1.0 and 1.1 compatible, possibly also earlier version. Not KS 1.2+ compatible.
+- SASI controller, make sure SASI drive type is selected.
+- Implements old style autoconfig that was documented in first HRM revision, Appendix_G,
+  Disk based autoconfig driver ("xbus.resource"). Not compatible with KS 1.2+ ROM based
+  expansion.device. Possibly the only released hardware with old style autoconfig.
+- Memory board emulated (Use second fast ram slider, autoconfig must be disabled).
+- Clock emulated.
+
+Xebec 9720H:
+- Another very early Amiga harddrive controller.
+- No autoboot, no automount, no RDB, SASI.
+- Not autoconfig, hardwired at $600000.
+- 5380 based, on-board 16k SRAM, 5380<>SRAM DMA. SRAM<>CPU PIO.

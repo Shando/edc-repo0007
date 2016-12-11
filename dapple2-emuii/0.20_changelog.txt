@@ -1,0 +1,11 @@
+Changes from 0.10 to 0.20
+-------------------------
+  * The patch for 0.20 applies over 0.10.  Your results on 0.10RW may vary.
+  * There are now two binaries: "dapple2.exe" is the standard 128K version
+    and "dapple2r.exe" emulates a 3MB RAM Works card.
+  * Some cosmetic tweaks and small optimizations.
+  * Quick store/restore Apple ][ state with a single keystroke.
+  * On exit/eject, if the disk image has been changed, you will be prompted
+    to save or discard the changes.  This is experimental, since disks are
+    stored in Nibble-6656 format internally (as opposed to the actual image
+    format).

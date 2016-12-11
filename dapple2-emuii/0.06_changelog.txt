@@ -1,0 +1,9 @@
+Changes from 0.05 to 0.06
+-------------------------
+  * Added messages when IRQ, NMI, Reset, Halt, Trace are set.
+  * Added trace CPU registers.
+  * Added status message for BRK trap.
+  * Key combo to halt/restart CPU.
+  * Change *x-style "/" to "\" in directory names.
+  * Sort filenames in file selector.
+  * Doubled number of filespec handles in the file selector.

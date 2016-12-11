@@ -1,0 +1,23 @@
+Changes from 0.21 to 0.22
+-------------------------
+  * Altered the ROM loading routines to support the original (16K) version
+    of the //c.  Name it "apple2co.rom" if you have it.
+  * Restored the emulation of the joystick buttons by the PC joystick.
+    Different code this time, which should not be activated if the keyboard
+    is used to emulate the joystick.
+  * BUGFIX: Made the printer a binary file stream (so, for example, ^J is
+    not interpreted as ^M^J).
+  * BUGFIX: I misinterpreted the meaning of _go32_want_ctrl_break() - it
+    meant whether I want Ctrl-Break for myself, not for the DOS extender.
+    Ctrl-Break no longer exits the program.  In the future, Reset could be
+    moved to Ctrl-Break?
+  * Added //c 40/80 switch <F11>.
+  * Added two variants of the $DEADBEEF memory fill (see the Jargon File at
+    http://catb.org/jargon for details).  ;)
+  * BUGFIX: Upon clearing the memory, the RAM Works is reset to bank 0.
+  * New utility NEWER.COM is used to provide a Make utility - since I (The
+    Usotsuki) don't know how to write a makefile, I've done the next best
+    thing.  Note: It builds with Turbo C, not gcc.  (Better; gcc apps take
+    more time to launch than tcc apps.)
+  * Added a 00 01 02 03... memory fill pattern, which was in ini.c but not
+    memory.c.

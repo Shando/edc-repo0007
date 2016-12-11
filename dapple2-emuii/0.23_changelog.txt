@@ -1,0 +1,15 @@
+Changes from 0.22 to 0.23
+-------------------------
+  * Added a shorthand to pack attributes in structs, to make the drivedisk
+    structure tighter.
+  * Moved the disk structure into dapple.h.
+  * DOS file errors now display the C error message.  (But I don't like that
+    the libc displays the C error enum value (e.g., ENOENT) next to the
+    error message.  Is this a djgpp-specific thing, or is there some other
+    libc that does this, like BSD libc?)
+  * Added an experimental dynamic version of Dapple ][ (that is, RAM is
+    allocated dynamically, rather than statically).  With the new dapple2d,
+    your mileage may vary, but this might become the only version of Dapple
+    ][ in the future.
+  * Cleaned up the source a little bit, partly to streamline the MAKE
+    process.

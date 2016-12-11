@@ -1,0 +1,101 @@
+2.8.1
+
+Beta 8:
+
+- Tweaked 68020 reading from non-existing memory behavior.
+- Added *.a500, *.a600, *.a1200 and *.a4000 extensions to ROM dialog file name filter.
+- AVIOutput didn't use (slow) reads from VRAM even when it should have been used it, resulting in
+  tiny non-scaled video output if "capture before filtering" was not ticked and resolution was large enough.
+- AROS ROM updated.
+
+Beta 7:
+
+- Yet another BPLxDAT update. If BPL1DAT is written when sprite is already active and no planes enabled in
+  BPLCON0, "sprites visible 1 lores pixel before first bitplane pixel" feature is not active. Previous
+  update was not correct and broke some other demos. (Real fix for Rink A Dink / Lemon extra pixel in
+  rotozoomer part)
+- 68000 CE with 8x (or higher) clock multiplier was really fast (270b4)
+- AROS ROM updated.
+
+Beta 6:
+
+- b2 HAM update was incomplete and broken, nr_color_changes check was not fully working. (b2)
+- Display panel missing translations added (autoresolution and brightness/contrast/gamma)
+- Some file operations (zipped files, possibly something else too) didn't support recently introduced
+  relative "..\" path part update.
+- Copper emulation state was not fully reset when restoring state file, in some situations copper
+  may have modified restored custom register in next cycle after state was restored.
+
+Beta 5:
+
+- Relative path improvement broke CDFS CD mounting in some configurations.
+- Ungrab (b4) event didn't disable mouse capture when it was activated in fullscreen modes.
+- VPOS LOF bit toggles (if interlace) exactly 2 cycles before first refresh slot. Logic analyzer tested.
+- Copper vblank strobe also stopped the copper if DMA was disabled and second strobe register was accessed
+  previously. Broke in 280b1. (Sequential / Andromeda first screen)
+- More accurate BPL1DAT emulation.(Glitches appeared in Sequential / Andromeda magnet part's
+  left border when one pixel gap in Rink a Dink / Lemon rotozoomer part white border was fixed)
+- 8-bit split (odd/even) roms didn't load if merged parent was missing.
+
+Beta 4:
+
+- New relative path mode worked badly under Windows XP, possibly up to Windows 7 without SP1.
+- "Toggle between mouse grabbed and un-grabbed" input event has not done anything at all for ages (if ever).
+- "Switch between audio interpolation methods" input event probably has never done anything at all, probably
+  totally useless (custom events works as well) but at least it works now..
+- 2.8.0 translation dlls are accepted now.
+
+Beta 3:
+
+- Do not show "hpos = 256!?" error dialog if something writes very bad values to programmed display
+  mode registers.
+- "Magic mouse" now stays disabled unless there is at least one open Intuition Screen.
+- If relative path mode, support also relative paths that point outside of winuae root directory.
+- BPLCON2 KILLEHB bit still required AGA instead of ECS Denise. This was supposed to be fixed in 1.4.5.
+  (But no one cares, pre-AGA it was only meant for genlock stuff)
+- Removed "Unimplemented error" dialog if directory filesystem returns unhandled/unknown win32 disk error
+  codes, adds log message, returns ERROR_OBJECT_NOT_AROUND. (Most common causes are network filesystem problems,
+  file/directory errors due security problems etc, no new missing errors reported for long time)
+- On the fly (not using GUI) switching from Automatic resize filter to another filter mode may have incorrectly
+  changed window size in some situations.
+
+Beta 2:
+
+- Quickstart GUI disk eject button was unreliable.
+- HAM mode right border in some situations (Uridium 2 title screeen in some filter modes), also restored
+  proper operation (got broken long time ago) of original "fast mode" if HAM scanline does not have any
+  color register changes.
+- CIA update (which I forgot to mention in b1 changelog) improved, was not fully compatible if CPU was faster
+  than 68000 , do not trigger CIA interrupt while CPU is accessing any CIA register (not 100% confirmed but
+  seems to be true), this also made b1 CPU mode switching unreliable.
+- Reduced diskready (motor rotating at full speed) activation time by small amount, fixes Critical Mass / Parallax.
+- Disk inserted (if replacing existing disk) and disk ready bit setting time is now more "random", now delay time
+  counts scanlines, previously it counted vblanks (=disk was always inserted at vblank)
+- Removed 270b16 Windows 8.1 mouse bug workaround, bug seems to be fixed.
+
+Beta 1:
+
+- Audio DMA CPU wait hack (that tries to prevent missing samples if program has CPU timed audio DMA wait)
+  improved, now compatible with programs that really need delay after DMA switch off (for example switches
+  DMA off, then clears interrupt request, and then finally waits for audio interrupt).
+- CPU on the fly mode changes were unreliable (2.8.0b15)
+- Fixed some GUI strings that didn't support translation.
+- .ccd CD images didn't automatically load from archive if file was not in archive root.
+- Disk insert after emulation has been started may have internally set disk as write protected even
+  if disk image is write enabled. (broken since GUI "?" button was added)
+- Added DMA channel support to memwatch points. Add DMA channel name (or more than one) at the end of
+  debugger w command line, for example COP, BLT (or BLTA if you only want A channel reads) and so on..
+  No parameter = CPU accesses only.
+- Null filter didn't check display bounds, fixes possible DirectDraw mode crash when display size changes.
+- Directory filesystem ACTION SET FILE SIZE will now fail if target file size is >= 2G. (Prevents accidental
+  truncation if program does not support large files)
+- Added directory filesystem MorphOS compatible 64-bit file size packets: ACTION_SEEK64, ACTION_SET_FILE_SIZE64,
+  ACTION_LOCK_RECORD64, ACTION_FREE_RECORD64, ACTION_EXAMINE_OBJECT64, ACTION_EXAMINE_NEXT64, ACTION_EXAMINE_FH64 and
+  ACTION_EXAMINE_ALL ED_SIZE64. (OS4 packets were implemented long time ago)
+- AGA and reading non-existing or write-only custom registers work differently than on A500, don't use new more
+  A500 compatible method added in 2.8.0 with AGA configurations. (This is far from accurate)
+- Mouse device autoswitching was unreliable if rawinput was not supported or was disabled.
+- If Quickstart mode and sound filter is set to A500 or A1200 emulated or always on: automatically match it with
+  selected config.
+- DMA debugger now shows CPU and DMA 32-bit chip ram accesses, previously data was truncated to 16-bits. 64-bit
+  DMA is still truncated to 32-bit.

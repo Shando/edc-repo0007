@@ -1,0 +1,17 @@
+Changes from 0.23 to 0.24
+-------------------------
+  * Preparations to include linear framebuffer support on VESA 2 cards which
+    support it.
+  * Cosmetic tweaks (to the main menu and the About dialog).
+  * Alt-F4 works.  Shift-F9 has been removed.
+  * Added support for altering the volume number of DO and PO-type disk
+    images.
+  * Added support for the effect where double hi-res mode is entered in
+    40-column mode (which is, technically speaking, illegal).
+  * Fixed bugs in my code to retrieve and display strerror().
+  * Added German translation of some messages.
+  * Allowed Backspace to be treated like the corresponding key on the //e
+    keyboard (as in Dapple 1.25).
+  * Reimplemented the Shift Key Mod (in //e mode only).
+  * Some //e-only switches removed from //c emulation.
+  * MouseText works in 40-column mode.

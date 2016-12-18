@@ -1,0 +1,5 @@
+What's New IN Version 0.12
+--------------------------
+
+* Video attributes rewritten to use DX8
+* Fullscreen (Escape to exit)

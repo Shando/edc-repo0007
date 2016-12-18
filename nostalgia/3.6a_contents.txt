@@ -1,0 +1,78 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 11:33:16 ....A        27029       650037  images\astrosmash.jpg
+2016-12-18 11:33:16 ....A        10955               images\astrosmash_overlay.jpg
+2016-12-18 11:33:16 ....A        19458               images\beamrider.jpg
+2016-12-18 11:33:16 ....A        12376               images\beamrider_overlay.jpg
+2016-12-18 11:33:16 ....A        14065               gfx\handcontroller.jpg
+2016-12-18 11:33:16 ....A        12909               gfx\handcontroller2.jpg
+2016-12-18 11:33:16 ....A        17427               images\ice trek.jpg
+2016-12-18 11:33:16 ....A        10743               images\ice trek_overlay.jpg
+2016-12-18 11:33:16 ....A        27649               images\lock 'n' chase.jpg
+2016-12-18 11:33:16 ....A        13870               images\lock 'n' chase_overlay.jpg
+2016-12-18 11:33:16 ....A        18500               gfx\noimage.jpg
+2016-12-18 11:33:16 ....A        12778               gfx\noimage_overlay.jpg
+2016-12-18 11:33:16 ....A        20848               images\pitfall!.jpg
+2016-12-18 11:33:16 ....A         9035               images\pitfall!_overlay.jpg
+2016-12-18 11:33:16 ....A        24561               images\shark! shark!.jpg
+2016-12-18 11:33:16 ....A        10458               images\shark! shark!_overlay.jpg
+2016-12-18 11:33:16 ....A        80738               gfx\splash.jpg
+2016-12-18 11:33:16 ....A        31574               images\Tron Deadly Discs.jpg
+2016-12-18 11:33:16 ....A        11512               images\Tron Deadly Discs_overlay.jpg
+2016-12-18 11:33:16 ....A        31367               images\U.S. Ski Team Skiing.jpg
+2016-12-18 11:33:16 ....A        11659               images\U.S. Ski Team Skiing_overlay.jpg
+2016-12-18 11:33:16 ....A        30356               images\utopia.jpg
+2016-12-18 11:33:16 ....A        11389               images\utopia_overlay.jpg
+2016-12-18 11:33:16 ....A        31557               images\World Series Major League Baseball.jpg
+2016-12-18 11:33:16 ....A        10190               images\World Series Major League Baseball_overlay.jpg
+2016-12-18 11:33:16 ....A          822               gfx\DARROW.bmp
+2016-12-18 11:33:17 ....A          824               gfx\LARROW.bmp
+2016-12-18 11:33:17 ....A          824               gfx\RARROW.bmp
+2016-12-18 11:33:16 ....A          822               gfx\THUMB.bmp
+2016-12-18 11:33:16 ....A          822               gfx\UARROW.bmp
+2016-12-18 11:33:14 ....A         8192               exec.bin
+2016-12-18 11:33:14 ....A         2048               grom.bin
+2016-12-18 11:33:16 ....A         2510               readme.html
+2016-12-18 11:33:16 ....A          109               images\images.txt
+2016-12-18 11:33:16 ....A        13568               readme.txt
+2016-12-18 11:33:16 ....A           89               roms\roms.txt
+2016-12-18 11:33:16 ....A        39736               NOSTALGIA.HLP
+2016-12-18 11:33:17 ....A        38723               roms\PSG TINKERER READ ME.PDF
+2016-12-18 11:33:16 ....A        24840               gfx\intellec.ttf
+2016-12-18 11:33:14 ....A        32157               games.cfg
+2016-12-18 11:33:14 ....A          673               nostalgia.cnt
+2016-12-18 11:33:16 ....A        16441               roms\4-tris.rom
+2016-12-18 11:33:16 ....A         1593               roms\balls1.rom
+2016-12-18 11:33:16 ....A         2105               roms\balls2.rom
+2016-12-18 11:33:16 ....A         2113               roms\bankdemo.rom
+2016-12-18 11:33:16 ....A         4665               roms\banktest.rom
+2016-12-18 11:33:16 ....A        18493               roms\bankworld.rom
+2016-12-18 11:33:16 ....A         1593               roms\bncpix.rom
+2016-12-18 11:33:17 ....A        11833               roms\castle.rom
+2016-12-18 11:33:16 ....A         2617               roms\csumexec.rom
+2016-12-18 11:33:16 ....A         1593               roms\geese.rom
+2016-12-18 11:33:16 ....A         1081               roms\gram_scroll.rom
+2016-12-18 11:33:16 ....A         1593               roms\gram_scroll2.rom
+2016-12-18 11:33:16 ....A         3129               roms\handdemo.rom
+2016-12-18 11:33:16 ....A          569               roms\hello.rom
+2016-12-18 11:33:16 ....A        24641               roms\ld020807.rom
+2016-12-18 11:33:16 ....A         2105               roms\life.rom
+2016-12-18 11:33:16 ....A         1081               roms\mazedemo.rom
+2016-12-18 11:33:16 ....A         3641               roms\mem_test.rom
+2016-12-18 11:33:16 ....A        14905               roms\minehunter_current.rom
+2016-12-18 11:33:16 ....A         3129               roms\mob_test.rom
+2016-12-18 11:33:16 ....A         3129               roms\psgt_patch.rom
+2016-12-18 11:33:16 ....A         1593               roms\sky.rom
+2016-12-18 11:33:16 ....A        35393               roms\spirit.rom
+2016-12-18 11:33:16 ....A         9785               roms\stonix.rom
+2016-12-18 11:33:16 ....A         2617               roms\tagalong.rom
+2016-12-18 11:33:16 ....A         4153               roms\tagalong2.rom
+2016-12-18 11:33:16 ....A         4665               roms\tagalong2b.rom
+2016-12-18 11:33:16 ....A         7737               roms\tagalong2v.rom
+2016-12-18 11:33:16 ....A        18493               roms\world.rom
+2016-12-18 11:33:15 ....A       512000       134308  nostalgia.exe
+2016-12-18 11:33:17 D....            0            0  roms
+2016-12-18 11:33:16 D....            0            0  images
+2016-12-18 11:33:17 D....            0            0  gfx
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 11:33:17            1398247       784345  71 files, 3 folders

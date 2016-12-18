@@ -1,0 +1,7 @@
+What's New IN Version 0.3
+--------------------------
+
+* Alien vs. Predator is now playable !
+* More Blitter tweaking
+* Fixed some OP bugs (black text in Cannon Fodder)
+* Removed Boot ROM options from settings screen

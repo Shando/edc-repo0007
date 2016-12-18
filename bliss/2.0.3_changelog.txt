@@ -1,0 +1,14 @@
+v2.0.3 - April 25, 2005
+- Fixed a bug where I was accidentally requesting a DirectX device with
+  hardware vertex processing, even though it's not required.  This prevented
+  DirectX from initializing properly on any systems with video cards that
+  do not support hardware vertex processing.
+- Fixed a problem where the check for the file extension was case-sensitive,
+  preventing filenames in ALL CAPS from loading correctly.
+- Changed audio to flush the audio buffers on every video frame, resulting in
+  significantly less jerky video output. The need for this was actually
+  exposed by the fix in 2.0.2 that removed video output as the performance
+  bottleneck.
+- Name of the game being played is now displayed in the window title.
+- Added the ability to start up in fullscreen mode using "/fullscreen" or
+  "-fullscreen". Useful for the various emulator front-ends.

@@ -1,0 +1,6 @@
+What's New IN Version 0.15
+--------------------------
+
+* DX8 Video System should work on all systems now!
+* Implemented line-based renderer. More Accurate, a little slower.
+* New controller code. Totally configurable, supports two Jaguar joypads.

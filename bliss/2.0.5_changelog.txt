@@ -1,0 +1,5 @@
+v2.0.5 - May 25, 2005
+- Added support for the Classic Game Controller (CGC).
+  See http://www.shiny-technologies.com/cgc.php for details on this device.
+- Added initial support for Atari 5200 games. Nothing playable yet, but
+  graphics are visible for several games.

@@ -1,0 +1,24 @@
+------ Version 5.0 Updates --------------------------------
+  Completely new video system - changed from DirectDraw
+    to Direct3d to be compatible with more video cards.
+  Completely new front end with better functionality.
+  Completely new input system.
+  Greatly sped up scanning ROM folders.
+  Changed the display FrameSkip to greatly smooth out the 
+  frame skipping and allows an adaptive frakeskip model.
+  Screenshots now take a proper picture of the game screen,
+    including the border.
+  Screenshots are now available in BMP, JPG or PNG formats.
+  Audio now plays while minimized or in the background so you
+    can use it as a retro jukebox!
+  Sped up the beginning of the game display so you're not
+    looking at a blank window for too long.
+  Updated the database system making it FAR more resistant to
+    errors and corrupted databases.  It also handles new
+    database versions much better.
+  ECS keyboard now works more reliably.
+  You can now see and edit game configurations right in the GUI.
+  Games can now be assigned a category for custom sorting.
+  Game key help is now available in-game.  <F1> is the default.
+  Fixed a bug in video emulation that prevented the 1 & 9 key
+    pause combination from working properly.

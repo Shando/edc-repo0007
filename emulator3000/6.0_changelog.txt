@@ -1,0 +1,19 @@
+Version 6.0 from 16.08.2003
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Added "UT-88 settings" window for setting UT-88
+  parameters. Now, you can shut down Monitor-0,
+  shut down indicator for Monitor-0, switch
+  between Full and Minimal keyboard modes from
+  "Ut-88 settings" window.
+- Added KR1818VG93 drive controller emulation.
+  Added disk drive support for Orion-128,
+  Specialist-MX, Vector-06C computers.
+- Added .B files support (from Oleg Voronov's
+  Agat-9 emulator) for Agat computers.
+- Added indicators configuration saving
+  (indicators in status bar).
+- Fixed Agat keyboard emulation.
+- Added .MSF-files support (from Kalmykov Yuri's
+  BK-0010 emulator) for BK-0010 computers.
+- Fixed Partner 01.01 emulation.
+- Fixed Pyldin keyboard emulation.

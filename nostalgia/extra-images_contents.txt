@@ -1,0 +1,285 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2003-08-13 12:02:12 ....A        28352     23139881  images\4-Tris.jpg
+2003-04-14 14:24:30 ....A        34391               images\4-Tris_overlay.jpg
+2003-08-12 10:47:50 ....A        85030               images\ABPA Backgammon.jpg
+2003-08-25 11:57:08 ....A        71710               images\ABPA Backgammon_overlay.jpg
+2003-08-12 10:44:46 ....A        87079               images\Adventure (AD&D - Cloudy Mountain).jpg
+2003-08-25 12:16:58 ....A       111620               images\Adventure (AD&D - Cloudy Mountain)_overlay.jpg
+2003-11-01 20:06:26 ....A        27020               images\Adventures of TRON.JPG
+2003-03-15 08:50:46 ....A       102095               images\All-Stars Major League Baseball.jpg
+2000-06-30 20:00:34 ....A        15820               images\All-Stars Major League Baseball_overlay.jpg
+2003-08-12 10:46:06 ....A        82883               images\Armor Battle.jpg
+2003-08-25 12:19:28 ....A       108358               images\Armor Battle_overlay.jpg
+2003-03-15 08:40:24 ....A       105153               images\Astrosmash - Meteor.jpg
+2003-08-25 11:58:56 ....A        81557               images\Astrosmash - Meteor_overlay.jpg
+2005-07-02 01:22:42 ....A        27029               images\astrosmash.jpg
+2005-07-02 01:22:42 ....A        10955               images\astrosmash_overlay.jpg
+2003-03-15 07:56:22 ....A       165587               images\Atlantis.jpg
+2003-08-25 12:42:24 ....A       105804               images\Atlantis_overlay.jpg
+2003-08-12 10:46:48 ....A        89804               images\Auto Racing.jpg
+2003-08-25 12:04:10 ....A        77149               images\Auto Racing_overlay.jpg
+2003-08-12 10:47:08 ....A        61298               images\B-17 Bomber.jpg
+2003-08-25 12:12:28 ....A       132837               images\B-17 Bomber_overlay.jpg
+2003-03-15 08:23:00 ....A       111317               images\Baseball.jpg
+2003-08-25 12:05:02 ....A        56147               images\Baseball_overlay.jpg
+2005-07-02 01:22:42 ....A        19458               images\beamrider.jpg
+2005-07-02 01:22:42 ....A        12376               images\beamrider_overlay.jpg
+2003-08-12 10:49:06 ....A       238858               images\Beauty and the Beast.jpg
+2003-08-25 12:43:24 ....A        93181               images\Beauty and the Beast_overlay.jpg
+2003-03-14 11:31:30 ....A        15734               images\Blockade Runner.jpg
+2003-02-27 02:23:52 ....A        19419               images\Blockade Runner_overlay.jpg
+2003-11-01 19:48:08 ....A        17375               images\Blowout.jpg
+2003-03-15 09:00:56 ....A       101236               images\Body Slam Super Pro Wrestling.jpg
+2004-02-19 17:20:52 ....A        75838               images\Body Slam Super Pro Wrestling_overlay.jpg
+2003-08-12 10:49:16 ....A        62602               images\Bomb Squad.jpg
+2003-08-25 12:10:40 ....A       137249               images\Bomb Squad_overlay.jpg
+2003-03-15 08:22:18 ....A       112437               images\Boxing.jpg
+2003-08-24 19:47:20 ....A        72971               images\Boxing_overlay.jpg
+2003-03-15 08:47:26 ....A       116526               images\Bump 'N' Jump.jpg
+2003-08-24 19:27:42 ....A       110152               images\Bump 'N' Jump_overlay.jpg
+2003-03-15 08:46:42 ....A       104912               images\BurgerTime!.jpg
+2003-08-25 12:36:18 ....A        91867               images\BurgerTime!_overlay.jpg
+2003-03-15 08:45:16 ....A       122425               images\Buzz Bombers.jpg
+2003-08-25 12:35:20 ....A       105789               images\Buzz Bombers_overlay.jpg
+2003-08-25 14:23:02 ....A        24343               images\Carnival.jpg
+2004-02-19 17:22:08 ....A        86097               images\Carnival_overlay.jpg
+2003-03-14 11:31:16 ....A        10763               images\Centipede.jpg
+2004-02-19 17:25:08 ....A        86107               images\Centipede_overlay.jpg
+2003-03-14 11:27:10 ....A        14224               images\Championship Tennis.jpg
+2003-08-25 12:33:24 ....A        83227               images\Championship Tennis_overlay.jpg
+2003-03-15 08:43:04 ....A       114537               images\Checkers.jpg
+2003-08-25 11:57:56 ....A        78049               images\Checkers_overlay.jpg
+2003-03-15 08:55:18 ....A        97177               images\Chip Shot Super Pro Golf.jpg
+2004-02-19 17:26:10 ....A        82394               images\Chip Shot Super Pro Golf_overlay.jpg
+2003-11-01 20:08:24 ....A        19410               images\Choplifter.jpg
+2003-03-15 08:55:44 ....A       123570               images\Commando.jpg
+2004-02-19 17:28:22 ....A        87335               images\Commando_overlay.jpg
+2003-03-18 19:59:12 ....A       130150               images\Congo Bongo.jpg
+2004-02-19 17:29:16 ....A        96010               images\Congo Bongo_overlay.jpg
+2003-03-15 08:15:36 ....A        83188               images\Deep Pockets - Super Pro Pool and Billiards.jpg
+2003-03-14 11:31:26 ....A        10886               images\Defender.jpg
+2004-02-19 17:31:00 ....A        53876               images\Defender_overlay.jpg
+2003-03-14 11:19:00 ....A        13555               images\Demo.jpg
+2003-08-12 10:51:40 ....A       207050               images\Demon Attack.jpg
+2003-08-25 12:41:32 ....A        74160               images\Demon Attack_overlay.jpg
+2003-03-15 08:59:16 ....A        94712               images\Dig Dug.jpg
+2004-02-19 17:31:50 ....A        73190               images\Dig Dug_overlay.jpg
+2003-03-15 08:54:54 ....A       110436               images\Diner.jpg
+2004-02-19 17:33:44 ....A        89203               images\Diner_overlay.jpg
+2003-08-25 14:23:02 ....A        23104               images\Donkey Kong Jr.jpg
+2004-02-19 17:35:42 ....A        75638               images\Donkey Kong Jr_overlay.jpg
+2003-08-12 10:51:50 ....A        63459               images\Donkey Kong.jpg
+2004-02-19 17:34:38 ....A        83538               images\Donkey Kong_overlay.jpg
+2003-03-15 07:57:32 ....A       156723               images\Dracula.jpg
+2003-08-25 12:45:12 ....A        82376               images\Dracula_overlay.jpg
+2003-08-12 10:53:12 ....A       220568               images\Dragonfire.jpg
+2003-08-24 20:06:18 ....A        84098               images\Dragonfire_overlay.jpg
+2003-03-15 07:52:18 ....A       146538               images\Dreadnaught Factor, The.jpg
+2003-08-24 20:08:40 ....A        91719               images\Dreadnaught Factor, The_overlay.jpg
+2003-03-15 08:42:04 ....A       115371               images\Electric Company - Math Fun.jpg
+2003-08-24 19:55:54 ....A        80980               images\Electric Company - Math Fun_overlay.jpg
+2003-03-15 08:41:42 ....A       115499               images\Electric Company - Word Fun.jpg
+2003-08-25 12:26:48 ....A        74986               images\Electric Company - Word Fun_overlay.jpg
+2003-03-15 07:58:28 ....A       159063               images\Fathom.jpg
+2003-02-27 02:16:14 ....A        24396               images\Fathom_overlay.jpg
+2003-11-01 19:18:06 ....A       162787               images\Flintstones Keyboard Fun.jpg
+2003-08-12 10:53:42 ....A        86843               images\Frog Bog.jpg
+2003-08-25 12:15:14 ....A        91210               images\Frog Bog_overlay.jpg
+2003-03-14 11:30:26 ....A        15436               images\Frogger.jpg
+2004-02-19 17:37:30 ....A        67862               images\Frogger_overlay.jpg
+2003-03-15 07:08:30 ....A       127615               images\Game Factory.jpg
+2003-03-15 07:52:44 ....A       173300               images\Happy Trails.jpg
+2003-02-27 02:45:38 ....A        24613               images\Happy Trails_overlay.jpg
+2003-11-01 19:48:08 ....A        17146               images\Hard Hat.jpg
+2003-08-12 10:54:20 ....A        82987               images\Horse Racing.jpg
+2003-08-24 19:52:30 ....A        87173               images\Horse Racing_overlay.jpg
+2003-03-15 08:51:48 ....A       111776               images\Hover Force.jpg
+2004-02-19 17:38:38 ....A        65702               images\Hover Force_overlay.jpg
+2005-07-02 01:22:42 ....A        17427               images\ice trek.jpg
+2005-07-02 01:22:42 ....A        10743               images\ice trek_overlay.jpg
+2003-11-01 20:09:34 ....A        14880               images\Illusions.jpg
+2003-03-15 08:09:20 ....A       175777               images\Jetsons, The - Ways With Words.jpg
+2003-08-25 12:37:18 ....A       107128               images\Jetsons, The - Ways With Words_overlay.jpg
+2003-03-15 08:47:04 ....A       118909               images\Kool-Aid Man.jpg
+2003-08-24 19:30:56 ....A       126674               images\Kool-Aid Man_overlay.jpg
+2003-03-14 11:29:38 ....A        18273               images\Lady Bug.jpg
+2004-02-19 17:39:30 ....A        67668               images\Lady Bug_overlay.jpg
+2003-08-12 10:59:52 ....A        85620               images\Las Vegas Blackjack and Poker.jpg
+2003-08-24 19:18:46 ....A        58052               images\Las Vegas Blackjack and Poker_overlay.jpg
+2003-08-12 11:02:34 ....A        80764               images\Las Vegas Roulette.jpg
+2003-08-24 19:14:08 ....A        55944               images\Las Vegas Roulette_overlay.jpg
+2003-03-15 07:11:14 ....A       111957               images\League of Light.jpg
+2003-03-15 08:58:06 ....A       108842               images\Learning Fun I - Math Master Factor Fun.jpg
+2004-02-19 17:40:34 ....A        74558               images\Learning Fun I - Math Master Factor Fun_overlay.jpg
+2003-03-15 08:59:48 ....A       118192               images\Learning Fun II - Word Wizard Memory Fun.jpg
+2004-02-19 17:41:26 ....A        92842               images\Learning Fun II - Word Wizard Memory Fun_overlay.jpg
+2005-07-02 01:22:44 ....A        27649               images\lock 'n' chase.jpg
+2005-07-02 01:22:44 ....A        13870               images\lock 'n' chase_overlay.jpg
+2003-03-15 08:46:18 ....A       117496               images\Loco-Motion.jpg
+2003-08-25 12:27:44 ....A       126057               images\Loco-Motion_overlay.jpg
+2003-03-15 08:06:48 ....A       129994               images\Magic Carousel.jpg
+2003-03-15 22:57:18 ....A        60787               images\Magic Carousel_overlay.jpg
+2003-03-15 08:47:54 ....A       121167               images\Masters of the Universe - The Power of He-Man!.jpg
+2003-08-24 19:53:28 ....A       111128               images\Masters of the Universe - The Power of He-Man!_overlay.jpg
+2003-03-15 08:09:54 ....A       171714               images\Melody Blaster.jpg
+2003-08-24 20:25:10 ....A       154293               images\Melody Blaster_overlay.jpg
+2003-03-15 07:59:30 ....A       176276               images\Microsurgeon.jpg
+2003-08-12 10:22:24 ....A       161153               images\Microsurgeon_overlay-right.jpg
+2003-08-25 12:40:40 ....A        99107               images\Microsurgeon_overlay.jpg
+2003-03-15 08:10:54 ....A       175094               images\Mind Strike!.jpg
+2003-08-24 20:09:54 ....A        85540               images\Mind Strike!_overlay.jpg
+2004-04-07 18:56:10 ....A        76681               images\Minehunter (bin).jpg
+2004-04-01 18:07:52 ....A       159744               images\Minehunter (bin)_overlay.jpg
+2003-03-15 08:48:22 ....A       120120               images\Minotaur.jpg
+2003-08-25 12:38:04 ....A        87435               images\Minotaur_overlay.jpg
+2003-03-15 08:45:54 ....A       107517               images\Mission X.jpg
+2003-08-25 12:34:30 ....A       113524               images\Mission X_overlay.jpg
+2003-08-12 10:57:50 ....A       260879               images\Motocross.jpg
+2003-08-12 10:23:26 ....A       166836               images\Motocross_overlay.jpg
+2003-03-15 09:00:12 ....A        83999               images\Mountain Madness Super Pro Skiing.jpg
+2004-02-19 18:02:46 ....A        97492               images\Mountain Madness Super Pro Skiing_overlay.jpg
+2003-08-25 14:23:00 ....A        20161               images\Mouse Trap.jpg
+2003-02-27 02:26:18 ....A        23104               images\Mouse Trap_overlay.jpg
+2003-03-15 08:14:18 ....A       144650               images\Mr. Basic Meets Bits 'N Bytes.jpg
+2003-08-24 20:28:36 ....A       284516               images\Mr. Basic Meets Bits 'N Bytes_overlay.jpg
+2003-03-15 08:20:38 ....A       117219               images\NASL Soccer.jpg
+2003-08-25 12:03:22 ....A        60644               images\NASL Soccer_overlay.jpg
+2003-03-15 08:23:30 ....A       119908               images\NBA Basketball.jpg
+2003-08-25 12:48:04 ....A        89341               images\NBA Basketball_overlay.jpg
+2003-08-12 10:53:22 ....A        80685               images\NFL Football.jpg
+2003-08-24 19:42:30 ....A        72699               images\NFL Football_overlay.jpg
+2003-08-12 10:54:00 ....A        83505               images\NHL Hockey.jpg
+2003-08-25 12:47:06 ....A        55729               images\NHL Hockey_overlay.jpg
+2003-08-12 10:58:00 ....A        80901               images\Night Stalker.jpg
+2003-08-25 12:16:06 ....A        72018               images\Night Stalker_overlay.jpg
+2003-03-15 07:59:54 ....A       173367               images\Nova Blast.jpg
+2004-02-19 18:40:34 ....A        83631               images\Nova Blast_overlay.jpg
+2003-03-15 07:36:12 ....A       156238               images\Number Jumble.jpg
+2003-03-14 11:31:22 ....A        10923               images\Pac-Man.jpg
+2004-02-19 17:42:22 ....A        57191               images\Pac-Man_overlay.jpg
+2003-08-12 10:49:36 ....A        75330               images\PBA Bowling.jpg
+2003-08-25 12:07:34 ....A       139488               images\PBA Bowling_overlay.jpg
+2003-08-12 10:59:00 ....A        84436               images\PGA Golf.jpg
+2003-08-25 12:08:30 ....A        73043               images\PGA Golf_overlay.jpg
+2003-03-15 08:44:56 ....A        95967               images\Pinball.jpg
+2003-08-24 19:24:46 ....A        85298               images\Pinball_overlay.jpg
+2005-07-02 01:22:44 ....A        20848               images\pitfall!.jpg
+2005-07-02 01:22:44 ....A         9035               images\pitfall!_overlay.jpg
+2003-03-15 08:58:54 ....A       104642               images\Pole Position.jpg
+2004-02-19 17:43:20 ....A        80011               images\Pole Position_overlay.jpg
+2003-03-14 11:30:58 ....A        14512               images\Popeye.jpg
+2004-02-19 17:56:42 ....A        88022               images\Popeye_overlay.jpg
+2003-03-14 11:30:36 ....A        14729               images\Q-bert.jpg
+2004-02-19 17:57:32 ....A        82226               images\Q-bert_overlay.jpg
+2003-08-12 11:00:14 ....A        76908               images\Reversi.jpg
+2003-08-24 19:37:26 ....A        95533               images\Reversi_overlay.jpg
+2003-03-15 07:54:16 ....A       145438               images\River Raid.jpg
+2003-02-27 02:46:14 ....A        26429               images\River Raid_overlay.jpg
+2003-03-15 07:37:48 ....A        98299               images\Robot Rubble (Prototype).jpg
+2003-11-01 20:11:16 ....A        20428               images\Rocky and Bullwinckle.jpg
+2003-08-12 11:02:52 ....A        78711               images\Royal Dealer.jpg
+2003-08-25 12:25:44 ....A        78055               images\Royal Dealer_overlay.jpg
+2003-03-15 08:00:12 ....A       167913               images\Safecracker.jpg
+2003-02-27 02:20:04 ....A        24718               images\Safecracker_overlay.jpg
+2003-11-01 20:12:02 ....A        11712               images\ScarFinger.jpg
+2003-03-15 08:14:46 ....A       169239               images\Scooby Doo's Maze Chase.jpg
+2003-08-24 19:48:50 ....A        80154               images\Scooby Doo's Maze Chase_overlay.jpg
+2003-08-12 11:03:02 ....A        82923               images\Sea Battle.jpg
+2003-08-25 12:20:22 ....A        76961               images\Sea Battle_overlay.jpg
+2003-03-14 11:31:36 ....A        14024               images\Sewer Sam.jpg
+2003-08-12 10:35:20 ....A       119982               images\Sewer Sam_overlay.jpg
+2005-07-02 01:22:44 ....A        24561               images\shark! shark!.jpg
+2005-07-02 01:22:44 ....A        10458               images\shark! shark!_overlay.jpg
+2003-03-15 08:32:50 ....A       109919               images\Sharp Shot.jpg
+2003-08-25 12:21:06 ....A        80033               images\Sharp Shot_overlay.jpg
+2003-03-15 08:56:46 ....A        88520               images\Slam Dunk Super Pro Basketball.jpg
+2004-02-19 17:58:22 ....A        92931               images\Slam Dunk Super Pro Basketball_overlay.jpg
+2003-03-15 08:58:32 ....A        91190               images\Slap Shot Super Pro Hockey.jpg
+2004-02-19 17:59:10 ....A        81547               images\Slap Shot Super Pro Hockey_overlay.jpg
+2003-08-12 11:03:38 ....A        59208               images\Snafu.jpg
+2004-02-19 17:16:02 ....A       100826               images\Snafu_overlay.jpg
+2003-03-15 08:39:02 ....A       107747               images\Space Armada.jpg
+2003-08-25 11:59:44 ....A        74472               images\Space Armada_overlay.jpg
+2003-03-15 08:38:40 ....A       109560               images\Space Battle.jpg
+2003-08-25 12:00:32 ....A        77612               images\Space Battle_overlay.jpg
+2003-11-01 19:48:08 ....A        17506               images\Space Cadet.jpg
+2003-11-01 20:02:10 ....A         9956               images\Space Cunt.jpg
+2003-08-12 11:04:36 ....A        82653               images\Space Hawk.jpg
+2003-08-25 12:02:32 ....A        75336               images\Space Hawk_overlay.jpg
+2003-11-01 20:14:20 ....A        13712               images\Space Shuttle.jpg
+2003-03-15 08:07:16 ....A       123781               images\Space Spartans.jpg
+2003-08-25 12:11:36 ....A        77563               images\Space Spartans_overlay.jpg
+2003-03-15 07:46:50 ....A       106340               images\Spiker! Super Pro Volleyball.jpg
+2004-02-19 18:03:44 ....A        81580               images\Spiker! Super Pro Volleyball_overlay.jpg
+2003-11-01 20:16:32 ....A        19477               images\Spina the Bee.jpg
+2003-03-15 07:46:06 ....A       116855               images\Stadium Mud Buggies.jpg
+2004-02-19 18:00:04 ....A       100471               images\Stadium Mud Buggies_overlay.jpg
+2003-03-15 07:54:42 ....A       161035               images\Stampede.jpg
+2003-08-24 20:00:48 ....A        56826               images\Stampede_overlay.jpg
+2003-08-12 11:05:02 ....A        80016               images\Star Strike.jpg
+2003-08-25 12:01:30 ....A        71530               images\Star Strike_overlay.jpg
+2003-03-14 11:30:20 ....A        13562               images\Star Wars - The Empire Strikes Back.jpg
+2004-02-19 17:36:34 ....A        84907               images\Star Wars - The Empire Strikes Back_overlay.jpg
+2004-04-07 18:56:52 ....A        69841               images\Stonix (bin).jpg
+2004-03-22 09:08:28 ....A       105173               images\Stonix (bin)_overlay.jpg
+2003-08-12 11:05:12 ....A        72991               images\Sub Hunt.jpg
+2003-08-24 19:45:32 ....A        78042               images\Sub Hunt_overlay.jpg
+2003-03-14 11:31:06 ....A        15837               images\Super Cobra.jpg
+2004-02-19 17:27:24 ....A        84997               images\Super Cobra_overlay.jpg
+2003-11-01 20:05:18 ....A        21855               images\Super NFL Football.jpg
+2003-03-15 09:00:34 ....A        86227               images\Super Pro Decathlon.jpg
+2004-02-19 18:00:54 ....A        92594               images\Super Pro Decathlon_overlay.jpg
+2003-03-15 08:51:10 ....A        96375               images\Super Pro Football.jpg
+2004-02-19 18:01:52 ....A        80933               images\Super Pro Football_overlay.jpg
+2003-03-15 08:00:44 ....A       168620               images\Swords and Serpents.jpg
+2003-08-12 10:37:34 ....A       156814               images\Swords and Serpents_overlay.jpg
+2003-08-12 11:05:30 ....A        79019               images\Tennis.jpg
+2003-08-25 12:23:50 ....A        74065               images\Tennis_overlay.jpg
+2003-03-15 08:16:04 ....A       186054               images\Thin Ice.jpg
+2004-02-19 18:04:36 ....A        61937               images\Thin Ice_overlay.jpg
+2003-03-15 08:50:26 ....A       104284               images\Thunder Castle.jpg
+2004-02-19 18:05:28 ....A        88494               images\Thunder Castle_overlay.jpg
+2003-03-15 08:54:30 ....A        94028               images\Tower of Doom.jpg
+2004-02-19 18:06:26 ....A        65453               images\Tower of Doom_overlay.jpg
+2003-08-12 11:05:50 ....A        78326               images\Triple Action.jpg
+2003-08-25 12:18:34 ....A        70357               images\Triple Action_overlay.jpg
+2003-03-17 16:44:56 ....A        83185               images\Triple Challenge.jpg
+2004-02-19 18:16:02 ....A       311722               images\Triple Challenge_overlay.jpg
+2005-07-02 01:22:44 ....A        31574               images\Tron Deadly Discs.jpg
+2005-07-02 01:22:44 ....A        11512               images\Tron Deadly Discs_overlay.jpg
+2003-08-12 10:56:30 ....A        76259               images\Tron Maze-A-Tron.jpg
+2003-08-25 12:17:50 ....A        89060               images\Tron Maze-A-Tron_overlay.jpg
+2003-08-12 11:03:48 ....A        59604               images\Tron Solar Sailer.jpg
+2003-08-25 12:13:22 ....A        87767               images\Tron Solar Sailer_overlay.jpg
+2003-03-15 08:03:46 ....A       182606               images\Tropical Trouble.jpg
+2003-08-24 20:04:34 ....A        79273               images\Tropical Trouble_overlay.jpg
+2003-03-15 08:04:04 ....A       167430               images\Truckin'.jpg
+2003-08-25 12:44:14 ....A        80290               images\Truckin'_overlay.jpg
+2003-03-14 11:29:44 ....A        12885               images\Turbo.jpg
+2004-02-19 18:08:02 ....A        78156               images\Turbo_overlay.jpg
+2003-03-14 11:31:10 ....A        16176               images\Tutankham.jpg
+2004-02-19 18:08:58 ....A        95200               images\Tutankham_overlay.jpg
+2005-07-02 01:22:44 ....A        31367               images\U.S. Ski Team Skiing.jpg
+2005-07-02 01:22:44 ....A        11659               images\U.S. Ski Team Skiing_overlay.jpg
+2003-08-12 10:50:32 ....A        74727               images\USCF Chess.jpg
+2003-08-24 20:24:04 ....A       197279               images\USCF Chess_overlay.jpg
+2005-07-02 01:22:44 ....A        30356               images\utopia.jpg
+2005-07-02 01:22:44 ....A        11389               images\utopia_overlay.jpg
+2003-03-15 08:49:00 ....A       104269               images\Vectron.jpg
+2003-08-24 19:49:56 ....A        77769               images\Vectron_Overlay.jpg
+2003-08-25 14:22:58 ....A        21374               images\Venture.jpg
+2004-02-19 18:09:50 ....A        80142               images\Venture_overlay.jpg
+2003-03-15 08:04:24 ....A       180628               images\White Water!.jpg
+2003-08-24 20:03:30 ....A        78485               images\White Water!_overlay.jpg
+2003-03-14 11:27:14 ....A        12966               images\World Cup Football.jpg
+2003-08-24 19:32:26 ....A       109896               images\World Cup Football_overlay.jpg
+2005-07-02 01:22:44 ....A        31557               images\World Series Major League Baseball.jpg
+2005-07-02 01:22:44 ....A        10190               images\World Series Major League Baseball_overlay.jpg
+2003-03-15 07:55:52 ....A       171190               images\Worm Whomper.jpg
+2004-04-03 20:18:28 ....A        51001               images\Worm Whomper_overlay.jpg
+2003-08-25 14:23:00 ....A        21726               images\Zaxxon (1982) (Coleco).jpg
+2004-02-19 18:10:42 ....A        71851               images\Zaxxon (1982) (Coleco)_overlay.jpg
+2016-12-18 11:44:34 D....            0            0  images
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 11:44:34           23913327     23139881  280 files, 1 folders

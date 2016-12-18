@@ -1,0 +1,4 @@
+What's New IN Version 0.11
+--------------------------
+
+* Rewrote some video attributes that was causing corrupted graphics on some systems.

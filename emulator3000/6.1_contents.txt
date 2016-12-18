@@ -1,0 +1,201 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-08-03 09:51:40 ....A        52239      1265904  Machines\Partner\Partner.jpg
+2002-04-26 17:07:10 ....A        39881               Machines\Vector06C\Vector06C.jpg
+2001-07-19 04:49:26 ....A        33774               Machines\ZXSpectrum48\ZXSpectrum48.jpg
+2002-09-14 18:28:34 ....A       280630               Machines\Agat9\Agat9.bmp
+2002-09-14 18:28:48 ....A       280630               Machines\Agat9\Agat9down.bmp
+2002-04-03 11:53:40 ....A      1001526               Machines\Bashkiria2M\Bashkiria2M.bmp
+2002-04-26 13:16:58 ....A       300086               Machines\Commodore64\Commodore64.bmp
+2002-04-26 13:17:12 ....A       300086               Machines\Commodore64\Commodore64down.bmp
+2003-06-22 08:58:34 ....A         1206               Languages\English.bmp
+2003-06-22 08:58:48 ....A         1206               Languages\German.bmp
+2003-06-22 08:59:08 ....A         1206               Languages\Italian.bmp
+2002-03-18 18:42:02 ....A       391222               Machines\Lvov\Lvov.bmp
+2003-01-29 22:23:16 ....A       300086               Machines\Microsha\Microsha.bmp
+2003-01-29 22:23:34 ....A       300086               Machines\Microsha\MicroshaDown.bmp
+2003-06-22 08:59:26 ....A         1206               Languages\Polish.bmp
+2002-01-08 16:53:40 ....A       425014               Machines\Pyldin601\Pyldin601.bmp
+2002-01-08 16:53:10 ....A       425014               Machines\Pyldin601\Pyldin601down.bmp
+2003-01-18 06:45:54 ....A       316470               Machines\RK86\RK86.bmp
+2003-01-18 06:46:44 ....A       316470               Machines\RK86\RK86down.bmp
+2003-06-22 08:59:44 ....A         1206               Languages\Russian.bmp
+2003-06-22 09:00:06 ....A         1206               Languages\Spanish.bmp
+2003-06-22 09:00:28 ....A         1206               Languages\Ukrainian.bmp
+2003-01-17 19:35:08 ....A       335926               Machines\UT88\UT88.bmp
+2003-01-17 19:35:28 ....A       335926               Machines\UT88\UT88down.bmp
+2002-03-12 16:37:16 ....A       819200               Floppies\Bashkiria2M-System.img
+1999-06-30 00:57:56 ....A       819200               Floppies\BK0011M-System.img
+2001-10-31 22:53:54 ....A       368640               Floppies\Pyldin601-System.img
+2004-03-03 23:09:58 ....A         3045               Documents\About.Eng.txt
+2004-03-03 23:10:18 ....A         3131               Documents\About.Rus.txt
+2004-03-03 23:09:08 ....A        49313               Languages\English.txt
+2003-07-03 07:29:42 ....A        23915               Languages\German.txt
+2004-03-03 23:08:20 ....A          903               History.Eng.txt
+2004-03-03 23:07:54 ....A         1015               History.Rus.txt
+2003-08-15 09:51:46 ....A          191               Machines\Info.Rus.txt
+2003-08-15 09:54:08 ....A          281               Floppies\Info.Rus.txt
+2003-07-03 07:29:50 ....A        23724               Languages\Italian.txt
+2003-08-21 09:09:32 ....A        49933               Languages\Polish.txt
+2003-08-25 10:06:22 ....A        50870               Languages\Russian.txt
+2003-07-03 07:30:04 ....A        23847               Languages\Spanish.txt
+2003-08-26 11:13:20 ....A         1184               Thanks.Eng.txt
+2003-08-26 11:12:54 ....A         1287               Thanks.Rus.txt
+2003-01-12 02:12:32 ....A          425               Languages\Tips\TipsEnglish.txt
+2003-01-11 04:30:42 ....A          534               Languages\Tips\TipsGerman.txt
+2003-01-11 04:30:52 ....A          472               Languages\Tips\TipsItalian.txt
+2003-01-11 04:31:00 ....A          470               Languages\Tips\TipsPolish.txt
+2003-01-12 02:12:08 ....A          535               Languages\Tips\TipsRussian.txt
+2003-01-11 04:31:22 ....A          404               Languages\Tips\TipsSpanish.txt
+2003-01-11 04:31:30 ....A          535               Languages\Tips\TipsUkrainian.txt
+2003-07-23 01:30:18 ....A        50940               Languages\Ukrainian.txt
+2003-08-15 09:52:22 ....A          333               Languages\Info.Rus.doc
+1998-11-11 23:54:20 ....A         2048               Machines\RK86\RK86.16K
+1997-07-03 13:19:04 ....A         2048               Machines\RK86\RK86.32K
+2002-12-21 19:17:56 ....A         7080               Machines\Agat9\Agat9.cfg
+2003-01-21 22:13:26 ....A          759               Machines\Apogee\Apogee.cfg
+2003-07-03 22:12:40 ....A        11004               Machines\Bashkiria2M\Bashkiria2M.cfg
+2003-01-13 05:47:06 ....A          729               Machines\BK0010\BK0010.cfg
+2003-01-13 05:45:50 ....A         7780               Machines\BK0010_01\BK0010_01.cfg
+2003-01-13 05:47:16 ....A         8153               Machines\BK0011M\BK0011M.cfg
+2003-01-23 16:58:02 ....A          759               Machines\ColecoVision\ColecoVision.cfg
+2003-06-30 14:20:46 ....A        10439               Machines\Commodore64\Commodore64.cfg
+2003-01-28 16:03:04 ....A          725               Machines\Lik\Lik.cfg
+2002-12-21 22:42:56 ....A          864               Machines\Lvov\Lvov.cfg
+2003-01-17 19:51:22 ....A         5557               Machines\Micro80\Micro80.cfg
+2003-01-30 14:27:48 ....A         6198               Machines\Microsha\Microsha.cfg
+2002-09-09 20:17:52 ....A         2018               Machines\NES\NES.cfg
+2003-07-03 16:30:58 ....A         1010               Machines\Orion128\Orion128.cfg
+2003-01-28 13:19:54 ....A         7915               Machines\Partner\Partner.cfg
+2002-11-10 17:24:08 ....A        10574               Machines\Pyldin601\Pyldin601.cfg
+2002-11-10 17:24:18 ....A        10722               Machines\Pyldin601A\Pyldin601A.cfg
+2002-11-10 17:24:24 ....A        10739               Machines\Pyldin601Fixed\Pyldin601Fixed.cfg
+2002-11-10 17:24:30 ....A        10722               Machines\Pyldin601M\Pyldin601M.cfg
+2002-11-10 17:24:38 ....A        10767               Machines\Pyldin601T\Pyldin601T.cfg
+2002-11-10 17:24:44 ....A        10745               Machines\Pyldin601U\Pyldin601U.cfg
+2002-11-10 17:24:50 ....A        10777               Machines\Pyldin601UFixed\Pyldin601UFixed.cfg
+2003-01-18 22:00:42 ....A         6163               Machines\RK86\RK86.cfg
+2003-01-28 14:34:42 ....A          883               Machines\Specialist\Specialist.cfg
+2002-04-25 16:35:00 ....A          845               Machines\SpecialistMX\SpecialistMX.cfg
+2003-01-17 19:43:16 ....A         5574               Machines\UT88\UT88.cfg
+2002-12-21 19:52:36 ....A         9578               Machines\Vector06C\Vector06C.cfg
+2002-11-10 17:21:58 ....A         8644               Machines\ZXSpectrum128\ZXSpectrum128.cfg
+2002-11-10 17:22:08 ....A         8780               Machines\ZXSpectrum48\ZXSpectrum48.cfg
+2002-11-10 17:22:16 ....A         8737               Machines\ZXSpectrumPlus2\ZXSpectrumPlus2.cfg
+2002-11-10 17:22:24 ....A         8579               Machines\ZXSpectrumPlus2A\ZXSpectrumPlus2A.cfg
+2002-11-10 17:22:30 ....A         8655               Machines\ZXSpectrumPlus3\ZXSpectrumPlus3.cfg
+2002-11-10 17:22:36 ....A         8579               Machines\ZXSpectrumPlus3E\ZXSpectrumPlus3E.cfg
+2002-11-10 17:22:44 ....A         8575               Machines\ZXSpectrumPlus4\ZXSpectrumPlus4.cfg
+2001-03-24 17:55:00 ....A         2048               Machines\Agat9\Agat9.fnt
+2003-01-13 05:41:42 ....A         1735               Machines\BK0010\BK0010.inf
+2003-02-01 01:11:12 ....A          135               Machines\Lvov\Lvov.inf
+2003-06-28 14:38:26 ....A         4770               Machines\UT88\UT88.inf
+1999-05-05 20:21:30 ....A         2048               Machines\Orion128\Orion1281.mon
+1999-05-17 14:20:50 ....A         2048               Machines\Orion128\Orion1282.mon
+1999-10-18 19:10:58 ....A         2048               Machines\Orion128\Orion128P.mon
+2001-03-17 20:02:56 ....A         2048               Machines\Agat9\Agat9.rom
+1998-02-13 21:11:02 ....A         4096               Machines\Apogee\Apogee.rom
+2002-03-29 22:25:26 ....A         6960               Machines\Bashkiria2M\Bashkiria2M.rom
+1998-08-13 15:00:44 ....A         8192               Machines\Commodore64\Basic.rom
+2002-12-14 19:19:34 ....A        32640               Machines\BK0010\BK0010.rom
+1995-01-18 20:45:26 ....A        32768               Machines\BK0010_01\BK0010_01.rom
+1996-01-25 11:21:20 ....A        40960               Machines\BK0011M\BK0011M.rom
+1999-04-28 05:19:28 ....A        32768               Machines\Vector06C\BootTIMSoft.rom
+2001-02-02 22:19:54 ....A        16384               Machines\ZXSpectrum48\BusySoft.rom
+1998-08-13 15:00:44 ....A         4096               Machines\Commodore64\Chars.rom
+1996-01-30 08:45:30 ....A         8192               Machines\ColecoVision\ColecoVision.rom
+2001-03-17 19:59:10 ....A          256               Machines\Agat9\Disk140K.rom
+2000-01-26 14:39:48 ....A          256               Machines\Agat9\Disk1M.rom
+2000-09-24 22:48:26 ....A         4096               Machines\BK0011M\DiskDrv.rom
+1989-08-17 10:43:48 ....A         2048               Machines\Pyldin601\Font.rom
+2000-01-14 21:21:34 ....A         1024               Machines\Micro80\Font.rom
+2000-01-14 21:21:34 ....A         1024               Machines\UT88\Font.rom
+2003-01-18 22:06:42 ....A         2048               Machines\Apogee\Font.rom
+2003-01-18 22:06:42 ....A         2048               Machines\Microsha\Font.rom
+2003-01-18 22:06:42 ....A         2048               Machines\Partner\Font.rom
+2003-01-18 22:06:42 ....A         2048               Machines\RK86\Font.rom
+2001-02-02 22:19:54 ....A        16384               Machines\ZXSpectrum48\Groot.rom
+2001-02-02 22:19:54 ....A        16384               Machines\ZXSpectrum48\IMC.rom
+1998-08-13 15:00:44 ....A         8192               Machines\Commodore64\Kernel.rom
+2001-02-02 22:19:54 ....A        16384               Machines\ZXSpectrum48\LEC.rom
+1999-04-08 22:20:48 ....A        12288               Machines\Lik\Lik.rom
+2002-03-17 18:43:04 ....A        16384               Machines\Lvov\Lvov1.rom
+2002-03-25 06:25:40 ....A        16384               Machines\Lvov\Lvov2.rom
+2002-01-22 02:46:46 ....A        16384               Machines\Lvov\Lvov3.rom
+1999-05-20 22:18:26 ....A         2048               Machines\Micro80\Micro80.rom
+2003-01-20 14:33:08 ....A         2048               Machines\Microsha\Microsha.rom
+1999-12-16 17:58:28 ....A         1024               Machines\UT88\Monitor0.rom
+1999-12-23 19:50:48 ....A         2048               Machines\UT88\MonitorF.rom
+1999-11-01 02:33:28 ....A        56208               Machines\Orion128\Orion128.rom
+1998-08-14 23:45:30 ....A         4096               Machines\Partner\Partner.rom
+1999-04-14 11:15:20 ....A         4096               Machines\Partner\Partner2.rom
+2000-02-13 16:26:40 ....A         4096               Machines\Pyldin601\Pyldin601.rom
+1991-09-29 10:14:54 ....A         4096               Machines\Pyldin601A\Pyldin601A.rom
+2002-04-09 10:15:04 ....A         4096               Machines\Pyldin601M\Pyldin601M.rom
+1991-10-17 13:56:46 ....A         4096               Machines\Pyldin601Fixed\Pyldin601_260.rom
+1999-02-11 17:43:12 ....A         4096               Machines\Specialist\Specialist1.rom
+1999-02-21 21:24:14 ....A         4096               Machines\Specialist\Specialist2.rom
+1999-04-08 22:13:54 ....A         8192               Machines\Specialist\SpecialistM.rom
+2000-04-11 04:00:00 ....A        47104               Machines\SpecialistMX\SpecialistMX.rom
+1989-01-01 00:20:48 ....A         8192               Machines\Pyldin601\STR$08.ROM
+1989-01-01 00:20:56 ....A         8192               Machines\Pyldin601\STR$09.ROM
+2002-03-24 19:06:04 ....A         8192               Machines\Pyldin601\str$0a.rom
+1989-01-01 00:21:04 ....A         8192               Machines\Pyldin601\STR$0B.ROM
+1989-01-01 00:21:12 ....A         8192               Machines\Pyldin601\STR$0C.ROM
+1989-01-01 00:21:20 ....A         8192               Machines\Pyldin601\STR$0D.ROM
+1991-10-14 18:19:36 ....A         8192               Machines\Pyldin601\STR$0E.ROM
+1989-01-01 00:21:36 ....A         8192               Machines\Pyldin601\STR$0F.ROM
+1999-04-24 11:47:16 ....A        29578               Machines\Vector06C\Vector06C.rom
+2001-09-04 14:27:26 ....A        32768               Machines\ZXSpectrum128\ZXSpectrum128.rom
+2001-09-04 18:49:50 ....A        32768               Machines\ZXSpectrum128\ZXSpectrum128_Spain.rom
+1994-12-11 20:01:56 ....A        16384               Machines\ZXSpectrum48\ZXSpectrum48.rom
+2001-09-04 19:30:46 ....A        32768               Machines\ZXSpectrumPlus2\ZXSpectrumPlus2.rom
+2001-09-04 23:03:04 ....A        65536               Machines\ZXSpectrumPlus2A\ZXSpectrumPlus2A.rom
+2001-09-04 19:31:58 ....A        32768               Machines\ZXSpectrumPlus2\ZXSpectrumPlus2_France.rom
+2001-09-04 19:32:16 ....A        32768               Machines\ZXSpectrumPlus2\ZXSpectrumPlus2_Spain.rom
+2001-09-04 19:35:20 ....A        65536               Machines\ZXSpectrumPlus3\ZXSpectrumPlus3.rom
+2001-09-04 22:48:06 ....A        65536               Machines\ZXSpectrumPlus3E\ZXSpectrumPlus3E.rom
+2001-09-04 19:35:40 ....A        65536               Machines\ZXSpectrumPlus3\ZXSpectrumPlus3_Spain.rom
+2001-02-02 22:19:54 ....A        16384               Machines\ZXSpectrumPlus4\ZXSpectrumPlus4.rom
+2004-03-03 23:12:22 ....A       800768       781348  Emulator3000.exe
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrumPlus4
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrumPlus3E
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrumPlus3
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrumPlus2A
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrumPlus2
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrum48
+2016-12-18 18:58:35 D....            0            0  Machines\ZXSpectrum128
+2016-12-18 18:58:35 D....            0            0  Machines\Vector06C
+2016-12-18 18:58:35 D....            0            0  Machines\UT88
+2016-12-18 18:58:35 D....            0            0  Machines\SpecialistMX
+2016-12-18 18:58:35 D....            0            0  Machines\Specialist
+2016-12-18 18:58:35 D....            0            0  Machines\RK86
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601UFixed
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601U
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601T
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601M
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601Fixed
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601A
+2016-12-18 18:58:35 D....            0            0  Machines\Pyldin601
+2016-12-18 18:58:35 D....            0            0  Machines\Partner
+2016-12-18 18:58:35 D....            0            0  Machines\Orion128
+2016-12-18 18:58:35 D....            0            0  Machines\NES
+2016-12-18 18:58:35 D....            0            0  Machines\Microsha
+2016-12-18 18:58:35 D....            0            0  Machines\Micro80
+2016-12-18 18:58:35 D....            0            0  Machines\Lvov
+2016-12-18 18:58:35 D....            0            0  Machines\Lik
+2016-12-18 18:58:35 D....            0            0  Machines\Commodore64
+2016-12-18 18:58:35 D....            0            0  Machines\ColecoVision
+2016-12-18 18:58:35 D....            0            0  Machines\BK0011M
+2016-12-18 18:58:35 D....            0            0  Machines\BK0010_01
+2016-12-18 18:58:35 D....            0            0  Machines\BK0010
+2016-12-18 18:58:35 D....            0            0  Machines\Bashkiria2M
+2016-12-18 18:58:35 D....            0            0  Machines\Apogee
+2016-12-18 18:58:35 D....            0            0  Machines\Agat9
+2016-12-18 18:58:35 D....            0            0  Machines
+2003-07-30 16:51:22 D....            0            0  Languages\Tips
+2003-08-15 09:52:24 D....            0            0  Languages
+2016-12-18 18:58:35 D....            0            0  Floppies
+2003-07-30 16:52:54 D....            0            0  Documents
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 18:58:35            9817249      2047252  158 files, 39 folders

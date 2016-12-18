@@ -1,0 +1,72 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2000-07-28 18:18:30 ....A          766       309895  KC85EMU.ICO
+2010-09-08 23:16:38 ....A         8132               BAC3.BIN
+2010-09-08 23:22:32 ....A         8512               BAC3C.BIN
+2010-09-08 23:13:52 ....A         7784               BAC4.BIN
+2010-09-08 23:19:12 ....A         8160               BAC4C.BIN
+2010-09-08 23:04:14 ....A          487               BRUN.BIN
+2001-07-01 00:39:20 ....A        10627               BRUN2.BIN
+2010-12-04 18:31:34 ....A        90125               KC85EMU.BIN
+2011-01-30 14:22:18 ....A        55347               README.TXT
+2000-09-05 21:51:16 ....A        30847               SOFTWARE\SPIELE-3\BREAKIN.853
+2000-07-31 10:50:28 ....A        20269               SOFTWARE\SPIELE-3\DIGGER.853
+2000-07-30 23:02:12 ....A        13948               SOFTWARE\SPIELE-3\PURSUIT.853
+2000-07-31 10:51:28 ....A        15670               SOFTWARE\ANWENDUN\FREUNBCO.BAC
+2010-12-12 22:14:46 ....A         1401               Kc85emu.conf
+2000-07-30 22:54:56 ....A         1822               SOFTWARE\SPIELE\CHESSDOK.MTX
+1999-11-18 22:49:16 ....A         3757               SOFTWARE\OFFICE\MINDOK.MTX
+1998-08-27 18:54:28 ....A         5821               SOFTWARE\SPIELE\ANACONDA.TAP
+2010-11-07 18:45:42 ....A         9433               SOFTWARE\SPIELE\ATOM.TAP
+2000-07-30 22:51:16 ....A         8401               SOFTWARE\BAC8542.TAP
+2002-05-04 21:55:50 ....A        10465               SOFTWARE\BASIC213.TAP
+2000-01-23 12:48:48 ....A        22462               SOFTWARE\SPIELE\BENNION.TAP
+2010-12-05 19:44:28 ....A        15625               SOFTWARE\SPIELE\BS-FV1.TAP
+2001-02-24 17:30:20 ....A          532               SOFTWARE\CENTDOK.TAP
+2000-08-12 16:42:26 ....A          661               SOFTWARE\CENTR853.TAP
+2000-09-16 17:51:00 ....A         6337               SOFTWARE\DEMO854\DEMO854.TAP
+2000-07-30 22:51:16 ....A         8530               SOFTWARE\ANWENDUN\EDAS.TAP
+2000-05-23 14:42:44 ....A        20398               SOFTWARE\ANWENDUN\ENGLISH.TAP
+2010-12-14 22:11:32 ....A         1564               SOFTWARE\GRF-SND\FRACTAL.TAP
+2000-08-09 21:26:06 ....A        20140               SOFTWARE\SPIELE\FYA.TAP
+1999-03-18 23:03:30 ....A         7901               SOFTWARE\SPIELE\GATECR.TAP
+2000-05-03 23:55:26 ....A        21688               SOFTWARE\GRF-SND\GLOBUSNL.TAP
+2000-05-17 23:06:36 ....A        23494               SOFTWARE\ANWENDUN\HIMMEL.TAP
+2010-12-14 22:11:54 ....A        12658               SOFTWARE\GRF-SND\HYMNEN2.TAP
+2010-12-14 12:14:50 ....A        15238               SOFTWARE\ANWENDUN\IC-DIM.TAP
+2000-09-16 17:59:36 ....A         9707               SOFTWARE\DEMO854\INTER.TAP
+1999-04-07 11:59:04 ....A         4918               SOFTWARE\SPIELE\KREYSCHA.TAP
+1999-03-18 23:36:26 ....A         6595               SOFTWARE\SPIELE\LADDER.TAP
+2000-09-16 17:59:36 ....A        11755               SOFTWARE\DEMO854\LEKTION1.TAP
+2000-05-18 00:00:40 ....A         1951               SOFTWARE\GRF-SND\LEO4.TAP
+2001-11-19 23:40:40 ....A         1435               SOFTWARE\MCCOPY4.TAP
+1999-04-07 11:48:00 ....A        14077               SOFTWARE\SPIELE\MEMORY.TAP
+2000-04-30 23:35:00 ....A        14464               SOFTWARE\OFFICE\MIN-TKP.TAP
+2000-05-09 22:27:40 ....A         2854               SOFTWARE\OFFICE\MINTEX4.TAP
+1999-04-07 11:23:08 ....A        12529               SOFTWARE\SPIELE\MONOPOLY.TAP
+2000-09-16 17:59:36 ....A         4789               SOFTWARE\DEMO854\OTHELLO.TAP
+1999-03-21 21:20:32 ....A         4660               SOFTWARE\SPIELE\PENG.TAP
+1999-04-01 23:58:28 ....A        13448               SOFTWARE\SPIELE\SCHACH.TAP
+2000-07-14 00:16:26 ....A         8401               SOFTWARE\SPIELE\SCHIESSB.TAP
+1999-06-28 16:41:24 ....A        10981               SOFTWARE\SPIELE\SKAT.TAP
+1999-06-03 16:14:16 ....A         3628               SOFTWARE\SPIELE\SOKOBAN.TAP
+2010-12-14 22:11:44 ....A         4660               SOFTWARE\GRF-SND\SOLFEGI2.TAP
+2010-10-23 19:31:44 ....A        28267               SOFTWARE\SPIELE\SPIELE1.TAP
+1999-03-21 22:20:46 ....A         8401               SOFTWARE\SPIELE\TETRIS.TAP
+2010-12-14 22:14:40 ....A         5692               SOFTWARE\OFFICE\UNIDATEI.TAP
+2000-09-16 17:59:36 ....A        10981               SOFTWARE\DEMO854\VORSTEL4.TAP
+2000-07-30 22:52:54 ....A        30460               SOFTWARE\OFFICE\WOPOINFO.TAP
+2001-02-24 16:21:46 ....A        17318               SOFTWARE\OFFICE\WORDPROV.TAP
+2000-05-08 20:23:44 ....A        14206               SOFTWARE\GRF-SND\XMASCARD.TAP
+2005-07-31 18:29:36 ....A        25486               SOFTWARE\SPIELE-3\PHARAO.TP2
+2002-03-04 18:15:36 ....A        34432               SOFTWARE\OFFICE\CAOS44.TXW
+2011-01-02 15:05:48 ....A       253792        98241  KC85EMU.EXE
+2016-12-18 18:06:14 D...A            0            0  SOFTWARE\SPIELE-3
+2016-12-18 18:06:13 D...A            0            0  SOFTWARE\SPIELE
+2016-12-18 18:06:13 D...A            0            0  SOFTWARE\OFFICE
+2016-12-18 18:06:13 D...A            0            0  SOFTWARE\GRF-SND
+2016-12-18 18:06:14 D...A            0            0  SOFTWARE\DEMO854
+2016-12-18 18:06:13 D...A            0            0  SOFTWARE\ANWENDUN
+2016-12-18 18:06:14 D...A            0            0  SOFTWARE
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 18:06:14            1048889       408136  61 files, 7 folders

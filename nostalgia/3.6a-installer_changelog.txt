@@ -1,0 +1,46 @@
+Updates since version 3.5:
+  Optimized the display and input routines to more than double the frame rate!
+    This will allow Nostalgia to run more smoothly on more PCs.
+    Thanks to Joe Zbiciak for his contributions.
+  Games that use the ECS now turn it on automatically when played.
+  Added a frame rate counter.  Press <F6> to enable / disable.
+  Nostalgia now supports any display mode your video card does!
+    Look in the Game Options screen to try them out.
+  Configuration now stored in the Regsitry.
+  The command line now allows you to set the resolution in -WxH format.
+    (eg. -640x480)  The format will be verified against the list of available
+	modes, and error.log will tell you if it was invalid.
+  Nostalgia now comes with Joe Zbiciak's MiniExec and MiniGrom so you can play
+    games "right out of the box."
+  There are now many homebrew games packaged with Nostalgia.  Thanks to Arnauld
+    Chevallier, Joe Zbiciak and Ryan Kinnen for providing them.
+    See README.HTML to find out more about them.
+  Added a Windows Installer.
+  Added throttling for play with no sound.
+  Added option and hotkey <F4> to turn sound on/off.
+  Added notification of MiniExec support.  Games can be marked supported in
+    "Add to Database" button on the Load Cartridge screen.
+  Made the display more accurate to a real Intellivision.  Thanks to Steve
+    Orth, Arnauld Chevallier, and Joe Zbiciak.
+  Fixed usability issues with the menuing system like:
+    Notification of delays when loading the cartridge list.
+    Pageup/Pagedown support in the scrollbars for choosing Rom/Image folders.
+    Display of Rom/Image files while browsing for Rom/Image folders.
+  Fixed a bug that caused a crash when opening up large numbers of roms.
+  Fixed a bug in Nostalgia's database preventing Super Soccer from running.
+  Fixed a bug that caused the sound to disappear after loading many games.
+  Fixed 2 bugs that caused crashes under certain conditions.
+
+Debugger-specific updates:
+  Improvements to the speed of the debugger.
+  The debugger now remembers the last game you chose so you don't have to
+    reselect the game to re-run it every time.
+  Games are now properly loaded from the command line in the debugger.
+  The trace window now follows along when stepping rather than reloading
+    every time.
+  Added optional throttling when sound is off.
+  Added a help dialog to the debugger, <F1>.
+  Debugger now keeps track of the last folder you opened a rom from.
+  Fixed a debugger bug preventing <F10> from working as expected.
+  Fixed a debugger bug causing a crash on exit.
+  Fixed a bug preventing the debugger from finding the EXEC and GROM files.

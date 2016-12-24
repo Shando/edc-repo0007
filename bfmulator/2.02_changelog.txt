@@ -1,0 +1,22 @@
+version 2.02 (25-11-2003)
+=========================
+
+small update (again)
+
+- improved motion blur, 
+  reel speed is now updated at a fixed interval.
+  This solves the problem with the dutch "Cops'n'Robbers" system85
+
+- Alpha display scroll mode fixed. ( fixes problem with BFM "Club Grandslam" )
+  (The display scrolled to soon )
+
+  note: flash modes are not emulated yet.
+        (never have been emulated, but they will be ...)
+
+- Machine status now displays (usefull) info of current alphadisplay modes.
+
+- wrongly dumped Scorpion2 Soundproms (2Mbit/4Mbit)
+  are now detected and garbage is ignored. (no more samples of 0 bytes )
+
+- screen updates use 'GDISetBatchLimit', should improve drawing speed.
+  ( i can't realy see a difference, maybe you can . . .)

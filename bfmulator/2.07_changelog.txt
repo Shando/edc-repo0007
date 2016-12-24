@@ -1,0 +1,9 @@
+version 2.07 13-11-2005
+=======================
+
+update for looping sounds on scorpion1/2
+
+also minor bugfix, if large prom names were used (>16 chars)
+coin inputs could be overwritten resulting in coin acceptor not working
+
+matrix board should be better synchronised with mainboard

@@ -1,0 +1,135 @@
+Release notes for CD-i Emulator, version 0.5.2
+----------------------------------------------
+
+This is the first public release of the CD-i Emulator. There are still
+many issues, but this version is good enough for a first release.
+
+This version of the emulator supports all the Philips players that
+I've been able to get my hands on so far, with the following notes
+and exceptions:
+
+- Maxi-MMC players (180) aren't supported because I haven't got any
+useful info about them.
+
+- Mini-MMC players should work, if they are recognized as such. This
+includes the 205/910, 350 and 605 players.
+
+- Mono-I players (210/00 and 220/20) work once they are recognized,
+but at present only the 220/20 is.
+
+- On Mono-II players (210/20 and 220/40), CDDA tracks don't work yet.
+Titles that try to use them (such as The Apprentice) will be silent
+and/or hang after some time.
+
+- On Mono-II players, the player shell does not recognize disc insertions.
+If the disc is already there when the player boots, it works fine.
+
+- Roboco players (450 and 550) don't recognize discs from the player
+shell. However, you can use the -playcdi option or the equivalent GUI
+setting to play discs (see below).
+
+- The 370 is actually not a Philips player and it doesn't work yet. This
+one needs to wait for 68341 and cdap/rchip support.
+
+- The 615 player will recognize discs from the player shell, but when
+you try to play them the emulation will hang. You can use the -playcdi
+option or the equivalent GUI setting to play discs (see below).
+
+- Joystick support is available but somewhat experimental and probably
+needs more tuning; you can use the -joyxxx options to change the
+joystick poll frequency, swing, dead zone and step count. The defaults
+are chosen to sort-of match the original "joystick" remote. The program
+only recognizes joysticks on startup, no hot-plugging yet!
+
+- If the CD-i application attempts to reposition the cursor, players up
+to and including Mono-III will actually reposition your Windows cursor,
+as long as it is over the emulator window. You can regain your cursor
+by using the Alt key.
+
+- There is basic support for the front panel display of the 205/910,
+210, 220, 470, 490 and 740 players. This needs more work.
+
+Interesting tidbit: although the CD-i 660 doesn't actually have a front
+panel display, the ROMs still send the appropriate commands. You can
+see this by using the option: -set ikat.leds=cdi4xx.lds.
+
+- On most players, you can use the option -playcdi or its GUI equivalent
+"Play CD-i disc (skip CD-i player shell)" under the Options | Settings
+menu choice to immediately start the CD-i application, skipping the
+player shell.
+
+This feature works by loading a small OS9 module that overrides the
+standard player shell; the -playcdi option is just a shorthand for
+"-set extra=playcdi" that will tell the system builder to read the file
+"sys/playcdi.use" that specifies to load the "mod/playcdi.mod" module.
+You can use the same technique to load your own memory modules too;
+check out the playcdi.use and playcdi.mod files in the sys and mod
+directories. The assembly source to playcdi.mod is included also.
+
+- You can load the symbol table (stb) files produced by the Microware
+OS9 linker l68; great for debugging your CD-i software! A sample file
+playcdi.stb is included; load it with the debugger command "a playcdi".
+You'd better have used -playcdi too, or you'll get a "bad crc" message
+because the symbols won't refer to the correct "play" module!.
+
+- It appears that the -ntsc option doesn't work on some of the newer
+players; I haven't figured this out yet.
+
+- This version does not support the NVRAM saving feature of some previous
+beta versions. A better NVRAM saving feature will be added in the next
+version, but only for the unlimited edition.
+
+- CD-i Emulator registers itself with Windows, which allows the "wcdiemu"
+command to be used from the Start | Run box. This can be useful if you
+need an option or setting not (yet) covered by the GUI.
+
+- CD-i Emulator associates itself with a number of file extensions
+commonly used for CD-i disc image files. The specific extensions
+are configurable and there is an option to automatically check the
+associations on each startup. This allows double-clicking of disc image
+files and dragging of such files to the main emulator window. Note that
+each double-click will open a new emulator instance!
+
+- CD-i emulator supports "raw disc image" file formats with sector
+sector sizes of 2448, 2352, 2340, 2336 and 2332 bytes, with or without
+two-second pregap and/or scrambling. This should cover all the "raw
+disc image" file formats out there. In particular, the Nero (NRG) file
+format for track-at-once images is supported, as well as the IsoBuster
+(BIN) and CloneCD (IMG) files.
+
+- Disc image files can be opened from the GUI with the File | Open menu
+choice, as well as using the -disc option from the command line.
+
+- Previously opened disc image files are remembered. You can directly
+select the 10 least-recently-used files from the File menu, but there is
+also a File | Select menu choice that gives you access to the full list.
+The list is saved in the cdiemu.ini file in your Windows directory.
+
+- The File | Select menu choice is actually a fairly general disc image
+catalog facility; it displays information about each disc image file and
+even allows some of it to be edited, which is useful because the default
+titles from the disc image file are not always meaningful. Sorting
+and search functions are also included. You can also browse for disc
+image files and/or drag disc image files to the window to add them to
+the catalog.
+
+- To complement File | Open and File | Select there is also a File |
+Eject menu choice with a corresponding toolbar button. On a real CD-i
+player the Open/Close button will normally also reset the player, in the
+emulator you have to (at least for now) do it yourself with the Emulate |
+Reset menu choice or 'R' toolbar button.
+
+- The Options | Settings menu choice provides a GUI for the most
+useful command line options, allowing them to be set persistently. The
+persistent settings are saved to the cdiemu.ini file. Nearly all command
+line options can be set from the file.
+
+- If a recognized (by model) but unknown (by checksum) CD-i system ROM is
+found, the user is asked to report his experiences to the website. This
+is intended to get a better idea of the ROM versions actually out there;
+I have come across some documentation that suggests that (at least for
+the early players), there may be many (sometimes more then five!) ROM
+versions for each player model.
+
+Have fun!
+

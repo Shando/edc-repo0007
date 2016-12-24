@@ -1,0 +1,8 @@
+- - - PALE 8.50 - - -
+- TAP2WAV file supported - Pale -> Real Lynx connection
+- Runs many CPM 2.2 programs - Wordstar/DBase/MBasic/TPascal
+- Formats real 5 1/4" LynxDOS & CPM floppies
+- Real & Virtual Printer Support
+- Direct WAV tape read/write
+- ZX Spectrum Emulator Mode (loads .TAP format images)!!!
+- Faster Accurate Video Mode

@@ -1,0 +1,24 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2010-04-09 20:10:18 ....A          107        38286  DOSBox 0.74 Options.bat
+2010-05-08 21:17:44 ....A           23               Reset KeyMapper.bat
+2010-05-08 21:17:56 ....A           21               Reset Options.bat
+2010-04-09 20:10:18 ....A           37               Screenshots & Recordings.bat
+2010-05-12 10:52:52 ....A          276               Documentation\AUTHORS.txt
+2010-05-12 10:52:52 ....A        18332               Documentation\COPYING.txt
+2010-05-12 10:52:52 ....A        63204               DOSBox 0.74 Manual.txt
+2010-05-12 10:52:52 ....A         3937               Documentation\INSTALL.txt
+2010-05-12 10:52:52 ....A        32130               Documentation\NEWS.txt
+2010-05-12 10:52:52 ....A        63204               Documentation\README.txt
+2010-05-12 10:52:52 ....A         1001               Documentation\THANKS.txt
+2010-05-12 10:52:52 ....A         1608               Video Codec\Video Instructions.txt
+2010-04-09 20:08:26 ....A         4043               Video Codec\zmbv.inf
+2010-05-12 10:55:40 ....A      3727360      1319279  DOSBox.exe
+2015-05-03 11:16:12 ....A        36936               uninstall.exe
+2010-04-09 20:04:12 ....A       448231               SDL.dll
+2010-04-09 20:04:12 ....A        13312               SDL_net.dll
+2010-04-09 20:08:26 ....A        94208               Video Codec\zmbv.dll
+2016-12-24 20:10:01 D....            0            0  Video Codec
+2016-12-24 20:10:01 D....            0            0  Documentation
+------------------- ----- ------------ ------------  ------------------------
+2016-12-24 20:10:01            4507970      1357565  18 files, 2 folders

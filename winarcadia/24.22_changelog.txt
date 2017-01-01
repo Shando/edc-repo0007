@@ -1,1 +1,15 @@
-UNKNOWN
+24.22  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Tue 13 Oct 2015.
+    Summary:
+        * New CLI argument: FULLSCREEN (WinArcadia only).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: tr: fixed: opcodes subwindow was not auto-closing.
+ arcadia, interton, elektor: improved "View|Status of >>|UVI/PVI(s)"
+  command.
+ fixed: game information subwindow: sometimes the wrong size was
+  shown.
+ pipbug: sprite editor now uses amber or green when appropriate.
+ interton: knowledge about alternate version of come-frutas (and
+  patched version thereof).
+ wa: added FULLSCREEN CLI argument.
+ aa: os4: now uses larger icon.

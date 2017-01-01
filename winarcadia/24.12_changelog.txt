@@ -1,1 +1,13 @@
-UNKNOWN
+24.12  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Mon 10 Aug 2015.
+    Summary:
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ fixed an issue preventing compilation under MorphOS.
+ fixed bad graphics when changing to SI50/Dolphin/MIKIT.
+ tr: controls subwindow: now you can type with the mouse.
+ tr: fixed: "help|opcodes..." menu item wasn't ghosted.
+ aa: redefine keys, edit palette subwindows: added imagery for
+  "reset to defaults" button.
+ aa: fixed: some images were being freed too early.
+ wa: added semi-undocumented TRACKENTRY CLI argument.
+ coin-ops: added coin thud sample. 

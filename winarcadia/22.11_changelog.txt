@@ -1,1 +1,15 @@
-UNKNOWN
+22.11  [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Tue 12 Nov 2013.
+    Summary:
+        * Improved Laser Battle emulation.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ lb: now bullets are visible.
+ mikit: fixed: programs 3 and 4 had wrong labels.
+ mikit: added overlay support for all known games.
+ wa: fixed: double-clicking on memory buttons opened the edit dialog
+  twice.
+ selbst: fixed: game information text wasn't being shown.
+ mikit: fixed: game information subwindow tooltips didn't exist.
+ lb: autofire is now faster and undirectional.
+ lb: fixed: directional keys were sometimes becoming stuck.
+ interton: knowledge about come-frutas game. 

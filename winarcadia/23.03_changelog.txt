@@ -1,1 +1,26 @@
-UNKNOWN
+23.03  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Tue 10 Mar 2015. 380th release.
+    Summary:
+        * Elektor: improved EOF (Elektor Object Format) support.
+        * Improved "View|Contents of|UDC/sprite imagery" command.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: fixed: coin-op high score table didn't open.
+ now it always shows the pointer while you browse the menu.
+ removed redundant debugger items from Log menu.
+ aa: sped up rendering at 3x size.
+ phunsy: fixed: autosensing was expecting PGM version of charset.
+ aa: fixed graphics corruption in right margin in 3x narrow mode.
+ wa: "view|contents of|udc/sprite imagery" now shows sprites in their
+  actual colours.
+ arcadia: "view|contents of|udc/sprite imagery" now lists all possible UDC
+  colours for the current screenmode.
+ wa: debugger: now cursor is positioned at the end of each line when
+  moving up/down through history.
+ wa: now narrow and wide modes have separate 3D zoom factors.
+ wa: fixed: in some situations, window could be incorrect width after
+  changing machines.
+ elektor: improved EOF support.
+ fixed various AOF bugs.
+ MSG_WROTETAPE now also gives position in seconds.
+ elektor: adjusted tape speed.
+ fixed: now doesn't beep when outputting ASCII $95.

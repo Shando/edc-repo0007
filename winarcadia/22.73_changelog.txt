@@ -1,1 +1,13 @@
-UNKNOWN
+22.73  [OS3.5+][Windows XP+][MorphOS][OS4.0+]: Thu  4 Dec 2014.
+    Summary:
+        * Improved coin-op emulation.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ incorporated Phantom's latest Greek translation.
+ amiga: fixed: after uniconifying, the debugger gadget could be the wrong
+  colour.
+ fixed various GCC warnings.
+ coin-ops: improved CVS starfield emulation.
+ astro wars, galaxia: emulation of more sound effects.
+ host keyboard subwindow: added "hover over a button..." text.

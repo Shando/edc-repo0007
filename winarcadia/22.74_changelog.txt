@@ -1,1 +1,10 @@
-UNKNOWN
+22.74  [OS3.5+][Windows XP+][MorphOS][OS4.0+]: Sat 27 Dec 2014. 375th release.
+    Summary:
+        * New debugger command: " (send netplay message).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ interton: corrected some errors in game knowledge.
+ interton: added knowledge about the latest games.
+ interton: now enables tones for games which never set the NOISE register.
+ wa: debugger now has ">" prompt, a la aa.
+ debugger: added " (send netplay message) command.

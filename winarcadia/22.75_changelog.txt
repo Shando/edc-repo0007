@@ -1,1 +1,20 @@
-UNKNOWN
+22.75  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Mon 12 Jan 2015.
+    Summary:
+        * Improved high score tables (AmiArcadia).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: fixed: debugger gadget was positioned wrongly or offscreen in
+  various situations.
+ wa: fixed: turning on 3D in fullscreen stretched mode didn't clear the
+  border area.
+ interton: "fill segment intersections?" support for come come and crazy
+  crab.
+ wa: fixed: submenu ghosting was broken.
+ aa: added high scores table graphics.
+ added a keyboard shortcut for high score table.
+ interton: updated information about munch & crunch game.
+ wa: fixed: game info subwindow didn't handle ampersands correctly.
+ arcadia, pvi: improved SPRITENUMBERS functionality.
+ wa: fixed: qualifier keys could get stuck.
+ interton: fixed: unknown autosaves were always treated as 2K carts
+  without RAM. 

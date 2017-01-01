@@ -1,1 +1,15 @@
-UNKNOWN
+22.62  [OS3.5+][Windows XP+][MorphOS][OS4.0?]: Thu 24 Jul 2014.
+    Summary:
+        * New debugger CLI command: ED.
+        * New ARexx command: STATUS (AmiArcadia only).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ autosense support for CRC64 checksums.
+ incorporated Samir's latest Italian translation.
+ aa: new ARexx command: STATUS.
+ aa: fixed: sidebar parent gadget was lengthening the pathname.
+ incorporated Phantom's latest Greek translation.
+ cd2650: autosense support for stub 1.1.
+ aa: fixed: sidebar was omitting some directories.
+ wa: fixed: sidebar directory sometimes was changed when saving.
+ debugger cli: new command: ED. 

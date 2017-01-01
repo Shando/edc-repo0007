@@ -1,1 +1,10 @@
-UNKNOWN
+24.3   [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Sat 24 Oct 2015.
+    Summary:
+        * 5x and 6x graphics scaling.
+        * Miscellaneous improvements.
+    Details:
+ support for 5x and 6x graphics scaling.
+ ascii-based configuration.
+ arcadia: added unlimited time trainer for space raiders.
+ arcadia: added unlimited lives trainers for space raiders, escape,
+  robot killer. 

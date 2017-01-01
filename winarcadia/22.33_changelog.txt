@@ -1,1 +1,10 @@
-UNKNOWN
+22.33  [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Wed  2 Apr 2014.
+    Summary:
+        * 2650 memory editor: "View as contents" option (WinArcadia only).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ pipbug: fixed input bug.
+ wa: 2650 memory editor: added "view as contents" option.
+ aa: added GETATTRS APPLICATION.SCREEN ARexx command (same as GETSCREEN).
+ aa: now it knows the public screen name even after screen jumping.

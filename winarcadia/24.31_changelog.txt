@@ -1,1 +1,13 @@
-UNKNOWN
+24.31  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Mon 18 Jan 2016.
+    Summary:
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: fixed: foreign translations of some menu items were wrong.
+ pong: fixed: game over flag was not being saved in COS/COR files.
+ incorporated Samir's latest Italian translation.
+ interton: fixed: Car Races and Grand Prix were swapped.
+ cd2650: fixed a bug with "View|Contents of|8K BASIC variables".
+ cd2650: improved "View|Contents of|Screen" command.
+ tr: support for "Settings|Colours|Inverse video?" toggle.
+ aa: added GETATTR APPLICATION.PORT and GETATTR APPLICATION.VERSION
+  ARexx commands.

@@ -1,1 +1,15 @@
-UNKNOWN
+21.62  [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Sat 19 Oct 2013.
+    Summary:
+        * Instructor 50: "File|Tape|Record..." support.
+        * Instructor 50: knowledge of USE BIOS labels/comments/routines.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ incorporated Phantom's latest Greek translation.
+ lb: support for red planet.
+ si50: improved bios label support.
+ si50: added bios code comment support.
+ si50: added bios data comment support.
+ si50: improved bios function entry support.
+ si50: support for tape saving.
+ aa: os4: now uses application.library interface V2. 

@@ -1,1 +1,22 @@
-UNKNOWN
+22.63  [OS3.5+][Windows XP+][MorphOS][OS4.0?]: Fri  8 Aug 2014.
+    Summary:
+        * CD2650: "View|Contents of|8K BASIC variables" command.
+        * "View|Suspect/bad dumps?" option.
+        * "Settings|Emulator|Warn about suspect/bad dumps?" option.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ cd2650: autosense, label and comment support for 8K BASIC and its games.
+ now it doesn't refocus to the main window while in the debugger CLI.
+ wa: now left and right cursor keys can be used in debugger CLI as
+  synonyms for backspace and space.
+ consolidated various "view" functions.
+ fixed bad translations of MSG_USAGE_ED.
+ wa: fixed: there were surplus menu items on italian and spanish view
+  menus.
+ cd2650: added "view|contents of|8k basic variables" command.
+ wa: adjusted logo background for windows 7.
+ cd2650: support for sound output via output port $06.
+ it now doesn't calculate CRC64s unnecessarily.
+ added "view|suspect/bad dumps?" option.
+ added "settings|emulator|warn about suspect/bad dumps?" option.

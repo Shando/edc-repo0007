@@ -1,0 +1,18 @@
+(04/01/2002) Changes Gens 1.42 <- Gens 1.40b :
+----------------------------------------------
+
+[Sega CD]
+
+* Bug with win 2000/ win XP fixed.
+* Cell GFX conversion fixed.
+
+[Genesis]
+
+* Z80 BUS flag really fixed this time :
+  All genesis games broken accidently in Gens 1.40 are (normally) fixed.
+* YM2612 modified a bit.
+
+[General]
+
+* You can now force the 555 or 565 video mode (see the FAQ section).
+* Minors changes.

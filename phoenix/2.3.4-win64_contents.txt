@@ -1,0 +1,35 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2014-12-20 09:54:56 ....A        29094        31027  logo.png
+2015-07-14 06:13:24 ....A         5732               licenses.txt
+2015-07-19 19:17:12 ....A      6936064     14673918  PhoenixEmuProject-2.3.4.exe
+2014-02-05 21:42:38 ....A     23546070               icudt52.dll
+2014-02-05 21:42:32 ....A      3587468               icuin52.dll
+2014-02-05 21:42:30 ....A      2110429               icuuc52.dll
+2014-01-05 09:43:44 ....A        84992               libgcc_s_sjlj-1.dll
+2014-01-05 09:43:44 ....A      1132032               libstdc++-6.dll
+2014-01-05 09:43:44 ....A        53760               libwinpthread-1.dll
+2015-05-22 23:10:16 ....A       122904               OpenAL32.dll
+2014-02-08 02:12:46 ....A        32768               imageformats\qgif.dll
+2014-02-08 02:12:44 ....A        31744               imageformats\qico.dll
+2014-02-08 02:12:40 ....A       229376               imageformats\qjpeg.dll
+2014-02-08 02:12:40 ....A        30720               platforms\qminimal.dll
+2014-02-08 02:13:40 ....A       332288               imageformats\qmng.dll
+2014-02-08 02:12:48 ....A       531968               platforms\qoffscreen.dll
+2014-02-08 02:14:00 ....A        27648               imageformats\qsvg.dll
+2014-02-08 02:13:52 ....A        40960               iconengines\qsvgicon.dll
+2015-07-14 22:43:24 ....A      5508608               Qt5Core.dll
+2014-02-08 02:09:00 ....A      4177408               Qt5Gui.dll
+2014-02-08 02:11:42 ....A       350208               Qt5OpenGL.dll
+2014-02-08 02:13:44 ....A       294400               Qt5Svg.dll
+2014-02-08 02:11:22 ....A      5629440               Qt5Widgets.dll
+2014-02-08 02:13:30 ....A        27136               imageformats\qtga.dll
+2014-02-08 02:13:44 ....A       404480               imageformats\qtiff.dll
+2014-02-08 02:13:34 ....A        26624               imageformats\qwbmp.dll
+2014-02-08 02:13:10 ....A      1167872               platforms\qwindows.dll
+2015-05-22 23:10:16 ....A       466456               wrap_oal.dll
+2016-12-03 11:14:56 D....            0            0  platforms
+2016-12-03 11:14:55 D....            0            0  imageformats
+2016-12-03 11:14:55 D....            0            0  iconengines
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 11:14:56           56918649     14704945  28 files, 3 folders

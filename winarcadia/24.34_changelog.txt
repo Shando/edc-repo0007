@@ -1,0 +1,16 @@
+24.34  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Mon  6 Jun 2016.
+    Summary:
+        * BINBUG: "View|Contents of|Sprite/UDC imagery" command.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ fixed: "reset to bios" command didn't work.
+ fixed a GCC compiler warning.
+ wa: palette editor now shows all colours simultaneously.
+ aa: fixed: pens were not all being freed.
+ split binbug off into its own machine.
+ binbug: implemented "View|Contents of|Sprite/UDC imagery" command.
+ pipbug, binbug, cd2650 gaming guide was opening wrong link.
+ aa: binbug: fixed: "left/right controller" submenus were ghosted.
+ binbug: now clears screen at startup.
+ aa: fixed: type-right: key repeat was not inhibited.
+ removed unused strings from catalogs. 

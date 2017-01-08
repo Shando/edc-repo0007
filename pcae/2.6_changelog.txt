@@ -1,0 +1,11 @@
+New in PCAEWin 2.6:
+
+- Greatly improved the sound emulation
+- Changed the game manual interface so that it uses Internet Explorer. This means that it can read files that you can open in your browser, for example a PDF file if you have the appropriate plug-in.
+- Added an FPS counter that can be turned on or off from the Preferences screen.
+- Added a button to the main toolbar to display the game's manual, if one is available.
+- Added ZIP file support (note that using ZIP files is noticeably slower than not using them, and is not recommended for things like screen shots and scans)
+- Added Kaillera net-play support. Using this will open up emulation in a separate pop-up window. Players can chat among one another by hitting the slash key and typing chat text.
+- Improved windowed zoom mode; it now better supports DirectX zooming for more speed, and now includes 3x and full-screen zoom in addition to 2x and 4x. Zoom modes are also remembered by the program and restored on startup. When zooming to the full size of the screen, there is an option in Preferences for hiding the Windows taskbar.
+- Added support for Spectravideo Compumate
+- Added support for CommaVid RAM-cart

@@ -1,0 +1,23 @@
+22.3   [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Fri 14 Feb 2014.
+    Summary:
+        * Arcadia: "Tools|Controls..." subwindow: "View as Emerson"
+          option.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: improved colours of 48*48 icon.
+ incorporated Phantom's latest Greek translation.
+ incorporated Samir's latest Italian translation.
+ arcadia: controls subwindow now has a "view as emerson" option.
+ arcadia, interton: data comment support for UVI/PVI hardware.
+ arcadia: controls subwindow: palladium bitmap now has arrows.
+ wa: tray menu now has a "Paused?" toggle.
+ controls subwindow: it now tracks the state of the "view as" setting
+  independently for each guest.
+ aa: removed redundant and useless files from Icons/ directory.
+ interton: improved help for blackjack.
+ pvi: improved sound emulation.
+ wa: fixed various bugs relating to tape skewing subwindow.
+ elektor: fixed: WAV2AOF.AOF generation was broken.
+ when loading tapes, it now also tells the positions in seconds and
+  fractions thereof (rather than only in bytes).
+ elektor: knowledge about Hocosoft dumps.

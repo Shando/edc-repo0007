@@ -1,0 +1,13 @@
+19.1   [OS3.5+][Windows][MorphOS][OS4?  ]: Thu  8 Nov 2012.
+    Summary:
+        * CD2650: tape loading support.
+        * "Help|Host keyboard..." subwindow: "View as laptop" option
+           (WinArcadia only).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ wa: fixed: it was crashing when parsing greek catalog.
+ cd2650: fixed: some label names were wrong.
+ cd2650: added support for tape loading.
+ wa: now host keyboard subwindow has a "view as laptop" option.
+ cam: now emulated as PAL not NTSC.

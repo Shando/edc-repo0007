@@ -1,0 +1,10 @@
+24.1   [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Sun 31 May 2015.
+    Summary:
+        * Type-right: added "Help||Host keyboard..." subwindow.
+        * Type-right: improved "Tools||Controls..." subwindow.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Stefan's latest German translation.
+ fixed some keyboard handling bugs.
+ tr: added support for "help|host keyboard..." subwindow.
+ tr: controls subwindow: inversion of QWERTY keys while pressed.

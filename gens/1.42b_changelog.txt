@@ -1,0 +1,4 @@
+(04/01/2002) Changes Gens 1.42b <- Gens 1.42 :
+----------------------------------------------
+
+* Z80 reset fixed (fix sound bug added in Gens 1.42).

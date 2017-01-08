@@ -1,0 +1,114 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2011-04-15 17:23:46 ....A        14873      1595487  Dreamcast\NoPic.jpg
+2012-08-29 09:18:12 ....A       120054               System\mex.bmp
+2011-09-13 13:47:24 ....A         1278               System\Language\Flag.ico
+2004-03-15 17:29:16 ....A      2097152               Dreamcast\Rom\dreamcast_bios.bin
+2004-08-31 19:14:32 ....A      2097152               Dreamcast\Rom\dreamcast_bios_eu.bin
+2004-08-31 19:14:26 ....A      2097152               Dreamcast\Rom\dreamcast_bios_jp.bin
+2004-03-15 17:29:16 ....A      2097152               Dreamcast\Rom\dreamcast_bios_usa.bin
+2012-06-20 09:42:58 ....A       131072               Dreamcast\Rom\dreamcast_flash_eu.bin
+2012-11-21 21:49:44 ....A       131072               Dreamcast\Rom\dreamcast_flash_jp.bin
+2012-11-21 21:55:35 ....A       131072               Dreamcast\Rom\dreamcast_flash_usa.bin
+1996-12-24 20:32:00 ....A      2097152               Naomi\Rom\naomi_bios_exp.bin
+1996-12-24 21:32:00 ....A      2097152               Naomi\Rom\naomi_bios_hd.bin
+2008-06-26 09:43:52 ....A      2097152               Naomi\Rom\naomi_bios_jp.bin
+1996-12-24 20:32:00 ....A      2097152               Naomi\Rom\naomi_bios_usa.bin
+2011-06-18 08:50:36 ....A       131072               Dreamcast\VMU\PAS1VMU.bin
+2010-11-01 20:59:50 ....A       131072               Dreamcast\VMU\PAS2VMU.bin
+2010-11-01 20:59:50 ....A       131072               Dreamcast\VMU\PBS1VMU.bin
+2010-11-01 20:59:50 ....A       131072               Dreamcast\VMU\PBS2VMU.bin
+2010-08-06 19:42:38 ....A       524288               Dreamcast\Rom\SH4_FSCA.bin
+2000-05-18 15:37:40 ....A        65540               Dreamcast\Rom\VMU_BIOS.bin
+2011-09-14 21:58:12 ....A           20               Dreamcast\Input.ini
+2011-09-15 16:47:26 ....A           20               Naomi\Input.ini
+2011-09-15 16:48:02 ....A         1368               Naomi\JVS.ini
+2012-12-31 12:23:03 ....A            5               System\Language\LangConf.ini
+2011-09-15 16:47:22 ....A         1049               Dreamcast\Makaron.ini
+2011-04-07 17:10:56 ....A         1880               Dreamcast\MakaronPAD.ini
+2010-11-11 20:00:32 ....A          120               Dreamcast\MakaronVMU.ini
+2016-12-18 12:16:09 ....A          240               Dreamcast\Maple.ini
+2012-12-31 13:04:40 ....A          837               Naomi\Naomi.ini
+2011-09-07 10:42:38 ....A            8               Naomi\Shaders.ini
+2011-09-08 11:19:48 ....A            8               Dreamcast\Shaders.ini
+2010-10-17 20:39:22 ....A          313               Dreamcast\VMS.ini
+2011-09-07 09:27:57 ....A          474               System\Shaders\copy.dat
+2010-11-15 14:20:20 .R..A          601               Naomi\keys.dat
+2010-11-15 15:20:20 ....A          601               Dreamcast\keys.dat
+2012-12-03 10:16:12 ....A         3361               System\Language\Lang.dat
+2011-08-31 15:11:45 ....A         8247               Naomi\List.dat
+2011-02-13 14:26:29 ....A        62877               Naomi\Data\MakaronEX Naomi T12.7 Card.dat
+2011-09-03 21:56:27 ....A        87909               System\Shaders\fxaa\fxaa.dc
+2011-09-04 06:25:48 ....A         2363               System\Shaders\fxaa\fxsett.dc
+2011-09-04 07:08:26 ....A         2040               System\Shaders\blur\settings.dc
+2011-09-04 07:08:56 ....A         2010               System\Shaders\bloom\settings.dc
+2011-09-04 07:13:47 ....A         2040               System\Shaders\fxaa\settings.dc
+2010-01-28 13:30:44 ....A         3595               System\Shaders\bloom\shader.dc
+2011-09-04 09:13:49 ....A         5257               System\Shaders\blur\shader.dc
+2010-11-20 22:55:36 ....A          393               Naomi\x360.dc
+2010-11-20 23:55:36 ....A          393               Dreamcast\x360.dc
+2011-09-05 12:16:05 ....A          542               Naomi\xkey.dc
+2011-09-14 21:47:50 ....A          498               Dreamcast\xkey.dc
+2011-08-20 20:02:09 ....A       173430      2767570  Naomi\exit.exe
+2016-12-18 12:15:49 ....A       173430               Dreamcast\exit.exe
+2012-12-03 12:43:54 ....A      1249280               MakaronEX.exe
+2011-09-12 18:04:00 ....A        59502               Naomi\pause.exe
+2000-12-22 05:03:12 ....A        14244               Dreamcast\convpvr.dll
+2011-04-12 20:05:11 ....A        60928               Dreamcast\convraw.dll
+2010-02-01 12:44:36 ....A        64512               System\Shaders\d3d9.dll
+2010-05-26 20:08:02 ....A       205824               Dreamcast\dinput8.dll
+2010-05-26 20:08:02 ....A       205824               Naomi\dinput8.dll
+2010-11-09 23:31:16 ....A       321536               Dreamcast\dinputcfg.dll
+2011-09-03 21:34:51 ....A        76800               System\Shaders\fxaa\fxaa.dll
+2010-09-08 18:11:06 ....A      2999808               Dreamcast\Tools\GDIExplorer.dll
+2010-09-08 18:04:08 ....A        56832               Dreamcast\Tools\GDIUtils.dll
+2011-09-17 17:30:01 ....A      1782784               Dreamcast\Makaron.dll
+2008-10-07 23:04:52 ....A        71168               Dreamcast\Plugins\MakaronKEY.dll
+2008-10-07 23:04:52 ....A        71168               Naomi\Plugins\MakaronKEY.dll
+2010-08-19 18:31:22 ....A        78848               Dreamcast\Plugins\MakaronPAD.dll
+2010-08-19 18:31:22 ....A        78848               Naomi\Plugins\MakaronPAD.dll
+2010-08-19 18:31:20 ....A        33280               Dreamcast\Plugins\MakaronVMU.dll
+2010-08-19 18:31:20 ....A        33280               Naomi\Plugins\MakaronVMU.dll
+2010-02-20 02:31:54 ....A       172032               Dreamcast\Tools\MiscUtil.dll
+2011-09-10 10:35:32 ....A      1854976               Naomi\NaomiA.dll
+2011-09-09 08:07:30 ....A      1854976               Naomi\naomiB.dll
+2011-09-09 08:07:30 ....A      1854976               Naomi\naomiC.dll
+2011-09-10 10:34:53 ....A      1660416               Naomi\naomiD.dll
+2010-05-23 14:02:40 ....A       324096               Dreamcast\Tools\SDL.dll
+2010-05-23 15:02:38 ....A       324096               Dreamcast\SDL.dll
+2010-11-19 15:30:54 ....A        34304               Dreamcast\Tools\VMS.dll
+2006-07-22 15:09:52 ....A       185990               Dreamcast\Tools\VMUExplorer.dll
+2010-11-09 21:10:22 ....A       823296               Dreamcast\x360cfg.dll
+2010-11-09 21:10:22 ....A       823296               Naomi\x360cfg.dll
+2010-08-19 18:31:20 ....A        13312               Dreamcast\Plugins\X360PAD.dll
+2010-08-19 18:31:20 ....A        13312               Naomi\Plugins\X360PAD.dll
+2010-11-09 20:12:26 ....A        80384               System\Xinput\xinput1_3.dll
+2010-11-27 17:19:16 ....A        21504               Dreamcast\Keyboard\xinput1_3.dll
+2008-11-07 12:57:12 ....A        60416               Dreamcast\Tools\zlib1.dll
+2008-11-07 12:57:12 ....A        60416               Naomi\zlib1.dll
+2011-09-14 21:51:02 ....A            0            0  Dreamcast\GBase.ini
+2011-09-14 21:51:02 ....A            0            0  Dreamcast\Proflist.ini
+2011-09-14 21:38:12 ....A            0            0  Naomi\Defpath.ini
+2011-09-14 21:53:04 ....A            0            0  Naomi\Proflist.ini
+2016-12-18 12:15:55 D....            0            0  System\Xinput
+2016-12-18 12:15:55 D....            0            0  System\Shaders\fxaa
+2016-12-18 12:15:55 D....            0            0  System\Shaders\blur
+2016-12-18 12:15:55 D....            0            0  System\Shaders\bloom
+2016-12-18 12:15:55 D....            0            0  System\Shaders
+2016-12-18 12:15:55 D....            0            0  System\Language
+2016-12-18 12:15:55 D....            0            0  System
+2016-12-18 12:15:55 D....            0            0  Naomi\Rom
+2016-12-18 12:15:55 D....            0            0  Naomi\Profiles
+2016-12-18 12:15:55 D....            0            0  Naomi\Plugins
+2016-12-18 12:15:55 D....            0            0  Naomi\Nvram
+2016-12-18 12:15:54 D....            0            0  Naomi\Data
+2016-12-18 12:16:14 D....            0            0  Naomi
+2016-12-18 12:15:53 D....            0            0  Dreamcast\VMU
+2016-12-18 12:15:53 D....            0            0  Dreamcast\Tools
+2016-12-18 12:15:51 D....            0            0  Dreamcast\Rom
+2016-12-18 12:15:55 D....            0            0  Dreamcast\Profiles
+2016-12-18 12:15:50 D....            0            0  Dreamcast\Plugins
+2016-12-18 12:15:50 D....            0            0  Dreamcast\Keyboard
+2016-12-18 12:19:27 D....            0            0  Dreamcast
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 12:19:27           36582946      4363057  90 files, 20 folders

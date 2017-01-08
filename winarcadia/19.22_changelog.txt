@@ -1,0 +1,14 @@
+19.22  [OS3.5+][Windows][MorphOS][OS4?  ]: Sun 24 Mar 2013.
+    Summary:
+        * Game rerecording support.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: fixed: redefine keys subwindow: if you clicked on a button, then
+  clicked another button instead of pressing a key, the first button was
+  staying selected.
+ aa: fixed a harmless GCC compiler warning.
+ fixed: CORs weren't always playing back correctly.
+ now has three macro buttons on toolbar instead of one, and they are now
+  implemented as normal toolbar buttons.
+ COS/COR files now include starting frame number.
+ added support for macro rerecording.

@@ -1,0 +1,365 @@
+2.6.0
+
+Beta 21 (RC2)
+
+- Ultimate Body Blows CD32 pad button problem fix. Hopefully this last minute update does not
+  break anything else...
+
+Beta 20 (RC1) Final in few days:
+
+- AROS ROM updated.
+- DirectSound mode crashed if DS sound play cursor got stuck (which normally shouldn't happen)
+
+Beta 19:
+
+- Reduced internal display buffer memory usage, use MEM_TOP_DOWN VirtualAlloc() flag, this seems to
+  reduce Windows XP only memory reservation problems that cause mysterious crashes.
+- GUI allowed cycle exact and JIT active at the same time.
+
+Beta 18:
+
+- If config (for example default.uae) has keyboard layout A/B/C selected, it will be remembered as default
+  keyboard layout for selected port, then if new config is loaded and it has non-existing device
+  (for example unplugged gamepad), port is configured for remembered default keyboard layout instead of always
+  defaulting to layout A.
+- Patch stupid CD32 ROM CD drive detection CPU delay loop if configured for non-approximate CPU speed modes.
+- Validate RTG blit parameters more carefully to prevent invalid memory accesses if program(s) do bad things.
+- winuaeenforcer disassembly crashed due to recent debugger changes.
+- B15 sprite emulation update caused graphics corruption if display window was "too wide". (Himalaya / Avalanche)
+- Mention also Administrator privileges in real harddrive/memory card "block zero write failed" messages.
+- Modified emulation of ddfstrt/ddfstop value pairs that cause display corruption on real hardware due
+  to bitplane dma being active too long and conflicting with refresh/strobe slots, prints log message.
+
+Beta 17:
+
+- One more IDE emulation fix, bogus extra write interrupt removed (I think this was accidentally introduced in some recent
+  update). For some reason all tested drivers seemed to ignore it but it also could have caused data corruption in worst case.
+- Added support for very large resolutions (NV Surround/AMD Eyefinity), max is now 8192x8192 (from 3072x2048)
+  (I now have 3xVG248QE in portrait surround, 2d lightboost mode, GTX680 SLI. Debezeling still to do..)
+- Display panel GUI didn't accept new selected resolution if previously loaded config had non-existing resolution.
+- B16 didn't fix all glitches, yet another fix attempt. (Mindriot/Andromeda and more)
+- Fixed sprite priorities in HAM mode (Thanks to Paradroid for this and right edge overscan test case)
+- Added some uncommon aspect ratios to GUI aspect ratio select menus.
+- Added new config entry "chipset_hacks" that is used to enable emulation of not fully known chipset features or bugs.
+  Bit 0 = emulate COPJMP/Blitter cycle conflict (Blitter DMA channel gets loaded with Copper address)
+  Bit 1 = emulate strange right edge overscan display shift if lores bitplane and scroll value is greater than 7.
+  DO NOT enable in your default configuration, these are not fully emulated and can and will break other programs!
+
+Beta 16:
+
+This beta should fix all strange display glitches introduced in previous 2.6 betas.
+
+- New style filter mask config entry didn't load. (b6 or later)
+- Improved mouse movement mapping in GamePorts panel remap window (It creates mouse movement mappings that makes sense..),
+  also implements 1s delay before next mouse movement is accepted in test/remap modes to reduce accidental events.
+- Don't attempt to combine left/right->horizontal and up/down->vertical if remapping single event.
+- Add select menu didn't include any "standard" device-specific events. (Incorrect filtering)
+- DirectDraw + none filter was slow. (b7)
+- Blitter changes in b12 still had some problems.
+- "Subtle Shades" update was still broken, caused strange glitches in some situations.
+- Left and right border was always fully blanked if scanline was in HAM mode.
+- Low latency vsync + black frame insertion now always uses threaded vsync mode, normally was only used if fastest possible
+  CPU mode is in use (If you have 100Hz+ monitor, especially lightboost, your PC shouldn't be low end..), improves
+  stability. No buffer also supported but it can be unstable.
+- Added "gfx_autoresolution_delay" config entry. Number of frames to wait before autoresolution mode changes, timeout will
+  always reset if mode change is detected during timeout countdown.
+
+Beta 15:
+
+- IDE emulation drive status bit fix (DRQ and BSY active at the same time), fixes data corruption if IDEFix was active. (b5).
+- Added support for previously unemulated and undocumented feature, sprites can appear 1 lores pixel earlier than first bitplane pixel.
+  (First BPL1DAT access enables sprites immediately, only bitplanes need HRM documented delay).
+  This is not normally visible because horizontal DIWSTRT usually equals bitplane left edge.
+  Fixes "original" Rink-a-Dink/Lemon missing left white border in rotozoomer part.
+- Do not use "8372 (Fat-hr) (agnushr),rev 5" VPOSR chipset id when config is ECS 2M chip RAM. This ID does not appear to exist in real world.
+- Both bordersprite and borderblank active: sprites were incorrectly visible in upper and lower borders (241b13)
+- Rewritten b4 "Subtle Shades" update, it was wrong and caused bad side-effects.
+
+Beta 14:
+
+- A3000 SCSI emulation crashed if no SCSI drives configured.
+- Added previously config-file only master floppy write protection option to GUI misc panel.
+- If Windows softlink or .lnk can't be opened (access denied) or has system attribute flag, handle it as a normal
+  file/directory, just like in older versions.
+- DIVS/DIVL integer overflow crash fix (INT_MIN/-1 = an integer that does not exist, causes cpu overflow exception)
+- GUI Add Hardfile added IDE or SCSI was mounted as a CDROM. (Worked if config was saved and then loaded again)
+- Adjusted read-write-only-custom-register-side-effect in AGA mode. (Artificial Paradise / NGC missing loading screen, does
+  stupid bset #9,$dff104 which, depending on previous accesses, either writes $0200 or "random bits" OR $0200)
+- Manually added custom addmem2 memory region config entry used addmem1's memory region..
+- "Load From"/"Save From" buttons didn't change config name in window title.
+
+Beta 13:
+
+- Ignore vendor specific USB usage pages also in received USB HID packets, fixes for example Logitech Precision gamepad ghost button events.
+- Fixed border sprite bug introduced in b12, border sprites should stay hidden if border blanking is also enabled.
+- Black frame insertion is now supported in legacy vsync D3D 100Hz+ modes. DirectDraw modes may also work.
+- 68020+ cycle-exact CPU speed changed after entering and exiting GUI in some situations.
+- Partition hardfile dragndrop didn't work.
+- Automatically loaded ROM path FastFileSystem file always replaced FileSystem.resource FFS when mounting FFS partition hardfiles (b1).
+- Blitter DMA disabled, writing to BLTSIZE, writing to other blitter register(s) and finally enabling blitter DMA appears
+  to start the blitter normally. (Pink Panther graphics corruption, probably worked accidentally in some old versions)
+
+Beta 12:
+
+- AGA border sprite feature emulation is now also cycle-exact. Similar update to borderblank was done in 2.5.0. For example
+  it was possible that sprites were hidden when border sprite bit was set and zero bit planes enabled.
+  (Noticed when doing some unrelated real hardware limit tests)
+- Black frame insertion was incorrectly used (if enabled) in <100Hz fastest possible CPU modes.
+- Horizontal blanking rewritten, should be more accurate now, programmed display modes only.
+- Display emulation tweak, Super72 sprite display corruption is gone.
+- Fixed bug introduced in b5, blitter emulation ignored DMA off state in cycle exact mode.
+- Emulate DIV divide by zero undocumented flags when CPU >=68020. So far 68020 and 68060 tested and confirmed.
+  Odyssey / Alcatraz and 68020+ CPU does not anymore get stuck in part where spaceship flies above ground.
+- CPU halted state didn't disable CPU interrupts.
+
+Beta 11:
+
+- Blank left and right border if programmed mode and part of original borders would be outside of programmed hsync start and end period.
+- Address error exception always started debugger, forgotten debug option disabled.
+- Added Ts debugger command, list all exec residents.
+- Restoring state file with harddrives crashed in some situations. (broke with previous filesystem updates)
+- CD32 TOC entries were transmitted too quickly due to missing check, correct speed would have been one entry per CD frame (75/sec),
+  not one entry per scanline. CD command buffer overflowed and driver detected CD as broken if CD had enough tracks.
+  Old bug, was mostly invisible until 2.5.0 Universe TOC fix. (Super Street Fighter II Turbo and others CDs with lots of tracks)
+- IDE emulation ignored optional forced physical cylinder number setting in config file.
+- Both hires and superhires bits in BPLCON0 set: superhires mode active.
+- 100Hz+ black frame insertion is now optional, setting in Misc panel. (Still D3D/low latency vsync only)
+- GamePorts panel test/remap improved
+  - Implemented custom event add option. Select event from select box and click "Add", then press any button/key/etc to map it.
+  - Added event will be automatically removed if it does not have any mapped events (Works differently than normal events)
+  - Loading config file that has GamePorts panel custom added events using older version is not supported.
+
+Beta 10:
+
+- SCSI CD MODE SENSE emulation fixes.
+- SCSI CD Write commands should return unknown command error, it is not a CD writer.
+- SCSI CD and HD: return correct sense code if Read or Write command tries to access out of bounds LBAs.
+- SCSI/ATAPI CD: return medium changed unit attention sense data after media change.
+- OCS and ECS Denise/AGA have slightly different behavior when program writes to BPL1DAT to enable sprites
+  before DDFSTRT (sort of AGA bordersprite option), OCS: only works if hpos is large enough (~40+), ECS:
+  smaller limit (or no limit, didn't test).
+- Soft link emulation improved.
+- Directory filesystem ACTION_MAKE_LINK implemented, supports soft links only, creates shortcut (*.lnk) files.
+- Entering GUI Harddrives panel removed image from internel CD image mounter if mounted as ATAPI or SCSI. (introduced few betas ago)
+- Restructured blkdev.cpp unit handling.
+- Sound autoswitching is disabled when AVI recording is active.
+- Low latency vsync no buffer mode and doubled frames (100Hz+) was unstable.
+- POTGO right button bit was temporarily and incorrectly active in some situations when loading state.
+- D3D Low latency vsync in double and triple buffer double rate modes (100Hz+) now blank every other field to minimize "ghosting" effect.
+  Will be optional later. (http://www.blurbusters.com/ for more information)
+- Added hack that prevents incorrectly triggering CIA alarm interrupts in non-cycle exact modes due to not that good KS timer.device
+  code. (It did not cause any problems, just wasted some emulated CPU time)
+- Fixed memory corruption in exe to adf conversion code. (b1)
+- GamePorts panel test/remap option rewritten.
+  - Test and Remap buttons combined.
+  - One or more events can be added.
+  - Events can be removed one by one.
+  - Non-key/joystick/mouse events (insert floppy, reset emulator etc..) can be added and removed. Not yet implemented.
+  - Doubleclick on input list will record single input event.
+  NOTE: Built-in (non-custom mode) events can not be edited, you need to start from scratch. (Click "Delete all")
+
+Beta 9:
+
+- 68000 NBCD didn't emulate undocumented V-flag behavior. (Probably forgotten long time ago because SBCD had correct
+  implementation)
+- It was impossible to get out of halted CPU state in some situations.
+- FDBcc and FScc 6888x FPU instructions without installed FPU returned wrong f-line exception PC field.
+- Directory filesystem: emulate Windows shortcut (.lnk) files and symbolic links as Amiga side soft links.
+  Implements ACTION_READ_LINK. Works also across drives if shortcut/link target exists in any mounted directory harddrive.
+  Not guaranteed to be 100% correct implementation, Amiga softlinks are a bit strange.
+
+Beta 8:
+
+- CD SCSI emulation: implemented mode sense CD/DVD page code 0x2A. Used to detect drive capabilities, for example
+  if it can read or write CD-R, DVD-ROM or DVD-R and so on.
+- SCSI emulation MODE SENSE didn't limit returned amount of bytes to allocation length field.
+- BPLCON0 SuperHires bit disables normal DDFSTRT/DDFSTOP limits. (Why?)
+- Resolve shortcut path if mounting shortcut (.lnk) as a harddrive.
+- If inserting RDB hardfile using GUI: get device's blocksize from RDB block size field.
+- Attempted write to SCSI or IDE CD (using normal SCSI Write command) crashed. 
+- Return WP bit set in SCSI Mode Sense result if SCSI HD is write protected.
+- Add harddrive option set wrong parameters, drive was added as non-RDB partition hardfile (some earlier beta).
+- Hardfiles and harddrives: attempt to mount as read-only before failing if read-write access is not allowed.
+- Hide bootpri/bootable/donotmount boxes in GUI when selected RDB mode/controller combination does not support them.
+- Added support for write protected disk images even if physical file is write-enabled. Config file
+  only, floppyXwp=true
+- 68020/030 no-FPU F-line exceptions didn't work correctly, broke in previous 68040+ FPU disabled exception
+  updates.
+
+Beta 7:
+
+- In JIT mode format 2 stack frames had wrong address field contents, this also broke 68060 unimplemented integer
+  instruction exceptions (64-bit variants of DIVL and MULL).
+- GUI boot priority/autoboot/automount handling fixed and simplified.
+- 68030 "cycle-exact" mode used 020 instruction cache emulation code. No guarantees that this fixes all 68030 "CE" problems.
+- D3D texture memory leak fixed (b6)
+- A2024/Graffiti extra display buffer memory leak fixed.
+- 1/50s file modification date also supported on FAT volumes. Returns FAT file creation date (which has 10ms resolution,
+  file modification date only has 2s resolution) if it is inside file modifcation date's 2s resolution.
+- 68040+ "no FPU" exception stack frame still had incorrect data.
+- Disable 68040/060 CPU "More compatible" option if JIT is enabled. JIT active and not emulating unimplemented
+  instructions isn't safe because JIT and normal emulation does not always agree which instructions are supported.
+- A2065 emulation tweak, Ethernet chip documentation STOP/STRT/INIT bit documentation is not very clear.
+
+Beta 6:
+
+MMU emulation is now considered mostly done. Some minor bugs probably still exist but Amix, NetBSD, Debian
+Linux, Enforcer and WHDLoad MMU option seem to work fine.
+
+- SCSI and IDE emulation HD and CD read and write commands are now executed in background thread, slow devices
+  (for example real optical drive) won't temporarily pause the emulation anymore.
+- ATAPI CD emulation didn't support split data transfers. Fixes NetBSD installer unpack error.
+- Show also error code converted to string if HD to HDF image creation fails.
+- Added mostly useless CD list to CD drive GUI. (Someday there will be more than 1 option)
+- Do not allow multiple identical HD/CD controllers (if not UAE).
+- Increased size of ATAPI data buffer and added size checks. 65536 was too low. (Debian installer)
+- SCSI emulation didn't handle WD33C93 Select-and-Transfer command scatter/gather DMA. (Debian installer)
+- CD led didn't flicker during SCSI and ATAPI CD access.
+- Fixed D3D shader error/warning string buffer overflow crash. Some shaders can output really long warning messages.
+- D3D internal texture size was incorrect in some situations, causing some shaders to have incorrect geometry.
+- Added support for "post" shader filters. Post = apply shader to final output (after scaling, D3D scanlines
+  and RGB masks), Pre = apply shader to internal Amiga display (same as in previous versions).
+- D3D shaders can be "stacked", max 4 pre and post shaders supported. (-4 to -1 = pre, 1 to 4 = post),
+  Output of previous shader is input to next shader. Can be useful if you want to have "normal" filter and CRT
+  geometry filter active at the same time. Also stacking same filter multiple times makes interesting results :)
+  D3D only, software filters not supported.
+
+Beta 5:
+
+- RDB hardfile dragndrop to hardfiles panel added empty hardfile.
+- Windowed mode bottom border "led" state didn't always match OSD led state.
+- SCSI emulation improved, select and transfer starting from 0x45 can be used to receive data.
+- SCSI emulation WD33C93 is now correctly detected as revision A, not B. (only B has Queue Tag register)
+- 68060 MMU: BFCHG, BFCLR, BFSET and BFINS are read-modify-write instructions.
+- GUI IDE/SCSI CD path was not updated in harddrive list when CD was changed using "Select image file" button.
+- 68040/060 MMU emulation fix, PFLUSH/PFLUSHN only flushed supervisor space ATC. Hopefully this was the last major
+  040/060 MMU bug. Weird NetBSD and Linux crashes are gone.
+- Subtle Shades / Nuance remaining graphics glitches fixed. (NOTE: ECS only, OCS has corrupted graphics and it is correct behavior)
+- GUI "Swap Ports" cleared custom mappings.
+- 68040/060 no FPU/disabled FPU exceptions now include correctly calculated EA field. This should allow "compatible" 040/060 FPU
+  emulation with correctly handled missing instructions in the future (currently 040/060 FPU always supports all 68881/2 instructions)
+- Added new keyboard custom event type, "kbr <string>". For example 'kbr "abc " SHIFT_LEFT "abc" shift_left RETURN'
+  generates "abc ABC<return>". Input name in upper case = press, lower case = release. Quoted string automatically sends both press
+  and release key codes. Any unreleased keys are automatically released at the end. Non-quoted names are same as input event config
+  names without KEY-prefix. (inputevents.def in source archive)
+- Adjusted drive step limit value slightly, Extemporized / Digital works again.
+- Fixed virtual mouse driver mouse movement problem (b1)
+
+Beta 4:
+
+- Fixed 68030 MMU MOVEM to memory wrong bus error data output buffer value.
+- 68030 MMU FMOVEM didn't work if it caused bus fault.
+- 68060 MMU non-locked Read-Modify-Write bus error bits emulated.
+- SCSI emulation: reject >0 LUNs also when LUN is included with SCSI Identify Message.
+- IDE single drive setup should return zero when accessing non-existing slave drive's status register.
+- A2065 emulation initialization tweak, fixes NetBSD 1.0 hang.
+- CDFS didn't use CD led (FS)
+- Blitter logging/debugging command line option added (was compile time previously) -blitterdebug x
+  (1 = logging, 2 = writes to blitter register while already active logging, 4 = disable D channel, 8 = immediate blitter even in cycle-exact mode)
+- Support display setups that have two (or more) horizontal DDFSTRT/DDFSTOP regions.  Fixes Subtle Shades / Nuance "face" part.
+  (There is still some small glitches on left side of text part, later..)
+- Some remaining instant reset conditions replaced with halted state.
+
+Beta 3:
+
+- Programmed display modes disable normal DMA start/end display limits. (NetBSD AGA console screen)
+- ATAPI CD emulation compatibility improved, should fix detection problems.
+- IDE HD emulation returned corrupt data if 2 drives enabled at the same time (b2).
+- CD image mounter crashed if CD image selection was empty. (b2)
+
+Beta 2:
+
+- 030/040/060 MMU TAS and CAS/CAS2 Read-Modify-Write cycle special handling emulated, RMW read access
+  part is internally considered a write access and it will cause access fault if address is write protected.
+- 040 MMU MOVEM special handling (SSR CM-bit) emulated.
+- Some 040/060 MMU emulation bug fixes. (It still isn't fully compatible)
+- A3000 2.04 ROM requires 68030 or higher, it is not 68030-only. (Only 1.4b is 68030-only)
+- Bogus filesystem.resource entry was added if RDB HDF had more than one partition with custom filesystem (b1)
+- Fixed stuck IDE emulation interrupt that hangs the emulated system, happened randomly during A4000 IDE detection. (Old bug)
+- Geometry file FORCELOAD parameter added, forceload=1: do not re-use already loaded filesystem(s).
+- A590/A2091/A3000 SCSI CDROM emulation added, uses SCSI emulation originally made for uaescsi.device.
+- Gayle/A4000 ATAPI CDROM emulation added (uses uaescsi.device SCSI emulation, ATAPI = IDE CDROM SCSI command support)
+- CD image mounter SCSI emulation inquiry command's vendor/product/revision data was blank.
+- Ultra-minimal "Add CD Drive" GUI added. Only IDE or SCSI and only one CD entry can be added. Use hardddrives panel bottom
+  CD drive/image selection select menu to select mounted CD. uaescsi.device still works as previously but note that
+  same CD drive/image slot (internally there is more but they are not available in GUI yet) is shared = it may not be good
+  idea to enable both uaescsi.device and hardware IDE/SCSI CD emulation at the same time.
+- Added more emulated SCSI CD commands, READ TRACK INFORMATION, READ DISC INFORMATION and PREVENT/ALLOW MEDIUM REMOVAL
+  (which does nothing). READ TOC allocation length check fixed.
+
+Note: Curently SCSI and IDE CD is single threaded = whole emulation pauses while waiting for CD command to finish = better
+not to use real CD drives. Only uaescsi.device runs in background.
+
+Beta 1:
+
+Big MMU emulation update:
+
+- Previous (Next emulator) 68030 MMU added (+missing bus error exception stuff implemented by me),
+  some 68040 MMU updates merged. A3000 1.4 boot ROM, 1.3 SuperKickstart (which uses special MMU mapping for "bonus" code),
+  Enforcer and Amix confirmed working (Amix can't be installed because tape drive is not emulated but pre-installed
+  HD image work)
+- 68060 MMU emulation added, mostly same as 68040, different stack frames and 68060 restarts
+  all bus faults, 68040 restarts only read faults (excluding MOVEM).
+- Executable is larger, MMU compatible 68030 and 68060 CPU emulation cores added.
+- MMU double fault stops the CPU (just like real CPU does), no more instant resets, makes debugging easier.
+  Windowed mode status bar shows "HALTx" (Hx in OSD) in this situation (x = reason code). Only reset gets out of halted state.
+  Also non-MMU mode fake double bus faults or other impossible states (for example odd supervisor stack) now enters halted state.
+
+Note that 68030 MMU is very complex compared to 68040+ = slower than 68040 or 68060 MMU emulation.
+
+- Added second A3000 Quickstart compatibility level, 68030 MMU emulation or fake MMU + JIT.
+- Always refresh windowed status bar floppy leds when emulation starts or statefile is loaded.
+- Executable as a disk image mounting does not generate identical disk creation dates anymore, wrong date calculation fixed.
+- Use name of original file when mounting executable as a disk image, will be truncated if too long.
+- Disable floppy sounds when exe mounted as a disk is inserted.
+- Added wheel mouse Game Ports device type. Old "Mouse" is renamed "Wheel Mouse" and new "Mouse" is
+  mouse without wheel mapped. Added because some older programs can get confused with mouse wheel keyboard events.
+- Win+D (show/hide desktop) has now same behavior as minimize/unminimize.
+- Named pipe accepts also UTF16LE (Windows native) and UTF8 strings if BOM is included. No BOM = assumes
+  current "ANSI" character set. Old ipctester.exe works finally again.
+- Named pipe also supports debugger commands, either using dbg_<name of debugger command> or first setting it
+  to debugger mode using "ipc_debug" command. ("ipc_config" = config mode, "ipc_event" = event mode, "ipc_restore" =
+  back to normal mode). Other direct commands are cfg_<config entry and evt_<event name>.
+  (Works exactly same as uae-configuration commands)
+- Call DwmEnableMMCSS(TRUE) if running under Vista or later.
+- VSync/HSync counting CIA TOD counters run at half rate if genlock mode is active.
+- Added hack that fixes unreliable KS ROM genlock detection in fastest possible CPU modes.
+- Enabling or disabling windowed mode status bar does not reopen the window anymore.
+- Horizontal programmed screen mode registers' upper byte must be masked. Fixes Debian Sarge blank screen.
+- All debugger commands support MMU logical to physical address translations, enable with "mmu <CPU function code>", 0 = disabled.
+- Added support for A2000 old style RTC address range (Adv. chipset panel), this also maps new style clock
+  address range (0x00DC0000) as custom chipset.
+- FPU NULL state implemented. Fixes Amix FPU detection, it tests FPU by restoring NULL frame then immediately saving
+  FPU frame and only accepting the FPU if stored FPU frame is NULL frame.
+- Filesystem added using FileSys hardfile option will have at least 4000 byte stack, filesystem will be only added to
+  FileSystem.resource if it does not already include filesystem with same dostype. (Previously it was always added, replacing
+  previous one)
+- addmemx config option(s) caused crash if emulation was restarted.
+- Filter position and zoom values uses now floats, weird integers are gone. Old settings are ignored, config entries renamed!
+- Custom input events can send commands to debugger, "dbg <debugger command>", output goes to console window if open.
+- Changing filter position/zoom values using custom events or uae-configuration incorrectly forced display subsystem reset.
+- WD33C93/DMAC SCSI emulation improved. (Amix, NetBSD and so on..)
+- Added A590/A2091/A3000 SCSI DMAC state file support. Only basic state, any SCSI operation must not be active while saving.
+- Windowed mode title bar doubleclick now maximizes normally, shift+doubleclick = fullscreen and ctrl+doubleclick = fullwindow.
+- Immediate blitter didn't check if blitter DMA was enabled.
+- Added CHD (Mame) CD image support support. Full data, CD audio and subchannel support.
+- CHD image as a hardfile support added. Read-only.
+- LZMA (7zip) support code updated to latest beta (required by CHD LZMA code)
+- Host FPU rounding/accuracy mode was not reset back to correct original values when using filters.
+- Pause mode updates, configuration changes while in pause mode work better but currently display becomes blank if
+  display mode changes while in pause mode (Old screen was lost and new data can't be generated in pause mode)
+- Filesystem config (cylinders, sectors etc..) parameter passing rewritten, now uses same structure everywhere instead
+  of passing huge and random amount of ugly variables around. Big change, can break things.
+- Partition hardfile parameter/geometry support update, if file named <original hardfile name>.geo is found in same directory as
+  hardfile, it is parsed for mountlist-like parameters (key=value). It also supports parameters that are not available in GUI or
+  in config file (for example lowcyl, buffers, maxtransfer etc..).
+- Log partition hardfile full geometry data when mounting.
+- Added native resolution selection to Display panel fullscreen resolution options. Uses always monitor's native mode. (Actually it is
+  monitor's desktop resolution because biggest listed resolution may be unsupported)
+- Replacing or removing HDF files using the GUI now changes the drive on Amiga side too. Inserting new HDFs won't work.
+- Fixed IDE emulation bug introduced in 2.4b17, IDE status register returned bogus data after execute diagnostics command.
+  (KS driver didn't care, other drivers probably did)
+- 1.5M chip RAM size didn't work (Note that this can't work if JIT is enabled)
+- Very very long (hours..) startup delay if emulation was started in fastest possible + CPU throttle enabled.
+- Windowed RTG to native switch (or vice versa) while window had no focus set internal focus state causing keyboard input to appear
+  on Amiga side.

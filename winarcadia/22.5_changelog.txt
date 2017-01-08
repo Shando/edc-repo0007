@@ -1,0 +1,16 @@
+22.5   [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Wed 28 May 2014.
+    Summary:
+        * PIPBUG: "Tools|Controls..." command.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ wa: palette editor: fixed vertical positioning of radio buttons.
+ incorporated Phantom's latest Greek translation.
+ debugger CLI: ASM command: support for % and ! for binary and decimal,
+  respectively.
+ wa: debugger CLI: history buffer is now multi-line.
+ debugger CLI: ASM command: now generates BIN files.
+ aa: fixed: controls subwindow was not properly font sensitive.
+ si50: improved rendering of LED lamps.
+ pipbug: added DS2000 support (as a controls subwindow).
+ monitor: darkened colour of blue joystick axes display.

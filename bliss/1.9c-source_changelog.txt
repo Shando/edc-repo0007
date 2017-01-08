@@ -1,0 +1,5 @@
+Bliss 1.9c - September 17, 2001
+-	Fixed surface bit-depth bug.
+-	Fixed Y-Offset graphics glitch.
+-	New, more accurate, Intellivision memory model.
+-	Added the ability to select the first ROM as a command line 

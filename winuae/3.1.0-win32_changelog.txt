@@ -1,0 +1,682 @@
+3.1.0
+
+- Unticked "Game controllers disabled" works now in DirectInput mode.
+- 68030 data cache fix.
+
+Beta 23: (RC3)
+
+- Toccata audio didn't automatically re-enable audio if it was stopped by automatic switching.
+- Fixed A2065 crash in "Cable disconnected" mode.
+- Added J.Kommos ROM v1.7 (1990-03-13) Previously added ROM was v1.8 (1990-07-25).
+- Preferred Technologies Nexus added to ROM scan result window.
+- Fixed 68030 MMU prefetch hack flaw that caused A3000 with 2.04 SuperKickstart to crash.
+- "Mouse uncaptured: emulation paused" and any key pressed: key was not released automatically (ALT-TAB).
+- 68881/68882 NULL FSAVE frame has normal frame size stored (Undocumented but real hardware confirmed)
+- Don't prevent RTC in A1200 chipset extra mode if accelerator board is also enabled.
+- HD selection GUI visual bugs fixed.
+- Added input device autoswitch on/off checkbox. (This was supposed to be added long time ago but I forgot)
+
+Beta 22: (RC2)
+
+- In some rare situatations both "HARD_DDF_STOP" and "plf_passed_stop" test conditions incorrectly passed
+  in single fetch block. Only happened when DDFSTRT/DDFSTOP value pair caused bitplane dma overrun
+  so result was different corrupted display. (Plastic Passion / Upfront plasma part with OCS Agnus)
+- BPL DMA pointer modified one cycle before same channel's BPLxDAT gets accessed behavior adjusted.
+  (Powertrax / The Light Circle)
+- Archos ADD-500 is also confirmed having fast ram autoconfig board after HD controller.
+
+Beta 21: (RC1)
+
+- b17 DSKSYNC update should not have started DMA in WORDSYNC mode.
+- Moved A590/A2091 ram autoconfig board after HD board. A2091 install disk RAM tester expects it.
+  (Some other boards may also have wrong HD/Fast RAM board order)
+- Debugger deep trainer "not modified" condition fixed.
+- AROS ROM updated.
+
+Beta 20:
+
+- Drive sound noise fixed. (b19)
+- FireCracker 24 6-bit (R2G2B2) overlay fully emulated.
+- Video-only recording is now possible. (Audio codec can be disabled by canceling audio dialog)
+- Chip RAM mirroring disappeared in b3.
+- Do not crash if on the fly switching from non-uae boot rom config to boot rom config.
+- Bus error emulation in non-MMU mode (not really Amiga specific) didn't call do_specialties() correctly.
+
+Beta 19:
+
+- Switching from non-lace to/from lace didn't always select correct long/short/interlace frame timing.
+- SCSI CD READ TOC and READ SUB-CHANNEL returned failure instead of truncating result if command's
+  allocation length was smaller than returned data structure.
+- If cycle-exact and sound is Disabled: force Disabled, but emulated.
+- Added Preferred Technologices Nexus MEM TEST -jumper, clears autoconfig add to memlist bit.
+- Removed Nexus 2M/4M/8M config options, dynamic RAM board autoconfig data modifications are now supported.
+- Added Impulse FireCracker 24 display adapter emulation, single display mode only.
+  (Display scaling and positioning incomplete and not all control register bits are known)
+- Pixel perfect genlock transparency data is now available if configured display adapter needs it.
+  (HAM-E and FireCracker 24) HAM-E end of display is now correctly detected.
+- AVIOutput wave/avi mode and file name is stored in registry/ini.
+- AVI recording A/V sync getting larger and larger fixed. Should be perfect now in all configurations.
+- Tablet touch GUI open function really works now.
+
+Beta 18: (Official in 2-3 weeks)
+
+- Archos AVideo 24 emulation. Animation/doublebuffering feature not yet emulated.
+  Note that AVideo 12 and 24 are not hardware compatible and it is also not AGA compatible, same
+  $dff1fc custom register conflict. (A4000 version not yet emulated, compatible driver/install disk
+  is MIA, latest available is v15 which was released long before A4000 version)
+- Video DAC 18 and AVideo emulation now works correctly in Double, fields+ interlace mode.
+- AVideo 12/24 mode autodetection supported.
+- Improved 53C80 emulation.
+- Trying to execute MODE SELECT SCSI command in low level scsi emulation mode worked strangely.
+- Added C-Ltd A1000/A2000 SCSI controller.
+- Added Preferred Technologies Nexus SCSI controller. Boot ROM added.
+- Added Expansion Systems DataFlyer 1200/4000 SCSI+.
+- GUI tab order fixed and updated.
+- Don't disable Overlays in Filter panel if system has no shader support. Only Masks need it.
+- Only take internal screenshot when entering GUI if mode is fullscreen DirectDraw. (Entering
+  GUI can cause lost DD surface which would make Screenshot button useless). Delay when opening
+  GUI in some systems should be gone now. (If not DD fullscreen).
+
+C-Ltd A1000/A2000:
+- 53C80 fake DMA.
+- Non-autoboot, no ROM and no ROM socket.
+
+Preferred Technologies Nexus:
+- 53C80 fake DMA (word wide).
+- Boot ROM is only a small driver loader, complete driver is stored in RDB's LSEG blocks!
+- nexus.device, 1G drive size limit.
+- Partition/formatter utility is strange..
+- Has different Fast RAM autoconfig product ID depending on RAM size.
+
+DataFlyer 1200/4000 SCSI+:
+- Connects to A1200/A4000 IDE port, converts it to IDE + SCSI controller.
+- 53C80 fake DMA (byte wide).
+- No boot ROM, loadable driver only, can't boot from SCSI drive.
+- Uses unused IDE control block registers to switch between IDE and 53C80 registers.
+
+Beta 17:
+
+- Restrict GUI IDE units to 2 if device is single port and without IDE doubler support.
+- Added recursive ROM scan option to Paths panel. Currently restricted to 2 directory levels.
+- HAM-E Plus average pixel calculation bug fixed in hires mode.
+- "Direct" serial mode and Amiga serial receive buffer is full and program does not clear buffered byte before
+  new byte arrives (uses emulated serial speed): keep waiting until program reads the buffered byte.
+  Previously it was possible to lose received characters in some situations.
+- Windows 10 TP hack (b13) removed, build 10061 fixed it. RIM_TYPEHID RawInput bug is also fixed in 10061.
+- VGA autoresolution hires<>superhires switch was unreliable, it didn't set internal "config changed" variable.
+- If DirectInput device acquire call fails 10 times, ignore the device and stop error logging until all devices
+  needs to be re-acquired (for example focus is lost and regained or GUI is entered and exited)
+- Entering ROM panel possible crash fixed.
+- Newtronic Technologies Video DAC 18 RGB port video adapter emulation. (Format encoding information by mark_k)
+- If programmable hsync or vsync enabled with out of range values: syncs stop, stop also CIA-A (if vsync timed)
+  and/or CIA-B TOD counting.
+- Archos AVideo 12 emulation. Denise adapter, not AGA compatible, can't be AGA compatible even in emulation due
+  to custom chipset register conflict. (Information by mark_k)
+- FBcc and FDBcc FPU instruction didn't work correctly in more compatible or cycle-exact modes.
+- Negative boot priority value was parsed incorrectly when loading config file. Broken when manual HDF
+  geometry support was added
+- If system has built-in touch screen (for example Intel based Windows 8.1 tablet), >3s touch in top/left
+  corner will open GUI. Added because previously it was impossible to enter GUI without external keyboard.
+  Quick hack only, real touch support may or may not be implemented in future.
+- Made "Double, fields" default for interlace mode.
+- Added partial 53C400 SCSI chip emulation (53C400 = 53C80 + integrated buffered "fake" dma support +
+  some PC single chip SCSI integration/compatibility features)
+- Added Roctec RocHard RH800C SCSI emulation (53C400). Emulation is based on boot disk SCSI format utility
+  behavior, for some reason disk loadable driver won't automount SCSI disks. v2.0 ROM is still MIA.
+  IDE-only (SCSI chip not installed) and IDE+SCSI board subtypes added.
+- Generate DSKSYN interrupt if DSKSYNC matches zero when DMA is started but before any bits gets
+  transferred. Jukebox 2 / Dreamdealers accidentally (wrong INTREQR bit checked) requires it.
+
+Beta 16:
+
+- Automatic resize used horizontal zoom value for both horizontal and vertical.
+- Replaced half-integer scaling options with separate select menu with 1/1, 1/2, 1/4 and 1/8 scaling options.
+- Paths panel portable mode checkbox now switches between modes. NOTE: currently old data is not copied but
+  created from scratch. Switching off portable mode automatically deletes winuae.ini. Switching on portable
+  mode does not delete registry data.
+- Graffiti/HAM-E mode switch does not anymore change display position.
+- Added HAM-E Plus emulation. (Probably not correct implemention, currently uses simple average calculation
+  to create extra pixel between each "normal" HAM-E pixel)
+- Added separate waiting for connection TCP serial option. Old option does not wait anymore.
+- Fixed 7-bit serial bytes in serial logging/TCP modes (Stop bit=bit7 was not cleared)
+- Added Roctec RocHard RH800C emulation. rtidedisk.device, 1.0 ROM added which is IDE-only. First port is
+  IDE unit 0, second port is IDE unit 2. Ports are not shared and master-only.
+
+Beta 15:
+
+- Map only upper half of ROM image if GVP Series II ROM is 32k.
+- HD controller ROM loader duplicate code removal from HD controller specific code.
+- Accelerator board HD controller hardware was not added to emulation if board's boot ROM was missing. (b12)
+- Added DKB 12x0 accelerator on-board RAM support. 1M and 2M size are not supported, address mapping is
+  not completely emulated.
+- Floppy sound volume mixing fixed (b14).
+- Oktagon 2008 didn't have autoboot disable option.
+- Only keep high Windows timer resolution mode active when emulation is running.
+- Added Seek (6) and (10) SCSI commands to HD SCSI emulator, only checks for valid LBA.
+- VGA modes had inverted TV/VGA aspect ratio setting. (Probably not completely correct yet)
+- Added configurable blanking borders. GUI adjustment hacked to Filter panel, "Overscan blanking" setting.
+  When "Overscan blanking" is selected, filter mode is always none. First slider adjusts horizontal start,
+  second = horizontal end, third = vertical start, fourth = vertical end. Values are always in superhires
+  (horizontal) and interlaced (vertical) coordinates. Zero = disabled.
+  Currently display is only updated with new values after returning to emulation and GUI text elements are
+  not changed.
+
+Beta 14:
+
+- Show selected accelerator board and HD controller name(s) in log lines.
+- GVP Series I and II HD controllers can now be active at the same time.
+- Added SCSI controller ID selection (only AdSCSI and A4091 supported so far)
+- Mark HD controllers with * if it is enabled, becomes [x] if more than 1 controller is active.
+- Fixed referencing to already freed SCSI/IDE HD controller context structure after reset/restart (b12)
+- Added SupraDrive AMAB3, AMAB4 and AMAB5 ROMs.
+- NCR539x based SCSI controllers always accessed unit 0.
+- Added emulation of edge case when SPRxPOS or SPRxCTL vertical position is updated at the last available dma slot
+  at the end of scanline. Next line's vertical comparison will match just before this position, in other words, if
+  old value would match in next line and new value does not anymore, comparison match still happens. Fixes
+  Arc Ed / United Forces missing sprite scroller.
+- Added half-integer scaling option. (*0.5, *1.0, *1.5 and so on)
+- New Velvet prototype difference found: both CIAs generate level 2 interrupt. Now Velvet tries to boot from
+  disk, reads and executes boot block code if disk has correct bootblock which is different than release AmigaOS
+  bootblock. MFM level format seems to be identical. Unfortunately, at least so far, no original Velvet floppy
+  disks have been found and for some reason real hardware refuses to read any disks.
+- If -serlog is enabled, console log window also listens for key codes and sends them to emulated serial
+  port. Very basic console emulator, enables quick use of Velvet ROM built-in serial debugger.
+- Added "Any floppy drive" option to keyboard led configuration.
+- Floppy sound volume control is not global anymore. Empty and disk in drive states also have separate volume
+  settings. (Upper volume slider = drive empty, lower slider = disk in drive)
+- Added fullscreen GUI option to misc panel. Opens GUI in max size, possibly useful with low resolution devices
+  and/or small Windows tablets.
+- Z3 autoconfig in "UAE" mode didn't work correctly with hardware RTG boards (b4)
+
+Beta 13:
+
+- Mainboard SCSI controllers didn't initialize correctly (A3000/A4000T/CDTV) (b12)
+- "Do not force full display reset.." update made it worse, should be better now (b12)
+- I finally bothered to carefully re-examine AR3 freezer behavior, emulation updated, should now match real
+  hardware, previously unsupported features like autofire work.
+- If copper DMA is switched off mid-instruction, allow instruction to finish. Fixes AR2 weird copper
+  list detection code.
+- Added RDB mode HD geometry GUI support. (RDB mode geometry option = what IDE Identify Device and SCSI
+  MODE SENSE Format Parameters/Rigid Disk Geometry returns). Very old controllers may require custom geometry.
+- Added HD/CF IDE harddrive GUI option. Currently only difference is in IDE Identify Device word 0 identifier.
+  (Cause for infamous hdtoolbox "Unit is not a disk (Type 7)" error)
+- Added GUI IDE and SCSI version selection to hardfile panel. IDE has ATA-1, ATA-2+ (old default, returns ATA-6
+  to allow LBA48 support and more) and ATA-2+ Strict which drops ATA-1 feature that become optional in ATA-2,
+  triggering A600/A1200/A4000 IDE driver bug that causes infamous "max transfer bug". (No, it isn't drive bug)
+  SCSI has SCSI-1 and SCSI-2 options. Currently only real difference is INQUIRY version number, some old
+  software (like original A590/A2091 install disk) require SCSI-1 version.
+- Added Archos ADD-500 emulation.
+- Added AdSCSI Advantage 2000 emulation.
+- Internal enforcer emulation hit can break to debugger, enable/disable with 'fen' debugger command.
+- SCSI Read Defect Data command: return empty defect header instead of Defect List Not Found error.
+  (ADD-500 driver gets confused if Read Defect Data command does not return any data)
+- WD33C93 SCSI devices didn't support multiple units (b12)
+- Added hack that fixes max overscan scrolling in demo Seven Seas / Andromeda. (Demo has workaround for chipset
+  bug that causes right edge to have a vertical gap if BPLCON1 is larger than zero. Hack is currently needed
+  because glitch happens when hpos=0 and emulation is not designed to handle bitplane changes that cross virtual
+  scanlines). Glitch was not emulated until few versions ago, demo worked only accidentally previously.
+- Added Windows 10 TP bug workaround, for some reason dialog window is visible before WM_INITDIALOG message
+  (documentation specifically says it won't be visible until after WM_INITDIALOG) and also dialog is set
+  as not visible. Fixes quickly appearing and disappering empty WinUAE GUI panel each time GUI is opened.
+
+AdSCSI Advantage 2000:
+- 5380 based fake DMA.
+- First 5380 based driver that uses chip's arbitrate bit instead of assuming AdSCSI is the only initiator.
+- 1.6 ROM added. (Anyone have later? At least 1.9 exists)
+- RDB parser is not fully compatible, does not load all filesystems (for example PFS3).
+
+Archos ADD-500:
+- Yet another 5380 based fake DMA SCSI controller.
+- v1.21 ROM added.
+
+Beta 12:
+
+- Do not force full display reset when switching to/from programmed mode and autoresolution is active
+  and mode is D3D. (D3D can switch display buffer size without closing existing window)
+- Added config file option to force UAE boot ROM active even if current configuration does not need it.
+  boot_rom_uae=automatic/disabled/min/full. automatic (or line not included)=normal default, disabled=always
+  disabled (all features that require uae boot rom stop working), min=only add old-style $F0FFxx traps).
+- Serial port emulation (if connected to real serial port) lost characters if transmit speed was fast enough.
+  Broken since 2810b4.
+- Raw SCSI emulation improvements and updates.
+- WD33C93 emulation didn't allow use of select and transfer to split single transfer in multiple pieces.
+- Kupke Golem SCSI emulation.
+- Microbotics A1000 StarBoard 2 StarDrive SCSI expansion board emulation.
+- J.Kommos A500 SCSI emulation, 1.8 rom added. 
+- Vector Falcon 8000 emulation. ROM created from disk based driver.
+- M-Tec AT 500 emulation.
+- Protar A500 HD emulation.
+- Added AdIDE 40/44 emulation.
+- Masoboshi SCSI read access works again, writes are still broken. (Driver is strange, it uses code path
+  that simply can't work, writes 16 extra bytes. There is another code path that looks correct but there
+  are lots of unknown variables that are set here and there..)
+- Kupke Golem 030 A500 accelerator and boot rom added ("68030 Autoconfig (17-FEB-91) V1.0 ET")
+- Added manufacturer names to HD controller selection.
+- Reorganized internal accelerator board handling.
+- GVP Series I ROM and buffer RAM mirrors now 100% match real hardware.
+- Memwatch points didn't work with autoconfig address bank.
+- Refactored expansion board handling yet again, multiple identical boards are supported again.
+- Added GUI support for multiple identical HD controller boards. Current max is 4 boards.
+- Selecting some accelerator ROM file (for example CS MK I and II) also added it to cart rom file.
+- Show only mainboard HD controllers and enabled (ROM selected) expansion controllers in HD controller
+  selection list. (CDTV and some others are not yet hidden, much more work to do, later..)
+- Added "Velvet" A1000 prototype to chipset selection. Floppy IO lines are not hooked to CIA chips
+  correctly, probably lots of other minor changes that are not known yet are not emulated.
+- Show floppy image's original file name in status bar even if file needed decompression or converting.
+
+Microbotics StarDrive SCSI:
+- A1000 StarBoard 2 RAM expansion optional HD controller module.
+- Text based partitioning software.
+- 5380 based, no autoboot ROM, no RDB support.
+- Clock not emulated.
+
+M-Tec AT 500:
+- 1.33 ROM added. "mtec-at500.device mtec-at500 1.33w (08 July 1993)"
+  "(c) Hardware Design Udo Neuroth, Bottrop, Dieter Niewerth, 1992 1993"
+
+AdIDE:
+- 68000 socket.
+- Uses custom data bit swapping (drive partitioned with AdIDE won't work in any other IDE controller and
+  vice versa), emulation will automatically read/write non-swapped data.
+- Uses RDB but does not seem to be fully compatible, other controller partitioned drives don't mount.
+- ROM was software dumped, real chip probably has swapped address or data lines similar to IDE data lines.
+
+Kupke Golem SCSI:
+- Fake dma interface.
+- Tested with 3.8 and 3.9 drivers. 3.9 rom added.
+
+Protar A500 HD:
+- ROM only has small loader code, loads driver from HD. (If drive is unformatted, press mouse button
+  to boot from floppy)
+- 8490 chip (improved version of 5380). 8490 extra features not emulated, at least Protar driver does
+  not use them.
+- ROM added, unknown version. There probably is later version because only 1.4 (1.x?) boot disks
+  detect the hardware.
+
+J.Kommos A500 SCSI:
+- Strange non-autoconfig autobooting HD controller, uses cartridge ROM space.
+- Byte-based fake dma.
+- Boot HD detection screen.
+- Not RDB compatible.
+- ROM includes 36.3 FastFileSystem handler.
+- jkscsi.device, "Autoboot SCSI-HardDisk By J.Kommos Date: 25.07.1990".
+
+Vector Falcon 8000:
+- Improved version of Kommos SCSI.
+- More or less functionally same as Kommos but most glue TTL chips and GALs put in single FPGA-like chip.
+- Long word/word based fake DMA.
+- More colorful boot HD detection screen.
+- vector.device. "Autoconfig 16 Bit SCSI + CD-ROM Driver (©) by J.Kommos V7.1 - 11.08.1993"
+- ROM includes CD ROM filesystem.
+- Bad filesystem loader: must be single hunk, only loads filesystems if KS 1.3, ignores all relocation
+  hunks.
+
+Beta 11:
+
+- Supra HD autoconfig state was not reset when system was reset.
+- 68000 bus/address error stack frame I/N bit emulated, added better check for odd stack in exception stack frame
+  writes. Also added helpers for bus error checks for platforms that need it (UAE 68k emulator is also used by
+  Hatari) I don't know any program (or protection) that uses it but crashing/buggy programs may trigger it.
+- Show also currently selected accelerator board in harddrive controller selection.
+- Toccata capture support, not tested. Uses WASAPI (=Vista or newer only) and uses Windows default
+  recording device, not configurable yet. First tries to allocate exclusive mode, if it fails, retries with
+  shared mode. Note that only exclusive mode allows configurable sampling frequency, shared uses value set in
+  Windows recording sound control panel.
+- Tweaked A590/A2091 DMAC interrupt handling and DMAC-01 DMA transfer counter emulation.
+- Added Kupke Golem v3.9 ROM image, not emulated, Golem does not use any SCSI chips, it is very
+  difficult to guess function of each IO address.
+- CDTV SCSI works again, broke when A2090 support was added.
+- A26x0 J304 jumper emulation fixed. It should not be active anymore after autoconfig io gets enabled.
+- Added rare SupraDrive 2000 DMA emulation. Boot ROM are not available, some supra install disks have on-disk
+  loadable driver which has bug in 2000 DMA model specific code that causes it to hang (uses wrong address
+  register, overwrites one inportant byte in interrupt handler code..) Perfect.
+  AMAB6 ROM is selectable in rom select box but it is not compatible with 2000 DMA.
+  (Thanks to mark_k for HD driver disassembling and examination)
+- Non-image CD last available block number calculation changed, do not trust geometry Windows returns.
+  (Fixes OS41FE install error)
+- Fixed OS41FE RTG graphics mode switch crash. (Check Cirrus Logic VRAM bounds before calling redraw routines,
+  apparently driver first switches mode, then sets new display offset, this can cause temporary out of bounds
+  access in emulation)
+
+Beta 10:
+
+- Added hd controller subtype selection.
+- A590/A2091: DMAC-01/02 revision selection.
+- GVP Series I: all revisions.
+- Remaining non-DMA SupraDrives added.
+- Masoboshi MC-302 (IDE-only) and MC-702 (IDE+SCSI). Note that only MC-302 is currently working, DMA also not
+  yet supported. (Driver by default uses only PIO)
+- Added A2090/A2090a emulation.
+  (Currently shared with A590/A2091, it is not possible to use A2090 and A590/A2091 at the same time)
+- Previous supradrive config entry name changed, config reset needed.
+- A590/A2091 interrupt handling updates.
+- 68000 address error stacked PC accuracy improved (MOVEM and NOT, CLR and other single operand instructions)
+- Apparently GVP Series I Z2 RAM autoconfig id is 1761/8.
+- Accelerator board without IDE and SCSI and SCSI (auto) or IDE (auto) selected: drive was incorrectly reserved
+  for selected accelerator board.
+- Reorganized accelerator board handling, built-in HD controller configuration source code special cases removed.
+  ROM selection shows only ROM images compatible with selected accelerator board.
+- Added accelerator rom config/jumper options. Currently only map rom for Blizzards (ROM panel MapROM emulation
+  still also selects it) and OSMODE (J304) jumper for A26x0.
+- WD33C93 emulation fix, A2630+A2090 Amix installation works.
+- "24-bit address space is not supported with selected accelerator board configuration" error even when 24-bit
+  was not enabled.
+- Bogus 0x20 68882 stack frame version id removed, both 68881 and 68882 use 0x1f.
+- Set/reset accelerator ROM correctly in Quickstart mode.
+- Debugger fl was already reserved for listing active break points. Scanline fl renamed to fs.
+- Debugger library and device list commands (Td, Tl) shows version, revision, opencount and id string.
+- Debugger task list command (Tt) shows signals that task is waiting for and PC where task continues executing
+  when Wait() returns. Also previously it showed extra bogus entry and usually also didn't show all tasks..
+- Added extra prefetch hack for A26x0 ROM off switch code if 68030 MMU is enabled.
+- On the fly switching from AGA to non-AGA mode didn't reset FMODE value.
+
+A2090(a):
+
+- Commodore's first Amiga harddrive controller and it shows..
+- Custom partition table (No RDB), autoboot is supported.
+- Very confusing and illogical partitioning system. (No, double clicking "Prep HD" icon won't do what
+  you would expect it to do. At least with SCSI-only configuration.)
+- 34.4 boot ROM added.
+- At least 34.4 has broken format routine (few absolute addresses are not relocated correctly in rom code)
+  for SCSI drives. Disable boot ROM and use binddrivers mounting when running prep-program as a workaround.
+- ST-506 parts not emulated.
+
+GVP Series I:
+- Impact A2000-1/X (Autoconfig Product number 1)
+- Impact A2000-HC (Product 2)
+- Impact A2000-HC+2 (Product 3)
+- Nearly identical hardware. Different SRAM buffer size and SRAM address offset.
+- Early partition software created incompatible RDB blocks. (For example checksum fields are zeroed)
+- v1.0 (1.16 driver version) ROM added.
+
+SupraDrives:
+- A500 ByteSync/XP (was already supported since b8)
+- 2000 WordSync
+- A500 Autoboot
+- 4x4 (Non autoboot). Clock chip not yet emulated.
+- Supra AMABx ROMs support all above models.
+- All Supradrives except very rare 2000 DMA (which apparently had bad DMA implementation and uses
+  very different driver) are now emulated.
+
+Beta 9:
+
+- Fixed harddrive config parse crash. (b8)
+- Blizzard SCSI Kit was always enabled if compatible accelerator board was selected. (b8)
+- Accelerator board with SCSI and "IDE (auto)": HD was mounted as accelerator SCSI. (b8)
+- Accelerator board ROM selection is not anymore in SCSI/Boot ROM list.
+- Added autoboot disabled jumper option to harddrive controllers. Not all devices supported yet.
+  (Some only hardware disable rom chip, some change autoconfig data in hardware level)
+
+Beta 8:
+
+- 53c710 software reset bit emulated.
+- Cirrus Logic register memory banks should not be marked thread safe.
+- Show '?' instead of 'E' in harddrives list if hdf can't be opened because of access fault, for example if it
+  is already open and emulation is running and show '!' if open failed because of write protection.
+- Rewritten expansion board rom handling, expansion data is now fully parametrized, autoconfig emulation and
+  config file handling does not need code changes anymore when new board with boot rom is implemented.
+- Secondary IDE/SCSI boards temporarily removed.
+- Automatically disable 24-bit CPU addressing if selected accelerator board is 32-bit.
+- Existing Blizzard 1230IV/1240/1260+SCSI configurations need adjustment. SCSI Kit configuration has changed.
+- Do not initialize tablet if tablet options are not enabled.
+- 5380/53c80 SCSI chip emulation implemented. Surprisingly basic chip, even Apollo SCSI hardware is more complex,
+  driver needs even more bit-banging than Apollo..
+- SupraDrive 500XP (5380) emulation implemented.
+- Added GVP G-Force 030 board. Same as GVP A530 but supports more RAM, located at 0x01000000.
+- A2620/A2630 accelerator board RAM now adjusts 0x01000000 memory size.
+- Fixed GPV Series I autoconfig product id.
+- STOP instruction was 2 cycles too fast in 68000 cycle-exact mode.
+
+NOTE: Accelerator board ROM appears also in SCSI/Boot ROM list. It will be removed later.
+
+SupraDrive 500XP:
+
+- v3.8 ROM (AMAB6) added. (Anyone have AMAB5 or older? I'd like to know why older versions have so many
+  compatibility problems with modern drives. A2000 WordSync version also accepted.)
+- Uses MOVEP in main data transfer loop. (My crystall ball says WordSync version does not...)
+- Usual fake DMA, CPU used to transfer data, hardware automatically handles SCSI data handshake.
+- Any CPU access to "fake DMA" address space when SCSI chip is not in DMA mode: access never finishes.
+  This is also emulated, causes halt 6 state.
+
+Beta 7:
+
+- Fixed infinite recursion (and stack overflow) when pause when uncaptered is enabled and display mode changes.
+- Added AlfaPower/AT-BUS 508/2008/AlfaPower Plus IDE controller.
+- Very simple low level SCSI emulator added to support Apollo software bit-banging SCSI.
+- Added Apollo IDE/SCSI board (AT500/AT2008) and Apollo 1240/1260 accelerator boards with SCSI.
+- Added GVP Series I SCSI controller.
+- Added GVP A530 accelerator. Uses same boot ROM as GVP Series II SCSI controllers. (Uses GVP #2 SCSI slot)
+- Added Masoboshi MC-702 IDE+SCSI controller.
+- Toccata CD audio (AUX1) volume control added.
+- Another Restart related crash fix.
+- Added "framecounter" float shader variable.
+- Paths panel Save All button now creates zip file that contains winuaebootlog.txt, winuaelog.txt and config file.
+- Quickstart A1200 + accelerator board, A500+ and A600 with expansion never had RTC. (Wrong order of functions..)
+- Possible clock sync option small stability improvement.
+- Fixed memory corruption if directory harddrive with empty name was selected.
+
+SCSI/IDE controller notes:
+
+GVP Series I:
+- Not true DMA, DMA transfers from WD to/from onboard SRAM buffer. CPU needed to read/write buffer ram.
+- Driver (scsidev.device) is very old and has (many?) limits, for example only OFS and FFS partitions mount correctly.
+
+AlfaPower/AT-Bus 508/2008/AlfaPower Plus:
+- AlfaPower: no hardware interrupt (!!), AlfaPower Plus implements interrupt support.
+- v6.10 ROM (Last that works with non-Plus hardware?) and v8.3 that requires Plus.
+
+Apollo:
+- All Apollo variants seems to have identical SCSI hardware. (Accelerators and 500/2000)
+- SCSI is working. IDE is not fully tested, only AT500/AT2000 have full IDE driver. For some reason
+  Apollo 1240/1260 driver still have short "is there any IDE drives" detection code remaining.
+- "Software" SCSI, hardware can only do bus arbitration in hardware, everything else is done by bit-banging
+  SCSI IO lines. Both SCSI and IDE also use non-DMA data transfers.
+- 128k Apollo ROMs (68060 f00000 ROM code and SCSI driver) are currently supported. Non-accelerator
+  (AT500/AT2000) ROMs don't seem to be available = can't test IDE emulation.
+- 128k v5.60 ROM added. Seems to be last 1240/1260 ROM with SCSI.
+
+Masoboshi:
+- Unusual design, SCSI supports both PIO and DMA, software selectable.
+- IDE and SCSI in non-DMA mode working.
+- SCSI writes are not working correctly, do not use! DMA controller not yet emulated.
+- "2.201" (device version) boot ROM added. ROM image does not have any version numbers or dates.
+- IDE driver uses CHS addressing and seems to have problems with 2G drives, actual limit may be smaller.
+  It tries to access first unavailable block number at the end of drive. (Driver flashes red background
+  color if drive returns error status)
+
+Most popular SCSI and IDE controllers are now implemented.
+Remaining IDE boards that I'd like to support:
+- Roctec RocHard (Need boot ROM)
+- AdIDE 40/44 (Need boot ROM)
+Remaining SCSI boards are 5380/53c80 based boards that need chip emulation first:
+- All SupraDrives.
+- Trumpcard 500/2000
+
+Perhaps others too. As long as at least one boot ROM is found for unsupported boards.
+
+Beta 6:
+
+- b5 input device update fix, changing to any keyboard layout didn't reset "remembered" device name.
+- Cycle at DDFSTRT-1 was sometimes incorrectly unavailable for blitter. (b5)
+- In some rare situations blitter stole cycle(s) from copper.
+- Pre-calculated end position of scanline was incorrect in some situations causing incorrect bitplane
+  vs other DMA cycle allocation (b5)
+- If RawInput didn't find any game controller HID devices and command line didn't have any forced HID parameters,
+  always try again when new device is inserted instead of disabling HID support completely and falling back to
+  DirectInput. RawInput and DirectInput device identifiers are different and wrong device may have been selected
+  in some situations.
+- Master volume is now real master volume control. Paula, CD and AHI are sub-volume controls.
+- Toccata Paula (AUX2 input) volume control implemented. Not tested.
+- GVP SCSI without ROM didn't set any autoconfig data.
+- Fastlane (and possibly some other Z3 SCSI boards) didn't autoconfigure if Z3 autoconfig space was disabled.
+
+Beta 5:
+
+- Fixed ESP SCSI DMA emulation bug I introduced when non-DMA mode support was added (Original code from QEMU was DMA-only)
+- Nordic Power v3.2 and Pro Access v2.17 (early version of cartridge that become Action Replay 1) support added.
+- Some chipset emulation tweaks. Strange bitplane DMA on/off mid scanline behavior now emulated, not sure if exactly
+  right yet. Also some strange OCS/ECS differences tweaked. Should be mostly finished now.
+  I'll post more details later.
+- Some tweaks to writing to BPLxPT 1 cycle before BPL DMA fetches same bitplane. Nakudemo / Vision-X ECS only corruption
+  is now correct (and also looks much worse than previously).
+- GVP SCSI WD33C93 transfer info command with DMA enabled was not working.
+- Compressed flashable rom images didn't unpack automatically. Flash modifications are not saved if using compressed image.
+- Remember original input device name when loading config and input device is not currently available. If/when input
+  device gets connected, device is automatically inserted in to originally configured port. Remembered name is "forgotten"
+  when input device is manually changed in GUI or if autoswitching is used.
+
+Beta 4:
+
+- HAM-E images updated only every other line in doubled modes.
+- Graffiti didn't sync correctly if config was not AGA.
+- Restart button crashed if hardware RTG was enabled.
+- PCMCIA IDE didn't work anymore (b2)
+- .pkd file extension inside archive wasn't autodetected.
+- Disk/CD insert status message file name was shown as "null" if file was inside archive root.
+- HD and tape SCSI emulation unsupported LUN sense data was overwritten with default ILLEGAL FIELD IN CDB sense data.
+- CD SCSI emulator didn't check for non-zero LUNs.
+- Return SCSI-1 HD inquiry data only if A590/A2091.
+- Show also REQUEST SENSE command and data if scsi emulation logging is enabled.
+- 68000 prefetch mode DIVS/DIVU timing update didn't work, always returned 4 cycles due to missing parenthesis.
+- Switching chip ram and/or slow ram size usually crashed after reset if ECS Agnus was selected.
+- Some very old statefiles had Z2 fast ram with zeroed autoconfig address, added workaround (broke during 2.9 betas)
+- Added fl <lines to wait> or fl <absolute line> <absolute hpos> and fc <CCKs to wait> break points to debugger.
+- Z3 space memory mapping was not initialized if only non-RAM/VRAM Z3 expansions are configured.
+- Clock sync feature update, previously only 50Hz CIA-A TOD rate was fully accurate.
+- Load CDTV/CD32 state file, load other state file: CDTV/CD32 CD was still mounted.
+- Yet another bitplane DMA sequencer emulation rewrite and cleanups. Still some bitplane DMA on/off switch edge cases remaining
+  Switch on bitplane DMA near end the scanline: following line starts DMA for one "block" only, next line works normally.
+  This needs more real hardware testing to find exact conditions.
+- Source cleanup, moved all kinds of device init/free/interrupt check codes to common file from non-related source
+  files.
+- Added name to UAE Boot ROM DiagArea. (May be visible in some system info/diagnostics software)
+- HALT status was not cleared when loading new state file.
+
+Beta 3:
+
+- Bitplane DMA sequencer emulation rewritten yet again to again match better with real hardware behavior.
+  DDFSTRT and DDFSTOP seems to use hidden counter that counts 4 cycles ahead of real hpos counter.
+  When DDFSTRT matches, next 4 cycles appears to be idle (probably used to init and fill some bitplane dma
+  sequencer shift register?) and after this delay DMA starts normally. Same for stop. Now programs that write to
+  DDFSTRT or DDFSTOP just before, exactly in same cycle or just after it should match now just work without
+  any extra hacks. (Some kind of 4 stage shift register would also explain why changing number of bitplanes by
+  writing to BPLCON0 mid-line always take effect after exactly 4 cycle delay)
+  Can break anything as usual! Correctly breaks SCX_CoolSpot1.adf's intro on ECS Agnus configurations :)
+- 512k chip + 512k slow ram + ECS Agnus chip mirroring didn't set slow ram bank with "no memory allocated" flag,
+  could have caused crashes when it was attempted to be freed.
+- OCS Agnus 512k chip + 512k+ slow and 1M/0.5+0.5 advanced chipset checkbox checked: move slow ram start at $080000.
+- 68000 bus error and address error exception stack frame's first word undocumented bits 6 to 15 seem to contain
+  opcode of faulted instruction. (from Hatari)
+- IDE/ATAPI emulation decoupled from Gayle emulation and moved to separate source file.
+- Added GVP A3001 board with IDE. Apparently Series I and II have different hardware and drivers. (v4 for Series II)
+  Series I IDE emulation seems to be fully working. Non-DMA, gvpat.device, v3.3 added to ROM scanner.
+  Does not byte swap data words but emulation swaps it automatically to keep HDFs compatible with other controllers.
+- Added ES_SYSTEM_REQUIRED flag to SetThreadExecutionState(), perhaps it keeps screensaver inactive.
+  (ES_DISPLAY_REQUIRED seems to only make sure monitor does not switch to power saving mode)
+- HAM-E emulation added. Because HAM-E "magic cookie" can be nearly anywhere on screen, enabling HAM-E will slow down
+  emulation (It needs to check nearly all pixels every frame) even when HAM-E mode is not active. "Automatic" setting
+  still only does A2024 and Graffiti detection. DCTV emulation: not going happen without image encoding specs.
+
+Beta 2:
+
+- Paula audio filter still filtered Toccata audio. Note that stereo separation is after Toccata audio
+  mixing.
+- Added "ROM disabled" to GVP SCSI ROM selection.
+- GVP SCSI ROM space word reads accessed invalid memory.
+- Added Paths panel option to store "saveimages" in same directory as original image file, instead of always
+  saving in saveimages-directory, extension changed to .save_adf to prevent it being visible in directory
+  listings with normal disk image filter type active.
+- 68030 MMU on the fly off->on switch crashed. (Not that on the fly MMU switching is really supported..)
+- WD33C93 Select without ATN command didn't fully skip message out phase. (AMAX GVP SCSI driver)
+- Reading WD33C93 SCSI message in with Transfer Info command is a special case, after it finishes, it does
+  not advance to next state automatically, it must wait for Negate ACK command. (AMAX GVP SCSI driver)
+- AMAX rom "dongle" emulation improved floppy drives didn't work reliably.
+- Added AMAX rom image selection to ROM panel SCSI select menu, renamed to SCSI/Boot ROMs.
+- Added very simple next opcode word prefetch emulation to 68030 MMU mode, only done when MMU state changes.
+  Fixes programs that first switch on (or off) MMU which also unmaps memory where currently executing code
+  is located and then executes JMP (An).
+- Added Toccata recording support, currently only internal hardware emulation is implemented (FIFO and interrupts),
+  returns only zero samples.
+- Show also inserted data CD volume id (label) in status bar, strip path from file name.
+- Show inserted floppy image filename and label (if OFS/FFS image) in status bar.
+- CD image audio can be now mixed with Paula audio, just like Toccata output. CD audio can be finally recorded
+  with internal wave or avi recording support (Requested feature). FPS.Adj also adjusts CD audio speed (and pitch)
+  and CD audio sound sync (For example Liberation CD32 intro) is kept even if emulation slows down.
+  Enable option added to Sound panel (can be switched on the fly but mode only changes when CD audio thread restarts),
+  old method is still the default. Note: when enabled, Paula audio slider becomes master volume for CD audio.
+- CD32 FMV also supports new audio mixing mode. FPS.Adj not supported yet.
+
+Beta 1:
+
+- Lowered disk motor startup delay, more closer match with real hardware (at least matches some random drive
+  in my A500)
+- Memwatch points in KS ROM address space crashed during reset. (Wrong ROM mirror selection)
+- A4000T NCR SCSI data bus width become 16-bit in cycle-exact mode. Caused write triggerable registers
+  to start operation before full 32-bit value was written.
+- Memwatch points didn't work in ROM addresses.
+- CPU HALT state caused infinite loop in some configurations.
+- 2900b16 68040 MMU MOVEM stack frame update was incorrect. (NetBSD crash, probably other Unix-likes too)
+- Some 68000 MOVE variants seem to sample interrupt lines before writes and some after writes. Added special
+  case for one variant, allows Made in Croatia / Binary to work in cycle-exact mode. Need more testing later,
+  there does not seem to be any pattern.
+- Last line sometimes flickered with random colors in "Double, fields/+" non-interlaced mode.
+- RTG mode screenshots in 16-bit host color depth mode had wrong colors.
+- Non-cycle exact modes with display vertical diw open but bitplane DMA disabled: in some situations display was
+  corrupted or shifted. (Gloom AGA, Worms Directors Cut title screens)
+- Directory filesystem exnext packet update didn't always work correctly if file was deleted during directory
+  enumeration. (Which is technically illegal but it accidentally worked with OFS/FFS and become a feature..)
+- Autoconfig space was not unmapped after it finished, broke during previous autoconfig rewrite.
+- GUI didn't allow selection of custom SCSI ROM file.
+- Completely rewritten CPU idle function, max CPU idle setting should now work without any slowdown side-effects,
+  also lowest CPU idle state should be less than 10%. Please test.
+- Last line is not special if A1000 Agnus. I was expecting this result when I noticed that A1000 sprite behavior
+  is different in last line vs later Agnus models. A1000 Agnus: all visible lines are normal, later revisions:
+  last line inhibits bitplane and sprite DMA. Real A1000 confirmed. I think this is last A1000 vs later Agnus
+  revision undocumented difference.
+- Small sprite update, only writes to SPRxCTL disarms sprite (I had special case for first DMA write to SPRxPOS
+  too, only because it worked around another old bug..). Now OCS Agnus + ECS Denise + KS3.1 combination mouse
+  cursor sprite corruption is 100% correct.
+- On the fly media insertions are now serialized and only processed when Windows PnP manager reports idle
+  state (Media mounting works even if it causes "installing drivers" phase) and multiple simultaneous media
+  insertions also work reliably now (for example USB reader connected with multiple cards already inserted)
+- First on the fly inserted device name becomes RDH0:, second RDH1: and so on. Previously number was next
+  available directory filesystem unit number.
+- Delay enumeration of inserted/removed input devices by 2 seconds. One removal or insertion can cause
+  multiple device events (which is harmless but sometimes annoying)
+- Picasso IV autoconfig missed special case, other boards are 16M in Z3 mode but PIV is 32M. Fixes incorrect
+  address alignment if Z3 fast RAM is also enabled and size is less than 32M. (OS4 black screen hang)
+- Picasso IV byteswap VRAM space didn't handle byte reads or writes correctly, only words and longs worked.
+  (OS4 1024*768*16 screen mode glitches, possibly also other 16 bit modes)
+
+New hardware emulated:
+
+- GVP SCSI Series I and II hardware emulation (WD33C93), HC+8 board. v3.15 and v4.15 boot ROMs added to ROM
+  scanner (gvpscsi.device). GVP SCSI enabled + Z2 fast RAM: use GVP Z2 fast ram autoconfig ID.
+- DKB 1230/1240 accelerator board + SCSI emulation (FAS246 which appears to be compatible with 53C94/FAS216).
+  SCSI is non-DMA (dkbscsi.device). v1.23 ROM added to ROM scanner. RAM not emulated, no idea about address space.
+- Fusion Forty accelerator board emulation. It has interesting menu and graphics in boot ROM, press right
+  mouse button when booting. v3.4 ROM images added to ROM scanner. RAM expansion emulated.
+- Toccata Z2 sound card emulation.
+
+Toccata hardware features emulated:
+- Mono and stereo channel modes.
+- 8-bit and 16-bit linear PCM. Companded (ulaw/alaw) modes are not supported.
+- Left and right output channel volume control and mute.
+- All AD1848 supported output frequencies.
+- Output only. Input channels are not supported.
+
+Technical details:
+- Has 1024x9bit FIFO chip, one for output and one for input.
+- No DMA. Uses level 6 interrupt to fill FIFO, 512 bytes/interrupt. Interrupt triggers when FIFO has 512 bytes or less
+  data available. (Which makes about 7 interrupts/frame at 44100Hz/16bit/stereo)
+
+Notes:
+- Different implementation than uae ahi and CD audio. Audio goes to Paula emulation backend (after Paula 8 to 16-bit
+  conversions and filters). Very good latency but glitches are possible if configured buffer size is too small or
+  not enough CPU power available (just like with Paula audio). It should be usable for (game) sound effect, not just
+  for music.
+- Because it uses Paula audio path, Toccata audio is included with sound recording. Same method may be used with
+  CD audio in future. (Possibly optionally).
+- It is best to set same sample rate in both AHI and UAE sound settings to reduce possible resampling artifacts.
+- Does any DMA capable simple sound cards exist? (Simple = basic CODEC chip only, no DSP chip)
+

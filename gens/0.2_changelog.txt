@@ -1,0 +1,20 @@
+(24/02/2000) Changes Gens 0.2 <- Gens 0.141 :
+---------------------------------------------
+
+- I've entirely rewritten the VDP rendering :
+  - More optimized and so faster ;)
+  - Fixed Scroll A / Window conflict.
+  - Added masks sprite features.
+  - Added sprite limit feature (can see it on sonic 1 main screen)
+    You can enable or disable it by 'Sprite Over' option in the 'graphics' menu.
+  - Added 15 bits mode.
+    No more bad colors on some video cards :)
+- Fixed the VSRam read and write (vertical scrollings are now okay)
+- I'm using RAZE (Richard Mitton richard.mitton@bigfoot.com) z80 emulator instead of MZ80
+ (Neil Bradley neil@synthcom.com) due to unworking games with MZ80 (I may not use it correctly).
+- Some changes in DMA transfers. (sprites of mario (no commercial) rom are okay).
+- Full-Screen now works correctly.
+  Full-Screen is faster than Windowed mode, just use it !
+- Some others ...
+
+Sorry, once again, the sound is not implemented, may be in the next release !

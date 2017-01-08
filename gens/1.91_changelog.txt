@@ -1,0 +1,15 @@
+(23/04/2002) Changes Gens 1.91 <- Gens 1.90 :
+---------------------------------------------
+
+Changes concern only the sound emulation :
+
+* YM2612 :
+  - Fixed a stupid bug with decay rate calculation.
+  - Fixed the enveloppe recalculation.
+  - Fixed the LFO in High Quality mode.
+  - Improved the interpolation calculation in HQ mode (slower). 
+  - Fixed a bug in the reset processus.
+* PSG :
+  - Fixed a bug with very high frequencies.
+  - Fixed a bug in the reset processus.
+  - Volume ajusted.

@@ -1,0 +1,11 @@
+22.64  [OS3.5+][Windows XP+][MorphOS][OS4.0?]: Sun 14 Sep 2014. 370th release.
+    Summary:
+        * New debugger CLI command: CO (compare memory).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ fixed: status bar, game info subwindow, etc. were saying it was using
+  stub even when it wasn't.
+ elektor: fixed: bios autosaves were being tagged as graka-slow.
+ debugger CLI: added CO (compare memory) command.
+ removed obsolete catalog strings. 

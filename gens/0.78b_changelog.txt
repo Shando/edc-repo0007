@@ -1,0 +1,30 @@
+(27/07/2000) Changes Gens 0.78b <- Gens 0.76 :
+----------------------------------------------
+
+* Rom banking support added.
+  Super Street Fighter 2 works !
+* YM2612 (FM) emulation improved:
+  - LFO support.
+  - Better sound (depending of the game).
+  - A little bug fixed (looping sound).
+  - DAC stereo sound (you can't enable DAC without enable YM2612 anymore).
+* Some PSG bugs fixed.
+* You can now disable/enable stereo sound and choose the sound quality (8/16 bits).
+* Sound dump (WAV format) feature added.
+* Some tweaks in RAZE Z80 core.
+* Some changes in Controller/IO code.
+* Collision flag fixed again.
+* Sprite limit is now perfectly respected.
+
+Games fixed :
+Super Street Fighter 2
+Pirate Gold
+Sonic Compilation
+Action 52 in 1
+Barbie Super Model
+Megagames
+Flink (little glitches in world map screen when sprite limit is activated are fixed)
+Sonic 1,2,3 (PSG sounds bugs fixed)
+Talspin (FM sound bug fixed)
+Marsupilami (FM sounds bug fixed)
+Bio Hazard (Keys are fixed)

@@ -1,0 +1,182 @@
+2.4.1
+
+- Try to flush GPU queue after rendering the frame to prevent delayed background flipping that
+  introduces tearing on fastest possible no buffer low latency mode.
+- Integer scaling + gfx_xcenter_pos or gfx_ycenter_pos set had wrong positioning.
+
+Beta 14: (RC3)
+
+- Cycle-exact/approximate CPU speed non-vsync b1 sound sync update didn't work, it did nothing.
+- Some more low latency vsync timing updates, improved dynamic adjustment.
+- Legacy vsync slowdown problems fixed (2.4.0)
+- Restored (50Hz) and (60Hz) fake rates that were removed in 2.4.0. Only available in legacy vsync mode.
+- RTG + low latency vsync was not stable.
+
+Beta 13: (RC2)
+
+- Possible improvement for low latency no buffer mode tearing problem.
+  - Fastest possible CPU: very simple dynamic flip delay timing adjustment. Reduces tearing (and slows
+  down CPU emulation speed) but won't fix it completely. Difficult problem to solve 100% without
+  losing too much CPU speed. Currently only way to remove tearing is to reduce CPU speed.
+  - Cycle-exact/approximate CPU: Tearing problem on some systems should be fixed.
+- Fastes possible low latency vsync sometimes flipped buffers before or during internal frame rendering,
+  usual result was same frame being shown multiple times.
+- Legacy vsync refresh rate didn't override internal chipset refresh rate causing very bad slow down
+  if rates didn't match.
+- Map directory filesystem Windows error ERROR_INVALID_PARAMETER to AOS ERROR_OBJECT_NOT_AROUND, 
+  GetFreeSpace("path to empty CD drive") returns this code on some systems.
+- Validate SCSI INQUIRY data before using it when requesting IOCTL CDROM vendor and product names.
+  It seems query can return success without returning any data in some situations.
+- Store beta dialog state to winuae.ini if enabled.
+- Random bsdsocket crash when calling gethostbyname() with numeric IP address. (2.4.0)
+- Allow again zero back buffers in DirectDraw mode, 2.3.3 allowed this configuration.
+- Canceling HD HDF cloning froze the GUI. (Possibly Vista and newer only)
+- Store also monitor's system specific id string to config file, system can have multiple identical monitors.
+
+Beta 12: (RC1)
+
+- More Fastest possible + low latency vsync tweaks.
+- Ignore sprite 0 (normally mouse pointer) when calculating autoscale position and size.
+- Custom Input event editor usually crashed.
+- CD32 boot screen autoscale improved.
+- b10 "show drives that require admin privileges" hide drives that also have drive letter.
+  Background info: for some strange reason USB memory card adapters have two devices, one (without drive letter) that can't
+  be accessed without admin privileges and drive letter device that can be accessed.
+- Fastest possible CPU + low latency vsync and double frame mode (85Hz+) jitter fixed.
+- "Masks" in filter panel is selected by default, "Overlays" is only selected if overlay image is already configured.
+- Possible fix for D3D mask alignment errors in some scaling settings.
+
+Beta 11:
+
+- Adjusted Fastest Possible timing a bit more..
+- Better PC interlace screen mode detection.
+- Fixed invalid MFM encoding when converting standard adf unencoded data to MFM encoding. (Few incorrect MFM clock bits) Another
+  "no one cares" fix (since the beginning, does not affect adf data quality), noticed when testing m68k AROS trackdisk.device write support.
+- Vsync mode sound sync shouldn't be that aggressive. (b8)
+
+Beta 10:
+
+- Partial rewrite of fastest possible CPU low latency vsync detection code. Should fix jitter caused by frame not always
+  getting shown on screen at correct time.
+- Low latency vsync and double frame mode (85Hz+): guarantee every other vblank is really skipped, previously it didn't
+  work correctly in some situations.
+- Calculate final vblank busywait time from selected rate instead of using hardcoded 50Hz/100Hz-only compatible value.
+  Fixes >50Hz no-buffer jitters.
+- Emulate extra CPU time if it has been more than 7 lines since last extra CPU time, matches older behavior without
+  losing 2.4.0+ performance increase.
+- Fixed low latency vsync + fastest possible CPU getting in state where FPS dropped greatly temporarily, usually at startup.
+- Show also drives that require admin privileges in harddrives panel, unselectable and marked with "Access denied"
+  label. Only name shown because accessing any other attribute may require admin privileges.
+
+Beta 9:
+
+- Fixed D3D texture reallocation ordering. Caused blank screen or other strange side-effects (b7)
+
+Beta 8:
+
+- 68EC020/68020 state files didn't load properly if current CPU config didn't match.
+- Adjusted JIT timing a bit, possible fix for slowdowns on some systems.
+- Made sound sync a bit more aggressive. (2.4.0 relaxed it a bit too much, I think)
+- D3D crash fixed (b7)
+- CIA related rare statefile CPU TRACE error fixed.
+- Crash fixed when CDFS CD drives enabled without any harddrives.
+- Disable USB HID RAWINPUT (Fallback to Direct Input) if "blacklisted" devices found, added
+  RM-203 USB adapter to list because it requires calibration which WinUAE can't support.
+
+Beta 7:
+
+- DirectDraw full-window mode on non-primary monitor was blank.
+- Adjusted (again) fastest possible CPU mode extra CPU time scheduling, trying to find balance between better
+  timing syncronization and not causing unnecessary slowdowns on some systems..
+- OCS Denise bug emulation update, PAL STREQU counts are 8 (short field) or 9 (long field) lines, not static 9 lines.
+  (Probably no program cares)
+- F11 in gameports/input test mode shows next page (if list is longer than visible area).
+- Manual display positioning X coordinate offset fixed (Filter panel or gfx_center_horizontal_position)
+  Origin should be hardware position 0 (same as sprites), not first possible visible position.
+- Fastest possible low latency vsync should work better again (b2), plus some other adjustments done, CPU throttling
+  supported.
+- Autoresolution worked badly in some situations.
+- Removed USB_DEVICE_ID_RETRO_ADAPTER from USB "quirks" list, apparently it is working correctly according
+  to firmware sources. (Perhaps older version was wrong, not exactly sure why it was included in Linux HID quirks list)
+- Save also selected monitor name (gfx_display_name) to config file because order of displays can change when removing
+  or adding monitors or replacing display cards.
+
+Beta 6:
+
+- Most CDFS RockRidge file comments were truncated. (Very stupid bug)
+- CDFS media change still crashed in some situations.
+- Show "UAE" as HD controller, not "n/a" (same as "IDE0" and others do)
+- Improved fastest possible CPU throttle option. (Less CPU% usage)
+- If fastest possible CPU does not have enough frame time for extra CPU emulation, reduce extra time in next frame to
+  prevent possible high CPU% usage and slowdowns.
+- Fullwindow RTG, D3D and scaling in Expansion panel enabled: switching to bigger RTG resolution than max fullwindow crashed. (b2)
+- Updated statically linked zlib and libpng to latest versions (1.2.6 and 1.5.10)
+- Debugger basic math operators support (+-*/) added, for example "m 8+100*4" lists memory beginning from 0x408. Note that space
+  is not allowed because it is parameter separator.
+- Borderblank didn't work if BPLCON3 was only written outside of displayable area (b5). This is still quite ugly implemention,
+  it should be done similar to COLOR0 handling but it would require too big changes. Later..
+- A2024 2 lowest RGB bits set correctly, was always cleared previously.
+- Keyboard reset warning fixed (2.4.0)
+- Fixed 1-3 line background color bar on top of screen in autoscale modes (2.4.0)
+- USB joypad/joystick rawinput dpad diagonal movement fix. (2.4.0)
+  
+Beta 5:
+
+- Left edge display limit fix, it was correct when in lores but OCS/ECS hires max overscan
+  (or AGA in 16-bit fetchmode) can start 8 pixels earlier. (ECS SuperPlus missing left edge)
+- Tweaked programmed mode sync positioning algorithm.
+- Use config file gfx_top_windowed and gfx_left_windowed top/left window coordinates if borderless mode.
+- Sort filter presets alphabetically.
+- When calculating autoscale position, restrict left and right side of display inside hsync end and start positions,
+  fixes really wide display in promoted modes. Note that autoscale can't work correctly in (some?) promoted
+  modes because viewable area is larger than visible bitmap = borders are visible.
+- DirectDraw mode wasn't re-initialized correctly when window size changed causing blank screen.
+- Borderblank didn't blank topmost lines and last line. (Old bug which usually wasn't visible until now)
+- Clear display decision tables when switching modes to prevent old, now possibly unvailable lines to be visible in new mode.
+- Possible fix for mouse pointer jumping to (0,0) when pressing buttons and running on some virtual machines. (2.3.3)
+
+Beta 4:
+
+- 68020 CE mode statefile CPUTRACE (CPU state can be saved even in mid instruction) support was not complete,
+  should fix "CPU trace: blah" errors when restoring statefiles. It can't fix already created broken statefiles.
+- Fix built-in CDFS lowercase conversion. Only convert to lower case if plain ISO-9660 (without RockRidge or Joliet)
+  also convert from second character to match CacheCDFS default behavior. Fixes AmigaOS 3.5/3.9 CD file names.
+- Automatic scale/center/resize didn't like screen mode that has horizontal start as early as possible (SuperPlus + ECS)
+- Automatic resize kept resizing forever in interlaced modes. (2.4)
+- Do not emulate ECS Agnus internal 1M address space if JIT enabled and 0.5M Chip RAM because JIT ignores memory
+  bank masks causing OS to misdetect full 1M Chip.
+
+Beta 3:
+
+- On screen led status line was drawn using both D3D sprite and directly to bitmap methods in D3D no-filter mode (b2).
+- Removed PAL/NTSC vertical scaling hack which is not needed anymore.
+- PAL/NTSC vertical scaling added to Fullscreen (TV)/(Max) filter modes.
+- Fullscreen (TV)/(Max) also handles programmed modes like real monitor would, positioning and scaling using sync parameters.
+- Fake 60Hz (VPOSW poking) did nothing. (2.4)
+- DirectDraw + null filter crash fixed when display height was smaller than emulated display height. (b2)
+- D3D overlay mask scaling artifact in some resolutions (2.4)
+- CDFS CD drive statefile support.
+- Ignore duplicate HID button IDs.
+- Reduced flicker when refresh rate changes (PAL<>NTSC or other mode changes)
+
+Beta 2:
+
+- Filter system partial rewrite again. Do not use static display buffer. Always dynamically reallocate internal buffer if
+  display mode changes (double scan modes, A2024 etc..). Fixes slowdown introduced in 2.4, also fixes shader filters
+  that expect texture size = output size. Very tall (>1024 line) programmed modes are also now fully visible.
+  Most likely some more updates needed..
+- Always cancel custom event autofire if any release event arrives.
+
+Beta 1:
+
+- Input custom event autofire support.
+- Automatically switch to another monitor if current monitor does not support selected RTG mode.
+  (RTG mode list always lists all monitors' modes)
+- CDFS ACTION_EXAMINE_ALL crash. (It seems this was 2.4's most stupid bug)
+- Fastest possible CPU mode (including JIT) CPU speed throttle option. 
+- Non fastest possible CPU mode CPU speed adjustment option. Currently GUI allows from -90% to 500%.
+- Removed Adjustable CPU/Chipset speed option, above option should be much better.
+- Switch from 16bit to 32bit (or vice versa) on startup if selected color depth does not exist.
+  (Beta Windows 8 + NVidia don't seem to have any 16bit modes)
+- Experimental sound sync update. Should increase stability of sound sync in non-fastest modes.
+  (Side-effects possible)

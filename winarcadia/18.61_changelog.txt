@@ -1,0 +1,15 @@
+18.61  [OS3.5+][Windows][MorphOS][OS4?  ]: Sat  1 Sep 2012.
+    Summary:
+        * New debugger CLI command: LOADSYM (load DASMx symbol table).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ pipbug: fixed: it wasn't ghosting flagline button correctly.
+ incorporated Samir's latest Italian translation.
+ pipbug: fixed: it wasn't ghosting "Settings|Speed|Fast PIPBUG output?"
+  option correctly.
+ pipbug: now PIPBUG/BINBUG BIOS choice is loaded/saved as part of COS/COR
+  files.
+ aa: better multitasking.
+ now it only emits one message when HALTing, rather than repeated
+  messages.
+ added DASMx SYMbol file support (LOADSYM command) to debugger CLI.

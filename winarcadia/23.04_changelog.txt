@@ -1,0 +1,16 @@
+23.04          [Windows XP+]                 : Fri 20 Mar 2015.
+    Summary:
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ fixed: eof files in zips weren't being detected.
+ elektor: removed pointless tvc support.
+ fixed: tape recording file requester had wrong title bar text.
+ removed unused catalog strings.
+ elektor: added CASIN and CASOUT to monitor.
+ fixed: interton and elektor PVI monitors lacked "other registers" group
+  box label.
+ elektor: fixed: tapes were saved at wrong speed.
+ changed "log console" strings to "log output".
+ fixed: sometimes gave invalid seconds positions when writing tapes.
+ elektor: now tells user when the BIOS has finished writing to tape.
+ incorporated Samir's latest Italian translation.

@@ -1,0 +1,168 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-11-01 22:09:24 ....A        65221       610469  Docs\Documentation.zip
+2005-11-01 22:09:24 ....A        65221               src\Docs\Documentation.zip
+2006-05-29 16:33:50 ....A         4865               README\images\adventure26.JPG
+2006-05-29 16:33:50 ....A         4865               src\README\images\adventure26.JPG
+2006-05-29 16:35:28 ....A         2780               README\images\asteroids26.JPG
+2006-05-29 16:35:28 ....A         2780               src\README\images\asteroids26.JPG
+2006-05-29 16:37:40 ....A         5774               README\images\asteroids78.JPG
+2006-05-29 16:37:40 ....A         5774               src\README\images\asteroids78.JPG
+2006-05-29 16:37:56 ....A         5663               README\images\breakout26.JPG
+2006-05-29 16:37:56 ....A         5663               src\README\images\breakout26.JPG
+2006-05-29 16:38:14 ....A         4506               README\images\combat26.JPG
+2006-05-29 16:38:14 ....A         4506               src\README\images\combat26.JPG
+2006-05-29 16:38:48 ....A         6953               README\images\cosmicark26.JPG
+2006-05-29 16:38:48 ....A         6953               src\README\images\cosmicark26.JPG
+2006-05-30 21:31:46 ....A        19313               README\images\darkchambers78.JPG
+2006-05-30 21:31:46 ....A        19313               src\README\images\darkchambers78.JPG
+2006-05-30 21:31:58 ....A        16969               README\images\dkongjr78.JPG
+2006-05-30 21:31:58 ....A        16969               src\README\images\dkongjr78.JPG
+2006-05-29 16:39:10 ....A         8734               README\images\earthdiesscreaming26.JPG
+2006-05-29 16:39:10 ....A         8734               src\README\images\earthdiesscreaming26.JPG
+2008-12-29 10:18:56 ....A        71171               README\images\EMU7800Console.JPG
+2008-12-29 10:18:56 ....A        71171               src\README\images\EMU7800Console.JPG
+2008-12-29 10:18:04 ....A        58581               README\images\EMU7800GameSelect.JPG
+2008-12-29 10:18:04 ....A        58581               src\README\images\EMU7800GameSelect.JPG
+2006-05-28 21:27:12 ....A       130648               README\images\EMU7800Help.JPG
+2006-05-28 21:27:12 ....A       130648               src\README\images\EMU7800Help.JPG
+2006-05-24 21:49:38 ....A        59977               README\images\EMU7800OpenFile.JPG
+2006-05-24 21:49:38 ....A        59977               src\README\images\EMU7800OpenFile.JPG
+2008-12-29 10:16:04 ....A        28047               README\images\EMU7800Settings.JPG
+2008-12-29 10:16:04 ....A        28047               src\README\images\EMU7800Settings.JPG
+2006-05-29 16:39:26 ....A        10075               README\images\frogger26.JPG
+2006-05-29 16:39:26 ....A        10075               src\README\images\frogger26.JPG
+2006-05-29 16:39:42 ....A         8753               README\images\gijoe26.JPG
+2006-05-29 16:39:42 ....A         8753               src\README\images\gijoe26.JPG
+2006-05-29 21:05:08 ....A        26165               README\images\impossiblemission78.JPG
+2006-05-29 21:05:08 ....A        26165               src\README\images\impossiblemission78.JPG
+2006-05-30 21:32:34 ....A         8192               README\images\joust78.JPG
+2006-05-30 21:32:34 ....A         8192               src\README\images\joust78.JPG
+2006-05-30 21:32:10 ....A        11826               README\images\mariobros78.JPG
+2006-05-30 21:32:10 ....A        11826               src\README\images\mariobros78.JPG
+2006-05-29 21:05:20 ....A        17592               README\images\mspacman78.JPG
+2006-05-29 21:05:20 ....A        17592               src\README\images\mspacman78.JPG
+2006-05-29 21:05:34 ....A         4602               README\images\omegarace26.JPG
+2006-05-29 21:05:34 ....A         4602               src\README\images\omegarace26.JPG
+2006-05-30 21:23:20 ....A         7560               README\images\oystron26.JPG
+2006-05-30 21:23:20 ....A         7560               src\README\images\oystron26.JPG
+2006-05-30 21:32:22 ....A         5610               README\images\robotron78.JPG
+2006-05-30 21:32:22 ....A         5610               src\README\images\robotron78.JPG
+2008-12-29 10:00:40 ....A        17687               README\images\summergames78.JPG
+2008-12-29 10:00:40 ....A        17687               src\README\images\summergames78.JPG
+2003-09-06 08:25:50 ....A         1078               src\EMUIcon.ico
+1997-11-03 17:58:32 ....A         4096               roms\OYSTR29.BIN
+1997-11-03 17:58:32 ....A         4096               src\roms\OYSTR29.BIN
+2009-06-08 19:13:00 ....A        14834               src\Host\DirectX\EMU7800.DirectX\EMU7800D3D9.cpp
+2008-10-12 07:46:26 ....A         6421               src\Host\DirectX\EMU7800.DirectX\EMU7800DI8.cpp
+2008-05-24 06:27:24 ....A         3271               src\Machine\AddressSpace.cs
+2009-06-13 10:14:00 ....A          529               src\AssemblyInfo.cs
+2008-05-24 06:27:52 ....A         2917               src\Machine\Bios7800.cs
+2008-06-06 07:35:32 ....A        47241               src\Machine\Carts.cs
+2008-06-07 13:22:50 ....A         3933               src\CommandLine.cs
+2008-12-14 08:29:00 ....A        20108               src\UI\ControlPanelForm.Console.cs
+2008-12-14 08:26:46 ....A         7266               src\UI\ControlPanelForm.cs
+2009-06-08 18:29:02 ....A        39349               src\UI\ControlPanelForm.Designer.cs
+2008-12-06 09:19:00 ....A        17218               src\UI\ControlPanelForm.GamePrograms.cs
+2008-12-06 09:19:00 ....A          726               src\UI\ControlPanelForm.Help.cs
+2008-12-06 09:51:54 ....A         6232               src\UI\ControlPanelForm.KeyBindings.cs
+2008-12-06 09:19:00 ....A         2094               src\UI\ControlPanelForm.Settings.cs
+2008-11-08 09:01:32 ....A         7499               src\Host\DirectInput.cs
+2008-12-06 10:19:14 ....A        10564               src\Host\DirectX\DirectInputNativeMethods.cs
+2009-06-28 11:20:50 ....A        11450               src\Host\DirectX\DirectXNativeMethods.cs
+2009-06-13 10:26:34 ....A         5989               src\EMU7800App.cs
+2008-04-06 07:11:58 ....A         1144               src\UI\EMUTraceListener.cs
+2008-05-24 06:24:08 ....A         4844               src\Host\FontRenderer.cs
+2008-05-24 06:58:24 ....A         2136               src\GameSettings.cs
+2008-12-06 09:41:48 ....A         9883               src\GlobalSettings.cs
+2008-12-29 11:34:58 ....A        20739               src\Host\HostBase.cs
+2008-12-29 11:22:20 ....A        13824               src\Host\DirectX\HostDirectX.cs
+2008-09-01 11:19:20 ....A          297               src\Host\DirectX\HostDirectXFullscreen.cs
+2008-08-06 05:56:52 ....A         3138               src\Host\DirectX\HostDirectXResources.Designer.cs
+2008-12-20 09:26:04 ....A        19631               src\Host\Gdi\HostGdi.cs
+2008-06-25 21:09:12 ....A         4069               src\Machine\HSC7800.cs
+2008-03-22 11:56:02 ....A          378               src\Machine\IDevice.cs
+2008-06-28 11:36:50 ....A        22250               src\Machine\InputAdapters.cs
+2009-06-13 10:33:24 ....A        33569               src\Machine\M6502.cs
+2008-06-08 06:31:36 ....A        10745               src\Machine\M6502DASM.cs
+2008-05-24 06:41:30 ....A         3025               src\Machine\Machine2600.cs
+2008-06-06 07:41:06 ....A         4780               src\Machine\Machine7800.cs
+2008-06-08 06:35:38 ....A        12375               src\Machine\MachineBase.cs
+2008-06-06 07:42:50 ....A        33176               src\Machine\Maria.cs
+2008-03-22 17:13:54 ....A         7653               src\Machine\MariaTables.cs
+2008-03-22 11:56:02 ....A          665               src\Machine\NullDevice.cs
+2008-06-07 15:09:22 ....A         4312               src\Machine\PIA.cs
+2008-03-22 17:20:06 ....A          535               src\Machine\RAM6116.cs
+2008-06-06 07:19:24 ....A         8516               src\Host\Gdi\Rectangulator.cs
+2008-06-14 07:17:16 ....A        10771               src\ROMProperties.cs
+2008-11-15 07:38:08 ....A        34998               src\Machine\TIA.cs
+2008-08-17 14:22:02 ....A        13810               src\Machine\TIASound.cs
+2008-06-06 07:45:16 ....A        16600               src\Machine\TIATables.cs
+2008-08-23 12:57:58 ....A         2287               src\Utility.cs
+2008-08-20 05:19:36 ....A         6985               src\Host\WinmmNativeMethods.cs
+2008-07-29 08:10:20 ....A         1857               Windows\winsxs\Manifests\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6f74963e.manifest
+2008-07-29 08:10:20 ....A         1857               Windows\winsxs\ulCRTx86\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6f74963e.manifest
+2009-06-21 07:01:46 ....A        25064               src\EMU7800.csproj
+2009-06-14 10:47:18 ....A        10701               src\Host\DirectX\EMU7800.DirectX\EMU7800.DirectX.vcproj
+2009-06-14 10:49:24 ....A          305               src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Include\COPYDEPS.cmd
+2009-06-14 10:49:32 ....A          437               src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Lib\x64\COPYDEPS.cmd
+2009-06-14 10:49:36 ....A          437               src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Lib\x86\COPYDEPS.cmd
+2009-06-28 06:30:44 ....A        34954               README\README.html
+2009-06-28 06:30:44 ....A        34954               src\README\README.html
+2004-03-28 16:37:28 ....A        18331               LICENSE.TXT
+2004-03-28 16:37:28 ....A        18331               src\LICENSE.TXT
+2008-07-29 08:07:10 ....A        10785               Windows\winsxs\Policies\dlpCRTx86\9.0.30729.1.cat
+2008-07-29 08:07:10 ....A        10785               Windows\winsxs\ulpCRTx86\9.0.30729.1.cat
+2008-07-29 08:07:02 ....A        10736               Windows\winsxs\Manifests\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6f74963e.cat
+2008-07-29 08:07:02 ....A        10736               Windows\winsxs\ulCRTx86\x86_Microsoft.VC90.CRT_1fc8b3b9a1e18e3b_9.0.30729.1_x-ww_6f74963e.cat
+2009-06-21 07:01:36 ....A         1007               EMU7800.exe.config
+2009-06-21 07:01:36 ....A         1007               src\EMU7800.exe.config
+2008-06-07 12:56:10 ....A       187487               ROMProperties.csv
+2008-06-07 12:56:10 ....A       187487               src\ROMProperties.csv
+2008-07-29 03:54:28 ....A          752               Windows\winsxs\Policies\dlpCRTx86\9.0.30729.1.policy
+2008-07-29 03:54:28 ....A          752               Windows\winsxs\ulpCRTx86\9.0.30729.1.policy
+2008-12-06 09:19:00 ....A        12295               src\UI\ControlPanelForm.resx
+2008-08-06 05:56:40 ....A         6192               src\Host\DirectX\HostDirectXResources.resx
+2008-03-22 12:11:06 ....A         7730               src\Host\Gdi\HostGdi.resx
+2009-06-30 06:02:48 ....A       225280       505941  EMU7800.exe
+2009-06-30 06:02:46 ....A        22016               EMU7800.DirectX.dll
+2008-07-29 03:54:08 ....A       225280               Windows\system32\msvcm90.dll
+2008-07-29 03:54:08 ....A       225280               Windows\winsxs\dlCRTx86\msvcm90.dll
+2008-07-29 03:54:08 ....A       225280               Windows\winsxs\ulCRTx86\msvcm90.dll
+2008-07-29 08:05:08 ....A       572928               Windows\system32\msvcp90.dll
+2008-07-29 08:05:08 ....A       572928               Windows\winsxs\dlCRTx86\msvcp90.dll
+2008-07-29 08:05:08 ....A       572928               Windows\winsxs\ulCRTx86\msvcp90.dll
+2008-07-29 08:05:08 ....A       655872               Windows\system32\msvcr90.dll
+2008-07-29 08:05:08 ....A       655872               Windows\winsxs\dlCRTx86\msvcr90.dll
+2008-07-29 08:05:08 ....A       655872               Windows\winsxs\ulCRTx86\msvcr90.dll
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\ulCRTx86
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\Policies\dlpCRTx86
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\Policies
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\Manifests
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\dlCRTx86
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs
+2016-12-03 13:38:09 D....            0            0  Windows\system32
+2016-12-03 13:38:09 D....            0            0  Windows
+2016-12-03 13:38:09 D....            0            0  src\UI
+2016-12-03 13:38:09 D....            0            0  src\roms
+2016-12-03 13:38:09 D....            0            0  src\README\images
+2016-12-03 13:38:09 D....            0            0  src\README
+2016-12-03 13:38:09 D....            0            0  src\Machine
+2016-12-03 13:38:09 D....            0            0  src\Host\Gdi
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Lib\x86
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Lib\x64
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Lib
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX\DirectXDependencies\Include
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX\DirectXDependencies
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX\EMU7800.DirectX
+2016-12-03 13:38:09 D....            0            0  src\Host\DirectX
+2016-12-03 13:38:09 D....            0            0  src\Host
+2016-12-03 13:38:09 D....            0            0  src\Docs
+2016-12-03 13:38:09 D....            0            0  src
+2016-12-03 13:38:09 D....            0            0  roms
+2016-12-03 13:38:09 D....            0            0  README\images
+2016-12-03 13:38:09 D....            0            0  README
+2016-12-03 13:38:09 D....            0            0  Docs
+2016-12-03 13:38:09 D....            0            0  Windows\winsxs\ulpCRTx86
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 13:38:09            6943089      1116410  135 files, 29 folders

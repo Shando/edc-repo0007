@@ -1,0 +1,121 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-04-02 09:01:08 ....A         7365      3305928  jre\lib\security\cacerts
+2001-04-02 09:00:50 ....A          968               jre\CHANGES
+2001-04-02 09:00:50 ....A         4078               jre\COPYRIGHT
+2001-04-02 09:00:50 ....A        10884               jre\LICENSE
+2001-04-02 09:01:06 ....A         6519               jre\lib\tzmappings
+2001-09-07 11:23:24 ....A       287034               BlissJX.jar
+2001-04-18 09:40:56 ....A       833622               jre\lib\jaws.jar
+2001-04-18 09:40:48 ....A     12096424               jre\lib\rt.jar
+2001-04-02 09:01:06 ....A        86267               jre\lib\sunrsasign.jar
+2001-04-02 09:01:08 ....A          153               jre\lib\images\cursors\invalid32x32.gif
+2001-04-02 09:01:08 ....A          165               jre\lib\images\cursors\win32_CopyDrop32x32.gif
+2001-04-02 09:01:08 ....A          153               jre\lib\images\cursors\win32_CopyNoDrop32x32.gif
+2001-04-02 09:01:08 ....A          168               jre\lib\images\cursors\win32_LinkDrop32x32.gif
+2001-04-02 09:01:08 ....A          153               jre\lib\images\cursors\win32_LinkNoDrop32x32.gif
+2001-04-02 09:01:08 ....A          147               jre\lib\images\cursors\win32_MoveDrop32x32.gif
+2001-04-02 09:01:08 ....A          153               jre\lib\images\cursors\win32_MoveNoDrop32x32.gif
+2000-01-01 00:00:00 ....A        16384               roms\4-tris (GPL).bin
+2000-06-09 21:20:00 ....A         1028               roms\Bouncing Pixels (GPL).bin
+2000-06-09 21:20:00 ....A          732               roms\Maze Demo #1 (GPL).bin
+2000-06-09 21:20:00 ....A          746               roms\Maze Demo #2 (GPL).bin
+2000-06-09 21:20:00 ....A        25730               roms\Song Player - Back in the USSR (GPL).bin
+2001-02-16 23:27:54 ....A        16384               roms\Song Player - Closing Time (GPL).bin
+2000-06-09 21:20:00 ....A        20766               roms\Song Player - Copacabana (GPL).bin
+2000-06-09 21:20:00 ....A         8450               roms\Song Player - Creep (GPL).bin
+2000-06-09 21:20:00 ....A        13860               roms\Song Player - Nut March (GPL).bin
+2000-06-09 21:20:00 ....A        10428               roms\Song Player - Nut Reed (GPL).bin
+2000-06-09 21:20:00 ....A         7056               roms\Song Player - Nut Trep (GPL).bin
+2000-06-09 21:20:00 ....A        27384               roms\Song Player - Nut Waltz (GPL).bin
+2000-06-09 21:20:00 ....A        27464               roms\Song Player - Secret Agent Man (GPL).bin
+2000-06-09 21:20:00 ....A         9722               roms\Song Player - Take on Me 3 (GPL).bin
+2000-06-09 21:20:00 ....A        10752               roms\Song Player - Take on Me 6 (GPL).bin
+2000-06-09 21:20:00 ....A        13646               roms\Song Player - Too Sexy (GPL).bin
+2000-06-09 21:20:00 ....A        16384               roms\Tetris (GPL).bin
+2001-04-02 09:00:50 ....A          786               jre\Welcome.html
+2001-07-02 09:36:26 ....A          380               roms\dir.txt
+2001-06-21 14:26:38 ....A        18351               GPL.txt
+2001-04-02 09:00:56 ....A         2689               jre\lib\jvm.hprof.txt
+2001-04-02 09:00:56 ....A         5361               jre\lib\jvm.jcov.txt
+2001-04-02 09:00:50 ....A         9244               jre\README.txt
+2001-09-07 11:26:24 ....A         4048               Readme.txt
+2001-09-07 11:26:34 ....A         5118               TranslatingBliss.txt
+2001-09-07 11:26:48 ....A        16583               Whatsnew.txt
+2001-04-02 09:00:52 ....A         1257               jre\bin\hotspot\Xusage.txt
+2001-04-02 09:01:08 ....A       243076               jre\lib\fonts\LucidaSansRegular.ttf
+2001-04-02 09:00:54 ....A         1916               jre\lib\jawt.lib
+2001-04-02 09:00:52 ....A         6793               jre\lib\font.properties.zh.NT4.0
+2001-04-02 09:00:52 ....A         5397               jre\lib\font.properties.ar
+2001-04-02 09:00:54 ....A          325               jre\lib\jvm.cfg
+2001-04-02 09:00:52 ....A        24665               jre\bin\plugincpl131.cpl
+2001-04-18 09:41:00 ....A        26426               jre\Uninst.isu
+2001-04-02 09:00:52 ....A         3303               jre\lib\font.properties.iw
+2001-04-02 09:00:52 ....A         7868               jre\lib\font.properties.ja
+2001-04-02 09:00:52 ....A         6230               jre\lib\font.properties.ko
+2001-04-02 09:01:06 ....A        51236               jre\lib\cmm\CIEXYZ.pf
+2001-04-02 09:01:06 ....A          632               jre\lib\cmm\GRAY.pf
+2001-04-02 09:01:06 ....A         1044               jre\lib\cmm\LINEAR_RGB.pf
+2001-04-02 09:01:08 ....A       150368               jre\lib\cmm\sRGB.pf
+2001-04-02 09:01:08 ....A         2223               jre\lib\security\java.policy
+2001-09-07 11:23:24 ....A          355               i18n\AppPlugInResources.properties
+2001-09-07 11:23:24 ....A         3036               i18n\BlissResources.properties
+2001-04-02 09:00:52 ....A         5506               jre\lib\content-types.properties
+2001-04-02 09:01:08 ....A         1318               jre\lib\images\cursors\cursors.properties
+2001-04-02 09:00:52 ....A         1091               jre\lib\flavormap.properties
+2001-04-02 09:00:52 ....A         5121               jre\lib\font.properties
+2001-09-07 11:23:24 ....A         2458               i18n\IntellivisionResources.properties
+2001-09-07 11:23:24 ....A          712               i18n\Win32PlugInResources.properties
+2001-04-02 09:00:52 ....A         5298               jre\lib\font.properties.ru
+2001-04-02 09:01:08 ....A         3950               jre\lib\security\java.security
+2001-04-02 09:00:52 ....A         6607               jre\lib\font.properties.th
+2001-04-02 09:00:52 ....A         6788               jre\lib\font.properties.zh
+2001-04-02 09:00:52 ....A         7594               jre\lib\font.properties.zh_TW
+2001-09-07 11:23:24 ....A        32768      1238002  BlissJX.exe
+2001-04-02 09:00:52 ....A        20547               jre\bin\java.exe
+2001-04-02 09:00:52 ....A        20549               jre\bin\javaw.exe
+2001-04-02 09:00:50 ....A        20558               jre\bin\ActPanel.dll
+2001-04-02 09:00:50 ....A      1003592               jre\bin\awt.dll
+2001-09-07 11:23:24 ....A       167936               BlissNativeWin32.dll
+2001-04-02 09:00:50 ....A       139336               jre\bin\cmm.dll
+2001-04-02 09:00:50 ....A       139337               jre\bin\dcpr.dll
+2001-04-02 09:00:50 ....A        20557               jre\bin\dt_socket.dll
+2001-04-02 09:00:50 ....A       241757               jre\bin\fontmanager.dll
+2001-04-02 09:00:50 ....A        28753               jre\bin\hpi.dll
+2001-04-02 09:00:50 ....A        45124               jre\bin\hprof.dll
+2001-04-02 09:00:50 ....A        24677               jre\bin\ioser12.dll
+2001-04-02 09:00:52 ....A        86093               jre\bin\java.dll
+2001-04-02 09:00:52 ....A        20554               jre\bin\jawt.dll
+2001-04-02 09:00:52 ....A        49218               jre\bin\jcov.dll
+2001-04-02 09:00:52 ....A        41048               jre\bin\JdbcOdbc.dll
+2001-04-02 09:00:52 ....A        94275               jre\bin\jdwp.dll
+2001-04-02 09:00:52 ....A       110666               jre\bin\jpeg.dll
+2001-04-02 09:00:52 ....A       114770               jre\bin\jpins32.dll
+2001-04-02 09:00:52 ....A        69713               jre\bin\jpishare.dll
+2001-04-02 09:00:52 ....A       127058               jre\bin\jsound.dll
+2001-04-02 09:00:52 ....A       765952               jre\bin\hotspot\jvm.dll
+2001-04-02 09:00:52 ....A       266293               jre\bin\msvcrt.dll
+2001-04-02 09:00:52 ....A        32841               jre\bin\net.dll
+2001-04-02 09:00:52 ....A        49245               jre\bin\NPJava11.dll
+2001-04-02 09:00:52 ....A        49245               jre\bin\NPJava12.dll
+2001-04-02 09:00:52 ....A        53338               jre\bin\NPJava131.dll
+2001-04-02 09:00:52 ....A        49245               jre\bin\NPJava32.dll
+2001-04-02 09:00:52 ....A        45150               jre\bin\NPOJI600.dll
+2001-04-02 09:00:52 ....A        36945               jre\bin\packager.dll
+2001-04-02 09:00:52 ....A        53319               jre\bin\verify.dll
+2001-04-02 09:00:52 ....A        53326               jre\bin\zip.dll
+2001-04-02 09:00:50 ....A       151625               jre\bin\beans.ocx
+2016-12-18 12:05:32 D....            0            0  roms
+2016-12-18 12:05:32 D....            0            0  jre\lib\security
+2016-12-18 12:05:32 D....            0            0  jre\lib\images\cursors
+2016-12-18 12:05:32 D....            0            0  jre\lib\images
+2016-12-18 12:05:32 D....            0            0  jre\lib\fonts
+2016-12-18 12:05:32 D....            0            0  jre\lib\cmm
+2016-12-18 12:05:32 D....            0            0  jre\lib\applet
+2016-12-18 12:05:32 D....            0            0  jre\lib
+2016-12-18 12:05:31 D....            0            0  jre\bin\hotspot
+2016-12-18 12:05:32 D....            0            0  jre\bin
+2016-12-18 12:05:32 D....            0            0  jre
+2016-12-18 12:05:31 D....            0            0  i18n
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 12:05:32           18431732      4543930  105 files, 12 folders

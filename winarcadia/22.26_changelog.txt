@@ -1,0 +1,17 @@
+22.26  [OS3.5+][Windows XP+][MOS?   ][OS4?  ]: Tue  4 Feb 2014.
+    Summary:
+        * Added "Edit|Empty clipboard" command.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ added "edit|empty clipboard" command.
+ removed unused catalog strings.
+ wa: redraw "edit|paste text" image.
+ aa: about subwindow now allows changing of clipboard unit.
+ when emulator id is on, port $63 now gives the low byte of the cycle
+  counter (for eg. randomization).
+ cycle count is now loaded/saved in COS and COR files.
+ elektor: adjusted timing slightly, helps eg. level 2 of Cosmic Adventure.
+ fixed: changing guests while UVI/PVI monitor was open could crash it.
+ aa: splash window now has a titlebar.
+ si50: improved key labels for small controls subwindow image.
+ wa: redrew 48*48 icon.

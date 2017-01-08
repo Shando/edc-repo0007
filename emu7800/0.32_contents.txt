@@ -1,0 +1,71 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2003-09-06 07:25:52 ....A         1078       291766  src\Icon1.ico
+1997-11-03 16:58:32 ....A         4096               roms\OYSTR29.BIN
+1999-02-27 08:29:48 ....A         4096               roms\test.bin
+2003-11-14 15:56:24 ....A         2235               src\AddressSpace.cs
+2003-11-14 17:50:14 ....A        23010               src\Carts.cs
+2003-11-14 15:48:02 ....A         4347               src\UI\ControlPanelForm.cs
+2003-10-30 17:52:00 ....A         3076               src\DXHost.cs
+2003-11-14 15:51:40 ....A        11595               src\UI\GameSelectPage.cs
+2003-10-28 21:10:14 ....A         5153               src\GameSettings.cs
+2003-11-14 15:52:16 ....A        10496               src\UI\GameSettingsPage.cs
+2003-11-04 16:58:56 ....A         2010               src\GDIDXHost.cs
+2003-11-14 18:18:18 ....A        10831               src\GDIHost.cs
+2003-11-04 14:55:44 ....A         6041               src\Globals.cs
+2003-11-14 15:53:52 ....A         7385               src\UI\GreenScreen.cs
+2003-11-14 15:54:06 ....A         1245               src\UI\HelpPage.cs
+2003-10-30 17:54:20 ....A          317               src\IDevice.cs
+2003-10-24 13:41:58 ....A          306               src\IHost.cs
+2003-11-14 17:55:22 ....A        11876               src\InputAdapters.cs
+2003-10-30 17:56:00 ....A          850               src\Log.cs
+2003-11-14 17:59:08 ....A        26353               src\M6502.cs
+2003-11-14 18:00:02 ....A        16358               src\M6502DASM.cs
+2003-11-14 18:22:50 ....A         3035               src\Machine.cs
+2003-11-04 17:05:30 ....A         5154               src\Machine2600.cs
+2003-11-14 15:54:24 ....A         4885               src\UI\ManualViewingPage.cs
+2003-10-30 18:03:14 ....A          471               src\NullDevice.cs
+2003-10-30 18:03:26 ....A          896               src\PerfTimer.cs
+2003-11-14 18:26:32 ....A         4837               src\PIA.cs
+2003-11-14 18:04:12 ....A         6252               src\Rectangulator.cs
+2003-11-14 19:08:02 ....A        28073               src\TIA.cs
+2003-11-14 19:12:54 ....A        10801               src\TIASound.cs
+2003-11-14 19:10:54 ....A        22080               src\TIATables.cs
+2003-11-14 19:13:26 ....A         1722               src\TokenList.cs
+2003-11-14 15:47:12 ....A        11062               src\EMU7800.csproj
+2003-09-06 08:02:04 ....A         3429               src\GDI78K.csproj
+2003-10-25 05:45:50 ....A          910               src\EMU7800.sln
+2003-11-07 05:52:36 ....A         2662               src\Documentation\6502 BCD.txt
+2003-11-06 05:42:32 ....A        49808               src\Documentation\7800 Software Guide.txt
+2003-10-26 09:56:34 ....A        11844               manuals\asteroids.txt
+2003-07-13 15:59:24 ....A        26690               manuals\basicprogramming.txt
+2003-07-13 08:53:54 ....A        23784               manuals\berzerk.txt
+2003-10-30 16:02:12 ....A        96641               src\Documentation\CartFormats_KevinHorton.txt
+2003-07-13 09:02:50 ....A         7068               manuals\circusatari.txt
+2003-07-13 14:26:34 ....A         7833               manuals\enduro.txt
+2003-07-13 14:30:30 ....A        12764               manuals\hauntedhouse.txt
+2003-03-09 23:38:46 ....A        18336               LICENSE.TXT
+2003-10-18 17:57:14 ....A        13406               manuals\missilecommand.txt
+2003-10-27 06:14:14 ....A         9706               manuals\oystron.txt
+2003-07-12 18:41:22 ....A        23301               manuals\raiders.txt
+2003-11-14 20:17:02 ....A         8583               README.TXT
+2003-10-27 06:16:24 ....A       164774               src\ROMProperties.txt
+2003-07-13 14:44:30 ....A         6783               manuals\starvoyager.txt
+2003-10-24 19:33:10 ....A        12968               src\Documentation\TIASound_RonFries.txt
+2003-10-30 16:03:20 ....A        46602               src\Documentation\TIA_HW_Notes_AndrewTowers.txt
+2003-07-13 09:07:08 ....A        12423               manuals\videochess.txt
+2003-10-27 06:16:28 ....A      2908160               src\ROMProperties\ROMProperties.mdb
+2003-09-06 07:17:12 ....A           88               src\Icon1.pal
+2003-11-13 15:55:42 ....A          308               src\BUILD.RSP
+2003-11-14 19:14:02 ..H.A         6656               src\EMU7800.suo
+2003-11-14 19:14:02 ....A         2459               src\EMU7800.csproj.user
+2003-10-25 05:45:48 ....A         1772               src\GDI78K.csproj.user
+2003-11-14 20:10:04 ....A       315392        94318  EMU7800.exe
+2016-12-03 14:19:29 D....            0            0  src\UI
+2016-12-03 14:19:29 D....            0            0  src\ROMProperties
+2016-12-03 14:19:29 D....            0            0  src\Documentation
+2016-12-03 14:19:29 D....            0            0  src
+2016-12-03 14:19:29 D....            0            0  roms
+2016-12-03 14:19:29 D....            0            0  manuals
+------------------- ----- ------------ ------------  ------------------------
+2016-12-03 14:19:29            4047172       386084  61 files, 6 folders

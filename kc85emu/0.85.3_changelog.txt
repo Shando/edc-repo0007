@@ -1,0 +1,13 @@
+   V0.85.3: (eigentlich 0.86, aber die Versionsnummer muáte ich mitnehmen)
+           - Centronics/Joystick-Modul M021 hinzugefgt
+           - Grafikmode 320x480 hinzugefgt
+           - Tonausgabe auch in der NTVDM von XP, leider mit St”rungen
+             aber fr Digger und Pursuit reicht's
+           - VirtualBox wird erkannt
+           - Verhalten der Tastatureinstellung "Direkt-Basic" verbessert
+           Bugfix: - Soundblaster 1.0 funktionierte in Version 0.85 nicht
+                   - auf einigen Rechnern blinkte der Cursor in CAOS4.4
+                     sehr unruhig
+                   - Joystickverhalten korrigiert, der Cursor bewegte sich
+                     manchmal von alleine
+                   - "Blinktest" auch fr die VGA-Modes aufrufbar

@@ -1,0 +1,301 @@
+2.2.0 Final
+
+- A3000 KS 2.04 ROM odd/even pair mismatched checksums fixed
+- no registry or ini data, -datapath not used and winuae.exe in Program Files
+  (CSIDL_PROGRAM_FILES): set default paths to CSIDL_COMMON_DOCUMENTS
+
+Beta 12: (RC3)
+
+- directory filesystem action_read/action_write with length=0 special handling
+  added (host OS routines may have returned weird errors in some situations)
+- monitor "bezel" overlay image support added, direct3d and configuration file only.
+  gfx_filter_overlay=<path>:x,y,width,height (only path is mandatory)
+  x and y: position of overlay relative to top/left corner. -1 = center, value% = relative to window size.
+  width and height: width of overlay image. -1 = scale to window size, 0 = use original size,
+  > 0 = scale to this size. value% = scale to window size + %adjustment.
+- rawinput VID and PID values didn't work under Windows XP
+
+Beta 11: (RC2)
+
+- DirectInput keyboard and mouse didn't work in Test/Remap mode after emulation was started
+- directory filesystem GUI directory/file selection dialog remembers previous path
+- floppy sound disabled channels had different volume level
+- XP DX check reverted, for some reason DirectX web installer didn't install all DLLs
+  (including d3dx9_43.dll) when it was released originally, seems to be fixed now
+- uaescsi.device: do not send media change interrupt if actual media state didn't
+  change (was possible when changing cdimage0 using uae-configuration), some
+  cd filesystem versions crash(!) in this situation..., fix media detection
+  when switching on the fly from SCSI mode to built-in image mounter. Note that
+  on the fly device changes only works properly if CDFS uses trackdisk.device-style
+  commands (not directscsi) and media change interrupts are enabled (not polling)
+- cdimage0= in config file (nothing after '=') means enable built-in image support
+  without media inserted, do not detect and use physical/virtual drives
+- renamed pad/joystick POV pairs (1) and (2) to (X) and (Y)
+
+Beta 10: (RC1, official release before Midsummer)
+
+- some V(H)POSW modifications corrupted memory (AR3 for example)
+- AR3 3.09 odd/even pair rom image didn't load correctly
+- AR1 has never worked in cycle-exact mode
+- Amiga->Windows image clipboard sharing didn't work if any IFF
+  chunk (except body) size was more than 255 bytes
+- removed confusing and useless Input keyboard key numbers
+- GamePorts test mode list vertical centering improved
+- configuration file joyportX=kbdZ/joyZ/mouseZ (where Z is larger than max available devices) was not checked
+- floppy sound channel mask added, configuration file only (floppy_channel_mask),
+  default is all channels. 1=left,2=right,4=center,8=sub,16=surleft,32=surright.
+- keyboard input configuration slots 2/3/4 not saved if slot 1 contained port
+  configuration and stored slot 1 was mapped to default keyboard key
+- configuration.backup and configuration.cache remembers hidden file attribute
+
+Beta 9:
+
+- "megachip" was added even if disabled (was fixed in b8 update)
+- fixed DX detection on XP (was fixed in b8 update)
+- removed "*" from DirectInput keyboard and mouse name strings
+- uaeunp/virtual archives: if input file was inside archive and it had multiple output
+  files (most raw disk image formats can have .ima, .adf and .ext.adf output files)
+  only first supported file was listed. Plain files worked correctly.
+- added "scanning ROMs" dialog
+- fixed old memory corruption bug if rom scan data has single rom from odd/even pair
+  (unpaired rom removal code was buggy)
+
+Beta 8:
+
+- Z3Chip is not a Z3 board anymore, now also compatible with KS 1.x (don't forget that
+  32-bit addressing capable CPU is required)
+- rawkeyboard RIDEV_NOHOTKEYS flag was missing (Disables Windows keys etc..)
+- GamePorts remap/test GUI updated
+- GamePorts remap when in Configuration#x mode didn't update GamePorts input mappings
+- data in GamePorts overwritten Configuration#x slot 1 is stored in hidden slot 5, also
+  saved to configuration when needed (not backwards compatible with old versions). Now
+  you can load old configurations in Configuration#x mode, set GamePorts to <none> without
+  losing original input configuration data in slot 1.
+- added key label to keyboard configuration data, not used for anything yet (compatible with
+  old versions, old versions simply ignore it)
+- added supported archive extensions to CD image dialog's file type list
+- DX SDK updated (June 2010), d3dx9_xx.dll version bump -> DX runtime update required...
+- added stupid looking vid and pid values to rawinput keyboards and mice, makes it possible
+  to distinguish multiple mouse or keyboard.. (instead of "HID Keyboard Device [n]" x N that
+  change position if you remove or add any keyboard-like device, including bar code readers)
+
+Important: if you have configurations with Configuration#1-3 set, please do following tests:
+(There is no way I can test all possible combinations)
+
+Test 1: Load configuration file, set both mouse and joystick port to <none>. Check that all
+mappings are still 100% correct. NOTE: remember that Keyboard* and Mouse* are gone if you have
+rawinput compatible mouse and keyboard (most likely). Keyboard or mouse mappings disappearing
+due to this rawinput change is not a bug.
+
+Test 2: Play with Game Ports mouse and joystick settings, add random custom mappings, whatever
+(You can keep checking Input panel if you want) and then set them back to <none>. Mappings
+should still be 100% exact same as when configuration was originally loaded.
+
+Test failed -> email or attach original configuration and include short problem description.
+(what test phase, what you did, what happened)
+
+Beta 7:
+
+- do not center horizontally if there is no bitplanes enabled (result was very badly aligned
+  screen, normally not visible but if there are background color changes or sprites..)
+- input config backwards compatibility fix, old versions read GamePorts mode as Configuration#4
+- huge brown paper bag bug fixed, in some situations INTREQR can return bit 15 set.. (fast CPU
+  modes only, introduced in earlier 2.x release)
+- do not emulate hpos offset in non-cycle exact modes, JIT mode can return hpos/vpos value pairs
+  that are not normally possible (and so far only some A500 programs require hpos offset = vpos
+  increments when hpos equals 4, not when hpos equals 0)
+- audio filter emulation didn't always follow power led state correctly
+- emulate fire and left mouse button contact bounce (no 2nd and 3rd because they are connected to
+  POT capacitors) Fixes Spacestone which waits for button release and then immediately checks
+  button state again.. I guess coder had really bad joystick firebutton, planet selection works
+  quite unreliably on my real A1200 :) cycle-exact only
+- NTSC disk timing was not fully compatible with RNC Copylock
+- b6 wordsync change reverted, another hopefully better tweak added
+- joystick button pullups removed, this will break some games' second joystick button read routines
+  but it has to be done because they wouldn't work on real Amigas with standard joystick either and
+  this workaround also breaks some other games that don't expect pullups (Dick Tracy for example)
+
+- another big input change, Game Ports settings are now always merged with currently selected
+  input configuration (possibly overwriting event that was manually configured in slot 0)
+  In other words, Game Ports panel settings are now finally working as expected by most users
+  instead of only confusing most users :) Just select your gamepad/joystick using GamePorts panel,
+  select Configuration#1 and remap remaining extra buttons, should be simple and easy enough now.
+  
+  This also means old Configuration#x configurations now have Gameports mappings merged when loaded.
+  (which most likely is something you don't want) Workaround: set GamePorts settings to <none>
+  Hopefully some kind of automatic fix is possible..
+
+- GamePorts mapped Configuration#x events are marked as [PortX] in Input list where X is port number.
+- GamePorts custom configuration in Configuration#x mode also supported.
+  NOTE: configuration files that have GamePorts customized Input Configuration#x's are not
+  backwards compatible
+- renamed GamePorts port 0 -> port 1 and port 1 -> port 2, now same as input target port numbers
+  (1 = "mouse" port, 2 = "joystick" port, 3 and 4 are parallel joystick adapter ports)
+- do not add default mappings to Configuration#x joysticks and mice (not needed anymore)
+- automatically disable empty devices in Configuration#x modes
+  
+  Just ask if you have any questions or suggestions. Input configuration is never finished :)
+
+Beta 6:
+
+- CE-mode CIA interrupt delay decreased by 1 CPU clock cycle, tst.b CIAICR immediately followed
+  by move.w #x,INTREQ didn't clear the interrupt in some situations
+- disk DMA used generic memory access routines, not chip access routines (could DMA to/from
+  any memory address, not just chip ram)
+- "Z3 fake chip" added, "unlimited" chip ram size. (technically it adds another z3 fast ram
+  board that UAE boot rom changes to MEMF_CHIP|MEMF_PUBLIC|MEMF_LOCAL and removes normal chipset
+  DMA addressing limits)
+- two directory filesystem crash fixes (related to opening non-existing files or directories,
+  broken during C++ conversion)
+- CD32 state restore didn't work if CD32 configuration was not pre-selected
+- save POT capacitors' charge status to statefile
+- disk read DMA wordsync should not skip first syncword if bit stream is already aligned
+  (Starglider 2 original)
+- on the fly cycle-exact switching broke few betas ago
+- use early blitter finished state emulation only in 68000 cycle exact modes, 68020 "CE" can
+  execute blitter busy check followed by write to blitter register really too quickly
+
+Beta 5:
+
+- autovsync was broken in b3
+- added NTSC checkbox to Quickstart panel
+- use DirectInput keyboard if rawinput keyboard is not found, same with mouse.
+  (do not disable both if only mouse or keyboard is found like in b4)
+- DirectInput keyboard and mouse didn't work in Test/Remap modes
+- Gameports remap keyboard configuration was not loaded correctly
+- Write Allocate 68030 data cache bit emulated
+- better "too fast" 68020 CE interrupt workaround
+- CD32 CD on fly media changes fixed (both internal mounter and real/virtual drives)
+- CD32 CD unknown command handling modified (Last Ninja 3)
+
+Last Ninja 3 NOTE: game only works if CD is inserted after CD32 boot screen! (Real CD32 confirmed)
+
+Beta 4:
+
+- keyboard input configuration didn't load correctly (was overwritten by default mappings
+  or mappings were completely erased)
+- if at least one rawinput keyboard and mouse is found: skip directinput keyboard and mouse
+  enumeration. Prevents stupid side-effects if both are used simultaneously, for example fullscreen
+  and directinput keyboard enabled: rawinput stops getting any input (and technically directinput
+  is less direct than rawinput, it is only good for joysticks/pads today)
+- fixed possible division by zero in new power led code
+- statefile_quit=<path> configuration file parameter added, automatically saves state to <path>
+  when emulator is quit normally
+- CPU speed and advanced chipset configuration stored in statefiles
+- in some situations full-window mode tried to use vsync frame wait (which did nothing and caused
+  warp-mode like speedup)
+- added toggle fullwindow<>fullscreen and fullwindow<>window input events
+- yet another sprite update, Total Perspective Vortex / Frantic background smallest sprites
+  missed last line of data
+
+WARNING: Configuration files saved with previous 2.2 betas won't be fully compatible with later
+versions. Keyboard input data is handled slightly differently (no more "super" keyboard that
+gets all keyboard input), beta 1-3 written config files may not have all keyboards enabled if
+Configuration #1-#3 mode is enabled. Older configuration files should work correctly.
+
+Beta 3:
+
+- added XZ compressed file support
+- Paths panel "Reset to defaults" was unreliable if more than 3 choices was available
+- mouse horizontal wheel (HWheel) works in raw mouse mode, it is now always listed because
+  for some unknown reason RID_DEVICE_INFO_MOUSE.fHasHorizontalWheel is always false,
+  even when mouse has working horizontal scroll wheel
+- fixed unreliable device switching in input test/remap mode
+- fixed CD32 extra buttons not automatically getting enabled when joystick/pad was in
+  "default" mode
+- "default" was changed to "joystick" or "mouse" when switching between device types
+- CD32 default button change, Red and Blue buttons are automatically read as a fire
+  and second button if pad is read in standard 2-button mode (previously they did nothing
+  in normal mode, required fire and 2nd button mapped)
+- CD32 2-button mode 2nd button (CD32 Blue button as 2nd button) fixed, never worked previously
+- Game Ports Test mode now shows mappings that have multiple input targets
+- added "toggle" autofire mode to ports panel
+- D3D "none" filter allows again all filter setting adjustments
+
+Beta 2:
+
+- reverted filesystem indirect memory change, it can't never work because filesystem
+  is running in a separate thread
+- rawkeyboard extended key fix (Pause-key)
+
+Beta 1:
+
+- less hacky cue/iso selection priority handling inside archives
+- autoscaled top border was incorrectly positioned if program had always-on bitplane DMA
+  and first background color change was later than vertical bitplane DMA start position
+  (Shadow of the Beast)
+- do not enable OpenAL or PortAudio support by default (there are some bad OpenAL drivers
+  that crash when enumerating devices...)
+- save also rom checksum to configuration files, configuration file checksum is now used to
+  find rom path from rom scanner data if path stored in config file does not exist
+- removed Windows 2000 compatibility code (mainly RTG guard page stuff)
+- D3D mode is more compatible with crappy Intel integrated GPUs that have hardware pixel shader
+  but only software vertex shader support (scanlines and shader filters should work now)
+- WASAPI and PortAudio sound volume control supported
+- 7zip support moved to static link lib, updated to latest LZMA SDK, PPMD supported
+  (no XZ because currently only plain XZ (de)compression appears to be supported in SDK)
+- static png and zlib libraries updated to latest versions
+- virtual directory drive fake block device geometry and block size set to non-zero values
+  to fix sys:system/format division by zero crash when started from WB
+- cycle exact custom cpu frequency calculation fixed
+- remove non-existing paths in disk history when selected (not automatic because they might
+  point to non-existing network shares = "unexplained" slowdown at startup possible)
+- 68030 instruction and data cache "cycle exact" emulation code added, (68020 and 68030
+  caches are slightly different 68020's cache is 64*1 longs, 68030's cache is 16*4 longs).
+  Data cache can only cache fast ram and rom. (MMU is normally used to prevent IO and
+  chip ram data caching) Because native expansion code (bsdsocket etc..) bypasses the cache,
+  if there is emulated cache hit, data in memory is compared with data in cache and real
+  memory data is used instead of stale data in cache. (test read is direct access, it does
+  not mess up timing). This also means you will have problems if you use old "68030 cycle exact"
+  configurations, this mode was never supported. Not that this new mode isn't any better..
+- made 68020 "CE" NOP slightly slower (move.w to somewhere followed by NOP: write must be
+  complete before NOP finishes, Roots 2.0 / Sanity globe effect)
+- Roots 2.0 / Sanity "flower zoomer" part gaps fixed (BPLCON4 color change has 1 lores pixel
+  delay compared to direct color register write. AGA-only feature)
+- sprite emulation change, removed few lines of code that was not needed anymore (I hope..), this
+  fixes missing bottom part on Roots 2.0 / Sanity "flower zoomer" part
+- directory filesystem uses now indirect memory access (read&write is still direct, no performance
+  loss + cache flush if in CE030 mode), better compatibility with dcache and MMU (other modules
+  will follow)
+- 68020 "CE" mode movem and some other instructions used direct memory accesses instead of
+  cycle exact fetch modes (=was too fast if accessing chip ram)
+- power led fade hack emulation improved
+- -disableharddrivesafetycheck command line parameter disabled, it is not needed anymore
+  (it was made when there was no "is drive mounted in Windows" test) This parameter has
+  also become THE FIX for every, even totally unrelated possible, HD/CF related problem...
+- toggle between fullwindow and fullscreen if started in fullwindow mode
+- fixed data corruption in input parsing if mapped key did not exist (different keyboard)
+- transparent archive support updates and handle leak fix
+- small filter panel GUI changes
+- single/double/triple buffering option added to Display panel, also affects D3D now mode now
+- enabling any "raw" input device disables all "super" devices if they have same device class
+  (and vice versa) For example "Windows mouse" enabled, enable "raw mouse" -> "Windows mouse"
+  gets disabled.
+- GUI treeview and listview "hot underline" mode enabled
+- missing input keyboard name and status lines added to configuration file
+- Game Ports panel settings does not use special case handling anymore, input panel slot #4
+  is now "Game Ports" configuration slot, all gameports panel settings are always converted to
+  this slot. (slot #4 because I didn't want add new slots and slot #4 is most likely to be free)
+- slot mentioned above is used to store new easy to use new game ports input mapping
+- added "Test" and "Remap" buttons to Input panel, both temporarily enables all input devices,
+  disables GUI and waits for any input, when input event is received, input device and event
+  type gets selected automatically. "Remap" exists immediately when any event arrives, "Test"
+  stays active until F12 is presed. (or if GUI window becomes inactive)
+  Only "raw" devices detected (for example "super mouse" and "raw mouse" don't really play well
+  together)
+- GUI listviews remember old cursor positions
+- default caps lock key input configuration was incorrectly saved to configuration
+- easy joystick remapping support finally implemented.
+- autofire checkboxes added to gameports, sets/disables fire button/CD32 red button autofire,
+  autofire rate modified, it is much faster now (test games and report) 
+
+Quick instructions for new Game Ports panel remapping function:
+- First select type of Amiga side device (mouse/joystick/analog joystick etc..).
+- "Default" device type = mouse in port 0, joystick in port 1.
+- Click Remap and the rest is near automatic :)
+- Click Test to check and test current device type mapping (both built-in and remapped).
+- F12 = exit, F11 = skip current event (jump to next event without mapping)
+
+NOTE:NOTE:NOTE: Answer is still the usual: "Use Input Panel" if you want something more complex.
+This is the QUICK and EASY solution for most commonly needed joystick remapping.
+

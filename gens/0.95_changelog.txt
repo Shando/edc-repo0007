@@ -1,0 +1,33 @@
+(02/03/2001) Changes Gens 0.95 <- Gens 0.92b :
+----------------------------------------------
+
+* Partial 4 player support (only Yuyu Hakusho Battle and Street Racer are currently supported)
+* You now have a choice of 3 or 6 Button Genesis pad emulation.
+* Rom format (SMD/BIN) detection modified.
+* Fixed the (accidently) broken PAL bit in VDP status flag.
+* SPACE is now accepted as a Code/Comment seperator in .PAT files (stupid bug, sorry).
+* Z80 V-INT timing modified.
+* V-Counter modified.
+* PSG sound fixed in some games like After Burner 2 (thanks Dave ;)
+* DMA timings modified again.
+* 68000 cycles timing modified (68000 is now overclocked of 1,3 Khz instead of underclocked
+  of 14,3 Khz in NTSC mode).
+* Once again, i've modified Z80 cycles timing, now voices are like the original genesis (crappy)
+  but sound in some game are fixed (voices in Zombies).
+* Fixed a bug in VDP control decoding (added accidently in version 0.8).
+* Country detection fixed for (F) region (these games are NTSC and not PAL).
+* Added a sub-menu for rom history.
+
+Game Fixed:
+- All roms which the PAL error message (broken accidentatly in Gens v0.88)
+- Puggsy (intro bugs, broken in Gens v0.92b)
+- Donald Duck in Maui Mallard (graphics bugs at top of screen)
+- Fido Dido (black color, broken in Gens 0.8)
+- Eliminate Down (randomize lock fixed)
+- Double Dragon 2 (lock fixed).
+- Sound of Kid Cameleon, Chaos Engine ...
+- DAC sound (voices, sfx) in Zombie.
+
+Game Broken:
+- Sound of Puyo Puyo 2 is now crappy :(
+- Pause screen is glitched in European Soccer.

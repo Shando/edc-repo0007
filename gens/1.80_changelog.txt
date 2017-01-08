@@ -1,0 +1,27 @@
+(22/02/2002) Changes Gens 1.80 <- Gens 1.70 :
+---------------------------------------------
+
+[Sega CD]
+
+* CDD and CDC emulation improved.
+* Fixed the bug with mono MP3 (broken accidently in Gens 1.70)
+* Perfect Synchro fixed (can't break a game which work in normal mode).
+* PCM timing fixed.
+* Minor bugs fixed.
+
+[Genesis]
+
+* Sprite limit fixed (thanks Steve Snake).
+* VDP rendering engine tweaked a bit.
+* Save state modified :
+  - Better compatibility with Genecyst.
+  - Old saves states (with Gens version < 0.76) are probably not correctly supported anymore.
+
+[General]
+
+* News render modes : 50% and 25% scanline interpolated.
+* Game Genie feature easier to use.
+* More complete language support added.
+* Kaillera client updated to version 0.9
+* Some shortcuts added or modified.
+* Minor other changes.

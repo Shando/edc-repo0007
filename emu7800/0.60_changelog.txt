@@ -1,0 +1,4 @@
+0.60:
+  * Added: Support for the Stelladaptor controller 
+  * Added: Recognizes the now correct 7800 NTSC BIOS. Old 7800 BIOS is still recognized for now, but a warning message appears on the Green Screen log. Thanks to Mitchell Orman ({Mitch@atari7800.org}) for the information 
+  * Numerous minor fixes and documentation updates 

@@ -1,0 +1,30 @@
+21.1   [OS3.5+][Windows][MorphOS][OS4?  ]: Tue 21 May 2013.
+    Summary:
+        * AY-3-8600: "Tools|Controls..." command.
+        * AY-3-8600: "View|High score table..." command.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ ay-3-8600: fixed: hockey: it wasn't allowing shooting forwards.
+ ay-3-8600: fixed: basketball: bats were facing the wrong way.
+ aa: pong: fixed: tools|PVI(s)/UVI monitor... subwindow didn't work.
+ pong: fixed: shadows didn't work in greyscale mode.
+ ay-3-8600: more accurate digit graphics.
+ ay-3-8600: more accurate tones.
+ ay-3-8600: gridball: more accurate simulation.
+ ay-3-8600: support for "Tools|Controls..." subwindow.
+ ay-3-8600: support for high score management.
+ aa: removed obsolete cpu.c file.
+ fixed some harmless GCC compiler warnings.
+ incorporated Samir's latest Italian translation.
+ ay-3-8600: more accurate playfield boundaries.
+ ay-3-8600: autofire support.
+ incorporated Phantom's latest Greek translation.
+ aa: elektor: fixed: PVI monitor had bad layout.
+ ay-3-8600: fixed: ball motion at fast speed was wrong.
+ pong: fixed: leftmost guest pixel column was not being rendered.
+ ay-3-8550: fixed: rifle game #2 had wrong target motion.
+ ay-3-8600: target games: more accurate simulation.
+ ay-3-8600: fixed: serving player wasn't being stored in COS/COR files.
+ incorporated Damaso's latest Spanish translation.
+ aa: mos: fixed: controls subwindow key-rectangles were positioned
+  wrongly.  

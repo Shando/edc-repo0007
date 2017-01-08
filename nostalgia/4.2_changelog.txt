@@ -1,0 +1,22 @@
+  Added a screen saver!  Press <CTRL + S> from any of the
+    menus to activate it.
+  Applied some optimizations to greatly increase the speed
+    of the emulator engine.  This means Nostalgia will run
+    at full speed on more computers.
+  Added Kaillera network support!  Run from the command line
+    with the -k switch, or run from inside Nostalgia.
+  Fixed a GLARING bug in initial multiplayer implementation.
+  Added the ability to customize other keys, like screenshot,
+    sound enable, etc.  Edit controls.cfg to change them
+    Valid values are found in controls.txt.
+  Fixed the "Ice Trek" bug that prevented you from getting to
+    the last screen.
+  Fixed some odd bugs in joystick handling.
+  Updated Ice Trek bug fix with Joe Z's new info.  Thanks, Joe!
+  Fixed a series of bugs with the display of moving objects.
+  Small updates to sound emulation for accuracy
+  Fixed a bug in the way controls.cfg was saved.  Thanks to
+    Rick for finding this one.
+
+Debugger:
+  Fixed a bug that prevented certain games from loading.

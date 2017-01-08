@@ -1,0 +1,7 @@
+Changes from 0.26 to 0.27
+-------------------------
+  * Fixed bugs in the mk.bat file.
+  * Disabled the conversion of the printer to explicit binary mode; it can
+    be reinstated, if in fact it was not a bug.
+  * When Dapple ][ cannot find an appropriate video mode, it will now die
+    more gracefully.

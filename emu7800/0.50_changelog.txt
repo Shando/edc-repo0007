@@ -1,0 +1,7 @@
+0.50:
+  * 7800 Emulation: Most 7800 titles are now playable 
+  * Added: 7800 BIOS startup can be skipped 
+  * Added: Both .a78 and .bin 7800 ROMs are supported 
+  * Added: Game state save/restore 
+  * Added: Mouse-based lightgun support, which works correctly for 2600 games 
+  * Added: GUI options for varying emulation speed, etc

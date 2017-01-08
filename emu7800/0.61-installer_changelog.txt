@@ -1,0 +1,7 @@
+0.61:
+  * Fixed: Emulator continued to run in the background when the window was closed 
+  * Progress meter added so the user has something to watch while large ROM directories are examined 
+  * Added: High Score Cartridge support (7800)-courtesy of Matthias Luedtke ({matthias@atari8bit.de}) 
+  * Added: Settings are stored in the Win32 registry, so they persist across new versions and recompiles 
+  * Updated: SDL.dll to version 1.2.8 
+  * Updated: Unified distribution into one single .MSI archive, that can build itself

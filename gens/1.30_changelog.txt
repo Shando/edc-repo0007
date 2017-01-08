@@ -1,0 +1,36 @@
+(09/11/2001) Changes Gens 1.30 <- Gens 1.20 :
+---------------------------------------------
+
+[Sega CD]
+
+* Added the possibility to choose a perfect synchronisation emulation mode.
+  This means that main CPU and sub CPU execute instruction by instruction then
+  emulation is more accurate but a lot slower.
+  This option is desactivated by default, you can enable it when you're playing
+  Sega CD games but it's highly recommend to use it only if the game doesn't work
+  in normal emulation mode and if your CPU is fast (>= 500 Mhz).
+* Fixed a (stupid) bug in the GFX rotation/scaling engine.
+* Fixed Word RAM decoded format (dot GFX conversion).
+* Added cell GFX conversion.
+* CDC -> PCM RAM DMA fixed.
+* CDD and CDC emulation improved.
+* Fixed the memory control register (not yet perfect).
+* Fixed a bug in the "Font Data" calculation.
+* Fixed a bug with PCM sound.
+* Fixed severals bugs in the MP3 decoder and streaming code.
+* Some others minors bugs fixed...
+
+[Genesis]
+
+* YM2612 emulator upgraded to the last version, FM sound is a bit better.
+* CGOffline support added.
+
+[General]
+
+* All specials renders modes (Scanlines, 2xSAI ...) are now as fast in windowed
+  mode than in fullscreen mode.
+* Better sound volume adjustement between all differents sound chips.
+* VSync added for windows modes.
+* Can save or load custom named states.
+* States are marked EMPTY or OCCUPIED.
+* Others minors changes...

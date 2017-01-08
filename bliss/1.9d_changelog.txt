@@ -1,0 +1,8 @@
+Bliss 1.9d - October 10, 2001
+-	Added zip file support (Mike Dunston)
+-	Added a build for Linux (Mike Dunston)
+-	New title screen and loading progress indicators (Jesse Litton)
+-	Fixed the scratchy Intellivoice output (Kyle Davis)
+-	Improved smoothness of the video (Kyle Davis)
+-	Decreased the audio latency (Kyle Davis)
+-	Modified Win32 build to remove the need for many DLLs (Kyle Davis)

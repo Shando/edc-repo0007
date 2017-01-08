@@ -1,0 +1,30 @@
+(15/01/2002) Changes Gens 1.56 <- Gens 1.52 :
+---------------------------------------------
+
+[Sega CD]
+
+* CDD timing emulation fixed.
+* CD read improved (better CDDA playback from real CD).
+* Perfect Synchro optimised.
+
+[Genesis]
+
+* Fixed VDP write.
+* Fixed the infamous TAS bug.
+
+[General]
+
+* Minor bug with auto detection fixed.
+
+
+Game fixed :
+
+[SEGA CD]
+
+All Wolfteam games (ISO support).
+
+[Genesis]
+
+- Gargoyles
+- X Pert
+- Cliffhanger

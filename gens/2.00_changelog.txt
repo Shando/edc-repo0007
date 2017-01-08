@@ -1,0 +1,55 @@
+(11/07/2002) Changes Gens 2.00 <- Gens 1.91 :
+---------------------------------------------
+
+Major change : 32X emulation added.
+
+[32X]
+
+* SH2 CPU emulation (custom ASM core) :
+  - 100% instruction set implemented.
+  - Full support of DMAC/DREQ.
+  - Full support of external division unit.
+  - Full support of watchdog timer.
+* Full support of FIFO registers and DMA.
+* 32X VDP emulation :
+  - Support of fill function.
+  - Full support of direct color mode.
+  - Full support of packed pixel mode.
+  - Support of run lenght mode without Genesis VDP and priority stuff.
+* PWM sound emulation (DREQ1 DMA not yet supported).
+
+[Sega CD]
+
+* Minors bugs fixed.
+
+[Genesis]
+
+* IPS patch support added.
+* Save state compatibility (Kega, Genecyst ...) improved.
+* Fixed a minor bug with Z80.
+* YM2612 :
+  - Fixed a bug with frequency modulation LFO.
+  - Fixed independent slot frequency calculation in special mode (channel 3).
+* PSG :
+  - Noise channel fixed.
+* VDP rendering engine improved :
+  - Better colors rendering.
+  - Faster.
+* Fixed a minor bug in country detection code.
+
+[General]
+
+* Added some color adjustments feature :
+  - Brightness adjustement.
+  - Contrast adjustement.
+  - Greyscale mode.
+  - Invert mode.
+  Note that contrast and brightness are not calculated correctly yet.
+* Rewritten Gens.txt by Red5 of the Genesis Project. This is
+  intended to be an updated/improved version of the old Gens.txt, it is not
+  a "Gens Manual Lite" however and you will still need to download that for
+  instructions on some of the more advanced features like Game Genie support.
+* Debug removed.
+* Screens saver is disable when Gens is running.
+* Modified the tiny application icon, the guy which sent me it will probably 
+  recognize it ;)

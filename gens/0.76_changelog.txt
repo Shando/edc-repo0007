@@ -1,0 +1,36 @@
+(27/06/2000) Changes Gens 0.76 <- Gens 0.73 :
+---------------------------------------------
+
+* DMA FILL finally correct (i hope).
+* Little bug in windows/scrollA interaction fixed.
+* STOP instruction fixed for "mine" 68000 engine.
+  Thunder Force IV and Todd's aventure fixed with "mine" core.
+* 68000 interrupts fixed once again :)
+* Load / Save State improved :
+  - File is smaller
+  - Sound is correctly recovered
+  - better stability
+* RAZE interrupt fixed, RAZE is now the default Z80 engine.
+* Z80 Memory write/read fixed again.
+* Z80 Interrupt timing modified.
+* MMX detection rewritten again (please, let's me know if Cyrix CPU still crashing).
+* You don't need anymore to reload a rom after changing the sample rate.
+* others little fix.
+
+Games broken :
+Fatal Rewind
+
+Game fixed :
+Panorama cotton
+Burning Force
+American Gladiators
+Barkley Shut Up & Jam (1 & 2 are now playables but some graphics glitches still exist)
+Out Runners (Graphics glitches fixed)
+Street Racer (Graphics glitches fixed)
+Thunder Force IV (Intro graphics glitches fixed)
+Bram Stocker's Dracula
+Road Rash 2 & 3 (2 players splited mode fixed)
+Beavis & Butthead (Sound)
+Sonic 2 (Sound)
+Puyo Puyo 2 (Sound)
+some others i think ....

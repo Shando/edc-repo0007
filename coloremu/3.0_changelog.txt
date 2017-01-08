@@ -1,0 +1,10 @@
+New features of version 3.0
+***************************
+- The emulator really works at original speed now !
+- Direct load of virtual tapes and snapshot files in the command line
+- Comments are allowed in CAS- and SNP-Files now
+- New and much improved options menu with comfortable Load and Save menus
+- Improved configuration file; you can use comments in it, and tape and
+  snapshot file directories are stored in the file.
+- Reset function works much better now
+- Of course: a new and improved welcome tape :-)

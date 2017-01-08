@@ -1,0 +1,15 @@
+(11/01/2002) Changes Gens 1.52 <- Gens 1.50 :
+---------------------------------------------
+
+[Sega CD]
+
+* PCM sound fixed (Popful Mail voices).
+* Fixed the memory management bug added in Gens 1.50
+
+[Genesis]
+
+* Minor change in Z80 reset stuff.
+
+[General]
+
+* Bug with Vsync really fixed this time (i hope).

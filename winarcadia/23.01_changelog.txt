@@ -1,0 +1,21 @@
+23.01  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Sat  7 Feb 2015.
+    Summary:
+        * New debugger CLI command: WW (watch writes).
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: fixed: sometimes a keypress or click in the CPU monitor was opening
+  the output window.
+ aa: memory editor: memory row labels now change according to the
+  region being viewed/edited (like wa).
+ debugger: added WW (watch writes on/off) command.
+ wa: fixed: spanish tools menu had an extraneous item.
+ now ctrl+shift+3/amiga-# can be used for memory editor.
+ aa: fixed: sprite editor: some gadgets were not showing their entire
+  contents.
+ incorporated Samir's latest Italian translation.
+ fixed some harmless GCC compiler warnings.
+ lazarian: improved default dip switch settings.
+ lazarian: fixed: some dip switch gadgets weren't updated or ghosted
+  correctly.
+ fixed: 2650-B: some opcodes had the wrong pseudocode.
+ 2650: improved disassembly of PSU/PSL instructions, in signetics mode. 

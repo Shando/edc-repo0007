@@ -1,0 +1,8 @@
+New in PCAEWin 2.5:
+
+- Support added for side and rear box scans
+- Support added for game manuals (can be either plain text or rich text)
+- Video can be saved to compressed .AVI movie files
+- All NEW unified interface configuration screen replaces the old DOS-like menus
+- Timing fix results in smoother emulation
+- Improved keyboard support using DirectX

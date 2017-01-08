@@ -1,0 +1,11 @@
+Changes from 0.07 to 0.08
+-------------------------
+  * The patch for 0.08 applies over 0.07.  Your results on 0.07a may vary.
+    Source is still lint-free.
+  * The secret's out: experimental support for the Apple //c has been added.
+  * Additional support for 65SC02 and original 6502 CPUs.
+  * Emulation for screen refreshes corresponding to 0.5 or 2 MHz CPU speed.
+  * Megadisk drive light.
+  * If 640x400 or 640x480 can't be activated, try 800x600 or 1024x768.
+  * Full or partial scanlines, if that's your cup of tea.
+  * Dual screen mode (like ApplePC).

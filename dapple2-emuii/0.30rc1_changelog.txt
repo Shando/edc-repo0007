@@ -1,0 +1,11 @@
+Changes from 0.30pt6 to 0.30RC1 (including 0.28)
+------------------------------------------------
+  * Disabled the REE in normal builds; the ROM emulation module will not
+    be included in official distributions.  The hooks will be available
+    if the program is recompiled.  Define REECOP (the instruction used
+    to access the REE in capable versions of EMU][ is the 65816 "COP"
+    instruction).
+  * Additional i18n support.
+  * File dialog supports entering any filename as Dapple 1.25 did (WIP).
+  * Macro assembler can be called from the CPU menu.
+  * Cosmetic adjustments.

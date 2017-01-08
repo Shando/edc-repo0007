@@ -1,0 +1,16 @@
+24.11  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Wed 22 Jul 2015.
+    Summary:
+        * Type-right: added "View|High score table..." subwindow.
+        * Improved real-time CPU monitor.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Stefan's latest German translation.
+ wa: tr: fixed: memory editor wasn't being closed when changing from
+  another guest.
+ tr: now keys don't repeat.
+ aa: about window now detects OS4.1FE.
+ aa: os4: fixed: application.library support didn't work.
+ tr: paused background is now grey.
+ tr: added high score management.
+ cpu monitor: added tooltips.
+ wa: fixed: "register filetypes..." extensions were in the wrong order. 

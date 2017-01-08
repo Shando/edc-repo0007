@@ -1,0 +1,10 @@
+(09/10/2002) Changes Gens 2.11 <- Gens 2.10 :
+---------------------------------------------
+
+[Sega CD]
+
+* Fixed a CDD bug added in Gens 2.10
+
+[General]
+
+* Fixed the command line loading

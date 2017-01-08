@@ -1,0 +1,12 @@
+Changes from 0.20 to 0.21
+-------------------------
+  * BUGFIX: my replacement of hex8tostringf() was incorrect.  PEBKAC run
+    wild. (-uso.)
+  * Fixed bugs where certain flags were changed when they should not be.
+  * Added foreign character support and Mousetext.
+  * Added option to blur text in graphics modes (like ApplePC and SimSystem
+    IIe, and as on the real machine).  Also added more realistic blurry
+    graphics mode.
+  * BUGFIX (Font): Mousetext character for Z was one pixel too far right; so
+    it was not being drawn.
+  * Cosmetic tweaks.

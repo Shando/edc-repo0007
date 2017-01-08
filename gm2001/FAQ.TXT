@@ -1,0 +1,260 @@
+The Hartung Game Master 
+Frequently Asked Questions 
+Version GM.01 - July 2001 
+
+====================================================================
+O.K.,Here's the legal stuff: Copyright(c)2001, Sylvain De Chantal 
+
+All rights reserved. This document may be copied, in whole or in part,
+by any means provided the copyright and contributors sections remain
+intact and no fee is charged for the information. Contributors retain 
+the copyright to their individual contributions.
+
+The data contained here in is provided for informational purposes
+only. No warranty is made with regards to the accuracy of some
+informations.
+====================================================================
+Additional contributions IS welcome, please send additional informa-
+tions, opinions, and comments to : mailto: "sylvaindc@videotron.ca"
+
+Where to get this F.A.Q.:
+
+Try - GameFaqs.Com at "http://www.gamefaqs.com/"
+- my web site at "http://www.chez.com/slydc/"
+- Digital Press "http://www.digitpress.com/"
+
+or sometimes on the newsgroup "rec.games.video.classic"
+
+Also, i have written other game systems FAQs, you can found them
+easely at the web site of Digital Press or at my home web site.
+
+====================================================================
+
+Welcome to the Hartung Game Master F.A.Q. 
+
+TABLE OF CONTENTS
+-------------------
+
+1.0) The Hartung Game Master
+1.5) Game Master clones
+2.0) Game Master specs
+3.0) Cartridge List
+4.0) Game Master Emulator
+5.0) More Inputs
+6.0) Credits
+7.0) Web Links about Game Master
+
+====================================================================
+
+1.0) The Hartung Game Master
+--------------------------
+
+The Hartung Game Master was sold in 1990? in Germany. Trying to 
+compete with the Game Boy (another one like the Supervision and the
+Mega Duck), didn't had any succes, very less than the Supervision. 
+With a black & white monocrome LCD display, it ressembles graphically 
+to a Atari 2600 with it's blocky pixels. The casing looks alike as 
+the Sega Game Gear. The cartridges looks very much to the Supervision, 
+and even has 40-pins like the Supervision but ain't compatible with 
+each others. 
+
+The Hartung Game Master has a black anfd grey color casing with a
+border and name in red(or brown). Like the Game Boy or any other
+portable systems, it has an On/Off Switch, a contrast control, a 
+volume control, a AC adaptor input jack and a headphone jack, 
+directional-cross pad, "A" and "B" buttons plus a Start and Select 
+buttons. In the next version of this FAQ, it will be available both 
+in text format and HTML format with pictures. Stay tune...
+
+====================================================================
+
+1.5) Game Master clones
+-----------------------
+
+Yes, even this obscure hand held game system has clones. Almost
+of all them can easely be found in France, and some in other
+countries in Europe like Germany were the Hartung Game Master was
+distrubuted. For now, Game Master's and clones are reported in
+these following countries: Spain, Italy, France, Germany & Portugal.
+
+--------------------------------------------------------------------
+* Hartung/Impel/Watara Game Master - 1990? - Europe
+--------------------------------
+Black and grey casing. See section 1.0 for futher informations.
+
+--------------------------------------------------------------------
+* Delplay Game Plus - 199? - France
+-----------------
+White color casing which has a Game Boy style. Cartridges (white
+casing) are compatible with the other clones but the cartridges 
+of the others cannot fit-in the cartridge slot of the Game Plus.
+This clone is the most unique and the much rarer of them all.
+
+--------------------------------------------------------------------
+* Game Tronic - 199? - France
+-----------
+Purple and black casing with yellow buttons. Border line and name 
+are yellow. Cartridges are compatible with all other clones except 
+with the Delplay Game Plus.
+
+--------------------------------------------------------------------
+* Videojet Game Master - 199? - France
+--------------------
+White/Light Cream color casing with light blue buttons. No border 
+around the screen. The name is written in black and the name 
+"Videojet" is written above the LCD screen. Cartridges are compatible 
+with all other clones except with the Delplay Game Plus.
+
+--------------------------------------------------------------------
+* Virella Electronics Game Master 2001 - 199? - Italy
+------------------------------------
+Same as the Hartung/Impel/Watara Game Master(?). Cartridges are 
+compatible with all other clones except with the Delplay Game Plus.
+
+--------------------------------------------------------------------
+* Super Game - 199? - France
+--------------------------
+Exact duplicate of the Game Tronic with the exception of the name.
+Cartridges are compatible with all other clones except with the 
+Delplay Game Plus.
+
+--------------------------------------------------------------------
+
+
+====================================================================
+
+2.0) Game Master specs
+----------------------
+
+* CPU : ??? 8-bit VLSI 
+* Screen: 64 x 64 (?) pixels
+* Color: monochrome black/white tones
+* Power Switch
+* External Power Supply Jack (DC6V)
+* Contrast Adjustment
+* Direction buttons (similar to the GameBoy)
+* 4 "AA" Batteries 
+* Headphone jack (unit includes small stereo headphones)
+* Speaker built-in
+* A & B buttons
+* Select button
+* Start button
+* Volume controller (Hi-Lo switch for the Delplay)
+* Dimensions: 170 x 97 x 33mm
+
+
+
+====================================================================
+
+3.0) Cartridge List
+-------------------
+
+Name: (not complete) 
+----------------------------
+* Bomb Disposer
+* Bubble Boy
+* Car Racing
+* Continental Galaxy
+* Dungeon Adventure
+* Falling Block
+* Go Bang! 
+* Hyper Space
+* Invader
+* Kung Fu
+* Move It
+* Pin Ball
+* S-Race
+* Soccer (Fuss-Ball)
+* Space Castle
+* Tank War
+* Tennis
+* Urban Challenge
+
+====================================================================
+
+4.0) Game Master Emulator
+-------------------------
+
+There is a Game Master Emulator out there, incredible isn't it ?
+The author Hanz Freemurmur based himself on the Virella Electronics
+Game Master 2001 for doing his emulator.
+
+Requirements for playing the Emulator:
+--------------------------------------
+* DOS 6.2 or above
+* VGA compatible graphics
+* 386+ CPU
+* ROMS (if you can get any...don't ask me, i don't have any myself!)
+
+Controls :
+----------
+* Up = Up Arrow
+* Down = Down Arrow
+* Left = Left Arrow
+* Right = Right Arrow
+* Fire A = Right Control
+* Fire B = Space Bar
+* Restart = F12
+
+You can find the emulator on the web page of the author:
+http://www.geocities.com/Athens/Aegean/5127/
+
+And if anyone has a ROM for this emulator, LET ME KNOW!!! =) 
+
+====================================================================
+
+5.0) More Inputs
+----------------
+
+* Adress of Hartung:
+
+Hartung Spiele Berlin Handels GmbH
+Bundesallee 126
+D 12161 Berlin
+(030)850060 
+8500622
+12 D39
+
+====================================================================
+
+6.0) Credits:
+-------------
+
+* Manu Pärssinen <man@sci.fi> (for suggesting me to do this FAQ and 
+some info from his Handheld FAQ)
+* Nicolas Gilles <nicogil@club-internet.fr>
+(for doing the future French translation of this FAQ)
+* René Speranza <speranza.r@mipih.fr>
+(for sending me a list of cartridges for the Game Tronic)
+* Olivier Boisseau <oboissea@club-internet.fr>
+(for the info from the V.G.C.FAQ) 
+
+====================================================================
+
+7.0) Web Links about Game Master:
+---------------------------------
+
+* Pelikonepeijoonit - The Arctic Computer & Console Museum:
+http://webmail.nic.fi/~mikkohoo/peijoonit/gamemaster.htm
+
+* Lycée Roamin Rolland (Nicogil):
+http://perso.club-internet.fr/nicogil/gamemaster.html
+
+* MO5 -Philippe Dubois's Musée D'Histoire Informatique
+http://www.mo5.com/MHI/Consoles/gmaster.htm
+
+* World of Homecomputer, Televisiongames and Videogameconsoles
+http://www.heimcomputer.de/english/konsolen/gamemaster.html
+
+
+====================================================================
+
+Thanks and see you in the next version !!!
+------------------------------------------
+Copyright(c)2001, Sylvain De Chantal, "sylvaindc@videotron.ca"
+Come see my web site: "http://www.chez.com/slydc/"
+
+
+Go to Digital Press HQ
+Return to Digital Press Home 
+                       

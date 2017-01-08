@@ -1,0 +1,20 @@
+18.62  [OS3.5+][Windows][MorphOS][OS4?  ]: Sat  8 Sep 2012. 320th release.
+    Summary:
+        * Debugger CLI: label completion via Tab key (WinArcadia only).
+        * New debugger CLI command: CLS.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ pipbug: fixed: shadows on bottom text row weren't being applied
+  correctly.
+ reorganized menus.
+ split settings node into subnodes in user manual.
+ incorporated Samir's latest Italian translation.
+ wa: added 6 more menu item bitmaps.
+ added machine glyphs to status bar.
+ removed redundant CLI arguments.
+ aa: added splash screen.
+ aa: rewrote GUI imagery subsystem.
+ debugger CLI: added CLS command.
+ aa: fixed: paddles axes display was flickery.
+ aa: split monitor.c and dips.c from subwin.c.
+ wa: debugger CLI: added label completion feature (via Tab key).

@@ -1,0 +1,23 @@
+24.33  [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Mon 18 Apr 2016. 395th release.
+    Summary:
+        * Added "Settings|BIOS|PIPBUG (300 baud)" option.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: mos: fixed compiler warnings.
+ aa: fixed: UPGRADE CLI argument was still trying to upgrade CFG files.
+ wa: fixed: French flag had the wrong colours.
+ incorporated Benjamin's French translation.
+ fixed: palette subwindow sliders weren't always being refreshed properly
+  when toggling greyscale on/off.
+ pipbug: fixed: 2650 Micro Basic was treated as if it were written in
+  itself.
+ incorporated Phantom's latest Greek catalog.
+ removed Cat and Mouse support.
+ tr: fixed: notation submenu wasn't ghosted.
+ pipbug: added knowledge about some more programs.
+ pipbug: added "Settings|BIOS|PIPBUG (300 baud)" option.
+ pipbug: moved and renamed "fast pipbug output" feature.
+ pipbug: now autosense also sets the BIOS and VDU as appropriate.
+ lb/lz: improved sound emulation.
+ pipbug: fixed sense bit emulation.
+ debugger: "=" command now shows the relevant character equivalent. 

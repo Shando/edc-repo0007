@@ -1,0 +1,3 @@
+v.91
+  * Updated: DirectX dependencies to SDK March 2009 
+  * Added x86 and x64 specific builds 

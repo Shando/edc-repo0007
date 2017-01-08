@@ -1,0 +1,67 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2005-04-10 03:05:00 ....A         1370        31774  stub\bin\a605stub
+2005-04-10 03:05:00 ....A         1370               stub\bin\b605stub
+2005-04-10 03:05:00 ....A         1996               stub\bin\cdistub
+2005-04-10 03:05:00 ....A         2000               stub\bin\cdi_stub
+2005-04-07 01:58:54 ....A        18351               COPYING
+2005-04-10 03:05:00 ....A         1346               stub\bin\k70stub
+2005-04-07 02:03:34 ....A        25740               LCOPYING
+2005-04-07 02:03:34 ....A        25740               stub\buildcd\LCOPYING
+2005-04-09 00:41:50 ....A         1383               stub\Makefile
+2005-04-10 02:45:54 ....A          564               stub\buildcd\Makefile
+2005-04-10 03:05:00 ....A         1748               stub\bin\os9stub
+2005-04-10 02:21:04 ....A          492               stub\README
+2005-04-10 02:50:44 ....A          309               cdilink\README
+2005-04-10 03:03:50 ....A          127               README
+2005-04-10 03:04:42 ....A         4115               stub\stub.dsp
+2005-04-02 20:34:18 ....A          679               stub\buildcd\make.bat
+2005-04-02 20:34:18 ....A          679               stub\make.bat
+2005-04-02 20:14:58 ....A           18               stub\buildcd\make.sed
+2005-04-02 20:14:58 ....A           18               stub\make.sed
+2005-04-10 02:12:56 ....A          327               stub\stubdefs.sed
+2005-04-10 02:38:12 ....A           25               stub\buildcd\abstr.txt
+2005-04-08 23:53:42 ....A           25               stub\buildcd\biblio.txt
+2005-04-10 03:02:00 ....A         2869               cdilink\cables.txt
+2005-04-10 02:58:48 ....A        16143               cdilink\cdilink.txt
+2005-04-10 02:44:32 ....A          950               stub\buildcd\cdi_stub.txt
+2005-04-08 23:53:10 ....A           30               stub\buildcd\copy.txt
+2005-04-10 02:47:24 ....A         4644               stub\stub.txt
+2005-04-09 00:24:58 ....A          504               stub\buildcd\build.cd
+2005-04-09 00:32:56 ....A           72               stub\buildcd\cdi_stub.cue
+2005-04-10 02:16:52 ....A         1616               stub\csdtype.d
+2005-04-02 21:18:08 ....A          214               stub\stub605.d
+2005-04-10 02:12:56 ....A        16594               stub\stubdefs.d
+2005-04-02 20:44:44 ....A          122               stub\a605stub.rsp
+2005-04-02 20:44:58 ....A          122               stub\b605stub.rsp
+2005-04-03 00:15:52 ....A          167               stub\cdistub.rsp
+2005-04-02 20:54:16 ....A          172               stub\cdi_stub.rsp
+2005-04-02 20:19:04 ....A          104               stub\k70stub.rsp
+2005-04-02 20:19:30 ....A          152               stub\os9stub.rsp
+2005-04-10 02:17:20 ....A         2392               stub\csdfind.s
+2005-04-10 02:17:26 ....A          883               stub\stub605a.s
+2005-04-10 02:17:32 ....A          883               stub\stub605b.s
+2005-04-10 02:17:36 ....A         5965               stub\stubcore.s
+2005-04-10 02:17:42 ....A         2085               stub\stubcsd.s
+2005-04-10 02:17:50 ....A         1752               stub\stubk681.s
+2005-04-10 02:17:56 ....A         1874               stub\stubk70.s
+2005-04-10 02:19:06 ....A         2092               stub\stubmod.s
+2005-04-10 02:19:00 ....A         1418               stub\stubraw.s
+2005-04-10 02:19:16 ....A         5052               stub\stubregs.s
+2005-04-10 02:19:22 ....A         3215               stub\stubscf.s
+2005-04-10 02:19:26 ....A          849               stub\stubstd.s
+2005-04-10 02:19:34 ....A         3038               stub\stubsubs.s
+2005-04-10 03:05:00 ....A         1186               stub\bin\a605stub.stb
+2005-04-10 03:05:00 ....A         1186               stub\bin\b605stub.stb
+2005-04-10 03:05:00 ....A         1374               stub\bin\cdistub.stb
+2005-04-10 03:05:00 ....A         1374               stub\bin\cdi_stub.stb
+2005-04-10 03:05:00 ....A         1154               stub\bin\k70stub.stb
+2005-04-10 03:05:00 ....A         1302               stub\bin\os9stub.stb
+2005-04-10 03:15:24 ....A       135168        58184  cdilink\cdilink.exe
+2016-12-23 19:47:12 D....            0            0  stub\obj
+2016-12-23 19:47:12 D....            0            0  stub\buildcd
+2016-12-23 19:47:12 D....            0            0  stub\bin
+2016-12-23 19:47:12 D....            0            0  stub
+2016-12-23 19:47:12 D....            0            0  cdilink
+------------------- ----- ------------ ------------  ------------------------
+2016-12-23 19:47:12             307139        89958  58 files, 5 folders

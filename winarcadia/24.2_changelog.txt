@@ -1,0 +1,15 @@
+24.2   [OS3.5+][Windows XP+][MOS?   ][OS4.0+]: Sun 16 Aug 2015.
+    Summary:
+        * Added "Settings|Trainers" submenu.
+        * Added "Settings|Sound|Speech..." requester.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: fixed: sometimes it could crash when changing guest machine.
+ added "settings|sound|speech..." requester and associated
+  functionality.
+ incorporated Stefan's latest German translation.
+ added "settings|trainers" submenu and associated functionality.
+ fixed: debugger: .FILL command was broken.
+ various code-level improvements.
+ rearranged menu items.
+ incorporated Phantom's latest Greek translation.

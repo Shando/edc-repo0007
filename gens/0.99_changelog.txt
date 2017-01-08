@@ -1,0 +1,16 @@
+(01/06/2001) Changes Gens 0.99 <- Gens 0.98 :
+---------------------------------------------
+
+* Kaillera client version updated to 0.83
+* Kaillera implementation is different, Gens can now start even if the kailleraclient DLL
+  is not present.
+* Window split fixed.
+* Z80 cycles timing modified.
+* Load/save state improved.
+* Vietnamese menu translation added.
+* minors bugs fixed.
+
+Game Fixed:
+- Dragon Ball Z (window split)
+- Tecmo Cup Football (team name displaying)
+- Olympic Gold Barcelona 92 (broken in gens v0.95)

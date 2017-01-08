@@ -1,0 +1,7 @@
+0.71:
+  * Added: Web browser control on new {Help} tab, enabling easy reference to this README and online game manuals where defined in ROMProperties.csv
+  * Fixed: 7800 Emulation: 320B mode corrected to correspond to the real hardware-courtesy of Matthias Luedtke ({matthias@atari8bit.de}) 
+  * Updated: Moved to .NET 2.0 and Visual Studio 2005 
+  * Updated: SDL.dll to version 1.2.10 
+  * Added: Emulator sleeps after each frame is rendered to reduce superfluous CPU consumption (can be tuned via the Console tab) 
+  * Updated: Better pause behavior-modal functions are still available during pause

@@ -1,0 +1,5 @@
+0.90
+  * Updated: Replaced SDL.dll with new EMU7800.Direct.dll for better fullscreen and windowed-mode experience on Vista 
+  * Updated: Corrected sound encoding to reduce audible pops 
+  * Updated: Fixed minor bugs with new TIA sprite positioning code that affected Demon Attack, Centipede, and Spiderfighter 
+  * Added: Key bindings reassignment dialog 

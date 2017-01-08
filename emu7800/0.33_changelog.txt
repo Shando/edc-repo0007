@@ -1,0 +1,7 @@
+0.33:
+Further refined the HMOVE emulation, added a few illegal opcodes to enable some of the homebrew titles to work, and fixed several emulation bugs. This cleaned up Pitfall2, and other Activision titles that had visual artifacts. 
+  * Fixed: eliminated PIA bugs: no more jittering for Star Fox, Off Your Rocker, Spitfire, Omega Race, Blueprint, and others probably 
+  * Fixed: minor missle/ball positioning TIA bug 
+  * Fixed: booster grip controller now works right 
+  * Fixed: Omega Race rom was being ignored because of its odd size 
+  * Fixed: emulator no longer requires one line of VSYNC; this helps one of the Bowling ROMs and others probably

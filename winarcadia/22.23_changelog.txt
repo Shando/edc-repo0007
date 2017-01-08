@@ -1,0 +1,24 @@
+22.23  [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Fri 27 Dec 2013. 355th release.
+    Summary:
+        * Interton, Elektor: improved sound emulation.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: cam: now controls subwindow has arrows for the joystick directions.
+ fixed: toggling tracing could cause bad timing.
+ aa: fixed: splash window wasn't necessarily frontmost.
+ incorporated Samir's latest Italian translation.
+ aa: fixed: F10 was considered to be a reserved key.
+ revised keyboard shortcuts.
+ interton/elektor: explosion now uses authentic sampled sound.
+ interton/elektor: improved explosion emulation.
+ fixed: tape skewing was inverted.
+ si50: small controls subwindow now has more legible key labels.
+ wa: si50: fixed: small controls subwindow display was corrupt after eg.
+  dragging subwindow.
+ improved tape messages.
+ ASM command now chooses a start address if none is specified.
+ elektor: fixed: when recording a tape, not all output bytes were being
+  mentioned to the user.
+ tape loading now supports >8-bit and/or multichannel samples.
+ wa: default host volume now matches sample volume more closely.
+ elektor: added knowledge about newest tape dumps.

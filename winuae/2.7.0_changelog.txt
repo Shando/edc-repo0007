@@ -1,0 +1,468 @@
+2.7.0
+
+- If Picasso IV flash image is not found, show also link where to download it from.
+
+Beta 16: (RC1)
+
+- Z3 RTG base address was not adjusted if Processor Slot RAM was 128M.
+- Writing to high BPL pointer when next cycle does same bitplane number DMA fetch: old address is
+  used for fetch. (Powertrax / The Light Circle graphics glitch)
+- Added workaround for Windows 8.1 bug, after SetCursorPos() call WM_MOUSEMOVE returns new coordinate
+  as expected, then comes single message with old coordinate (this shouldn't happen) before it works
+  correctly again. This fixes "Windows mouse" jumping ~50 pixels while moving the mouse. Rawinput HID
+  mouse is not affected by this bug. (No, KB2908279 does not fix it, I guess working fix will be released someday)
+- "Install mouse driver" + RTG mode has been unusable since 2600b1.
+- Re-enabled "CIA TOD bug" by default but only in A500-like modes.
+- Built-in HRTMon updated to 2.35
+- Built-in AROS ROM updated. Added memory hack, bootup structures are allocated from hidden memory pool
+  (located at 0xa80000-0xb80000, automatically enabled if built-in AROS rom is in use), when AROS starts
+  booting from disk or HD, hidden pool is marked as full and all following allocations come from normal RAM.
+  Now even 512k chip only config will boot and work with AROS rom replacement. Hack only used if CPU has 24-bit
+  address bus. (68000/68010/68EC020).
+
+Beta 15:
+
+- Removing directory harddrives on the fly crashed in some situations.
+- Interlace with black lines ("fields+") didn't always work correctly.
+- Only allow GUI mininize button if emulation has not yet been started, minimizing GUI when emulation window
+  is open only causes problems..
+- Copper debugger (od) shows when blit waiting WAIT ends and also stores copper instruction words when
+  copper fetched them, shows '!' if words have changed since copper fetched them. (Previously it was possible
+  to see copper list in state that makes no sense if program modified it after copper executed it)
+- Add 16M to Z3 start address if Processor slot RAM is set to 128M, prevents KS RAM detection to confuse Z3
+  board as being part of Processor Slot RAM.
+- Cirrus Logic graphics board enabled but inactive and refresh set to Chipset slowed down emulation.
+- Sprite stuck in non-DMA mode was not correctly restored from statefile. (Has never worked previously)
+- Adjusted programmed refresh rate blanking start and end position calculations.
+
+Beta 14:
+
+- GUI didn't work in fullscreen modes.
+- Input panel lost all keyboard events (not even Test button accepted any key presses) in some situations,
+  already non-working config files can't be fixed. Older bug.
+- New frames interlace mode (without blacklines) now only redraws changed lines.
+- 68040 without FPU: unimplemented FPU exception used wrong exception vector.
+- 68020+ DIVL div-by-zero exception in cycle-exact mode didn't skip prefetch phase.
+- Do not set lightpen triggered state when BPLCON0 lightpen bit is set unless lightpen is also configured
+  in gameports or input panel.
+- Fixed crash if disabled keyboard had (old) gameport mappings.
+- Autoscale size change comparison used wrong value (width, not height) causing slow down, forced config
+  change check every frame.
+- Added configurable directory filesystem file/directory name length limit, currently config file only,
+  filesys_max_name_length=x, files and dirs with longer names are not seen in Amiga-side (directory operations only)
+- Really fixed sound sync timing issue, partly introduced in b1 and b13.
+
+Beta 13:
+
+- Standard partition hardfile OFS filesystem check was broken (2.6.1)
+- Adjusted sprite xpos == hpos check. (Shed Tears / Ozone scroller)
+- 64-bit build didn't load portaudio dll.
+- GUI window minimize button worked strangely when emulation window was open.
+- Added new interlace emulation modes, first new is same as old one but display is updated every field
+  (Old doubling updated every frame) and another that does same and also blanks every other line.
+- Added separate non-laced and lace doubling modes to GUI. (Better labels needed, but there is no space)
+- Sound timing calculation wasn't updated to match new long/short field/interlace display emulation timing (b1).
+
+Beta 12:
+
+- AROS rom memory mapping fixed (b1).
+- RTG mode video recording image size was accidentally restricted to native chipset size.
+- Ignore VPOSW writes if it would move vertical position backwards or if vpos is changed during vertical
+  blanking and new value is also inside vblank period. (Prevents strange behavior if program tries to
+  do weird things)
+- Added minimize button to GUI window.
+- 68000 CE ADDA.x/SUBA.x Rn,An was 2 cycles too fast.
+- DIVS/DIVU prefetch is after division operation, not before like with MULS/MULU.
+- Adjusted data returned when accessing non-existing memory.
+- New Wix based installer test version included. Remove old installation first.
+
+Beta 11:
+
+- 68000/010 CPU core merge accidentally removed 68000 CLR to memory and Scc to memory dummy read
+  -modify-write behavior.
+- Sometimes after autoswitch (unconfigured mouse left button press) mouse was configured correctly
+  but mouse input was kept disabled.
+- Using stick/dpad to autoswitch now requires move, release, move inside 0.5s window to prevent
+  accidental switches.
+- Some more autoswitch bugs fixed.
+- Switching bitplane DMA on just before DDFSTRT handling improved. (Sargon Megademo "Shir Khan" part)
+- 68030 + more compatible without cycle-exact was unstable.
+- Flush 68020/030 caches and refill prefetch buffers when switching CPU modes (cycle-exact/more compatible)
+  on the fly.
+- 68020 cycle-exact improvements.
+- Bitplane graphics was horizontally shifted if program switched from lores to hires less than 4 cycles
+  before bitplane DMA starts. (Chipset emulation was correct but drawing code saw invalid lores to hires
+  switch)
+- Stupid code fixed in CD image audio code that coud cause random crashes.
+- CD image audio start was delayed if audio was compressed (zip/mp3/flac/whatever) and start position
+  was at the very end of previous track.
+
+Beta 10:
+
+- B8 Blerkenwiegel workaround caused buffer overflows in some situations. Fix improved.
+- MoreNewStuffy fix (231b11) was not complete, non-modulo bitplane DMA fetches work
+  differently than modulo adding DMA fetches. (Alpha and Omega / PMC)
+- Also above behavior seems to only happen with first plane fetch. (New and Better Routines / Cult)
+  This needs more testing, someday.. 
+- '?' disk info button now opens normal dialog window, disk label also included (if dos disk) and
+  type of bootblock (1.x standard, 2.x+ standard, custom)
+- When loading config that has 2 identical game controllers configured in both ports and only one
+  controller is connected, connected controller was inserted in both ports.
+- GamePorts panel port change behavior improved, if new device is already inserted in other port,
+  device in other port is now always automatically changed, not the one you just changed.
+- When clicking mouse that is not inserted in either Amiga port and host system has only one mouse
+  connected, "Windows mouse" is inserted, not HID mouse.
+- 68020 more compatible without cycle-exact works again and also uses new 68020 CE prefetch method.
+- 68010 is now supported in more compatible and cycle-exact modes. New instructions supported and
+  new stack frames emulated but timing is same as 68000, 68010 special timing improvements and loop
+  mode is not emulated. At least not yet.
+- 68010 emulation used some 68020+ only exception stack frames.
+- FPU emulator now properly uses prefetch buffer emulation if more compatible or cycle-exact is
+  enabled. Emulated program crashed in older versions with some FPU instructions.
+- On the fly switching from fastest possible to prefetch ("more compatible") or CE didn't fill
+  prefetch buffers and usually caused emulated program to crash.
+- Added "Log window" checkbox to Paths panel, easier non-command line method to open log window.
+- On the fly change of A1000 Agnus or No-EHB Denise Advanced chipset didn't do anything.
+- A1000 Agnus and vertical bitplane start (DIWSTRT) of zero: nothing happens, bitplanes are
+  only enabled if it is 1 or larger.
+
+Beta 9:
+
+NOTE: 68020 CE mode should be usable again.
+
+- Added CIA tod bug option to Advanced chipset. Demo The end / Trilobit running under
+  KS 1.3 has corruption in "photos" part if tod alarm bug is not emulated. KS 1.3 + real A500
+  does not have corruption. (I don't understand what is going on, some programs require this bug,
+  some will hang if it is emulated. There has to be some unknown variable.)
+- Writing to DIWSTOP during mid scanline and new value matches current vertical line:
+  bitplane DMA fetches stop. Fixes Demo Starflight / Phenomena, OCS only.
+  Interestingly ECS DMA fetches restart when DDFSTOP matches, causing scroller to jump horizontally.
+- Writing to BPLxMOD exactly one cycle before bitplane fetch that also adds modulos
+  uses old modulo value. (Copper Slave / Ram Jam)
+- Mouse was uncaptured when switching from non-fullwindow to fullwindow mode.
+- b8 hires unaligned check removed, it was wrong, logic analyzer confirmed.
+- CMPA idle cycle was 2 cycles too slow in 68000 CE mode.
+- Tape read command returned size of read request, not actual length which may be smaller than request size.
+- OCS/ECS "7-planes" feature got broken in b8.
+- HAM mode double pass display emulation's first pass didn't reset colors back to original before
+  second pass. (Animotion / Phenomena)
+- New memwatchpoint code didn't work with CIA registers.
+- Log message if bitplane DMA ends at 0xe2 (can happen if start position is unaligned enough), this causes
+  odd looking corruption on real hardware. (each scanline has random looking few pixels shift). Previously
+  only DMA that ended at the start of next scanline were logged.
+- Sprite vertical start == sprite DMA first line won't enable sprites. (Ultrademo #1 / The Link)
+- If windowed mode was reset (for example RTG to custom chipset mode change) and mouse was not captured
+  but window had focus: input got disabled, extra mouse click was required to enable input.
+- Copper cycles were emulated too early before bitplane DMA decisions, copper might have used
+  cycle reserved for bitplane DMA in some situations.
+- Added "?" buttons to floppy GUIs. Current implementation is very lazy, few lines of information,
+  boot block contents and it opens in default text editor.
+- Limit VPOSW refresh rate display size changes to sane values, min display size is 256 lines and max
+  is not allowed outside PAL size. Reduces flickering if program does something really weird or stupid
+  with VPOSW.
+
+Second 68EC020 cycle-exact emulation rewrite. Timing may not be much better but cycle usage emulation
+should be much more closer to real hardware. (This needs logic analyzer check but I don't have
+all required hardware yet)
+
+Lots of work left to do but at least it should not be any worse than old code and it also should be
+much more accurate now when code has small loops (for example stupid CPU delays).
+
+If there are no demos or games that break or run really badly compared to 2.6.1, this is not anymore
+showstopper for 2.7.0 release.
+
+NOTE: 68030 can queue data memory accesses, this is not yet emulated.
+
+Beta 8:
+
+NOTE: Still no 68020/030 CE mode changes. Do not use.
+
+- Added CD32 MPEG ROM 40.22 (part number 391777-01) to ROM scanner.
+- GUI 1x/2x/4x/custom CPU speed setting showed incorrect selection (b7)
+- Added "I am Windows 8.1 compatible" manifest entry.
+- Workaround for Blerkenwiegel/Scoopex breakage (261b1). May cause side-effects.
+- 68000 mode "CPU trace" state file restore errors should be gone (270b4)
+- 260b15 sprite update off-by-one fix. (Missing vertical sprite line in Prurient/Rebels and others)
+- Enabling hires bitplanes (by writing to BPLCON0 or enabling DMA) during first 4 hires
+  fetch units didn't wait for next complete fetch unit block (should have skipped next 4
+  "unaligned" hires fetch units) causing shifted graphics. Partially fixes RAF Megademo
+  single line of shifted scroller in vector part.
+- Short horizontal line of incorrect graphics was visible in some very rare situations,
+  internal buffer was not correctly cleared. (SillyScroller / Phenomena)
+- ATAPI MODE SENSE (10) returned too much data if request size was small enough.
+- Return INVALID COMMAND error if ATAPI and command was MODE SENSE (6). ATAPI only supports
+  10 byte variant of MODE SENSE.
+- Added SEEK(6) and SEEK(10) commands to SCSI CD emulation.
+- Some decompression formats (at least lha) were not compatible with file type detection.
+  (for example lha containing executable didn't mount as a floppy image)
+- BTST Dn,#data was accidentally marked as invalid addressing mode in b7.
+- Power supply TOD counting accuracy was not that good in earlier update.
+- 8-bit bmp screenshots were broken (Only created when capturing 8-bit RTG mode)
+- Ignore window size changes if emulation window is minimized. Readjust size (if needed) when unminimized.
+- Picasso IV flifi/VGA output enable logic tweak (Linux Cirrus Logic console)
+
+Beta 7: READ NOTE BELOW BEFORE USING!
+
+- SCSI UNIT ATTENTION/MEDIA MAY HAVE CHANGED clears when TEST UNIT READY is executed, not
+  when UA status is read by using REQUEST SENSE. Fixes ATAPI CD disk change issues with
+  some AOS ATAPI drivers.
+- Accessing real CD (or CD emulator) in non-SPTI mode returned read errors depending on what
+  kind of imaginary geometry IOCTL_CDROM_GET_DRIVE_GEOMETRY returned.
+- Memory bank change (reset) removed new memwatch debugger watchpoints.
+- Built-in lzx decompressor didn't always decompress last byte of file correctly...
+- b4 drive spinup update change: also don't enumerate drives if new config entry is found but
+  drive path fails to open and returns "not found" error (for example USB card reader not connected)
+- When switching from RTG to native fullscreen or vice versa, re-open fullscreen mode if number
+  of backbuffers, selected monitor, refreshrate or vsync mode is different.
+- New adf or hdf path was not converted to relative in relative path mode.
+- Added VID 0x79d, PID 0x0201 ("USB  ADAPTOR") analog joystick to USB adapter to rawinput blacklist.
+- "Error log" button becomes visible in bottom part of GUI if any kind of config error was detected
+  or config required fixing, for example directory or harddrive failed to open, attempting to enable
+  Z3 fast with 24-bit address space CPU etc. (Currently many messages can be confusing and not all
+  important messages are enabled)
+- Tape drive LOAD/UNLOAD SCSI command fix, error message during Amix 2.1 retension tape command.
+- Picasso IV in Z2 mode + Z2 Fast RAM enabled used incorrect internal memory mapping
+  (missing graphics etc..)
+- Only call D3D SetMaximumFrameLatency() when buffer flipping mode is immediate. Vsync waited flipping
+  caused major slowdown if emulation created frames faster than current display refresh rate.
+- Increased "CPU slot" Max RAM size from 64M to 128M.
+
+- Removed 68040+ "cycle-exact" support. It was useless and does not fit in new 68020/030 ce handling
+  without creating new CPU emulation core.
+- Added 68020 and 68030 instruction cache dump command to debugger ("rc"). * = data valid.
+- JIT + more compatible problem fixed.
+
+!IMPORTANT NOTE!
+Following is work in progress. Do not use 68020/030 cycle-exact modes. Timing is broken. Other modes work fine.
+
+- Added 68030 manual head/tail/clocks timing values to table68k, gencpu automatically calculates
+  final values for 68020 (=68030 + 1 wait state added) and 68030 cores using table68k values and
+  EA timing formulas. Only includes 680x0 common instruction so far, 68020+ only instructions and
+  addressing modes and rarely used instructions do not have cycle-exact timing yet.
+
+
+Beta 6:
+
+- Enabled Cirrus Logic RTG VRAM size configuration. CL VRAM memory bank setups used by VRAM size
+  detection code is now (partially) emulated, should be enough to support CGX and Picasso96.
+- Fixed crash that usually happened when system was reset and if it caused immediate PAL/NTSC
+  mode change. (2.5 or 2.6 bug)
+- Removed some dead JIT code, "afterPic" and "indirectKS" comptrustxxx parameters that haven't been
+  used for ages.
+- JIT MOVEM used direct mode if memory was direct capable but direct mode was disabled.
+- Picasso IV VRAM is now always (*) in JIT indirect access mode. It can't be made JIT Direct compatible
+  due to multiple banks. Also P4 Z2 CGX 15/16 bit mode has graphics corruption if JIT Direct is enabled
+  because of JIT issue that can't be fixed. If same code is used to copy data from RAM and it is later
+  used to copy data from VRAM, there is no way for JIT to detect that it should recompile it and
+  use indirect mode instead of (incorrect for this bank) JIT direct mode. Other boards are very
+  simple and can support JIT direct VRAM access.
+- *) P4 Z3 mode includes now a hack that makes it JIT direct compatible. At least it seems to work..
+- Cirrus emulation large basic copy blits are now 4x faster. (P96Speed horiz/vert scroll tests are not
+  extremely slow anymore)
+
+Beta 5:
+
+- Spectrum 28/24 official name is EGS-28/24 Spectrum.
+- Stupid bug in b4 CD image update. Some CD32 games refused to play first audio track.
+- Some CUE images with both INDEX0 and INDEX1 and audio tracks in separate files may have played 1-2
+  seconds of previous track when starting CD audio.
+- Added partial support for non-direct JIT only memory mapping support that allows Z3 boards in their
+  original non-hacked OS chosen base address (0x40000000-> vs 0x10000000->). Not available yet.
+- More old 68020 CE state files load now but note that it is impossible to support all of them with new
+  emulation code.
+- Some 68020 CE mode timing tweaks.
+- Emulate Picasso IV byteswapped VRAM bank (5446 CL chip feature) Fixes CGX 15/16 bit modes.
+- Cirrus Logic blitter emulation bug fixed (Inversion + Color expansion + Transparency combination uses
+  foreground color, there is no background vs foreground swapping like in all other inverted modes)
+  Fixes graphics glitches in Picasso IV 24-bit Picasso96 modes.
+
+Beta 4:
+
+- Picasso IV RTG board emulation implemented. Very important information:
+  - Requires full 128k raw flash rom image, available from
+    http://www.sophisticated-development.de/ (PIV_FlashImageXX), renamed as picasso_iv_flash.rom
+  - Does not use rom scanner system, image file must be located in Paths panel configured rom path.
+  - Very big thanks to Tobias Seiler for answering questions about board's hardware implementation.
+  - Do not bother Tobias (or anyone else) who does not develop UAE with Picasso IV emulation problems.
+  - Only implements basic functionality, flifi or other extra stuff is not emulated.
+  - Real Picasso IV uses flifi when displaying Amiga modes, emulation ignores it and simply displays
+    Amiga modes normally.
+  - Picasso96 and CGX4 confirmed working.
+
+- Piccolo autoconfig size change reverted, problem appears to be caused by EGS 7.4 driver bug.
+- >1024 pixel tall interlace mode fix.
+- CL vertical blank handling fixed, it caused spurious interrupts in some situations.
+- uaegfx driver was enabled if on-disk version was loaded and hardware board emulation was configured.
+
+- CIA TOD counting delay emulated. Time between TICK input going active and TOD increasing has
+  14-16 E-clock cycle delay. Logic analyzer confirmed using ALARM interrupt.
+- Disabled CIA TOD bug emulation. It makes no sense, I have AGA program that refuses to work on
+  my real A1200 (Gets unexpected interrupt and crashes) but there is no way it didn't work 20
+  or so years ago..
+
+- Workaround for hard drive enumeration waking up sleeping drives if one or more harddrives are
+  mounted in configuration and emulation is started. To enable it, all configured real harddrives
+  (or memory cards) need to be re-configured using GUI and config saved to create new config field
+  required to find the drive without enumeration. Falls back to full enumeration if drive's "friendly"
+  name does not match config saved value or new config entry is missing.
+- Simplified CIA interrupt handling, removed some old hack which appears to be obsolete. I hope.
+- Added CPU interrupt level information to visual DMA debugger. Each scanline has extra pixel on left side
+  of DMA usage image that shows scanline's highest CPU interrupt level.
+
+- Rewritten 68020/030 cycle-exact emulation core. Emulates 68020 simultaneous bus controller and
+  instruction execution more accurately. It still runs too fast, but at least it is less fast than
+  previously, still lots of tweaking to do but at least now it should be possible to match real 68020
+  more closely than what was possible with old code.
+- 68020/030 CPU emulation updates, prefetch emulation (also used in cycle-exact mode) should be much
+  more compatible, "more compatible" checked without cycle-exact now also includes instruction cache emulation.
+- 68030+ more compatible (prefetch) and 68040+ "cycle-exact" modes are broken temporarily. Do not use.
+- Restoring old 68020 cycle-exact saved state files may show dialog complaining about mismatched state
+  information and restore may also fail. It is normal, will be fixed later.
+- Cycle-exact CPU accesses to AGA custom registers used 32-bit accesses, not 16-bit.
+- b3 .cue decoding update broke some variants, fixed.
+- Added workaround for Windows returning returning invalid (too small) value when asking for
+  ACM_METRIC_MAX_SIZE_FORMAT. (Output panel crashing)
+
+Beta 3:
+
+- Disable Z3 Cirrus Logic RTG board if 24-bit address space.
+- Hard reset and CL board enabled crashed.
+- Added Chipset/RTG screen toggle input event ("Toggle chipset/RTG screen"). Only works when RTG mode is active,
+  supports both Cirrus Logic emulation and uaegfx. NOTE: temporarily also hardwired to END + F9.
+- VGA planar modes (<=16 colors) work now.
+- VGA text modes confirmed working (NetBSD and OpenBSD enable VGA console automatically if supported board detected)
+- Piccolo appears to have 4M address space (VRAM alias). Fixes EGS 7.4 graphics bugs and missing mouse cursor.
+- >1024 pixel tall modes work now correctly, including cursor vertical positioning (see below).
+- GD542x documentation says hardware cursor can't be used if "Multiply Vertical Registers by Two" bit is set
+  (allows >1024 pixel tall modes, wasn't emulated in original qemu code) unless chip is GD5429 or later. But
+  CGX4 does use it with boards that only had GD5426 or GD5428. I guess it only happens when cgxmode is used
+  to create impossible modes that no real monitor or chip can support...
+
+- Added misc panel "Hide all UAE autoconfig boards" option. It deletes all UAE-only autoconfig
+  board ConfigDev nodes in ExpansionBase.
+- Rewritten .cue decoding, some CD images with audio tracks had incorrect audio positioning,
+  for example Tie Break Tennis CDTV and Falcon CDTV.
+- Log also physical/virtual CD drive track information.
+- CIA-A vsync TOD counting is now cycle-exact. (if cycle values in Commodore's Agnus sync pulse timing sheet
+  are correct, they appear to be because it is standard PAL/NTSC)
+- CIA-B hsync TOD counting is also positioned cycle-exactly now (end of hsync pulse), was at the start of
+  scanline previously.
+- SPTI didn't work, SCSI routing got broken when Tape drive support was added.
+
+Beta 2:
+
+- Fixed Piccolo SD64 Z2 wrong address space size.
+- Piccolo is Z2/Z3 board.
+- Fixed Z3 board subsize.
+- Improved QEMU CL emulation glue code, VRAM banking/offsets supported.
+- Some modes had invisible hardware sprite (mouse cursor).
+- Implemented Piccolo/SD64/Spectrum vblank interrupts. Picasso96 won't hang anymore.
+- Reset didn't reset all necessary graphics board variables.
+- Force 32-bit host display mode if byteswapped board is selected (Any board except PicassoII/II+)
+  Cirrus Logic emulation code supports byteswapping only in 32-bit mode.
+- Note: Most VGA planar modes (16 colors or less) are not working. Includes also mouse cursor.
+
+- Rewritten memory bank handling, moved all memory variables (start address, mask, size, etc)
+  to addrbank stucture. Standard RAM bank code duplication replaced with macros.
+- Debugger memwatch points now also detect hits in aliased addresses and only bank(s) that have
+  watched addresses are redirected to debugger.
+- CDTV SCSI option works again.
+- Some uaenet.device improvements.
+- It was not possible to write to Amithlon-style partitions.
+- 5:4 aspect ratio had disappeared.
+- CIA-A TOD counts (if vsync timed) on line 5 (PAL) or line 6 (NTSC), not line 0.
+  (This is not 100% accurate yet, horizontal position is still wrong, will be
+  improved in later betas)
+- Installer update also coming, will be built with WiX (msi installer).
+
+Beta 1:
+
+- Hardware Cirrus Logic based SVGA Zorro II/III RTG board emulation.
+- SLIRP user mode NAT emulation.
+- Added SCSI tape emulation. Amix tape based install works, also tested with
+  Quarterback and Diavolo.
+- lua scripting support added from fs-uae. Very minimal at the moment.
+- SCSI HD/CD/TAPE statefile compatibility improved.
+- SCSI emulation compatibility improved, Amix use of WD Select and Transfer
+  used wrong data size when direction was from WD to device and command was not
+  write command, for example MODE SELECT.
+- Show custom chip mode as interlace/not interlaced decision now more closely matches
+  real hardware behavior. (No, it isn't as simple as BPLCON0 LACE bit set/not set)
+- Show also device type (HDF, CD, TAPE) in Harddrives panel.
+- Joystick axis dead-zone fix, wired xbox 360 d-pad missed events, it didn't affect
+  wireless version. (261b2)
+- Top and/or bottom border showed graphics garbage if AGA sprites outside of bitplane
+  area feature was enabled and in use and screen mode was HAM. (Tint / Black Lotus)
+- Dragging and dropping archive/file to WB tried (unsuccesfully) replace already
+  existing normal directory harddrive if dropped file and directory harddrive had same
+  base path.
+- Renamed CPU cycle exact speed multipliers and added 1x speed (1:1 CPU/DMA clock sync)
+- It was impossible to select RTG aspect ratio select box Automatic value.
+- Display panel depth select box was not updated if new resolution had more or less
+  depth choices than previously selected resolution.
+- Mouse was captured even if "Start mouse uncaptured" was ticked and booting to RTG mode.
+- Amiga side does not anymore see .lnk extension if it is valid Windows shortcut softlink.
+- Enabling JIT for the first time in GUI now always forces JIT Direct mode.
+- If blitter was started one cycle before final D write (Cycle which is always unused by
+  blitter), new blit's 2 cycle startup incorrectly accepted DMA cycles that were not free.
+  (Day of Reckoning / Digital)
+- Bitplane DMA incorrectly stole sprite DMA in some situations (Plastic Passion / Upfront)
+- Sync clock when resuming from sleep/hibernate (if clock sync option is ticked)
+
+SLIRP notes:
+
+- Available for A2065 and uaenet.device (uaenet unit 0 = slirp, 1 = first WinPCap device)
+- Does not need any drivers, uses normal WinSock API.
+- NAT, outbound connections only.
+- TCP and UDP only (no ICMP or other ethernet frame types)
+- DHCP supported.
+- Manual settings: IP 10.0.2.15, Gateway 10.0.2.2, DNS 10.0.2.3, Mask 255.255.255.0.
+
+Hardware graphics board emulation notes:
+
+- Currently emulates following Cirrus Logic GD542X/543X based boards:
+  - Picasso II
+  - Picasso II+
+  - Piccolo
+  - Piccolo SD 64 (Zorro II and III)
+  - Spectrum 28/24 (Zorro II and III)
+  - Picasso IV may be implemented in future.
+- Uses QEMU Cirrus Logic SVGA graphics chip emulation.
+- Picasso 96 and CyberGraphX v4 tested.
+- Works with non-AmigaOS operating systems that don't support UAEGFX RTG board.
+- Vertical blank timing uses GUI configured refresh rate value, display sync settings programmed
+  to VGA chip are completely ignored.
+- Only single VRAM size supported which is hardware supported max VRAM. Smaller VRAM requires
+  emulating of VRAM aliasing and banking stuff that drivers use for VRAM size detection. It would
+  become too Direct mode JIT unfriendly. Future "more compatible but slower" option is possible.
+
+SCSI Tape notes:
+
+- Tape path can point to directory, archive or plain file.
+- Directory: all files in directory are included in virtual tape, ordered in whatever
+  order OS returns the directory (unless index.tape is found), emulated file mark
+  is between each file. Subdirectories are ignored.
+- Archive: All files in archive are included, including subdirectories.
+- Plain single file: tape only contains selected single file.
+- If directory or archive and index.tape is found, it is assumed to contain order of
+  files in virtual tape, plain file name strings separated by line feeds.
+- Writing is also supported if path points to a directory. Creates files named
+  xxxxx.tape where xxxxx is file number.
+- Tape ERASE command only deletes files that have extension .tape to prevent
+  accidental data loss. Subdirectories are also ignored.
+- Can be connected to SCSI hardware emulation (SCSI0-6) or uaescsi.device (UAE),
+  uaescsi.device unit number is always 4 or larger (if 4 was already used by
+  some CD device).
+- Tape change on the fly is supported.
+
+lua scripting:
+
+- very minimal and basic at the moment.
+- lua=<path to script> in config file, multiple files supported.
+- lua/default.lua is loaded by default.
+- supported UAE-specific functions:
+  uae_log, uae_read_u8, uae_read_u16, uae_peek_u16, uae_write_u8, uae_write_u16
+  uae_read_config, uae_write_config.
+- lua functions:
+  on_uae_vsync (every vsync)
+  on_uae_config_changed (any config value has changed)

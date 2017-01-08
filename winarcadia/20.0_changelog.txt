@@ -1,0 +1,12 @@
+20.0   [OS3.5+][Windows][MorphOS][OS4?  ]: Mon  1 Apr 2013. Selbstbaucomputer emulation.
+    Summary:
+        * Ravensburg Selbastbaucomputer emulation.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ wa: "restart playback" glyph is now the same colour and imagery for menu
+  item and toolbar.
+ fixed: interrupt flag was mishandled when loading COS/COR files.
+ added selbastbaucomputer emulation.
+ chaos, dolphin: various minor bug fixes.
+ wa: fixed: game info subwindow had wrong tooltips in some situations.
+ wa: fixed greek menu item shortcuts. 

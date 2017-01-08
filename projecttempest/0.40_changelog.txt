@@ -1,0 +1,7 @@
+What's New IN Version 0.4
+--------------------------
+
+* Sound emulation in some games
+* New HLE blitter for a nice speed boost
+* Fixed invalid colors in some games
+* Lots of other fixes

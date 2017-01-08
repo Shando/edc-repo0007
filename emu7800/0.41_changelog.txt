@@ -1,0 +1,6 @@
+0.41:
+  * Substituted use of Managed DirectX with the Simple DirectMedia Layer (SDL). Fullscreen performance is now on par with the most excellent Z26 emulator 
+  * Solved the sound syncronization problem; audio now works perfectly 
+  * Added: Game controller (joystick) support 
+  * Added: mouse-based paddle emulation on SDL fullscreen mode 
+  * No changes to emulation were made for this release

@@ -1,0 +1,24 @@
+Changes from 0.25 to 0.26
+-------------------------
+  * Tweaked the font; if and when the code is adjusted, Mousetext can be
+    switched from the original version to the later version.
+  * Blurry lo-res graphics option.
+  * Option to offset dots by 1/2 "pixel" in hi-res mode when the high-order
+    bit is set, as the ][ and ][+ did.
+  * Added some of the NMOS 6502 illegal opcodes.
+  * Dapple ][ is now "officially" bilingual (English/German) although not
+    all messages have been translated.
+  * Support for the AppleWin //e ROM.
+  * Manual ROM reload - you can put your ROM files anywhere.
+  * Experimental mouse support: you will need to have Apple Oasis and do
+    "BSAVE MOUSE.ROM,A$Cn00,L$100" (where n is the mouse port, default 4)
+    onto a DOS 3.3 formatted disk, and use its Disk Manager to copy the
+    file over to the MS-DOS side.
+  * Bugfix in the BRK opcode (BRK flag wasn't being reset).
+  * Bugfix: IRQ masking was not emulated properly.
+  * Old Apple //e ROM passes self-test.
+  * Joystick centering tweaked.
+
+I have NOT yet implemented a tree directory structure.  Haven't had the
+time, and I'm running dangerously low on hard disk space (and Norton
+Commander won't ZIP through directories).  Real Soon Now ;)

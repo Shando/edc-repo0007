@@ -1,0 +1,24 @@
+21.61  [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Sat 12 Oct 2013.
+    Summary:
+        * Cat and Mouse: support for "Tools|Controls..." subwindow.
+        * Cat and Mouse, Laser Battle: graphics improvements.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Phantom's latest Greek translation.
+ wa: fixed: cpu monitor: in CALM mode, status of Sense bit wasn't shown.
+ it now complains when you try to loading an unrecognized BIN into a guest
+  that doen't support BIN format.
+ c&m: more accurate colours.
+ lb: implemented planet graphics.
+ c&m: fixed: player 1 "En" key wasn't ghosted in eg. redefine keys
+  subwindow.
+ c&m: added support for "Tools|Controls..." subwindow.
+ wa: reduced depth of full screen menu glyph image.
+ fixed: ASM command was choking on Mac-style EOLs.
+ fixed: ASM command wasn't parsing the final line if it didn't end with an
+  EOL sequence.
+ wa: adjusted size and layout of host keyboard subwindow.
+ documented assembler directives.
+ fixed a netplay desync issue.
+ instructor: support for loading BIN format.
+ instructor: knowledge about some example programs from Users' Guide.

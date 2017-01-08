@@ -1,0 +1,25 @@
+(05/04/2002) Changes Gens 1.90 <- Gens 1.80 :
+---------------------------------------------
+
+[Sega CD]
+
+* GFX conversion fixed (all conversions possibilities are emulated now).
+* Severals bugs added in Gens 1.80 have been fixed.
+
+[Genesis]
+
+* New YM2612 core :
+  - More accurate.
+  - We can activate a "High Quality" emulation mode.
+  - A bit faster.
+* New PSG core :
+  - We can activate "PSG improvement" mode (see the shortcut section).
+  - Faster.
+* Save state support fixed a bit (some stuff were broken in Gens 1.80)
+* Minors others changes or bugfixs...
+
+[General]
+
+* Removed the 8 bits sound option (useless).
+* Fixed the infamous "closing during initialisation" bug.
+* Fixed a minor bug with the software x2 blit MMX.

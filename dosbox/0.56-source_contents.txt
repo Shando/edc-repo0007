@@ -1,0 +1,200 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2002-08-10 10:26:55 ....A          209       230529  dosbox-0.56\AUTHORS
+2002-10-25 23:47:22 ....A         2097               dosbox-0.56\ChangeLog
+2002-10-26 15:54:45 ....A       170053               dosbox-0.56\configure
+2002-07-27 15:08:47 ....A        17992               dosbox-0.56\COPYING
+2002-10-26 15:54:21 ....A        12509               dosbox-0.56\depcomp
+2002-10-22 19:52:37 ....A         1377               dosbox-0.56\INSTALL
+2002-10-26 15:54:19 ....A         5561               dosbox-0.56\install-sh
+2002-10-26 15:54:19 ....A        10280               dosbox-0.56\missing
+2002-10-26 15:54:19 ....A         1860               dosbox-0.56\mkinstalldirs
+2002-10-26 13:49:29 ....A         2711               dosbox-0.56\NEWS
+2002-10-25 23:20:35 ....A         4710               dosbox-0.56\README
+2002-07-27 15:08:47 ....A          296               dosbox-0.56\THANKS
+2002-10-21 23:59:54 ....A         4712               dosbox-0.56\include\bios.h
+2002-07-27 15:08:47 ....A         1476               dosbox-0.56\include\callback.h
+2002-10-24 14:27:02 ....A          110               dosbox-0.56\src\platform\visualc\config.h
+2002-10-20 12:44:31 ....A         1967               dosbox-0.56\include\cpu.h
+2002-09-18 17:28:46 ....A         1493               dosbox-0.56\include\cross.h
+2002-10-25 18:42:43 ....A         1111               dosbox-0.56\include\debug.h
+2002-08-20 11:49:37 ....A         1555               dosbox-0.56\src\debug\debug_inc.h
+2002-08-27 15:48:13 ....A         2319               dosbox-0.56\src\dos\dev_con.h
+2002-07-27 15:08:48 ....A         1091               dosbox-0.56\src\platform\visualc\dirent.h
+2002-07-27 15:08:47 ....A         7201               dosbox-0.56\src\debug\disasm_tables.h
+2002-08-24 09:56:14 ....A         1043               dosbox-0.56\include\dma.h
+2002-10-17 15:18:00 ....A         3621               dosbox-0.56\include\dosbox.h
+2002-10-25 17:40:55 ....A        13541               dosbox-0.56\include\dos_inc.h
+2002-10-19 18:21:08 ....A         3205               dosbox-0.56\include\dos_system.h
+2002-10-19 18:23:21 ....A         2846               dosbox-0.56\src\dos\drives.h
+2002-07-27 15:08:48 ....A       230568               dosbox-0.56\src\hardware\ega-switch.h
+2002-07-27 15:08:48 ....A         6192               dosbox-0.56\src\hardware\fmopl.h
+2002-07-27 15:08:48 ....A        37544               dosbox-0.56\src\hardware\font-switch.h
+2002-07-28 23:52:31 ....A         1569               dosbox-0.56\include\fpu.h
+2002-07-28 18:31:54 ....A         5621               dosbox-0.56\src\fpu\fpu_instructions.h
+2002-08-29 13:41:04 ....A          473               dosbox-0.56\src\fpu\fpu_types.h
+2002-10-18 11:22:41 ....A          839               dosbox-0.56\include\hardware.h
+2002-07-27 15:08:47 ....A         2463               dosbox-0.56\src\cpu\core_16\helpers.h
+2002-07-27 15:08:47 ....A         1432               dosbox-0.56\include\inout.h
+2002-08-27 12:15:38 ....A        21859               dosbox-0.56\src\cpu\core_16\instructions.h
+2002-08-29 16:06:29 ....A         6030               dosbox-0.56\src\ints\int10.h
+2002-07-27 15:08:47 ....A          973               dosbox-0.56\include\joystick.h
+2002-10-18 11:21:13 ....A         2109               dosbox-0.56\include\keyboard.h
+2002-10-25 23:22:37 ....A        36853               dosbox-0.56\src\cpu\core_16\main.h
+2002-10-18 11:20:24 ....A         6149               dosbox-0.56\include\mem.h
+2002-09-16 15:21:35 ....A         1490               dosbox-0.56\include\mixer.h
+2002-07-27 15:08:47 ....A         1974               dosbox-0.56\src\cpu\modrm.h
+2002-07-27 15:08:47 ....A         4495               dosbox-0.56\include\modules.h
+2002-10-23 23:51:15 ....A         1041               dosbox-0.56\include\mouse.h
+2002-09-16 15:36:07 ....A         1190               dosbox-0.56\include\pic.h
+2002-10-25 23:23:59 ....A        15783               dosbox-0.56\src\cpu\core_16\prefix_66.h
+2002-10-20 12:42:37 ....A         3497               dosbox-0.56\src\cpu\core_16\prefix_66_of.h
+2002-10-20 12:42:37 ....A        12347               dosbox-0.56\src\cpu\core_16\prefix_of.h
+2002-10-25 12:48:08 ....A         1519               dosbox-0.56\include\programs.h
+2002-08-19 12:51:35 ....A         3351               dosbox-0.56\include\regs.h
+2002-07-27 15:08:47 ....A         1013               dosbox-0.56\include\render.h
+2002-10-26 15:54:45 ....A         1805               dosbox-0.56\settings.h
+2002-10-19 17:53:56 ....A         5485               dosbox-0.56\include\setup.h
+2002-10-25 00:28:33 ....A         2622               dosbox-0.56\src\shell\shell_inc.h
+2002-07-27 15:08:47 ....A          833               dosbox-0.56\src\cpu\core_16\start.h
+2002-07-27 15:08:47 ....A          792               dosbox-0.56\src\cpu\core_16\stop.h
+2002-10-18 11:18:16 ....A         1714               dosbox-0.56\include\support.h
+2002-10-25 23:25:35 ....A        10358               dosbox-0.56\src\cpu\core_16\support.h
+2002-10-25 23:26:09 ....A        21389               dosbox-0.56\src\cpu\core_16\table_ea.h
+2002-10-18 11:08:47 ....A         1936               dosbox-0.56\include\timer.h
+2002-07-27 15:08:48 ....A          139               dosbox-0.56\src\platform\visualc\unistd.h
+2002-08-19 14:53:12 ....A         5776               dosbox-0.56\src\hardware\vga.h
+2002-10-18 11:17:56 ....A         1443               dosbox-0.56\include\video.h
+2002-07-27 15:08:48 ....A         2181               dosbox-0.56\src\platform\visualc\dirent.c
+2002-07-27 15:08:48 ....A        45589               dosbox-0.56\src\hardware\fmopl.c
+2002-10-18 11:02:49 ....A         4506               dosbox-0.56\src\hardware\adlib.cpp
+2002-10-22 19:52:38 ....A         7852               dosbox-0.56\src\ints\bios.cpp
+2002-08-19 14:58:23 ....A         1824               dosbox-0.56\src\ints\bios_disk.cpp
+2002-10-19 17:46:42 ....A        12190               dosbox-0.56\src\ints\bios_keyboard.cpp
+2002-09-17 22:07:24 ....A         4662               dosbox-0.56\src\cpu\callback.cpp
+2002-10-25 17:13:17 ....A         3713               dosbox-0.56\src\cpu\cpu.cpp
+2002-10-25 23:27:24 ....A        29860               dosbox-0.56\src\debug\debug.cpp
+2002-08-19 17:12:00 ....A        32937               dosbox-0.56\src\debug\debug_disasm.cpp
+2002-10-25 23:26:46 ....A         3769               dosbox-0.56\src\debug\debug_gui.cpp
+2002-07-27 15:08:47 ....A         2488               dosbox-0.56\src\debug\debug_win32.cpp
+2002-10-25 10:59:43 ....A         6188               dosbox-0.56\src\hardware\dma.cpp
+2002-10-25 17:38:45 ....A        23818               dosbox-0.56\src\dos\dos.cpp
+2002-10-25 23:27:52 ....A         5387               dosbox-0.56\src\dosbox.cpp
+2002-10-25 00:08:52 ....A         9076               dosbox-0.56\src\dos\dos_classes.cpp
+2002-07-27 15:08:48 ....A         1985               dosbox-0.56\src\dos\dos_devices.cpp
+2002-10-25 23:32:58 ....A        10738               dosbox-0.56\src\dos\dos_execute.cpp
+2002-10-25 17:39:34 ....A        23367               dosbox-0.56\src\dos\dos_files.cpp
+2002-10-25 17:40:17 ....A         3024               dosbox-0.56\src\dos\dos_ioctl.cpp
+2002-10-20 03:19:01 ....A         4139               dosbox-0.56\src\dos\dos_memory.cpp
+2002-10-19 19:27:28 ....A         2303               dosbox-0.56\src\dos\dos_misc.cpp
+2002-10-24 10:43:59 ....A         8114               dosbox-0.56\src\dos\dos_programs.cpp
+2002-10-19 19:29:25 ....A         1913               dosbox-0.56\src\dos\dos_tables.cpp
+2002-10-19 19:32:12 ....A         2235               dosbox-0.56\src\dos\drives.cpp
+2002-10-26 12:00:50 ....A         8970               dosbox-0.56\src\dos\drive_local.cpp
+2002-10-24 14:26:29 ....A         5141               dosbox-0.56\src\dos\drive_virtual.cpp
+2002-10-24 01:08:41 ....A        16469               dosbox-0.56\src\ints\ems.cpp
+2002-08-10 17:27:33 ....A        13421               dosbox-0.56\src\cpu\flags.cpp
+2002-08-19 14:49:12 ....A         6431               dosbox-0.56\src\fpu\fpu.cpp
+2002-08-29 13:41:04 ....A         4606               dosbox-0.56\src\fpu\fpu_flags.cpp
+2002-10-18 11:03:23 ....A         5859               dosbox-0.56\src\hardware\gameblaster.cpp
+2002-10-19 18:21:49 ....A          978               dosbox-0.56\src\hardware\hardware.cpp
+2002-09-17 22:07:25 ....A         8574               dosbox-0.56\src\ints\int10.cpp
+2002-09-16 16:15:10 ....A         9562               dosbox-0.56\src\ints\int10_char.cpp
+2002-08-29 16:07:55 ....A        63382               dosbox-0.56\src\ints\int10_memory.cpp
+2002-09-28 23:40:58 ....A         4657               dosbox-0.56\src\ints\int10_misc.cpp
+2002-10-25 23:39:05 ....A        21140               dosbox-0.56\src\ints\int10_modes.cpp
+2002-07-27 15:08:48 ....A         3632               dosbox-0.56\src\ints\int10_pal.cpp
+2002-09-28 23:29:57 ....A         3470               dosbox-0.56\src\ints\int10_put_pixel.cpp
+2002-09-17 22:07:25 ....A         2494               dosbox-0.56\src\hardware\iohandler.cpp
+2002-10-16 00:27:58 ....A         2932               dosbox-0.56\src\hardware\joystick.cpp
+2002-10-25 23:34:00 ....A         8720               dosbox-0.56\src\hardware\keyboard.cpp
+2002-10-26 11:30:15 ....A         7798               dosbox-0.56\src\hardware\memory.cpp
+2002-10-25 23:40:56 ....A         3602               dosbox-0.56\src\misc\messages.cpp
+2002-10-22 19:52:37 ....A         7249               dosbox-0.56\src\hardware\mixer.cpp
+2002-07-27 15:08:47 ....A        11180               dosbox-0.56\src\cpu\modrm.cpp
+2002-10-25 00:29:59 ....A         8418               dosbox-0.56\src\ints\mouse.cpp
+2002-10-22 19:52:37 ....A         2635               dosbox-0.56\src\hardware\pcspeaker.cpp
+2002-09-17 22:07:25 ....A         8578               dosbox-0.56\src\hardware\pic.cpp
+2002-10-26 00:49:42 ....A         6353               dosbox-0.56\src\misc\programs.cpp
+2002-10-19 19:33:46 ....A         7108               dosbox-0.56\src\gui\render.cpp
+2002-10-22 19:52:38 ....A        13931               dosbox-0.56\src\hardware\sblaster.cpp
+2002-10-25 23:32:23 ....A        14636               dosbox-0.56\src\gui\sdlmain.cpp
+2002-10-25 23:40:19 ....A         9073               dosbox-0.56\src\misc\setup.cpp
+2002-10-25 23:29:08 ....A         8516               dosbox-0.56\src\shell\shell.cpp
+2002-10-25 00:28:33 ....A         3282               dosbox-0.56\src\shell\shell_batch.cpp
+2002-10-24 10:44:25 ....A         9616               dosbox-0.56\src\shell\shell_cmds.cpp
+2002-10-20 16:05:23 ....A         6646               dosbox-0.56\src\shell\shell_misc.cpp
+2002-10-25 17:13:17 ....A         2681               dosbox-0.56\src\cpu\slow_16.cpp
+2002-10-25 23:40:10 ....A         4133               dosbox-0.56\src\misc\support.cpp
+2002-10-18 11:06:44 ....A         4047               dosbox-0.56\src\hardware\tandy_sound.cpp
+2002-09-17 22:07:25 ....A         8224               dosbox-0.56\src\hardware\timer.cpp
+2002-09-17 22:07:25 ....A         5150               dosbox-0.56\src\hardware\vga.cpp
+2002-08-07 20:16:15 ....A         5786               dosbox-0.56\src\hardware\vga_attr.cpp
+2002-08-08 10:59:14 ....A        12009               dosbox-0.56\src\hardware\vga_crtc.cpp
+2002-08-08 10:56:58 ....A         4762               dosbox-0.56\src\hardware\vga_dac.cpp
+2002-10-24 14:27:59 ....A         5014               dosbox-0.56\src\hardware\vga_draw.cpp
+2002-07-27 15:08:48 ....A        61920               dosbox-0.56\src\hardware\vga_fonts.cpp
+2002-08-19 14:54:38 ....A         8150               dosbox-0.56\src\hardware\vga_gfx.cpp
+2002-08-19 14:55:36 ....A         6178               dosbox-0.56\src\hardware\vga_memory.cpp
+2002-08-08 11:58:05 ....A         3565               dosbox-0.56\src\hardware\vga_misc.cpp
+2002-08-19 14:56:02 ....A         3938               dosbox-0.56\src\hardware\vga_seq.cpp
+2002-10-21 23:58:45 ....A        11669               dosbox-0.56\src\ints\xms.cpp
+2002-10-25 23:41:48 ....A        14145               dosbox-0.56\visualc\dosbox.dsp
+2002-07-27 15:08:48 ....A          537               dosbox-0.56\visualc\dosbox.dsw
+2002-08-24 22:01:55 ....A          464               dosbox-0.56\autogen.sh
+2002-07-27 15:08:47 ....A           96               dosbox-0.56\Makefile.am
+2002-07-27 15:08:47 ....A          129               dosbox-0.56\src\cpu\core_16\Makefile.am
+2002-07-27 15:08:47 ....A          164               dosbox-0.56\src\cpu\Makefile.am
+2002-07-27 15:08:47 ....A          187               dosbox-0.56\src\debug\Makefile.am
+2002-07-27 15:08:47 ....A          306               dosbox-0.56\include\Makefile.am
+2002-07-27 15:08:48 ....A           17               dosbox-0.56\src\platform\Makefile.am
+2002-07-27 15:08:48 ....A           34               dosbox-0.56\visualc\Makefile.am
+2002-07-27 15:08:48 ....A           49               dosbox-0.56\src\platform\visualc\Makefile.am
+2002-07-27 15:08:48 ....A          110               dosbox-0.56\src\gui\Makefile.am
+2002-07-27 15:08:48 ....A          158               dosbox-0.56\src\shell\Makefile.am
+2002-07-27 15:08:48 ....A          301               dosbox-0.56\src\ints\Makefile.am
+2002-07-27 15:08:48 ....A          329               dosbox-0.56\src\dos\Makefile.am
+2002-07-27 15:08:48 ....A          491               dosbox-0.56\src\hardware\Makefile.am
+2002-08-29 13:41:04 ....A          138               dosbox-0.56\src\fpu\Makefile.am
+2002-10-19 19:48:16 ....A          136               dosbox-0.56\src\misc\Makefile.am
+2002-10-26 15:56:45 ....A          346               dosbox-0.56\src\Makefile.am
+2002-07-27 15:08:47 ....A        39172               dosbox-0.56\config.guess
+2002-10-26 15:54:16 ....A         2840               dosbox-0.56\config.h.in
+2002-10-26 00:15:22 ....A         1336               dosbox-0.56\configure.in
+2002-10-26 15:54:31 ....A         6682               dosbox-0.56\include\Makefile.in
+2002-10-26 15:54:31 ....A        13315               dosbox-0.56\Makefile.in
+2002-10-26 15:54:33 ....A         6535               dosbox-0.56\src\cpu\core_16\Makefile.in
+2002-10-26 15:54:33 ....A        12392               dosbox-0.56\src\cpu\Makefile.in
+2002-10-26 15:54:34 ....A         8913               dosbox-0.56\src\debug\Makefile.in
+2002-10-26 15:54:35 ....A        10322               dosbox-0.56\src\dos\Makefile.in
+2002-10-26 15:54:36 ....A         8441               dosbox-0.56\src\gui\Makefile.in
+2002-10-26 15:54:36 ....A         8677               dosbox-0.56\src\fpu\Makefile.in
+2002-10-26 15:54:37 ....A        11796               dosbox-0.56\src\hardware\Makefile.in
+2002-10-26 15:54:38 ....A        10267               dosbox-0.56\src\ints\Makefile.in
+2002-10-26 15:54:39 ....A         8731               dosbox-0.56\src\misc\Makefile.in
+2002-10-26 15:54:39 ....A         9691               dosbox-0.56\src\platform\Makefile.in
+2002-10-26 15:54:40 ....A         5370               dosbox-0.56\src\platform\visualc\Makefile.in
+2002-10-26 15:54:40 ....A         9004               dosbox-0.56\src\shell\Makefile.in
+2002-10-26 15:54:41 ....A         5318               dosbox-0.56\visualc\Makefile.in
+2002-10-26 15:57:10 ....A        12982               dosbox-0.56\src\Makefile.in
+2002-08-25 18:39:45 ....A         6942               dosbox-0.56\acinclude.m4
+2002-10-26 15:54:06 ....A        37441               dosbox-0.56\aclocal.m4
+2002-10-26 15:54:19 ....A        29027               dosbox-0.56\config.sub
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\visualc
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\shell
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\platform\visualc
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\platform
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\misc
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\ints
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\hardware
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\gui
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\fpu
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\dos
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\debug
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\cpu\core_16
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src\cpu
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\src
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56\include
+2016-12-24 16:37:14 D....            0            0  dosbox-0.56
+------------------- ----- ------------ ------------  ------------------------
+2016-12-24 16:37:14            1743086       230529  180 files, 16 folders

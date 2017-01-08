@@ -1,0 +1,10 @@
+Changes from 0.08 to 0.10
+-------------------------
+  * Moved the LEDs around a bit.
+  * Supports a real joystick via the standard INT$15 interface.  Unlike
+    Dapple, there is no need to run a calibration routine.  Note that a
+    real-mode interrupt call has overhead from thunking down to 8088 mode
+    and back up to 386 mode.
+  * Primitive savestate support.
+  * Work progresses on the Disk ][ emulation.
+  * Removed a disk menu kludge.

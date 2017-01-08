@@ -1,0 +1,12 @@
+22.0   [OS3.5+][Windows XP+][MorphOS][OS4?  ]: Fri  1 Nov 2013. MIKIT emulation.
+    Summary:
+        * Preliminary emulation of MIKIT 2650 trainer.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ aa: fixed: selbst: scanline effect wasn't working.
+ added mikit 2650 emulation.
+ wa: fixed: selbst: shift+ctrl+8 did nothing.
+ wa: now candy can be toggled by clicking on it.
+ coverage report gotos/gosubs: now shows 3 per line.
+ chaos: fixed: it wasn't always using correct pen colours.
+ selbst: fixed: SCRN command wasn't being allowed. 

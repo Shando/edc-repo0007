@@ -1,0 +1,37 @@
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2001-10-02 08:40:06 ....A        78408       468586  bliss.jpg
+2001-09-12 16:38:06 ....A         4925               12p Intellifont Black.png
+2001-08-19 17:16:46 ....A        16439               14P_Copperplate_LBlue.png
+2001-08-19 17:16:46 ....A        15013               14P_Copperplate_Yellow.png
+2001-08-31 18:04:34 ....A        35140               Background2.png
+2001-08-11 13:35:54 ....A       102974               NeonFont.png
+2001-08-20 12:34:30 ....A        66396               SmallGray.png
+2001-09-08 19:04:52 ....A        36757               SmallNeon.png
+2001-09-02 20:56:02 ....A        27639               SmallStone.png
+2001-08-19 17:16:46 ....A          584               b32.bmp
+2000-01-01 00:00:00 ....A        16384               roms\4-tris (GPL).bin
+2000-06-09 21:20:00 ....A         1028               roms\Bouncing Pixels (GPL).bin
+2000-06-09 21:20:00 ....A          732               roms\Maze Demo #1 (GPL).bin
+2000-06-09 21:20:00 ....A          746               roms\Maze Demo #2 (GPL).bin
+2000-06-09 21:20:00 ....A        25730               roms\Song Player - Back in the USSR (GPL).bin
+2001-02-16 23:27:54 ....A        16384               roms\Song Player - Closing Time (GPL).bin
+2000-06-09 21:20:00 ....A        20766               roms\Song Player - Copacabana (GPL).bin
+2000-06-09 21:20:00 ....A         8450               roms\Song Player - Creep (GPL).bin
+2000-06-09 21:20:00 ....A        13860               roms\Song Player - Nut March (GPL).bin
+2000-06-09 21:20:00 ....A        10428               roms\Song Player - Nut Reed (GPL).bin
+2000-06-09 21:20:00 ....A         7056               roms\Song Player - Nut Trep (GPL).bin
+2000-06-09 21:20:00 ....A        27384               roms\Song Player - Nut Waltz (GPL).bin
+2000-06-09 21:20:00 ....A        27464               roms\Song Player - Secret Agent Man (GPL).bin
+2000-06-09 21:20:00 ....A         9722               roms\Song Player - Take on Me 3 (GPL).bin
+2000-06-09 21:20:00 ....A        10752               roms\Song Player - Take on Me 6 (GPL).bin
+2000-06-09 21:20:00 ....A        13646               roms\Song Player - Too Sexy (GPL).bin
+2000-06-09 21:20:00 ....A        16384               roms\Tetris (GPL).bin
+2001-10-10 12:39:46 ....A          335               roms\dir.txt
+2001-06-22 18:20:32 ....A        18351               GPL.txt
+2001-10-10 12:40:48 ....A         3060               Readme.txt
+2001-10-15 11:48:44 ....A         3228               Whatsnew.txt
+2001-10-15 11:51:50 ....A       778240       254035  Bliss32.exe
+2016-12-18 11:55:38 D....            0            0  roms
+------------------- ----- ------------ ------------  ------------------------
+2016-12-18 11:55:38            1414405       722621  32 files, 1 folders

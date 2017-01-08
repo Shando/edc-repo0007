@@ -1,0 +1,25 @@
+20.2   [OS3.5+][Windows][MorphOS][OS4.0+]: Sat 20 Apr 2013.
+    Summary:
+        * Selbstbaucomputer: V0.9 BIOS option.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ arcadia: fixed: controls subwindow: palladium x2 and x3 keys had wrong
+  coordinates.
+ selbst: support for V0.9 BIOS.
+ selbst: improved "log|bios calls?" support.
+ selbst: data comment support.
+ selbst: code comment support.
+ wa: selbst: fixed: 3D looked bad.
+ selbst: improved "view|bios ram" support.
+ selbst: improved Sense line emulation.
+ pipbug, selbst: fixed: changing bios didn't update subwindows.
+ fixed: "=" command didn't say "none" when no labels were known.
+ selbst: fixed: "tools|uvi/pvi monitor..." wasn't ghosted.
+ selbst: support for "settings|graphics|show spaces as dots?".
+ host keyboard subwindow now doesn't show keys that are not used by the
+  current guest.
+ si50: fixed: "copy text" was mishandling some possible strings.
+ si50, dolphin, selbst: fixed: host keyboard subwindow now never swaps
+  keypads for these guests.
+ selbst: support for speech, echo I/O to console, echo I/O to printer,
+  teletype sounds. 

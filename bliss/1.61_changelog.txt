@@ -1,0 +1,8 @@
+v1.61 – September 7, 2001
+New in this release...
+- Fixed bug in DirectX support which detected non-existent joystick
+  movement while reconfiguring input.
+- Fixed bug which prevented player from throwing the grappling hook
+  in the second scene in Ice Trek.
+- Fixed bug which allowed Lupin to walk through many barricades in
+  Lock 'n' Chase.

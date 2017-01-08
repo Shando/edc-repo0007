@@ -1,0 +1,3 @@
+23.0   [OS3.5+][Windows XP+]         [OS4.0+]: Fri 30 Jan 2015.
+
+Lazarian emulation. 

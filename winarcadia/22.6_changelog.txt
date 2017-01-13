@@ -1,0 +1,21 @@
+22.6   [OS3.5+][Windows XP+][MorphOS][OS4.0?]: Tue  1 Jul 2014.
+    Summary:
+        * Added "Project|Reinitialize machine" command.
+        * Added "Settings|Emulator|Use stub programs?" option.
+        * New debugger CLI commands: DEFSYM and CLEARSYM.
+        * Miscellaneous improvements and bug fixes.
+    Details:
+ incorporated Samir's latest Italian translation.
+ changed all occurrences of "laptop" to "netbook".
+ debugger CLI: added CLEARSYM and DEFSYM commands.
+ split debugger.c from engine2.c.
+ added "use stub programs?" option.
+ arcadia: fixed: not all memory was being cleared at reset.
+ fixed: some debugger CLI command templates were inaccurate.
+ added "reinitialize machine" command.
+ elektor: debugger CLI: removed pointless LOADER and SAVER commands.
+ 2650 cpu monitor: now shows entire instruction instead of just opcode.
+ selbst: controls subwindow now shows LEDs.
+ fixed: user-defined label table could overflow.
+ selbst: fixed: PGM start addresses were wrong.
+ aa: fixed: selbstbaucomputer bios 0.9 menu item was wrong. 

@@ -1,0 +1,25 @@
+The following changes have been made between the version 0.5.3-beta1 and
+this version 0.5.3-beta2 release:
+
+- The problem where the 0.5.3-beta1 version displays a "You have exceeded
+the evaluation time limit" message immediately after starting emulation
+is fixed.
+
+- A small number of minor bugs have also been fixed.
+
+- Color-coding of the disc timecode display has been added:
+blue for TOC / yellow for CR-ROM / green for CD-I / red for CD-DA,
+based on a suggestion by Anna Wu.
+
+- The internals of CD-i Emulator have been restructured somewhat to
+enable OS-9 emulation, but this functionality is not yet included in
+this public release.
+
+- More OS9 system calls are now correctly traced in the debug window.
+
+If you have bug reports, comments or suggestions please post them on
+the CD-i Emulator Support Forum at http://www.cdinteractive.co.uk/forum
+(you will need to register) so that other people can also find the
+information. 
+
+Have fun!
